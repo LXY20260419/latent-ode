@@ -1,0 +1,179 @@
+{
+  "record_type": "external_accession_stats",
+  "accession": "GSE305979",
+  "created_at": "2026-10-03T05:44:22.106207+00:00",
+  "result_tag": "ext_gse305979_control_v2",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "train_timepoints": [
+    0,
+    1,
+    2
+  ],
+  "holdout_timepoints": [
+    5
+  ],
+  "replicate_note": "single donor; cells nested within CMO well and library; no donor-level inference. Protocol/seed-level uncertainty only.",
+  "metric": "population_mean_across_gene_pearson_r",
+  "horizons": {
+    "5": {
+      "source_time": 2,
+      "role": "primary",
+      "ode": {
+        "mean": 0.6475617090861002,
+        "sd": 0.0024184986160331007,
+        "n": 3,
+        "ci95": [
+          0.645641764998436,
+          0.6494241933027903
+        ],
+        "per_seed": {
+          "42": 0.6450653076171875,
+          "123": 0.6477258801460266,
+          "2026": 0.6498939394950867
+        }
+      },
+      "gru": {
+        "mean": 0.643699030081431,
+        "sd": 0.012963000383909172,
+        "n": 3,
+        "ci95": [
+          0.6338173826535543,
+          0.6540458639462788
+        ],
+        "per_seed": {
+          "42": 0.6423699259757996,
+          "123": 0.657275378704071,
+          "2026": 0.6314517855644226
+        }
+      },
+      "persistence": {
+        "corr": 0.6468163658304771,
+        "deterministic": true
+      },
+      "ode_minus_gru": 0.0038626790046691895,
+      "ode_minus_persistence": 0.0007453432556231432,
+      "data_uncertainty": {
+        "cell_level": {
+          "corr": 0.6468163658304771,
+          "n_source_cells": 2466,
+          "n_target_cells": 3220,
+          "n_source_groups": 4,
+          "n_target_groups": 4,
+          "replicates": 2000,
+          "bootstrap_mean": 0.6426223398296942,
+          "bootstrap_sd": 0.011277116357330504,
+          "ci95_percentile": [
+            0.6200448370985985,
+            0.6635473396512256
+          ]
+        },
+        "sample_cluster": {
+          "corr": 0.6468163658304771,
+          "n_source_cells": 2466,
+          "n_target_cells": 3220,
+          "n_source_groups": 4,
+          "n_target_groups": 4,
+          "replicates": 2000,
+          "bootstrap_mean": 0.6345845158772402,
+          "bootstrap_sd": 0.02697712228863693,
+          "ci95_percentile": [
+            0.578863323773988,
+            0.6817562867138878
+          ],
+          "replicate_level": "CMO well and library groups within a single donor; wells are technical/library multiplexing units, not biological replicates"
+        },
+        "note": "data-sampling uncertainty at fixed checkpoints; not training variance and not seed uncertainty"
+      }
+    },
+    "7": {
+      "source_time": 2,
+      "role": "secondary",
+      "ode": {
+        "mean": 0.5866920550664266,
+        "sd": 0.00463927694489227,
+        "n": 3,
+        "ci95": [
+          0.5834043155113856,
+          0.5904451201359431
+        ],
+        "per_seed": {
+          "42": 0.5828626751899719,
+          "123": 0.5853625535964966,
+          "2026": 0.5918509364128113
+        }
+      },
+      "gru": {
+        "mean": 0.5716396570205688,
+        "sd": 0.0298140951312348,
+        "n": 3,
+        "ci95": [
+          0.5495939940214157,
+          0.5956668198108673
+        ],
+        "per_seed": {
+          "42": 0.6038785576820374,
+          "123": 0.5450621843338013,
+          "2026": 0.5659782290458679
+        }
+      },
+      "persistence": {
+        "corr": 0.5844960631826884,
+        "deterministic": true
+      },
+      "ode_minus_gru": 0.015052398045857784,
+      "ode_minus_persistence": 0.002195991883738202,
+      "data_uncertainty": {
+        "cell_level": {
+          "corr": 0.5844960631826884,
+          "n_source_cells": 2466,
+          "n_target_cells": 2249,
+          "n_source_groups": 4,
+          "n_target_groups": 4,
+          "replicates": 2000,
+          "bootstrap_mean": 0.5812369308346145,
+          "bootstrap_sd": 0.01252850791312128,
+          "ci95_percentile": [
+            0.5568538137650381,
+            0.605474473460248
+          ]
+        },
+        "sample_cluster": {
+          "corr": 0.5844960631826884,
+          "n_source_cells": 2466,
+          "n_target_cells": 2249,
+          "n_source_groups": 4,
+          "n_target_groups": 4,
+          "replicates": 2000,
+          "bootstrap_mean": 0.5750263436436364,
+          "bootstrap_sd": 0.020448509314714192,
+          "ci95_percentile": [
+            0.5320566193177602,
+            0.6126735297509326
+          ],
+          "replicate_level": "CMO well and library groups within a single donor; wells are technical/library multiplexing units, not biological replicates"
+        },
+        "note": "data-sampling uncertainty at fixed checkpoints; not training variance and not seed uncertainty"
+      }
+    }
+  },
+  "classical_baselines": null,
+  "pure_mse_contrast": null,
+  "mechanism_proxies": {
+    "arms": {},
+    "coupling_note": "Prior-consistency proxies only: pathway sets enter the training loss (pathway_score 0.2, pathway_delta 0.1) and the TF/marker sets share the same priors object; not independent mechanism validation."
+  },
+  "provenance": {
+    "protocol": "artifacts/reports/external_gse305979_protocol.json",
+    "qc": "artifacts/reports/external_gse305979_qc.json",
+    "phase3_aggregate": "artifacts/reports/external_phase3_aggregate_v2.json",
+    "persistence": "artifacts/reports/external_persistence_v1.json",
+    "sample_uncertainty": "artifacts/reports/external_phase3_sample_uncertainty.json",
+    "classical_baselines": "artifacts/reports/external_phase3_classical_baselines.json",
+    "mechanism_metrics": "artifacts/reports/mechanism_metrics_aggregate.json",
+    "pure_mse_contrast": null
+  }
+}

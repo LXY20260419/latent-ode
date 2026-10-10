@@ -1,0 +1,61 @@
+{
+  "record_type": "external_persistence_baseline",
+  "created_at": "2026-10-03T05:28:56.359591+00:00",
+  "metric": "population_mean_across_gene_pearson_r",
+  "method": "population_persistence",
+  "datasets": {
+    "GSE148794": {
+      "data_dir": "data/leworld_input_gse148794",
+      "metadata_sha256": "ec1b39aee1578f7d542d760ceba637ac3d05f0be09aad1ff1b593151be28e6d5",
+      "horizons": {
+        "12": {
+          "from_time": 9,
+          "corr": 0.558697603904252,
+          "n_source": 2167,
+          "n_target": 2335,
+          "deterministic": true
+        },
+        "15": {
+          "from_time": 9,
+          "corr": 0.6661081430649781,
+          "n_source": 2167,
+          "n_target": 2178,
+          "deterministic": true
+        }
+      }
+    },
+    "GSE149622": {
+      "data_dir": "data/leworld_input_gse149622",
+      "metadata_sha256": "9b6f8e79aada6c86b713f15c1f0d1ff78c0ffc57403fff87caf269f62a161e02",
+      "horizons": {
+        "4": {
+          "from_time": 3,
+          "corr": 0.40167497112135003,
+          "n_source": 6525,
+          "n_target": 4953,
+          "deterministic": true
+        }
+      }
+    },
+    "GSE305979": {
+      "data_dir": "data/leworld_input_gse305979",
+      "metadata_sha256": "6daf8418c1d45069dd04641bc8a89cd1242ae53e028b4a429ebe9f75e2b7a586",
+      "horizons": {
+        "5": {
+          "from_time": 2,
+          "corr": 0.6468163658304771,
+          "n_source": 2466,
+          "n_target": 3220,
+          "deterministic": true
+        },
+        "7": {
+          "from_time": 2,
+          "corr": 0.5844960631826884,
+          "n_source": 2466,
+          "n_target": 2249,
+          "deterministic": true
+        }
+      }
+    }
+  }
+}

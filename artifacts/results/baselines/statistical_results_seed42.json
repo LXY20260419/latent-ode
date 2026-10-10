@@ -1,0 +1,57 @@
+{
+  "correlations": {
+    "Naive_LastTimeMean": 0.06684111058712006,
+    "Ridge_Poly": -0.03745878115296364,
+    "HGB_Regressor": 0.05794834345579147,
+    "MLP_Sklearn": 0.016609858721494675,
+    "LEWorldModel": 0.31951820850372314
+  },
+  "statistics": {
+    "Naive_LastTimeMean": {
+      "p_ttest": 0.0,
+      "p_wilcoxon": 0.0,
+      "cohens_d": 1.7610244750976562,
+      "n_valid": 14513,
+      "mean_leworld": 0.31951820850372314,
+      "mean_baseline": 0.06684111058712006
+    },
+    "Ridge_Poly": {
+      "p_ttest": 0.0,
+      "p_wilcoxon": 0.0,
+      "cohens_d": 3.4048335552215576,
+      "n_valid": 14513,
+      "mean_leworld": 0.31951820850372314,
+      "mean_baseline": -0.03745878115296364
+    },
+    "HGB_Regressor": {
+      "p_ttest": 0.0,
+      "p_wilcoxon": 0.0,
+      "cohens_d": 1.7641074657440186,
+      "n_valid": 14513,
+      "mean_leworld": 0.31951820850372314,
+      "mean_baseline": 0.05794834345579147
+    },
+    "MLP_Sklearn": {
+      "p_ttest": 0.0,
+      "p_wilcoxon": 0.0,
+      "cohens_d": 2.5847513675689697,
+      "n_valid": 14513,
+      "mean_leworld": 0.31951820850372314,
+      "mean_baseline": 0.016609858721494675
+    }
+  },
+  "config": {
+    "train_times": [
+      0,
+      1,
+      4,
+      16,
+      27
+    ],
+    "test_times": [
+      36,
+      48
+    ],
+    "n_test_cells": 14513
+  }
+}

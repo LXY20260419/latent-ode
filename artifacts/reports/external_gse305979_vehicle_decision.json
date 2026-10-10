@@ -1,0 +1,35 @@
+{
+  "record_type": "external_gse305979_vehicle_decision",
+  "decided_at": "2026-10-03T04:05:00+00:00",
+  "decision_owner": "agent",
+  "basis": "artifacts/reports/external_gse305979_qc.json",
+  "vehicle_pattern": "^DMSO$",
+  "matched_column": "compound_name",
+  "matched_cells": 11805,
+  "total_demuxed_cells": 143396,
+  "compound_classes": 22,
+  "rationale": [
+    "compound_name is the only column with an explicit vehicle label; value set is 21 BRD-* compounds plus DMSO.",
+    "An anchored ^DMSO$ regex avoids partial matches against the BRD-* identifiers.",
+    "DMSO cells are present on all four hashed plates (Day 1: 3870, Day 2: 2466, Day 5: 3220, Day 7: 2249), so the vehicle trajectory covers every post-baseline timepoint.",
+    "Compound-treated wells are excluded from the primary trajectory and reserved as an independent perturbation stress test."
+  ],
+  "timepoint_derivation": {
+    "derived_from_column": "PLATE_NAME",
+    "fallback_columns": [
+      "sample_name",
+      "POOL_NAME"
+    ],
+    "reason": "TIMEPOINT_HOURS mislabels all Day 7 cells as 24.0 h; PLATE_NAME/sample_name carry the correct Day 1/2/5/7 labels.",
+    "mismatch_rows": 33479,
+    "resolution": "days derived from plate/sample labels; recorded column kept for audit only"
+  },
+  "expected_bundle_timepoints": [
+    0,
+    1,
+    2,
+    5,
+    7
+  ],
+  "status": "locked_before_conversion"
+}

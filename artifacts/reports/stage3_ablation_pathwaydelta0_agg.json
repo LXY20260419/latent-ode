@@ -1,0 +1,67 @@
+{
+  "group": "pathwaydelta0",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "per_seed": {
+    "42": {
+      "time_holdout_mean_corr": 0.29972562193870544,
+      "time_extrapolation_mean_corr": 0.47591155767440796,
+      "time_extrapolation_pair_27_to_36_corr": 0.6968475580215454,
+      "time_extrapolation_pair_27_to_48_corr": 0.2549755573272705,
+      "tf_direction_consistency_overall": 0.41666666666666663,
+      "pathway_activation_order_overall": 0.16666666666666666,
+      "marker_rank_spearman_overall": -0.3
+    },
+    "123": {
+      "time_holdout_mean_corr": 0.303445965051651,
+      "time_extrapolation_mean_corr": 0.5109895616769791,
+      "time_extrapolation_pair_27_to_36_corr": 0.7470280528068542,
+      "time_extrapolation_pair_27_to_48_corr": 0.2749510705471039,
+      "tf_direction_consistency_overall": 0.8333333333333333,
+      "pathway_activation_order_overall": 0.3333333333333333,
+      "marker_rank_spearman_overall": 0.04999999999999999
+    },
+    "2026": {
+      "time_holdout_mean_corr": 0.3156360685825348,
+      "time_extrapolation_mean_corr": 0.49991026520729065,
+      "time_extrapolation_pair_27_to_36_corr": 0.7349259853363037,
+      "time_extrapolation_pair_27_to_48_corr": 0.2648945450782776,
+      "tf_direction_consistency_overall": 0.6666666666666666,
+      "pathway_activation_order_overall": 0.3333333333333333,
+      "marker_rank_spearman_overall": -6.938893903907228e-18
+    }
+  },
+  "agg3": {
+    "time_holdout_mean_corr": {
+      "mean": 0.30626921852429706,
+      "std": 0.006795275232573548
+    },
+    "time_extrapolation_mean_corr": {
+      "mean": 0.4956037948528926,
+      "std": 0.014640716202565157
+    },
+    "time_extrapolation_pair_27_to_36_corr": {
+      "mean": 0.7262671987215678,
+      "std": 0.021381478799095403
+    },
+    "time_extrapolation_pair_27_to_48_corr": {
+      "mean": 0.26494039098421734,
+      "std": 0.008155033557431591
+    },
+    "tf_direction_consistency_overall": {
+      "mean": 0.6388888888888888,
+      "std": 0.17123372230469378
+    },
+    "pathway_activation_order_overall": {
+      "mean": 0.2777777777777778,
+      "std": 0.07856742013183861
+    },
+    "marker_rank_spearman_overall": {
+      "mean": -0.08333333333333334,
+      "std": 0.15456030825826172
+    }
+  }
+}

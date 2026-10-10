@@ -1,0 +1,391 @@
+{
+  "audit_type": "metadata_only_external_geo_candidate_audit",
+  "audited_at": "2026-10-01T15:30:03.618128+00:00",
+  "accession": "GSE148794",
+  "gds_id": 200148794,
+  "source": {
+    "esummary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200148794&retmode=json",
+    "geo_series_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148794",
+    "ftp_series_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148794/",
+    "ftp_supplementary_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148794/suppl/"
+  },
+  "series": {
+    "accession": "GSE148794",
+    "title": "Longitudinal single cell RNA-seq of the inflamed colon",
+    "summary": "We demonstrate single-cell RNA sequencing with time course study on DSS-induced colitis mouse model to reveal the overall cellular status during colon inflammation. Based on single cell transcriptome analysis in inflamed colon, we showed that the stromal cell population of colon functions as a hub to coordinate dynamic change with other cell type. We also found the Serpina3n, a serine protease inhibitor is specific up-regulation in the stromal cells during the resolution phase of colon inflammation. Furthermore, we found that systemic administration of Serpina3n promoted the recovery of resolution phase and ameliorated colitis-related symptoms. This study provides a comprehensive understanding of cell-cell interactions during colorectal inflammation at the single-cell level and reveals a potential therapeutic target by hijacking the endogenous inflammation resolution mechanism.",
+    "taxon": "Mus musculus",
+    "entrytype": "GSE",
+    "gdstype": "Expression profiling by high throughput sequencing",
+    "pdat": "2021/09/03",
+    "suppfile": "TSV",
+    "n_samples": 88,
+    "pubmedids": [
+      "33862275"
+    ],
+    "bioproject": "PRJNA625733"
+  },
+  "supplementary_listing": [
+    "GSE148794_serpin.count_table.tsv.gz",
+    "GSE148794_serpin.metadata.tsv.gz",
+    "GSE148794_tc_ibd.count_table.tsv.gz",
+    "GSE148794_tc_ibd.metadata.tsv.gz",
+    "index.html"
+  ],
+  "selected_files": [
+    "GSE148794_tc_ibd.count_table.tsv.gz",
+    "GSE148794_tc_ibd.metadata.tsv.gz"
+  ],
+  "selected_file_metadata": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148794/suppl/GSE148794_tc_ibd.count_table.tsv.gz",
+      "content_length": 28674734,
+      "last_modified": "Mon, 06 Apr 2020 02:56:27 GMT",
+      "content_type": "application/x-gzip"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE148nnn/GSE148794/suppl/GSE148794_tc_ibd.metadata.tsv.gz",
+      "content_length": 1287,
+      "last_modified": "Mon, 06 Apr 2020 03:46:46 GMT",
+      "content_type": "application/x-gzip"
+    }
+  ],
+  "missing_selected_files": [],
+  "selected_samples": [
+    {
+      "accession": "GSM4481180",
+      "title": "Time Course IBD.CONTROL.SCI132_01_S1",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481181",
+      "title": "Time Course IBD.CONTROL.SCI132_02_S2",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481182",
+      "title": "Time Course IBD.CONTROL.SCI132_03_S3",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481183",
+      "title": "Time Course IBD.CONTROL.SCI132_04_S4",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481184",
+      "title": "Time Course IBD.CONTROL.SCI132_05_S5",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481185",
+      "title": "Time Course IBD.CONTROL.SCI132_06_S6",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481186",
+      "title": "Time Course IBD.CONTROL.SCI132_07_S7",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481187",
+      "title": "Time Course IBD.CONTROL.SCI132_08_S8",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481188",
+      "title": "Time Course IBD.CONTROL.SCI132_09_S9",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481189",
+      "title": "Time Course IBD.CONTROL.SCI132_10_S10",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4481190",
+      "title": "Time Course IBD.DAY03.SCI131_01_S1",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481191",
+      "title": "Time Course IBD.DAY03.SCI131_02_S2",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481192",
+      "title": "Time Course IBD.DAY03.SCI131_03_S3",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481193",
+      "title": "Time Course IBD.DAY03.SCI131_04_S4",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481194",
+      "title": "Time Course IBD.DAY03.SCI131_05_S5",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481195",
+      "title": "Time Course IBD.DAY03.SCI131_06_S6",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481196",
+      "title": "Time Course IBD.DAY03.SCI131_07_S7",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481197",
+      "title": "Time Course IBD.DAY03.SCI131_08_S8",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481198",
+      "title": "Time Course IBD.DAY03.SCI131_09_S9",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481199",
+      "title": "Time Course IBD.DAY03.SCI131_10_S10",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4481200",
+      "title": "Time Course IBD.DAY06.SCI131_11_S11",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481201",
+      "title": "Time Course IBD.DAY06.SCI131_12_S12",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481202",
+      "title": "Time Course IBD.DAY06.SCI131_13_S13",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481203",
+      "title": "Time Course IBD.DAY06.SCI131_14_S14",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481204",
+      "title": "Time Course IBD.DAY06.SCI131_15_S15",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481205",
+      "title": "Time Course IBD.DAY06.SCI131_16_S16",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481206",
+      "title": "Time Course IBD.DAY06.SCI131_17_S17",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481207",
+      "title": "Time Course IBD.DAY06.SCI131_18_S18",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481208",
+      "title": "Time Course IBD.DAY06.SCI131_19_S19",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481209",
+      "title": "Time Course IBD.DAY06.SCI131_20_S20",
+      "timepoint_numeric": 6
+    },
+    {
+      "accession": "GSM4481210",
+      "title": "Time Course IBD.DAY09.SCI132_11_S11",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481211",
+      "title": "Time Course IBD.DAY09.SCI132_12_S12",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481212",
+      "title": "Time Course IBD.DAY09.SCI132_13_S13",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481213",
+      "title": "Time Course IBD.DAY09.SCI132_14_S14",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481214",
+      "title": "Time Course IBD.DAY09.SCI132_15_S15",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481215",
+      "title": "Time Course IBD.DAY09.SCI132_16_S16",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481216",
+      "title": "Time Course IBD.DAY09.SCI132_17_S17",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481217",
+      "title": "Time Course IBD.DAY09.SCI132_18_S18",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481218",
+      "title": "Time Course IBD.DAY09.SCI132_19_S19",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481219",
+      "title": "Time Course IBD.DAY09.SCI132_20_S20",
+      "timepoint_numeric": 9
+    },
+    {
+      "accession": "GSM4481220",
+      "title": "Time Course IBD.DAY12.SCI133_01_S1",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481221",
+      "title": "Time Course IBD.DAY12.SCI133_02_S2",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481222",
+      "title": "Time Course IBD.DAY12.SCI133_03_S3",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481223",
+      "title": "Time Course IBD.DAY12.SCI133_04_S4",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481224",
+      "title": "Time Course IBD.DAY12.SCI133_05_S5",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481225",
+      "title": "Time Course IBD.DAY12.SCI133_06_S6",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481226",
+      "title": "Time Course IBD.DAY12.SCI133_07_S7",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481227",
+      "title": "Time Course IBD.DAY12.SCI133_08_S8",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481228",
+      "title": "Time Course IBD.DAY12.SCI133_09_S9",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481229",
+      "title": "Time Course IBD.DAY12.SCI133_10_S10",
+      "timepoint_numeric": 12
+    },
+    {
+      "accession": "GSM4481230",
+      "title": "Time Course IBD.DAY15.SCI133_11_S11",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481231",
+      "title": "Time Course IBD.DAY15.SCI133_12_S12",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481232",
+      "title": "Time Course IBD.DAY15.SCI133_13_S13",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481233",
+      "title": "Time Course IBD.DAY15.SCI133_14_S14",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481234",
+      "title": "Time Course IBD.DAY15.SCI133_15_S15",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481235",
+      "title": "Time Course IBD.DAY15.SCI133_16_S16",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481236",
+      "title": "Time Course IBD.DAY15.SCI133_17_S17",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481237",
+      "title": "Time Course IBD.DAY15.SCI133_18_S18",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481238",
+      "title": "Time Course IBD.DAY15.SCI133_19_S19",
+      "timepoint_numeric": 15
+    },
+    {
+      "accession": "GSM4481239",
+      "title": "Time Course IBD.DAY15.SCI133_20_S20",
+      "timepoint_numeric": 15
+    }
+  ],
+  "timepoint_sample_counts": {
+    "0": 10,
+    "3": 10,
+    "6": 10,
+    "9": 10,
+    "12": 10,
+    "15": 10
+  },
+  "planned_protocol": {
+    "primary_train_timepoints": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "primary_holdout_timepoints": [
+      12
+    ],
+    "secondary_holdout_timepoints": [
+      15
+    ],
+    "primary_endpoint": "9h->12h population_mean_across_gene_pearson_r",
+    "secondary_endpoint": "9h->15h population_mean_across_gene_pearson_r",
+    "condition_filter": "Time Course IBD only; exclude Serpin arms",
+    "replicate_unit": "cell nested within GEO sample/library group; source-study pooling means these are not independent animal replicates",
+    "result_tag": "ext_gse148794_v1"
+  },
+  "assessment": "GO_FOR_PHASE1_WITH_REPLICATE_LIMITATION_AUDIT: the IBD time course has multiple GEO sample/library groups, but source-study pooling means they must not be treated as independent animal replicates; exclude all Serpin intervention arms before conversion.",
+  "caveats": [
+    "The dataset is a tissue-level DSS colitis trajectory, not a macrophage-only culture.",
+    "The source study pooled biological material before profiling; GEO sample/library groups and cells are not independent animal replicates.",
+    "Cell composition and sample/batch effects must be separated from within-state expression.",
+    "The primary endpoint is fixed before any model output is inspected."
+  ],
+  "large_files_not_downloaded": true,
+  "sha256_status": "pending_until_phase1_download"
+}

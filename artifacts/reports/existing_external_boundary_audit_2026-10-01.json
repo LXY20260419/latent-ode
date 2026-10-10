@@ -1,0 +1,668 @@
+{
+  "record_type": "existing_external_boundary_audit",
+  "created_at": "2026-10-01T15:52:58.000739+00:00",
+  "scope": "read-only audit; no retraining; no manuscript or primary-gate edits",
+  "datasets": {
+    "GSE224518": {
+      "bundle": {
+        "metadata_path": "data/leworld_input_gse224518/metadata.csv",
+        "metadata_sha256": "12ecc44b8b7698543c08cc8dbb477f2624f68c47cd29ad20d08b301d00b7218d",
+        "n_cells": 26676,
+        "metadata_columns": [
+          "Cell_Index",
+          "Sample_Tag",
+          "Sample_Name",
+          "timept",
+          "stimulus",
+          "type",
+          "batch",
+          "replicate",
+          "timepoint_numeric",
+          "n_genes_by_counts",
+          "total_counts"
+        ],
+        "timepoint_counts": {
+          "0": 3890,
+          "1": 1024,
+          "3": 17894,
+          "5": 966,
+          "8": 2902
+        },
+        "grouping_by_time": {
+          "0": {
+            "Sample_Tag": {
+              "n_unique": 3,
+              "counts": {
+                "SampleTag12_mm": 1534,
+                "SampleTag11_mm": 1352,
+                "SampleTag06_mm": 1004
+              }
+            },
+            "Sample_Name": {
+              "n_unique": 3,
+              "counts": {
+                "3_SampleTag12_mm": 1534,
+                "3_SampleTag11_mm": 1352,
+                "13_SampleTag06_mm": 1004
+              }
+            },
+            "batch": {
+              "n_unique": 2,
+              "counts": {
+                "3": 2886,
+                "13": 1004
+              }
+            },
+            "replicate": {
+              "n_unique": 2,
+              "counts": {
+                "rep1": 2356,
+                "rep2": 1534
+              }
+            }
+          },
+          "1": {
+            "Sample_Tag": {
+              "n_unique": 1,
+              "counts": {
+                "SampleTag07_mm": 1024
+              }
+            },
+            "Sample_Name": {
+              "n_unique": 1,
+              "counts": {
+                "8_SampleTag07_mm": 1024
+              }
+            },
+            "batch": {
+              "n_unique": 1,
+              "counts": {
+                "8": 1024
+              }
+            },
+            "replicate": {
+              "n_unique": 1,
+              "counts": {
+                "rep2": 1024
+              }
+            }
+          },
+          "3": {
+            "Sample_Tag": {
+              "n_unique": 3,
+              "counts": {
+                "SampleTag01_mm": 9878,
+                "SampleTag02_mm": 7412,
+                "SampleTag07_mm": 604
+              }
+            },
+            "Sample_Name": {
+              "n_unique": 4,
+              "counts": {
+                "13_SampleTag01_mm": 9229,
+                "13_SampleTag02_mm": 7412,
+                "8_SampleTag01_mm": 649,
+                "12_SampleTag07_mm": 604
+              }
+            },
+            "batch": {
+              "n_unique": 3,
+              "counts": {
+                "13": 16641,
+                "8": 649,
+                "12": 604
+              }
+            },
+            "replicate": {
+              "n_unique": 2,
+              "counts": {
+                "rep1": 17245,
+                "rep2": 649
+              }
+            }
+          },
+          "5": {
+            "Sample_Tag": {
+              "n_unique": 1,
+              "counts": {
+                "SampleTag01_mm": 966
+              }
+            },
+            "Sample_Name": {
+              "n_unique": 1,
+              "counts": {
+                "12_SampleTag01_mm": 966
+              }
+            },
+            "batch": {
+              "n_unique": 1,
+              "counts": {
+                "12": 966
+              }
+            },
+            "replicate": {
+              "n_unique": 1,
+              "counts": {
+                "rep1": 966
+              }
+            }
+          },
+          "8": {
+            "Sample_Tag": {
+              "n_unique": 1,
+              "counts": {
+                "SampleTag01_mm": 2902
+              }
+            },
+            "Sample_Name": {
+              "n_unique": 2,
+              "counts": {
+                "7_SampleTag01_mm": 1832,
+                "11_SampleTag01_mm": 1070
+              }
+            },
+            "batch": {
+              "n_unique": 2,
+              "counts": {
+                "7": 1832,
+                "11": 1070
+              }
+            },
+            "replicate": {
+              "n_unique": 2,
+              "counts": {
+                "rep2": 1832,
+                "rep1": 1070
+              }
+            }
+          }
+        }
+      },
+      "short_horizon": {
+        "path": "artifacts/reports/stage2_gse224518_3to5h_agg.json",
+        "sha256": "037fe8868cf16070ca00c8efed1935df9da3ff614061ddadbb6951b66d3e511b",
+        "payload": {
+          "dataset": "GSE224518",
+          "protocol": {
+            "train": [
+              0,
+              1,
+              3
+            ],
+            "holdout_extrap": [
+              5
+            ],
+            "endpoint": "3h->5h population extrapolation (LPS M0)",
+            "LEWORLD_TRAIN_TIMEPOINTS": "0,1,3",
+            "LEWORLD_HOLDOUT_TIMEPOINTS": "5",
+            "LEWORLD_MAX_TIME": "5"
+          },
+          "seeds": [
+            42,
+            123,
+            2026
+          ],
+          "per_seed": {
+            "42": {
+              "ode": {
+                "holdout": 0.5325425863265991,
+                "extrap": 0.13529571890830994,
+                "tf": 0.6666666666666666
+              },
+              "gru": {
+                "holdout": 0.5349476337432861,
+                "extrap": 0.2540295124053955
+              }
+            },
+            "123": {
+              "ode": {
+                "holdout": 0.502316951751709,
+                "extrap": 0.13457682728767395,
+                "tf": 1.0
+              },
+              "gru": {
+                "holdout": 0.5361045002937317,
+                "extrap": 0.08809328079223633
+              }
+            },
+            "2026": {
+              "ode": {
+                "holdout": 0.5307570695877075,
+                "extrap": 0.1339111179113388,
+                "tf": 0.6666666666666666
+              },
+              "gru": {
+                "holdout": 0.5378702282905579,
+                "extrap": 0.18977878987789154
+              }
+            }
+          },
+          "agg3": {
+            "ode_holdout": {
+              "mean": 0.5218722025553385,
+              "std": 0.013846850255584152,
+              "per_seed": [
+                0.5325425863265991,
+                0.502316951751709,
+                0.5307570695877075
+              ]
+            },
+            "ode_extrap": {
+              "mean": 0.1345945547024409,
+              "std": 0.0005653999623447114,
+              "per_seed": [
+                0.13529571890830994,
+                0.13457682728767395,
+                0.1339111179113388
+              ]
+            },
+            "gru_holdout": {
+              "mean": 0.5363074541091919,
+              "std": 0.001201743846899996,
+              "per_seed": [
+                0.5349476337432861,
+                0.5361045002937317,
+                0.5378702282905579
+              ]
+            },
+            "gru_extrap": {
+              "mean": 0.17730052769184113,
+              "std": 0.06831538875383722,
+              "per_seed": [
+                0.2540295124053955,
+                0.08809328079223633,
+                0.18977878987789154
+              ]
+            }
+          },
+          "vs_3to8h_endpoint": {
+            "ode_extrap_3to8h_mean": -0.16992608706156412,
+            "ode_extrap_3to5h_mean": 0.1345945547024409
+          },
+          "baselines_holdout_cell_level": {
+            "Naive_LastTimeMean": 0.06282874196767807,
+            "Ridge_Poly": 0.1346312016248703,
+            "HGB_Regressor": 0.03424970805644989,
+            "MLP_Sklearn": 0.0664515495300293
+          },
+          "baselines_note": "Sklearn baselines are deterministic; cell-level hold-out @5h. ODE row in baseline script compares population extrap 3→5h (0.135 seed42).",
+          "extrapolation_significance": {
+            "endpoint": "population mean gene-expression correlation (3->5)",
+            "source": "extrapolation_significance_gse224518_3to5h.json",
+            "ode_mean": 0.1345945547024409,
+            "paired_one_sided_ode_greater_than_baseline": {
+              "Naive_LastTimeMean": {
+                "baseline_mean": 0.1313,
+                "p_value": 0.0071
+              },
+              "Ridge_Poly": {
+                "baseline_mean": 0.3318,
+                "p_value": 0.9999
+              },
+              "HGB_Regressor": {
+                "baseline_mean": 0.0647,
+                "p_value": 0.003
+              },
+              "MLP_Sklearn": {
+                "baseline_mean": 0.1795,
+                "p_value": 0.9171
+              }
+            },
+            "ode_vs_gru": {
+              "gru_mean": 0.1773,
+              "p_value": 0.7657
+            },
+            "population_baseline_extrap": {
+              "Naive_LastTimeMean": 0.1312660425901413,
+              "Ridge_Poly": 0.3317579925060272,
+              "HGB_Regressor": 0.06466059510906537,
+              "MLP_Sklearn": 0.17949241399765015
+            },
+            "interpretation": "ODE beats Naive/HGB on population extrap; Ridge/MLP stronger on this endpoint; GRU higher mean but unstable across seeds (not significant ODE>GRU)."
+          }
+        }
+      },
+      "long_horizon": {
+        "path": "artifacts/reports/stage2_gse224518_agg.json",
+        "sha256": "5ff14ba20d20295f34a3fb45aef834c355749451f21887985e36e93fce950c86",
+        "payload": {
+          "dataset": "GSE224518",
+          "protocol": {
+            "train": [
+              0,
+              1,
+              3
+            ],
+            "holdout_extrap": [
+              8
+            ],
+            "endpoint": "3h->8h population extrapolation (LPS M0)",
+            "LEWORLD_TRAIN_TIMEPOINTS": "0,1,3",
+            "LEWORLD_HOLDOUT_TIMEPOINTS": "8",
+            "LEWORLD_MAX_TIME": "8"
+          },
+          "seeds": [
+            42,
+            123,
+            2026
+          ],
+          "per_seed": {
+            "42": {
+              "ode": {
+                "holdout": 0.49306318163871765,
+                "extrap": -0.1629067063331604,
+                "extrap_pair": -0.1629067063331604,
+                "tf": 0.3333333333333333
+              },
+              "gru": {
+                "holdout": 0.5061107277870178,
+                "extrap": 0.14228829741477966
+              }
+            },
+            "123": {
+              "ode": {
+                "holdout": 0.4681847095489502,
+                "extrap": -0.17060628533363342,
+                "extrap_pair": -0.17060628533363342,
+                "tf": 0.3333333333333333
+              },
+              "gru": {
+                "holdout": 0.5027934908866882,
+                "extrap": -0.1339293122291565
+              }
+            },
+            "2026": {
+              "ode": {
+                "holdout": 0.4774315357208252,
+                "extrap": -0.17626526951789856,
+                "extrap_pair": -0.17626526951789856,
+                "tf": 0.3333333333333333
+              },
+              "gru": {
+                "holdout": 0.4984910786151886,
+                "extrap": -0.05409028008580208
+              }
+            }
+          },
+          "agg3": {
+            "ode_holdout": {
+              "mean": 0.4795598089694977,
+              "std": 0.010267481146678439,
+              "per_seed": [
+                0.49306318163871765,
+                0.4681847095489502,
+                0.4774315357208252
+              ]
+            },
+            "ode_extrap": {
+              "mean": -0.16992608706156412,
+              "std": 0.005474778830062755,
+              "per_seed": [
+                -0.1629067063331604,
+                -0.17060628533363342,
+                -0.17626526951789856
+              ]
+            },
+            "gru_holdout": {
+              "mean": 0.5024650990962982,
+              "std": 0.0031193636371794503,
+              "per_seed": [
+                0.5061107277870178,
+                0.5027934908866882,
+                0.4984910786151886
+              ]
+            },
+            "gru_extrap": {
+              "mean": -0.015243764966726303,
+              "std": 0.11606271515011445,
+              "per_seed": [
+                0.14228829741477966,
+                -0.1339293122291565,
+                -0.05409028008580208
+              ]
+            }
+          },
+          "baselines_holdout_cell_level": {
+            "Naive_LastTimeMean": -0.050801195204257965,
+            "Ridge_Poly": 0.00025972671573981643,
+            "HGB_Regressor": -0.06057314574718475,
+            "MLP_Sklearn": 0.008541724644601345
+          },
+          "baselines_note": "Sklearn baselines are deterministic; same across seeds. Cell-level hold-out at 8h."
+        }
+      },
+      "interpretation": [
+        "The 3h->5h ODE endpoint is positive but does not beat matched GRU; Ridge is stronger on the same population extrapolation endpoint.",
+        "The 3h->8h ODE endpoint is negative with low seed spread and is retained as a pre-specified long-horizon failure boundary.",
+        "Sample-tag, batch, and replicate composition changes across timepoints; cells must not be treated as independent biological replicates.",
+        "The bundle is a targeted 498-gene panel, so its transfer result is not directly comparable to the full-transcriptome internal bundle."
+      ],
+      "claim_level": "exploratory boundary evidence; no broad generalization claim"
+    },
+    "GSE226824": {
+      "bundle": {
+        "metadata_path": "data/leworld_input_gse226824/metadata.csv",
+        "metadata_sha256": "d65261add9966f2dd9ffa0c05271991f27cf103163f7785b93bc4010dc6d9b97",
+        "n_cells": 9983,
+        "metadata_columns": [
+          "hashtags",
+          "time",
+          "clusters",
+          "timepoint_numeric",
+          "n_genes_by_counts",
+          "total_counts"
+        ],
+        "timepoint_counts": {
+          "0": 2430,
+          "3": 1656,
+          "24": 3457,
+          "72": 2440
+        },
+        "grouping_by_time": {
+          "0": {
+            "hashtags": {
+              "n_unique": 4,
+              "counts": {
+                "tag3": 812,
+                "tag1": 810,
+                "tag2": 750,
+                "tag4": 58
+              }
+            },
+            "clusters": {
+              "n_unique": 12,
+              "counts": {
+                "MK prog.": 343,
+                "myel. prog. #2": 329,
+                "myel. prog. #1": 319,
+                "HSCs #2": 285,
+                "myel. prog. #3": 237,
+                "ery. prog. #3": 202,
+                "LMPPs #2": 202,
+                "LMPPs #1": 183,
+                "ery. prog. #2": 155,
+                "ery. prog. #1": 69,
+                "eosinophil prog.": 57,
+                "HSCs #1": 49
+              }
+            }
+          },
+          "3": {
+            "hashtags": {
+              "n_unique": 4,
+              "counts": {
+                "tag3": 613,
+                "tag2": 363,
+                "tag4": 350,
+                "tag1": 330
+              }
+            },
+            "clusters": {
+              "n_unique": 12,
+              "counts": {
+                "HSCs #2": 376,
+                "MK prog.": 263,
+                "myel. prog. #1": 191,
+                "LMPPs #1": 189,
+                "myel. prog. #2": 140,
+                "ery. prog. #2": 117,
+                "LMPPs #2": 98,
+                "ery. prog. #3": 93,
+                "ery. prog. #1": 70,
+                "HSCs #1": 56,
+                "myel. prog. #3": 35,
+                "eosinophil prog.": 28
+              }
+            }
+          },
+          "24": {
+            "hashtags": {
+              "n_unique": 4,
+              "counts": {
+                "tag2": 1239,
+                "tag4": 914,
+                "tag3": 693,
+                "tag1": 611
+              }
+            },
+            "clusters": {
+              "n_unique": 12,
+              "counts": {
+                "MK prog.": 624,
+                "HSCs #2": 563,
+                "myel. prog. #1": 522,
+                "LMPPs #1": 358,
+                "myel. prog. #2": 330,
+                "LMPPs #2": 269,
+                "ery. prog. #3": 243,
+                "ery. prog. #2": 192,
+                "myel. prog. #3": 116,
+                "HSCs #1": 86,
+                "ery. prog. #1": 85,
+                "eosinophil prog.": 69
+              }
+            }
+          },
+          "72": {
+            "hashtags": {
+              "n_unique": 4,
+              "counts": {
+                "tag1": 770,
+                "tag3": 610,
+                "tag4": 572,
+                "tag2": 488
+              }
+            },
+            "clusters": {
+              "n_unique": 12,
+              "counts": {
+                "HSCs #2": 470,
+                "MK prog.": 419,
+                "myel. prog. #1": 310,
+                "LMPPs #1": 257,
+                "ery. prog. #2": 196,
+                "myel. prog. #2": 180,
+                "ery. prog. #3": 175,
+                "LMPPs #2": 155,
+                "ery. prog. #1": 96,
+                "HSCs #1": 68,
+                "myel. prog. #3": 63,
+                "eosinophil prog.": 51
+              }
+            }
+          }
+        }
+      },
+      "aggregate": {
+        "path": "artifacts/reports/stage2_gse226824_agg.json",
+        "sha256": "ac7df54ab0bd22c7f39de582d92deee91661f66e457780f4b3d301bd66b0aefc",
+        "payload": {
+          "dataset": "GSE226824",
+          "protocol": {
+            "train": [
+              0,
+              3,
+              24
+            ],
+            "holdout_extrap": [
+              72
+            ],
+            "endpoint": "24h->72h population extrapolation"
+          },
+          "seeds": [
+            42,
+            123,
+            2026
+          ],
+          "per_seed": {
+            "42": {
+              "ode": {
+                "holdout": 0.39732250571250916,
+                "extrap": 0.05436309054493904,
+                "extrap_pair": 0.05436309054493904,
+                "tf": 0.5
+              },
+              "gru": {
+                "holdout": 0.4316656291484833,
+                "extrap": 0.024658726528286934
+              }
+            },
+            "123": {
+              "ode": {
+                "holdout": 0.3965355157852173,
+                "extrap": 0.11554401367902756,
+                "extrap_pair": 0.11554401367902756,
+                "tf": 0.0
+              },
+              "gru": {
+                "holdout": 0.4247185289859772,
+                "extrap": 0.07173347473144531
+              }
+            },
+            "2026": {
+              "ode": {
+                "holdout": 0.40688851475715637,
+                "extrap": 0.5307278633117676,
+                "extrap_pair": 0.5307278633117676,
+                "tf": 1.0
+              },
+              "gru": {
+                "holdout": 0.4275633692741394,
+                "extrap": 0.4140767455101013
+              }
+            }
+          },
+          "agg3": {
+            "ode_holdout": {
+              "mean": 0.40024884541829425,
+              "std": 0.004705935612499306
+            },
+            "ode_extrap": {
+              "mean": 0.23354498917857805,
+              "std": 0.21161918918571979
+            },
+            "gru_holdout": {
+              "mean": 0.42798250913619995,
+              "std": 0.0028515853876921616
+            },
+            "gru_extrap": {
+              "mean": 0.1701563155899445,
+              "std": 0.17354517198493938
+            }
+          }
+        }
+      },
+      "interpretation": [
+        "The 24h->72h ODE mean is positive but seed variance is large, so the result is exploratory rather than stable confirmation.",
+        "Hashtags and cell clusters are multiplexing/annotation fields, not independent donor-level biological replicates by themselves.",
+        "No sample/donor-level inferential uncertainty is claimed from the current bundle."
+      ],
+      "claim_level": "exploratory stress test; no broad generalization claim"
+    }
+  },
+  "cross_dataset_decision": {
+    "pooling": "forbidden",
+    "meta_analysis": "not yet justified because endpoints, horizons, gene panels, and replicate structures differ",
+    "next_step": "complete the two new candidate Phase-1 QC/smoke runs before any production expansion"
+  }
+}

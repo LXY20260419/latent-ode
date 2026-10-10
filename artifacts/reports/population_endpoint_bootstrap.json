@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "method": "cell_level_bootstrap_population_mean_across_gene_pearson",
+  "metric": "population_mean_across_gene_pearson_r",
+  "source_time": 27,
+  "train_times": [
+    0,
+    1,
+    4,
+    16,
+    27
+  ],
+  "replicates": 1000,
+  "rng_seed": 2026,
+  "horizons": {
+    "36": {
+      "from_time": 27,
+      "target_time": 36,
+      "observed_corr": 0.6822830768673132,
+      "n_source_cells": 4000,
+      "n_target_cells": 6093,
+      "replicates": 1000,
+      "seed": 2062,
+      "bootstrap_mean": 0.6697894042484533,
+      "bootstrap_sd": 0.008639837787571462,
+      "ci95_percentile": [
+        0.6512033177756674,
+        0.6855114626852743
+      ],
+      "ci95_width": 0.034308144909606875,
+      "primary_arm_per_seed": [
+        0.6929741501808167,
+        0.6990106105804443,
+        0.7300825715065002
+      ],
+      "primary_arm_mean": 0.707355777422587,
+      "primary_arm_inside_control_ci": false,
+      "primary_arm_margin_vs_control": 0.025072700555273886
+    },
+    "48": {
+      "from_time": 27,
+      "target_time": 48,
+      "observed_corr": 0.21124671777805532,
+      "n_source_cells": 4000,
+      "n_target_cells": 8420,
+      "replicates": 1000,
+      "seed": 2074,
+      "bootstrap_mean": 0.20787592764836293,
+      "bootstrap_sd": 0.022437125115578018,
+      "ci95_percentile": [
+        0.1644219686523003,
+        0.2525517465705653
+      ],
+      "ci95_width": 0.08812977791826498,
+      "primary_arm_per_seed": [
+        0.25479254126548767,
+        0.2627856135368347,
+        0.2599680423736572
+      ],
+      "primary_arm_mean": 0.25918206572532654,
+      "primary_arm_inside_control_ci": false,
+      "primary_arm_margin_vs_control": 0.04793534794727122
+    }
+  },
+  "matrix_shape": [
+    38439,
+    2991
+  ],
+  "source_files": {
+    "expression_matrix": "data/leworld_input/expression_matrix.npy",
+    "metadata_sha256": "80223b5d11d743425550e06ce2413c6dc79a735b073b6ef0a82fcc5ed4ffe3c6",
+    "gene_manifest_sha256": "741e496abe9e14fea59c6070b3b7da86b62fa59c2b982fa66e2ab547bcfbe5b2"
+  },
+  "notes": [
+    "This quantifies sampling noise in the population means, not training variability across seeds.",
+    "It is not a substitute for the tagged-run uncertainty artifact required by the submission gate.",
+    "primary_arm_* fields are descriptive only. The recovered validation files store population-level correlations, not per-cell predictions, so no paired cell bootstrap of model versus control can be computed from them.",
+    "Comparing the model's margin against this interval is a sanity check on how much of the reported difference could be specific to this cell sample, not a hypothesis test."
+  ]
+}

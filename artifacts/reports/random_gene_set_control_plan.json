@@ -1,0 +1,5439 @@
+{
+  "control": "matched_size_random_pathway_training",
+  "controls": [
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r000.json",
+      "config_sha256": "67117863e70b2e704ac1a64b0934f6974c8c9988d1c1b5b99135769b1bf1fff6",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "U2af1l4.1",
+          "Emilin1",
+          "Defb1",
+          "Hilpda",
+          "Scnn1b",
+          "Urah"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "1200007C13Rik",
+          "Gm26773",
+          "March4",
+          "Ltbp1",
+          "Aebp1",
+          "Treml4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Myl10",
+          "Ptpn18",
+          "C230037L18Rik",
+          "Gatm",
+          "Avpr2",
+          "Klrk1"
+        ],
+        "Inflammation_response": [
+          "Smpd3",
+          "Gpx8",
+          "Rnf213",
+          "Ramp3",
+          "9330161L09Rik",
+          "Phf11a"
+        ],
+        "Interferon_response": [
+          "Sim2",
+          "Sox18",
+          "Areg",
+          "St3gal1",
+          "Gm10830",
+          "Serpinb6b"
+        ],
+        "NFkB_signaling": [
+          "Tmsb15l",
+          "Siglece",
+          "Cby3",
+          "Tmem88"
+        ]
+      },
+      "replicate": 0,
+      "result_tag": "random_gene_set_r000"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r001.json",
+      "config_sha256": "b3405ff3489d1a57a643690202f61701c268832561ba6b1dfb8cd34f347c31ba",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Dppa1",
+          "Hdx",
+          "Cdh15",
+          "Nlrp3",
+          "Fam49b",
+          "Igfbp1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Esam",
+          "Il34",
+          "Gm14226",
+          "Plat",
+          "1700064M15Rik",
+          "C530050E15Rik"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rsad2",
+          "Cyp2a5",
+          "Ren1",
+          "Cdc42ep2",
+          "Lilr4b",
+          "Ifngr1"
+        ],
+        "Inflammation_response": [
+          "Klrc2",
+          "Dock6",
+          "S100a16",
+          "Adamts5",
+          "Tcf4",
+          "Gm37387"
+        ],
+        "Interferon_response": [
+          "Ch25h",
+          "Trim12c",
+          "Tpx2",
+          "Tubb2b",
+          "Ppy",
+          "Emp1"
+        ],
+        "NFkB_signaling": [
+          "Itgb2",
+          "Cldn7",
+          "Upk1b",
+          "D430041D05Rik"
+        ]
+      },
+      "replicate": 1,
+      "result_tag": "random_gene_set_r001"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r002.json",
+      "config_sha256": "d2219516f4525ee341782d08896f83a363cdc77b8416e8a1079dc62ff172a48f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm20497",
+          "Peak1os",
+          "Gm28347",
+          "Cygb",
+          "6530409C15Rik",
+          "Fgd3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Celsr3",
+          "Gbp6.1",
+          "Cnksr2",
+          "Gm20518",
+          "F830016B08Rik",
+          "Cdkn2d"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Sox18",
+          "Ms4a4d",
+          "Pde1b",
+          "Il3ra",
+          "Ccdc33",
+          "Sprr2a3"
+        ],
+        "Inflammation_response": [
+          "Art3",
+          "Gnb4",
+          "Mfsd7b",
+          "Lipg",
+          "Slfn4",
+          "H2-Q10"
+        ],
+        "Interferon_response": [
+          "Rsl1",
+          "Rbp1",
+          "Cd68",
+          "Sez6",
+          "Prelp",
+          "2810032G03Rik"
+        ],
+        "NFkB_signaling": [
+          "Defb9",
+          "Heatr9",
+          "Gimap1",
+          "Dpep2"
+        ]
+      },
+      "replicate": 2,
+      "result_tag": "random_gene_set_r002"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r003.json",
+      "config_sha256": "659dc814012b61723e0204c33b28b347aa6cd64857c99231efc4f4f871e4dec7",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm5799",
+          "Pxdc1",
+          "Tap2",
+          "Pappa2",
+          "Klra1",
+          "Fxyd1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gpnmb",
+          "Tmem173",
+          "Csrnp1",
+          "2900052N01Rik",
+          "Alox8",
+          "Ebf1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Sybu",
+          "Bmper",
+          "Slfn2",
+          "Hormad2",
+          "Lsp1",
+          "Fbxo2"
+        ],
+        "Inflammation_response": [
+          "A930014E10Rik",
+          "Antxr1",
+          "Ica1l",
+          "Gm2000",
+          "Ppm1j",
+          "Gm17382"
+        ],
+        "Interferon_response": [
+          "2310043M15Rik",
+          "Flt4",
+          "Kcnn2",
+          "Chst2",
+          "Mmrn2",
+          "Tnfrsf4"
+        ],
+        "NFkB_signaling": [
+          "Pdlim3",
+          "H2-Q4",
+          "Pafah1b3",
+          "Aatk"
+        ]
+      },
+      "replicate": 3,
+      "result_tag": "random_gene_set_r003"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r004.json",
+      "config_sha256": "e76b15bb16259d1935ab0e6d53553a4e4b67de26fd57f13103e7236834235a44",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "AI847159",
+          "Gm10863",
+          "Pramef12os",
+          "Peg10",
+          "Vsig1",
+          "Itgb7"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tm4sf20",
+          "Samhd1",
+          "Sox17",
+          "Casp12",
+          "Nfkbia",
+          "Birc5"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Pkib",
+          "Cdh22",
+          "Ephb2",
+          "Adgre5",
+          "Gm15441",
+          "Gpc6"
+        ],
+        "Inflammation_response": [
+          "Dusp5",
+          "Rbp1",
+          "Nmi",
+          "Bace2",
+          "2310069B03Rik",
+          "Dppa1"
+        ],
+        "Interferon_response": [
+          "Gm37387",
+          "Cxcl16",
+          "Gimap5",
+          "Mmp7",
+          "Cdc20",
+          "Rhou"
+        ],
+        "NFkB_signaling": [
+          "Cnn1",
+          "Ptpn1",
+          "Psme2",
+          "Zfp521"
+        ]
+      },
+      "replicate": 4,
+      "result_tag": "random_gene_set_r004"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r005.json",
+      "config_sha256": "4a43922df50b8cc57531a29fbc6f3e3ae2acf066f03205c106d5c54f5d4385d0",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tlr2",
+          "Fbln5",
+          "Plaur",
+          "Mfap4",
+          "Gm26887",
+          "Lrp1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ecscr",
+          "Gpx3",
+          "Kap",
+          "Cpxm1",
+          "Tppp3",
+          "Gbp5"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "BC018473",
+          "Epgn",
+          "Tpm1",
+          "Serpina1b",
+          "Gm37170",
+          "Mal2"
+        ],
+        "Inflammation_response": [
+          "Arg2",
+          "Gm7120",
+          "Gm11998",
+          "Kctd1",
+          "Dmrt2",
+          "Fgb"
+        ],
+        "Interferon_response": [
+          "Stfa2",
+          "Ifitm1",
+          "A530020G20Rik",
+          "Il1rl1",
+          "Tyrobp",
+          "H2-Aa"
+        ],
+        "NFkB_signaling": [
+          "Pydc4",
+          "Birc5",
+          "Asprv1",
+          "Lta"
+        ]
+      },
+      "replicate": 5,
+      "result_tag": "random_gene_set_r005"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r006.json",
+      "config_sha256": "a9053b0dc7d51311203a4975bbd5b7ebe5852174273c70597ec6b5eea663b27a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm10425",
+          "Asic2",
+          "Speer4c",
+          "Sftpd",
+          "Gm15558",
+          "Tpbgl"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Adam19",
+          "2900052N01Rik",
+          "Plk2",
+          "Acvrl1",
+          "Tpm2",
+          "Gpr88"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Saa4",
+          "C3",
+          "Apoe",
+          "Gpr18",
+          "Fut2",
+          "Tro"
+        ],
+        "Inflammation_response": [
+          "Kcne1",
+          "Tgfb1i1",
+          "Btg2",
+          "Fmod",
+          "Arhgef15",
+          "Impg1"
+        ],
+        "Interferon_response": [
+          "Tm4sf20",
+          "Tmem255a",
+          "Cyp27b1",
+          "Pacsin3",
+          "Ccdc3",
+          "Igsf6"
+        ],
+        "NFkB_signaling": [
+          "Atp1a1",
+          "Ccl7",
+          "Vwa5b1",
+          "Col6a1"
+        ]
+      },
+      "replicate": 6,
+      "result_tag": "random_gene_set_r006"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r007.json",
+      "config_sha256": "16ebc0b93484fac76c08d8fdb57579d85c5529a72f8f2f2727f942c8b9419d4d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gbp7",
+          "Daxx",
+          "Hpcal4",
+          "Ddit3",
+          "Cpne9",
+          "Cdh15"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gnb4",
+          "Eva1c",
+          "Col1a1",
+          "Corin",
+          "Dph1",
+          "Paqr6"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Mmp12",
+          "Gm15518",
+          "Adgrb2",
+          "Ltf",
+          "Pola2",
+          "Gm7967"
+        ],
+        "Inflammation_response": [
+          "Ripply3",
+          "Klf4",
+          "AI607873",
+          "Pcp4",
+          "Smim6",
+          "Hlx"
+        ],
+        "Interferon_response": [
+          "Cdc42ep2",
+          "Hoxd9",
+          "Timp2",
+          "Sfrp1",
+          "4930562F07Rik",
+          "C1qa"
+        ],
+        "NFkB_signaling": [
+          "Barx2",
+          "Nov",
+          "Tesc",
+          "9830107B12Rik"
+        ]
+      },
+      "replicate": 7,
+      "result_tag": "random_gene_set_r007"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r008.json",
+      "config_sha256": "69b2a92030cd442b86f041b13734e7944661e82c221662457a7841f9baf0158f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Endod1",
+          "Eva1c",
+          "Arrdc4",
+          "Tpm4",
+          "H3f3b",
+          "H2-Q7"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Zfand4.1",
+          "Slpi",
+          "C1qtnf7",
+          "Tmem119",
+          "Il1r1",
+          "Adig"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Evi2a",
+          "Celsr3",
+          "Tnfrsf10b",
+          "Gm15013",
+          "Lpo",
+          "Ccl5"
+        ],
+        "Inflammation_response": [
+          "Adam19",
+          "Ccl22",
+          "Klrc2",
+          "Ncam1",
+          "Plin2",
+          "Mamstr"
+        ],
+        "Interferon_response": [
+          "RP23-191I16.3",
+          "Gja4",
+          "Ampd3",
+          "Orm2",
+          "Gadd45a",
+          "Cxcr5"
+        ],
+        "NFkB_signaling": [
+          "Csf3",
+          "Mt2",
+          "Bmf",
+          "Cfap54"
+        ]
+      },
+      "replicate": 8,
+      "result_tag": "random_gene_set_r008"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r009.json",
+      "config_sha256": "f32634607bee989ffbd627ea5f8efefe79f7fcdd3e6f90ed9e2de2f96473ce6a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tmem255a",
+          "Spdya",
+          "Ass1",
+          "5830411N06Rik",
+          "Prkg1",
+          "Cited4"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Igsf10",
+          "Ogfr",
+          "Tacstd2",
+          "Cd40",
+          "Pnp",
+          "Fam221b"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Bst1",
+          "Gm10320",
+          "Bhlhe41",
+          "Pdlim7",
+          "Gm11128",
+          "H2-Q7"
+        ],
+        "Inflammation_response": [
+          "Zfp92",
+          "Igfbp6",
+          "Ms4a4c",
+          "P3h3",
+          "Gm11377",
+          "Pde8b"
+        ],
+        "Interferon_response": [
+          "Itgal",
+          "Hrh2",
+          "Epcam",
+          "Plpp1",
+          "Gjc1",
+          "Slc34a2"
+        ],
+        "NFkB_signaling": [
+          "Gm12840",
+          "Csrp1",
+          "RP23-430B14.2",
+          "Col25a1"
+        ]
+      },
+      "replicate": 9,
+      "result_tag": "random_gene_set_r009"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r010.json",
+      "config_sha256": "2a5e6bf422fdf1e4437225662e95e421da5da0f8d734c176ff7d2d04b9f163a6",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "9930038B18Rik",
+          "Doc2a",
+          "Gapdhs",
+          "Gm7808",
+          "Apol7c",
+          "Vpreb1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fcmr",
+          "Fcgbp",
+          "Gpm6b",
+          "Ada",
+          "Cdc42ep3",
+          "S1pr3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Trpv5",
+          "Mt1",
+          "G530012D18Rik",
+          "Obp2a",
+          "Cdh22",
+          "1700008B11Rik"
+        ],
+        "Inflammation_response": [
+          "Cyr61",
+          "0610033M10Rik",
+          "Clec5a",
+          "Gsn",
+          "Serpine2",
+          "Nanos3"
+        ],
+        "Interferon_response": [
+          "Hcst",
+          "Slc2a3",
+          "Serpina1b",
+          "Gm13481",
+          "Lockd",
+          "Upk1a"
+        ],
+        "NFkB_signaling": [
+          "Mrps6",
+          "Cldn16",
+          "Sh2d1a",
+          "1810063I02Rik"
+        ]
+      },
+      "replicate": 10,
+      "result_tag": "random_gene_set_r010"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r011.json",
+      "config_sha256": "ace125e3039d3e602989cfeac60a5797d64e8775585f9615e4dd6683cb8415ef",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Klra7",
+          "Scd2",
+          "S100g",
+          "Ncr1",
+          "Gm10094",
+          "RP23-74K24.8"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ms4a7",
+          "Rnase12",
+          "Il10",
+          "Tapbpl",
+          "Pcdhb17",
+          "Arrdc4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Lrg1",
+          "Hilpda",
+          "Slc16a7",
+          "Gprc5d",
+          "5830411N06Rik",
+          "Bmyc"
+        ],
+        "Inflammation_response": [
+          "Fam89a",
+          "Rcan2",
+          "Tmsb15b1",
+          "2010106C02Rik",
+          "Egr2",
+          "Ifi47"
+        ],
+        "Interferon_response": [
+          "D130040H23Rik",
+          "Hamp",
+          "Apol10b",
+          "D5Ertd615e",
+          "Il7r",
+          "Gm26737"
+        ],
+        "NFkB_signaling": [
+          "Msln",
+          "Slc15a3",
+          "Tmem117",
+          "Cd247"
+        ]
+      },
+      "replicate": 11,
+      "result_tag": "random_gene_set_r011"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r012.json",
+      "config_sha256": "864fba8f9cf1dc3a21069b81d18543c8aa9e0de6a562d6cbe20e5b5416385ac0",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Madcam1",
+          "Upk3bl",
+          "Cdh1",
+          "H2-DMb2",
+          "Pdgfra",
+          "Car13"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Foxc2",
+          "Slc26a4",
+          "Sirpb1c",
+          "Prap1",
+          "Nlrc5",
+          "Socs2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Etos1",
+          "Zfpm2",
+          "Sh3bgr",
+          "Itpr3",
+          "Fosb",
+          "Gm28556"
+        ],
+        "Inflammation_response": [
+          "Nr4a1",
+          "Ap1s2",
+          "Wbp5",
+          "Dpt",
+          "Car3",
+          "Slfn8"
+        ],
+        "Interferon_response": [
+          "Clcnka",
+          "Nxnl2",
+          "Nrarp",
+          "Cd274",
+          "Spin4",
+          "Gm30382"
+        ],
+        "NFkB_signaling": [
+          "Gpr65",
+          "Gm7967",
+          "Sox9",
+          "Gvin1"
+        ]
+      },
+      "replicate": 12,
+      "result_tag": "random_gene_set_r012"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r013.json",
+      "config_sha256": "52970e706d3d8586b4ccbf0b1ae62c5a7415ae9bb815cd7106a3b397ff6e5bdf",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Mgl2",
+          "Capg",
+          "Trim30b",
+          "Adcy5",
+          "Ccl11",
+          "Gm12764"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Osmr",
+          "Cox4i2",
+          "Pde4b",
+          "Gm11273",
+          "Cd247",
+          "Gm16049"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Chst2",
+          "Tppp3",
+          "Tacstd2",
+          "Etv2",
+          "Thbs3",
+          "Gm16314"
+        ],
+        "Inflammation_response": [
+          "Notch2",
+          "Gbp9",
+          "Il19",
+          "Gm16341",
+          "Slc2a3",
+          "Milr1"
+        ],
+        "Interferon_response": [
+          "Ms4a6b",
+          "Gm11707",
+          "Gm26510",
+          "Gm26735",
+          "Gm15056",
+          "Zc3hav1"
+        ],
+        "NFkB_signaling": [
+          "Ermap",
+          "Cd300c",
+          "Ptprc",
+          "Tapbp"
+        ]
+      },
+      "replicate": 13,
+      "result_tag": "random_gene_set_r013"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r014.json",
+      "config_sha256": "37c6c66f0a760956b738ac04f8902be9b2771cb4dddc984b801bec43628be405",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ggn",
+          "Marcksl1",
+          "Nfkb1",
+          "B3gnt5",
+          "Gypa",
+          "Gm43109"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Pla1a",
+          "Cnn1",
+          "Pycr1",
+          "Aqp9",
+          "Gm19684",
+          "Nfkbia"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm44148",
+          "1600010M07Rik",
+          "Tnfrsf9",
+          "Ggt5",
+          "Cracr2b",
+          "Kcnj1"
+        ],
+        "Inflammation_response": [
+          "Gm5547",
+          "Sfrp1",
+          "Unc93b1",
+          "Lsp1",
+          "Msi1",
+          "Ror2"
+        ],
+        "Interferon_response": [
+          "Uncx",
+          "Pml",
+          "Egfl7",
+          "Cxcl5",
+          "Trem3",
+          "Trpv2"
+        ],
+        "NFkB_signaling": [
+          "Fam166a",
+          "Rab44",
+          "Gm8883",
+          "Lamp3"
+        ]
+      },
+      "replicate": 14,
+      "result_tag": "random_gene_set_r014"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r015.json",
+      "config_sha256": "18cb8a10a3cce09522f4923b0c23f2680c960f4d30498717aa814a55d6cc4075",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Nlrp1b",
+          "Jam2",
+          "H2-K1",
+          "Gm43194",
+          "Trpv2",
+          "Cfp"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm9844",
+          "Gpx8",
+          "Pydc4",
+          "RP23-316J6.4",
+          "1500009L16Rik",
+          "Gfap"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cdh26",
+          "Col6a3",
+          "Top2a",
+          "Tmem156",
+          "Pcdhb21",
+          "Tex21"
+        ],
+        "Inflammation_response": [
+          "Sepw1",
+          "Hk1",
+          "Gm11725",
+          "Vamp5",
+          "Bglap3",
+          "AW112010"
+        ],
+        "Interferon_response": [
+          "Arhgef37",
+          "Hsh2d",
+          "Xcl1",
+          "Ccdc80",
+          "Col15a1",
+          "Il1bos"
+        ],
+        "NFkB_signaling": [
+          "Cmtm7",
+          "Il1rl1",
+          "Btbd16",
+          "Slfn4"
+        ]
+      },
+      "replicate": 15,
+      "result_tag": "random_gene_set_r015"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r016.json",
+      "config_sha256": "adefd137f50cf21136241ed05824802dd6e7f29d63bd431d79c4ee6a62b31f6b",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tpm2",
+          "Il33",
+          "Scimp",
+          "Kcnt2",
+          "Plpp3",
+          "Upk1a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gsdmd",
+          "Sh3bgr",
+          "Sema3f",
+          "Mlkl",
+          "Adgra1",
+          "Cd300lg"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ifitm1",
+          "Serpini1",
+          "9230105E05Rik",
+          "Adgrb2",
+          "Tprg",
+          "Cd28"
+        ],
+        "Inflammation_response": [
+          "Laptm5",
+          "Gm30382",
+          "Arhgdib",
+          "Far2os1",
+          "Milr1",
+          "Clec12a"
+        ],
+        "Interferon_response": [
+          "Lgals3bp",
+          "Jazf1",
+          "Zfp36",
+          "Slamf7",
+          "Gm11027",
+          "H2-DMa"
+        ],
+        "NFkB_signaling": [
+          "Ankef1",
+          "S100a9",
+          "Cyp27b1",
+          "RP24-118K20.1"
+        ]
+      },
+      "replicate": 16,
+      "result_tag": "random_gene_set_r016"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r017.json",
+      "config_sha256": "6fd0571d32b2766e9c61b836a03500ff4e84497e6355bef7f36d380535c50665",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Aqp1",
+          "Gm8973",
+          "Foxa3",
+          "Gm15340",
+          "Armcx1",
+          "Scnn1b"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Sec1",
+          "Bcl2a1c",
+          "Xlr",
+          "Frat2",
+          "A330069E16Rik",
+          "Fhl4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Palmd",
+          "Myc",
+          "Micall1",
+          "Asb4",
+          "Cyp7b1",
+          "Sh2d1a"
+        ],
+        "Inflammation_response": [
+          "Ggt5",
+          "Olfml2a",
+          "Cd24a",
+          "Klc3",
+          "Lgi2",
+          "Arl5c"
+        ],
+        "Interferon_response": [
+          "Pcdh19",
+          "Arrb2",
+          "Aif1",
+          "D730045A05Rik",
+          "Cxadr",
+          "4931428L18Rik"
+        ],
+        "NFkB_signaling": [
+          "Rprml",
+          "Ecm1",
+          "St6galnac3",
+          "Ptprc"
+        ]
+      },
+      "replicate": 17,
+      "result_tag": "random_gene_set_r017"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r018.json",
+      "config_sha256": "e171781d9fb6b0197ded8ff7a3534dece5e19e1a9b1125c5967a0c53168735d0",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm12057",
+          "Ddx60",
+          "Hcst",
+          "Adamtsl1",
+          "2310026L22Rik",
+          "Mcam"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm12253",
+          "Ror2",
+          "RP23-53O7.2",
+          "Prmt1",
+          "Ifit3",
+          "Pnpla1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Capg",
+          "H2-Oa",
+          "Rasgef1b",
+          "Dnaic1",
+          "Fgf21",
+          "Fam25c"
+        ],
+        "Inflammation_response": [
+          "Calca",
+          "Mal",
+          "Rapgef4",
+          "Sdcbp2",
+          "Hba-a1",
+          "Ggn"
+        ],
+        "Interferon_response": [
+          "Nos2",
+          "Samd9l",
+          "Slc25a22",
+          "Gm28727",
+          "Gm7808",
+          "Batf"
+        ],
+        "NFkB_signaling": [
+          "Lysmd2",
+          "Havcr1",
+          "Acsl4",
+          "Foxq1"
+        ]
+      },
+      "replicate": 18,
+      "result_tag": "random_gene_set_r018"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r019.json",
+      "config_sha256": "421f0c84fadc17bb61b1c521990f9eaaa3589560e4eab038bda74e930fa45a5d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gadd45g",
+          "Tmsb4x",
+          "Egr4",
+          "Pde3a",
+          "Gm7120",
+          "Bmper"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "H3f3b",
+          "Gm16314",
+          "Gm11128",
+          "Oas3",
+          "RP23-53O7.2",
+          "Flg"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Armcx2",
+          "Klk1b8",
+          "2310069B03Rik",
+          "Loxl2",
+          "Gadd45a",
+          "Hist2h2aa2"
+        ],
+        "Inflammation_response": [
+          "Cast",
+          "Scube3",
+          "Mannr",
+          "Stab1",
+          "Emx1",
+          "Siglech"
+        ],
+        "Interferon_response": [
+          "Ednra",
+          "Ak7",
+          "Bpifc",
+          "Jakmip1",
+          "Slc44a3",
+          "Atp8a2"
+        ],
+        "NFkB_signaling": [
+          "Gm19590",
+          "Colec12",
+          "Nfatc2ip",
+          "Doc2a"
+        ]
+      },
+      "replicate": 19,
+      "result_tag": "random_gene_set_r019"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r020.json",
+      "config_sha256": "0f34f361c83b207be479ebd4de9414eb09c23f52416a48b582b4f55b5df888cb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Dqx1",
+          "Edn1",
+          "Pdgfrb",
+          "Flnc",
+          "Noct",
+          "RP24-330M21.1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Arrdc4",
+          "Cstad",
+          "Ido1",
+          "Ifit1bl2",
+          "Vma21-ps",
+          "Klf7"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Birc5",
+          "Xaf1",
+          "Kcnk3",
+          "Foxf1",
+          "Hsd3b7",
+          "Pcp4"
+        ],
+        "Inflammation_response": [
+          "Wfdc16",
+          "Trem3",
+          "Hba-a1",
+          "Cul7",
+          "Adcy5",
+          "Aif1"
+        ],
+        "Interferon_response": [
+          "Sectm1b",
+          "Gm37387",
+          "Atp10a",
+          "Gm20497",
+          "Hmox1",
+          "Gm10603"
+        ],
+        "NFkB_signaling": [
+          "Parp14",
+          "Cyp4v3",
+          "1810011O10Rik",
+          "Inhbb"
+        ]
+      },
+      "replicate": 20,
+      "result_tag": "random_gene_set_r020"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r021.json",
+      "config_sha256": "702f1dd27441d948d6aad5fd11744bbf40229e0d651049390d1bb725ca826a97",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm8883",
+          "Pltp",
+          "Gm17225",
+          "Pcsk6",
+          "Cwh43",
+          "Upk2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm16998",
+          "Gm14137",
+          "Gm11377",
+          "Ecscr",
+          "A3galt2",
+          "Gfap"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rnf32",
+          "AB124611",
+          "Arrb2",
+          "C3ar1",
+          "AU021092",
+          "Tmem207"
+        ],
+        "Inflammation_response": [
+          "Hcls1",
+          "Vsig1",
+          "Kank3",
+          "Mxd1",
+          "Sult2b1",
+          "Dnajb3"
+        ],
+        "Interferon_response": [
+          "Impg1",
+          "Camp",
+          "Hbb-bt",
+          "Igfbp2",
+          "Xcl1",
+          "Kit"
+        ],
+        "NFkB_signaling": [
+          "Tspan13",
+          "Cyyr1",
+          "Tnfrsf13c",
+          "Nup93"
+        ]
+      },
+      "replicate": 21,
+      "result_tag": "random_gene_set_r021"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r022.json",
+      "config_sha256": "8c8007e557df13d6f363324c2f38b144d76b9c93192c600f2e82232796ce6941",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "1600010M07Rik",
+          "Scnn1g",
+          "Gm12766",
+          "Apol6",
+          "Trf",
+          "Clec2l"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Chrnb1",
+          "Tmem119",
+          "Loxl1",
+          "Rab44",
+          "Psmb9",
+          "Trim30a"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm19705",
+          "Tmem43",
+          "Psmb10",
+          "Pydc4",
+          "Gm12860",
+          "Metrnl"
+        ],
+        "Inflammation_response": [
+          "Unc45b",
+          "Stap2",
+          "Serpina3g",
+          "Cd83",
+          "Mlf1",
+          "Cd40lg"
+        ],
+        "Interferon_response": [
+          "Gm6133",
+          "Ltbp4",
+          "Cpxm1",
+          "Vcan",
+          "Cdh5",
+          "Gpha2"
+        ],
+        "NFkB_signaling": [
+          "Gm21149",
+          "Nrbp2",
+          "Gm6034",
+          "Tpm2"
+        ]
+      },
+      "replicate": 22,
+      "result_tag": "random_gene_set_r022"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r023.json",
+      "config_sha256": "f134a606310736035da43cf8846fc9815bf4e93cea1d39e1da6dc4818baf454d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm11110",
+          "Cacnb1",
+          "Sult2a3",
+          "Shisa5",
+          "Ddn",
+          "Gm14226"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tnfaip6",
+          "Aldh18a1",
+          "Il33",
+          "Cldn8",
+          "Daxx",
+          "Pmp22"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Eif4ebp1",
+          "Bcam",
+          "Gm43698",
+          "Tmem30b",
+          "Malrd1",
+          "Inpp4b"
+        ],
+        "Inflammation_response": [
+          "Akr1b7",
+          "Apoc3",
+          "Pramef12os",
+          "Gm15199",
+          "Plxnd1",
+          "Dnah2"
+        ],
+        "Interferon_response": [
+          "D16Ertd472e",
+          "Pgam2",
+          "Mlf1",
+          "Marco",
+          "Traip",
+          "Frk"
+        ],
+        "NFkB_signaling": [
+          "Pik3ip1",
+          "Grin2d",
+          "Gm20186",
+          "Selp"
+        ]
+      },
+      "replicate": 23,
+      "result_tag": "random_gene_set_r023"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r024.json",
+      "config_sha256": "ceda4fe985f2f1978e2dddb3a37198c778612c04ce91b0ce16c82b5aefb12ec8",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Cyp7b1",
+          "Asgr1",
+          "Fosl2",
+          "Fbln2",
+          "Gm37387",
+          "Limk2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm9830",
+          "Muc3",
+          "Gm4961",
+          "Gm11100",
+          "Grap",
+          "Gm11491"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Spic",
+          "Uts2b",
+          "Sh2d1a",
+          "Il2rb",
+          "Cd38",
+          "Atp6v1g3"
+        ],
+        "Inflammation_response": [
+          "2700033N17Rik",
+          "Unc5a",
+          "Orm3",
+          "Gimap8",
+          "Gm525",
+          "Ccl12"
+        ],
+        "Interferon_response": [
+          "Osm",
+          "4933404I11Rik",
+          "4931413I07Rik",
+          "Trim5",
+          "Lsp1",
+          "Ttc39a"
+        ],
+        "NFkB_signaling": [
+          "Gas7",
+          "Slfn9",
+          "Nipal2",
+          "Fgf21"
+        ]
+      },
+      "replicate": 24,
+      "result_tag": "random_gene_set_r024"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r025.json",
+      "config_sha256": "8e8b19ab049c69819532956cabfe81c9b9b6c43d98a350fe0420a3a6435d56cc",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Lenep",
+          "Cyp26b1",
+          "Prr29",
+          "Psd2",
+          "Urah",
+          "Actrt3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Dnm1",
+          "Hspa1l",
+          "Gm36975",
+          "P3h3",
+          "C5ar2",
+          "Lepr"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "S1pr1",
+          "Casp7",
+          "Tdrkh",
+          "Gm37170",
+          "Scube3",
+          "Gzma"
+        ],
+        "Inflammation_response": [
+          "Rprml",
+          "Serinc2",
+          "Kcna3",
+          "Apol7a",
+          "Akr1c21",
+          "Lipg"
+        ],
+        "Interferon_response": [
+          "Ifngr1",
+          "Has1",
+          "Stat2",
+          "Ppp1r1b",
+          "Amigo2",
+          "Entpd1"
+        ],
+        "NFkB_signaling": [
+          "Fcrl1",
+          "Edn1",
+          "9830107B12Rik",
+          "Mamstr"
+        ]
+      },
+      "replicate": 25,
+      "result_tag": "random_gene_set_r025"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r026.json",
+      "config_sha256": "9236ba1449a77b427fdfd2ceff30ebb3103ab0239c0ee49d0ca56a0910880be3",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Mpz",
+          "Loxl1",
+          "Tmeff2",
+          "Egfl7",
+          "Slpi",
+          "Itgax"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Plvap",
+          "F3",
+          "Ftl1",
+          "Hist2h3b",
+          "AW112010",
+          "Specc1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Bcl6b",
+          "Tcf21",
+          "Cd300c",
+          "Tldc2",
+          "Tagln",
+          "Gm19585"
+        ],
+        "Inflammation_response": [
+          "Gm15879",
+          "Hormad2",
+          "Gm11730",
+          "Atp6v1g3",
+          "RP24-549B12.3",
+          "Adgrl3"
+        ],
+        "Interferon_response": [
+          "Itga8",
+          "Mfsd2a",
+          "Gm7334",
+          "Gpr88",
+          "Mt3",
+          "Tmem45a"
+        ],
+        "NFkB_signaling": [
+          "Dock6",
+          "Dnaic1",
+          "Csf3r",
+          "Psd2"
+        ]
+      },
+      "replicate": 26,
+      "result_tag": "random_gene_set_r026"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r027.json",
+      "config_sha256": "f6751935dceaef59edf969e862b245e073158a8b0e9b00a32c61e0f84ad5cdeb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Slc14a1",
+          "Rnf32",
+          "Axl",
+          "Kng1",
+          "Rpl13-ps3",
+          "Edn1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Stat3",
+          "Pkd1l3",
+          "Insl6",
+          "Gm16116",
+          "Kcnj1",
+          "Gm20655"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cxcl10",
+          "H2-K1",
+          "Gm12107",
+          "Jakmip1",
+          "Tspan15",
+          "Gm43603"
+        ],
+        "Inflammation_response": [
+          "Mlkl",
+          "Psmb8",
+          "Gm17110",
+          "Nppa",
+          "Tpm2",
+          "Gm42562"
+        ],
+        "Interferon_response": [
+          "Mrgpra2b",
+          "Gm19705",
+          "St6galnac5",
+          "Il4",
+          "Map3k6",
+          "Hck"
+        ],
+        "NFkB_signaling": [
+          "Fbln5",
+          "Lipg",
+          "Kcnn2",
+          "Rarres2"
+        ]
+      },
+      "replicate": 27,
+      "result_tag": "random_gene_set_r027"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r028.json",
+      "config_sha256": "10b8046922c44cf587c48ac2ebb405847d94a594ed260202ab83fc7f8ad73a86",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Defb11",
+          "Gm11579",
+          "Prss35",
+          "Ccl1",
+          "Kirrel3",
+          "Cidec"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "BC028528",
+          "Itgb2l",
+          "Gm5483",
+          "Mxd1",
+          "Klrk1",
+          "Arg1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Nfkbiz",
+          "Sh2d4b",
+          "Fabp3",
+          "Gm8281",
+          "Ptgs2",
+          "Socs3"
+        ],
+        "Inflammation_response": [
+          "Pde1b",
+          "Gm3376",
+          "Gm43194",
+          "Cited1",
+          "Coro2a",
+          "AW011738"
+        ],
+        "Interferon_response": [
+          "C1qa",
+          "Gpr174",
+          "Bmf",
+          "Rgs10",
+          "AW112010",
+          "Trem3"
+        ],
+        "NFkB_signaling": [
+          "Apol6",
+          "Lamb2",
+          "Sla2",
+          "Gm43660"
+        ]
+      },
+      "replicate": 28,
+      "result_tag": "random_gene_set_r028"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r029.json",
+      "config_sha256": "3ec66a97645f5751f901135b5f6e8f32639ceaa3b368c31c9530e80ce56959f2",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Iqsec3",
+          "Lair1",
+          "Dpt",
+          "Ckmt1",
+          "Gm16596",
+          "Cd48"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Cryab",
+          "Umod",
+          "Gm11730",
+          "Ccl3",
+          "Abi3",
+          "Ptpn1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ogn",
+          "Sec1",
+          "Tmem213",
+          "Gm11110",
+          "Bmf",
+          "Esam"
+        ],
+        "Inflammation_response": [
+          "Pvalb",
+          "Adcy5",
+          "Macc1",
+          "Hlx",
+          "Npy6r",
+          "H2-Q6"
+        ],
+        "Interferon_response": [
+          "Tdrkh",
+          "Fgd3",
+          "Cxcl1",
+          "Cracr2b",
+          "Gm7808",
+          "Gzmm"
+        ],
+        "NFkB_signaling": [
+          "Etos1",
+          "Ccr5",
+          "Bglap3",
+          "3830403N18Rik"
+        ]
+      },
+      "replicate": 29,
+      "result_tag": "random_gene_set_r029"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r030.json",
+      "config_sha256": "a4d83f9c7bed5768a327ae80887aa150c65698721baf93dac7b9d6e2a278d327",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Serpina7",
+          "Rab30",
+          "Ms4a6b",
+          "Cd79a",
+          "Loxl1",
+          "Cyp3a13"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Zc3hav1",
+          "Sh3bp4",
+          "Ifi203",
+          "Ube2l6",
+          "Lypd2",
+          "Ccl8"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Elf3",
+          "Slc6a14",
+          "Apon",
+          "Tldc2",
+          "1110017D15Rik",
+          "Hap1"
+        ],
+        "Inflammation_response": [
+          "Plscr1",
+          "Pecam1",
+          "Marco",
+          "S1pr1",
+          "Nkg7",
+          "Fgg"
+        ],
+        "Interferon_response": [
+          "Gabra3",
+          "Glipr1",
+          "Cldn8",
+          "BC147527",
+          "Cdkn2d",
+          "Fbln1"
+        ],
+        "NFkB_signaling": [
+          "Itga4",
+          "Dgkeos",
+          "Mmp27",
+          "BC048507"
+        ]
+      },
+      "replicate": 30,
+      "result_tag": "random_gene_set_r030"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r031.json",
+      "config_sha256": "2b04b6841088449a26df1774a2f8a246177d6aaafd93449bddceaefa6c6202b5",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "4930562F07Rik",
+          "Eme1",
+          "Fxyd6",
+          "Slc27a3",
+          "Bcat1",
+          "Gm42562"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Spink8",
+          "Col1a1",
+          "Sp100",
+          "Timd4",
+          "Corin",
+          "Gm5426"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Adgrb2",
+          "Eda2r",
+          "Serpina1d",
+          "Hmgn3",
+          "Wars",
+          "Bpifc"
+        ],
+        "Inflammation_response": [
+          "B930036N10Rik",
+          "4930556J24Rik",
+          "Tes",
+          "Matn2",
+          "Guca2a",
+          "Irf9"
+        ],
+        "Interferon_response": [
+          "Prkar1b",
+          "Eif4ebp1",
+          "Eln",
+          "Mgl2",
+          "Ppp1r14a",
+          "Gm5914"
+        ],
+        "NFkB_signaling": [
+          "Atf5",
+          "Gm8369",
+          "Cryab",
+          "Gm10269"
+        ]
+      },
+      "replicate": 31,
+      "result_tag": "random_gene_set_r031"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r032.json",
+      "config_sha256": "28630e7ef6d38257cb092d7eb69e3c98e76b8fed44ac6ba20166388a0a78a677",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ucma",
+          "Aqp1",
+          "Gm13306",
+          "Ccl5",
+          "2310069B03Rik",
+          "Egr2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Rhox5",
+          "Cx3cl1",
+          "Msr1",
+          "Il18rap",
+          "Gm20635",
+          "Vwa5b1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cd59a",
+          "C530050E15Rik",
+          "Phf24",
+          "Dock6",
+          "Gdf15",
+          "Flna"
+        ],
+        "Inflammation_response": [
+          "Abi3",
+          "Adgrg2",
+          "Pdlim7",
+          "Popdc3",
+          "5830416I19Rik",
+          "9330161L09Rik"
+        ],
+        "Interferon_response": [
+          "Gpr33",
+          "Gm26783",
+          "Tgfb1i1",
+          "Ly6d",
+          "Ccl2",
+          "Slc7a13"
+        ],
+        "NFkB_signaling": [
+          "Tmem132e",
+          "Nfkbid",
+          "Dysf",
+          "Galnt15"
+        ]
+      },
+      "replicate": 32,
+      "result_tag": "random_gene_set_r032"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r033.json",
+      "config_sha256": "849605761590b4c0616a7820ae22d8891e43315313ecffc7178a090247bf136a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tnfrsf12a",
+          "Gm13546",
+          "C1s1",
+          "Gm8953",
+          "Col5a2",
+          "Klrd1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fpr2",
+          "Amigo3",
+          "Grem2",
+          "Apold1",
+          "Myl9",
+          "Dnaic1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm5616",
+          "Zmynd15",
+          "Uts2b",
+          "Gm36975",
+          "Gm831",
+          "Smoc2"
+        ],
+        "Inflammation_response": [
+          "Pcdh8",
+          "Sectm1b",
+          "G6b",
+          "2810442N19Rik",
+          "Adgra1",
+          "E230025N22Rik"
+        ],
+        "Interferon_response": [
+          "Corin",
+          "Gal",
+          "Hes1",
+          "Rcor2",
+          "Prr7",
+          "P2ry10"
+        ],
+        "NFkB_signaling": [
+          "Slc4a11",
+          "Clec2l",
+          "Spink4",
+          "Sele"
+        ]
+      },
+      "replicate": 33,
+      "result_tag": "random_gene_set_r033"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r034.json",
+      "config_sha256": "afe5c748ebc2bce8d47b694d238cc0ce5787e19962c6161e7058d151d39647fe",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Snx20",
+          "Nts",
+          "Gm11377",
+          "Cox4i2",
+          "Phf11a",
+          "Crisp3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Mcemp1",
+          "Cxcr5",
+          "Platr15",
+          "Pdgfa",
+          "Lamc2",
+          "A530032D15Rik"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Kcnmb1",
+          "Il2ra",
+          "Cacng1",
+          "RP23-430B14.2",
+          "Gbp4",
+          "Ifi35"
+        ],
+        "Inflammation_response": [
+          "Lgals3bp",
+          "Stfa3",
+          "Xaf1",
+          "Actn1",
+          "Cd79b",
+          "Gm15627"
+        ],
+        "Interferon_response": [
+          "4833403J16Rik",
+          "Slc43a3",
+          "F830016B08Rik",
+          "Cfap43",
+          "Birc5",
+          "Spink4"
+        ],
+        "NFkB_signaling": [
+          "Aqp6",
+          "Kcne1",
+          "Fcrl6",
+          "Itga11"
+        ]
+      },
+      "replicate": 34,
+      "result_tag": "random_gene_set_r034"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r035.json",
+      "config_sha256": "766a54ebbca419732ddb838f23527660af18480fdf56f6a53ddca11fcfb4eb1b",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Astn2",
+          "Hba-a2",
+          "Metrnl",
+          "1700011M02Rik",
+          "Muc1",
+          "Khdc1a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Card11",
+          "A130057D12Rik",
+          "Slc4a9",
+          "Ngf",
+          "Gm10309",
+          "Il4i1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm28382",
+          "Lyve1",
+          "Trp53i11",
+          "Slc7a11",
+          "Nr2f1",
+          "Xaf1"
+        ],
+        "Inflammation_response": [
+          "C1ra",
+          "Slc5a3",
+          "Gm17382",
+          "Gm21541",
+          "Il18",
+          "Nnat"
+        ],
+        "Interferon_response": [
+          "Penk",
+          "Cd83",
+          "Nppa",
+          "Gpx3",
+          "Ucp3",
+          "Ido1"
+        ],
+        "NFkB_signaling": [
+          "Ppp1r1a",
+          "Jun",
+          "Hrct1",
+          "Dnah10"
+        ]
+      },
+      "replicate": 35,
+      "result_tag": "random_gene_set_r035"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r036.json",
+      "config_sha256": "3662540e131df2a325c9b40ad7214d09514dd20bb6b32a094713da2930ef05a6",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm9844",
+          "Gm11536",
+          "Nrp2",
+          "Ptprc",
+          "Ric3",
+          "Tnc"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Acot10",
+          "Pla2g7",
+          "Sdc1",
+          "Satb1",
+          "Cast",
+          "Plpp3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Smkr-ps",
+          "Gm15627",
+          "P2ry10",
+          "Gzmm",
+          "Nptx2",
+          "Pvrl2"
+        ],
+        "Inflammation_response": [
+          "Prap1",
+          "AI847159",
+          "Tnfaip8l1",
+          "Gm10425",
+          "D630008O14Rik",
+          "Gm16049"
+        ],
+        "Interferon_response": [
+          "Kng1",
+          "Agrp",
+          "Psors1c2",
+          "Nr2f1",
+          "Olfr558",
+          "Dnah2"
+        ],
+        "NFkB_signaling": [
+          "Creb3l3",
+          "Cox4i2",
+          "Spink1",
+          "Itk"
+        ]
+      },
+      "replicate": 36,
+      "result_tag": "random_gene_set_r036"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r037.json",
+      "config_sha256": "7f81f472ae655a18de83612dfe37dc637ed4259ba7492fe364c5559d07fe5903",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Dtx3l",
+          "Igll1",
+          "Il1r1",
+          "Nefm",
+          "Ifi27l2b",
+          "Tro"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm7967",
+          "Stc1",
+          "Pvalb",
+          "Prkcg",
+          "Kcnd3",
+          "Fhl4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Upk3a",
+          "Epx",
+          "Nccrp1",
+          "Notch2",
+          "B3gnt3",
+          "Flnc"
+        ],
+        "Inflammation_response": [
+          "H2-DMa",
+          "Gm29094",
+          "F630028O10Rik",
+          "Nostrin",
+          "Cpa3",
+          "Zap70"
+        ],
+        "Interferon_response": [
+          "Prkar1b",
+          "H2-Ab1",
+          "Uchl4",
+          "Emcn",
+          "Apol7c",
+          "Cby3"
+        ],
+        "NFkB_signaling": [
+          "Gm28347",
+          "Bmper",
+          "Ak7",
+          "Znfx1"
+        ]
+      },
+      "replicate": 37,
+      "result_tag": "random_gene_set_r037"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r038.json",
+      "config_sha256": "8c0cdbd494d4c3f76e75967f33ab1e0fef14e76c83e08e7dc9bedd837107c262",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Cpe",
+          "Cxcl10",
+          "1700066B19Rik",
+          "H2-Aa",
+          "Izumo1",
+          "Calb1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ptgs2os2",
+          "Gm15611",
+          "Msx1",
+          "Gm4950",
+          "Bcat1",
+          "Rcor2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Lilra6",
+          "E130208F15Rik",
+          "1110017D15Rik",
+          "Tcfl5",
+          "Parvb",
+          "Nptx1"
+        ],
+        "Inflammation_response": [
+          "Dnaaf3",
+          "Iqub",
+          "Lcp1",
+          "Itga5",
+          "Gypa",
+          "Trcg1"
+        ],
+        "Interferon_response": [
+          "Gm26558",
+          "Dcn",
+          "Zfand4.1",
+          "Nfatc4",
+          "Nefm",
+          "Dusp5"
+        ],
+        "NFkB_signaling": [
+          "Cd40",
+          "Dmp1",
+          "Ppp1r15a",
+          "Gm6878"
+        ]
+      },
+      "replicate": 38,
+      "result_tag": "random_gene_set_r038"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r039.json",
+      "config_sha256": "b2a0161b81d18bde74d7cd1426137e514d0925374fcf8d3b71a501cc74a90e36",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ccl21a",
+          "1700087M22Rik",
+          "H2-Q6",
+          "Gpr33",
+          "Car13",
+          "Slc39a14"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Trpv2",
+          "Fosb",
+          "Xcl1",
+          "Prr13",
+          "C1qa",
+          "Dact3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Eif4ebp3",
+          "Gadd45a",
+          "Scnn1g",
+          "Mmp8",
+          "Prkar1b",
+          "Astn2"
+        ],
+        "Inflammation_response": [
+          "Ddn",
+          "Slc16a3",
+          "Exoc3l2",
+          "Cd300c",
+          "Slc4a1",
+          "Prtn3"
+        ],
+        "Interferon_response": [
+          "Arc",
+          "Thrsp",
+          "Adamts1",
+          "Wnk4",
+          "Efnb2",
+          "Ccdc146"
+        ],
+        "NFkB_signaling": [
+          "Ogfr",
+          "Crlf2",
+          "Dcn",
+          "Gm15462"
+        ]
+      },
+      "replicate": 39,
+      "result_tag": "random_gene_set_r039"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r040.json",
+      "config_sha256": "61bc7965e2a0c18fa383fe41a2481045386799dfd4021d46b520b28261d8a4de",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm816",
+          "Rps18-ps3",
+          "Il3ra",
+          "Myrfl",
+          "AU021092",
+          "Tcf21"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Lypd8",
+          "Doc2a",
+          "Kif22",
+          "B4galnt1",
+          "Ccl4",
+          "Hopx"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rtp4",
+          "Hap1",
+          "Hes7",
+          "Clec12a",
+          "H2-Eb1",
+          "Shank3"
+        ],
+        "Inflammation_response": [
+          "Art2b",
+          "Hrh2",
+          "Vmn1r65",
+          "Mt3",
+          "1700007G11Rik",
+          "Slc39a6"
+        ],
+        "Interferon_response": [
+          "Col5a1",
+          "Cyp2d12",
+          "Cd79a",
+          "Sele",
+          "Baalc",
+          "Asgr1"
+        ],
+        "NFkB_signaling": [
+          "Gm867",
+          "Hcls1",
+          "Il12b",
+          "Stap2"
+        ]
+      },
+      "replicate": 40,
+      "result_tag": "random_gene_set_r040"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r041.json",
+      "config_sha256": "e5a4b8841181b36f504fb585b4493fb8b3aab17760e543fe535f5302669838b7",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Arc",
+          "Igsf6",
+          "Cd86",
+          "Eno3",
+          "Car15",
+          "Tshz2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ogfr",
+          "Tspan6",
+          "Gm42726",
+          "Defb50",
+          "Tmsb4x",
+          "Dock6"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cd68",
+          "Sdc3",
+          "Ctnna3",
+          "Ncf2",
+          "Sphk1",
+          "Slc4a11"
+        ],
+        "Inflammation_response": [
+          "Nacad",
+          "Aqp6",
+          "Cd209a",
+          "Rab8b",
+          "Sgms2",
+          "Samd4"
+        ],
+        "Interferon_response": [
+          "5830411N06Rik",
+          "Cfh",
+          "4930502E18Rik",
+          "B3gnt4",
+          "Fgfbp1",
+          "Aknaos"
+        ],
+        "NFkB_signaling": [
+          "Zfp12",
+          "Cd83",
+          "Pgf",
+          "Misp"
+        ]
+      },
+      "replicate": 41,
+      "result_tag": "random_gene_set_r041"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r042.json",
+      "config_sha256": "54d3f153c26405880a34aaf2c3dfa12d71bde4d75c9204dc51447efa5b2c4cbb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Apoc3",
+          "Calml3",
+          "Hsd17b2",
+          "Mgst2",
+          "Myl9",
+          "Cdh20"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fabp4",
+          "Thbd",
+          "Pdilt",
+          "4930404A12Rik",
+          "Olfml3",
+          "Clu"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Fgr",
+          "C530050E15Rik",
+          "Ccr8",
+          "Trim30c",
+          "Npr3",
+          "Rab3b"
+        ],
+        "Inflammation_response": [
+          "Robo3",
+          "2010309G21Rik",
+          "Mt3",
+          "Dok5",
+          "D16Ertd472e",
+          "Rhox5"
+        ],
+        "Interferon_response": [
+          "Fam178b",
+          "Gm11465",
+          "Pla2r1",
+          "Prkcdbp",
+          "Tff2",
+          "Gm5547"
+        ],
+        "NFkB_signaling": [
+          "Adgrg5",
+          "Trafd1",
+          "Klk1b3",
+          "Gmfg"
+        ]
+      },
+      "replicate": 42,
+      "result_tag": "random_gene_set_r042"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r043.json",
+      "config_sha256": "04e21204e5ec8011d143e5eed44c0831bd2e6119540690f17d0d04e642a0f562",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm17189",
+          "Mb",
+          "D930028M14Rik",
+          "Gm28053",
+          "Gm8113",
+          "Zbtb46"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Foxc2",
+          "Xlr4a",
+          "Coro1a",
+          "Gm21541",
+          "Ikzf2",
+          "S100a8"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Platr26",
+          "4930599N23Rik",
+          "Pla2g16",
+          "H3f3b",
+          "Rasl10b",
+          "Asb4"
+        ],
+        "Inflammation_response": [
+          "Tshz2",
+          "Grem2",
+          "B3gnt3",
+          "Skint11",
+          "Gm3696",
+          "Cd96"
+        ],
+        "Interferon_response": [
+          "Atp8a2",
+          "Itk",
+          "Lcn2",
+          "Spry2",
+          "Gsta1",
+          "RP24-443B5.7"
+        ],
+        "NFkB_signaling": [
+          "Eif2ak2",
+          "Gm9830",
+          "Gm6793",
+          "Traf1"
+        ]
+      },
+      "replicate": 43,
+      "result_tag": "random_gene_set_r043"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r044.json",
+      "config_sha256": "65ceba00dda2a199699f8967ac4d32828ac664812a970886613f778e8a46bf92",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Klra1",
+          "Snx20",
+          "C530044C16Rik",
+          "Fgl2",
+          "Pitpnm1",
+          "Dusp5"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "4930562F07Rik",
+          "Foxq1",
+          "Rac2",
+          "Ccdc136",
+          "Lpo",
+          "Kirrel3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm28502",
+          "AI662270",
+          "Ttc39a",
+          "Epx",
+          "Gfod2",
+          "Plxna4os1"
+        ],
+        "Inflammation_response": [
+          "Cd33",
+          "Kcnk1",
+          "Cntn1",
+          "Pik3cg",
+          "Gmfg",
+          "Oas2"
+        ],
+        "Interferon_response": [
+          "Gypa",
+          "Parp9",
+          "Mall",
+          "Cmpk2",
+          "Aqp6",
+          "Cd8b1"
+        ],
+        "NFkB_signaling": [
+          "Pcdhb8",
+          "Plac8",
+          "Ctgf",
+          "Lmo2"
+        ]
+      },
+      "replicate": 44,
+      "result_tag": "random_gene_set_r044"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r045.json",
+      "config_sha256": "c252c28c6a7fe38fdafec3f9bcc21d10d1f4ed49b996350a7da6c0c3a656ad0d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ncf4",
+          "Itgb2",
+          "1700071M16Rik",
+          "A630012P03Rik",
+          "Hk1",
+          "1700087M22Rik"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Kcne3",
+          "Ifi30",
+          "2310043M15Rik",
+          "Irf8",
+          "Scube1",
+          "Tbrg1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Spry4",
+          "Siglecg",
+          "Dusp5",
+          "Upk1b",
+          "Ap1s2",
+          "Platr17"
+        ],
+        "Inflammation_response": [
+          "Gm19719",
+          "Khdc1b",
+          "Gm29367",
+          "St3gal1",
+          "Basp1",
+          "Art2b"
+        ],
+        "Interferon_response": [
+          "Serpinf1",
+          "Cyp2a5",
+          "Tmsb10",
+          "Map4k1",
+          "Dusp9",
+          "Mb"
+        ],
+        "NFkB_signaling": [
+          "Wars",
+          "Atp8a2",
+          "Ifi44",
+          "Ifitm6"
+        ]
+      },
+      "replicate": 45,
+      "result_tag": "random_gene_set_r045"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r046.json",
+      "config_sha256": "45109d14f9c22478c36cbdfcbecb208d91fb12025479778fff493dc94ab01b4f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Creb5",
+          "Ntn4",
+          "Ceacam15",
+          "Cd248",
+          "Gimap8",
+          "Gm37233"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Prr29",
+          "Smim6",
+          "Armc3",
+          "Gm6377",
+          "St8sia2",
+          "Galnt15"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Apoa1",
+          "Gm4955",
+          "Gml2",
+          "Fcmr",
+          "Lrfn4",
+          "Kcnj8"
+        ],
+        "Inflammation_response": [
+          "Kif22",
+          "6530409C15Rik",
+          "Gm17041",
+          "Icos",
+          "Cdkn1c",
+          "Snx20"
+        ],
+        "Interferon_response": [
+          "Gm26619",
+          "Gzmm",
+          "Sct",
+          "Pid1",
+          "5830411N06Rik",
+          "Glipr1"
+        ],
+        "NFkB_signaling": [
+          "Gm7334",
+          "Mmp7",
+          "Acot2",
+          "Ntf5"
+        ]
+      },
+      "replicate": 46,
+      "result_tag": "random_gene_set_r046"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r047.json",
+      "config_sha256": "e82cd48550dfe8a27ab6b9546a1daf43a65a6cb7b212a82f98572dff9860f312",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Cfp",
+          "Gm13713",
+          "Serpina3i",
+          "Dmrt2",
+          "Ifng",
+          "Selp"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Cd40lg",
+          "Gm38250",
+          "Gm28050",
+          "Pcdh19",
+          "Pcdhb7",
+          "Gm13561"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Scimp",
+          "Adcy5",
+          "Kcnh3",
+          "Nebl",
+          "Klra8",
+          "Cp"
+        ],
+        "Inflammation_response": [
+          "Mrc2",
+          "A230050P20Rik",
+          "Foxp3",
+          "Rcan2",
+          "Parvb",
+          "Wnk4"
+        ],
+        "Interferon_response": [
+          "Gbp6.1",
+          "Adamtsl1",
+          "Kcnh1",
+          "Clcf1",
+          "Gm16365",
+          "Grasp"
+        ],
+        "NFkB_signaling": [
+          "Gm17019",
+          "Gm43698",
+          "Bmyc",
+          "2700033N17Rik"
+        ]
+      },
+      "replicate": 47,
+      "result_tag": "random_gene_set_r047"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r048.json",
+      "config_sha256": "bbe8db469d5fea9c7d6f99299f4e88413c6a9b42a9a8d3c36d9b5b9a087b2b6d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Phf11a",
+          "Stfa3",
+          "Cd86",
+          "Nudt17",
+          "Gm28095",
+          "Klrc3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Cenpf",
+          "Cybrd1",
+          "Birc2",
+          "Emb",
+          "Ier2",
+          "Bcl2a1b"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cd200",
+          "Ramp2",
+          "Car8",
+          "Apol6",
+          "AY761184",
+          "Ms4a4c"
+        ],
+        "Inflammation_response": [
+          "Gm831",
+          "Ucma",
+          "Nup93",
+          "RP24-484I1.3",
+          "Ptpn22",
+          "Cyp26b1"
+        ],
+        "Interferon_response": [
+          "Klrd1",
+          "Gm17435",
+          "Oit3",
+          "Serpinb9",
+          "Tmem151b",
+          "Phf11b"
+        ],
+        "NFkB_signaling": [
+          "Insrr",
+          "Gm6904",
+          "Hrh2",
+          "Mfsd4"
+        ]
+      },
+      "replicate": 48,
+      "result_tag": "random_gene_set_r048"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r049.json",
+      "config_sha256": "dde0b8345f30121d30af8fedd279f59ece67e213865aaa7398d268a21ebe2ea7",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Mfap5",
+          "Vdac3-ps1",
+          "Txk",
+          "Id3",
+          "Gm15133",
+          "Clec5a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Cd82",
+          "Icos",
+          "Gm16365",
+          "Rrm2",
+          "H2-Q6",
+          "Lbp"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Grrp1",
+          "Apoa4",
+          "Phlda1",
+          "Fibin",
+          "Ctsd",
+          "Rdh9"
+        ],
+        "Inflammation_response": [
+          "Klk1",
+          "H2afz",
+          "Kctd1",
+          "Pthlh",
+          "Ncf2",
+          "Foxp3"
+        ],
+        "Interferon_response": [
+          "Gata2",
+          "Vwa5a",
+          "AI662270",
+          "Gm10830",
+          "Gm5547",
+          "Gm9758"
+        ],
+        "NFkB_signaling": [
+          "Slpi",
+          "Gm38025",
+          "Plac9b",
+          "Zdhhc18"
+        ]
+      },
+      "replicate": 49,
+      "result_tag": "random_gene_set_r049"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r050.json",
+      "config_sha256": "7e4cbd0b67b2bd6a0576bfc681659da19d8dbade2811a4f578e42538811cc5d5",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm10306",
+          "Tnni2",
+          "Ccnb2",
+          "Tnfaip6",
+          "Gm609",
+          "Laptm4b"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Serpina1b",
+          "Runx1",
+          "Loxl1",
+          "Gm20655",
+          "Cd164l2",
+          "A3galt2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Vdac3-ps1",
+          "Flnc",
+          "Tgif1",
+          "Serpina7",
+          "Ndufa4l2",
+          "Impdh1"
+        ],
+        "Inflammation_response": [
+          "F13a1",
+          "Scnn1b",
+          "Rhbg",
+          "Tpm2",
+          "Ppm1j",
+          "Ncmap"
+        ],
+        "Interferon_response": [
+          "Rab39b",
+          "Cd300e",
+          "A330069E16Rik",
+          "Kctd1",
+          "Cxcl13",
+          "Cxcr5"
+        ],
+        "NFkB_signaling": [
+          "Snhg11",
+          "Apoe",
+          "Gfap",
+          "Prr7"
+        ]
+      },
+      "replicate": 50,
+      "result_tag": "random_gene_set_r050"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r051.json",
+      "config_sha256": "65112f72e10512b7328dcb974b03744bb9bbf366959313dbf008f1301e447a9d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Fxyd5",
+          "Klrb1b",
+          "Sult2a3",
+          "Mgst2",
+          "Csf1r",
+          "Opn3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm37350",
+          "Gimap7",
+          "Ptk7",
+          "Mt1",
+          "Gm13713",
+          "Chst2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Endod1",
+          "Retn",
+          "Lrrc10b",
+          "Praf2",
+          "Fgl2",
+          "Cd79a"
+        ],
+        "Inflammation_response": [
+          "Ccnb2",
+          "BC100530",
+          "4930562F07Rik",
+          "Zfp109",
+          "Cd53",
+          "Gm11128"
+        ],
+        "Interferon_response": [
+          "Batf3",
+          "Mboat1",
+          "Calca",
+          "Plac8",
+          "Trpm6",
+          "Iqsec3"
+        ],
+        "NFkB_signaling": [
+          "Tlr2",
+          "Rpl39l",
+          "Klrd1",
+          "Krt19"
+        ]
+      },
+      "replicate": 51,
+      "result_tag": "random_gene_set_r051"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r052.json",
+      "config_sha256": "8f04cda0c65385320b1ca7d0c023b989ee95c771d9cc0e29d91e4bae113f260a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Apob",
+          "Ms4a6b",
+          "Gm12002",
+          "Ltbp1",
+          "Limk2",
+          "Aqp4"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Icam2",
+          "Ccdc184",
+          "Txk",
+          "Gm17224",
+          "Ifitm6",
+          "Enpp4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Plxna4os1",
+          "Timd4",
+          "Ccl8",
+          "Gm26887",
+          "Efna5",
+          "Prss23"
+        ],
+        "Inflammation_response": [
+          "Gapdhs",
+          "Cfap74",
+          "Cacna1s",
+          "Scarf2",
+          "Nkg7",
+          "Ada"
+        ],
+        "Interferon_response": [
+          "Gpr153",
+          "Tekt4",
+          "Tnfrsf4",
+          "Cd79b",
+          "Gm8883",
+          "Rgs1"
+        ],
+        "NFkB_signaling": [
+          "Myo3b",
+          "Lockd",
+          "Ear2",
+          "Hck"
+        ]
+      },
+      "replicate": 52,
+      "result_tag": "random_gene_set_r052"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r053.json",
+      "config_sha256": "2b6c18a7f8eb0fabca37e953f61acdc7039af92dee2a5f3be3a0a2850ba9399f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm17276",
+          "Tpm1",
+          "Cpe",
+          "Nup62cl",
+          "Lrrc10b",
+          "Cldn8"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Prkcq",
+          "Vgll3",
+          "Col14a1",
+          "Fcrla",
+          "Car12",
+          "Hist2h3b"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Hcls1",
+          "Gm15340",
+          "Bcl2",
+          "Sh2d4b",
+          "Tagln",
+          "Tnfsf9"
+        ],
+        "Inflammation_response": [
+          "Stfa2l1",
+          "Ccl5",
+          "Lyve1",
+          "Scrg1",
+          "Sost",
+          "AA467197"
+        ],
+        "Interferon_response": [
+          "Gm4070",
+          "Gm20655",
+          "Chd5",
+          "Cacng1",
+          "Cald1",
+          "Gm26735"
+        ],
+        "NFkB_signaling": [
+          "Dnase1l3",
+          "6330409D20Rik",
+          "Igll1",
+          "Fpr2"
+        ]
+      },
+      "replicate": 53,
+      "result_tag": "random_gene_set_r053"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r054.json",
+      "config_sha256": "ebefe1a5d385894d3fda7d590f3a9b9632837afd2fb3685bb886baccc68cd087",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Pafah1b3",
+          "Mustn1",
+          "Olr1",
+          "Pnp",
+          "Serpinb1a",
+          "Fam25c"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tm4sf1",
+          "Pramef12os",
+          "Synpo",
+          "Ly6d",
+          "Gpr4",
+          "Pde4b"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Epx",
+          "Klhl31",
+          "Sept1",
+          "Nr4a3",
+          "Cd209a",
+          "Epha3"
+        ],
+        "Inflammation_response": [
+          "Nsg1",
+          "Kirrel3",
+          "Xdh",
+          "Rftn2",
+          "Alas2",
+          "Pbx1"
+        ],
+        "Interferon_response": [
+          "Micall2",
+          "Mlkl",
+          "Anxa3",
+          "Cldn8",
+          "Ccdc146",
+          "Clec4n"
+        ],
+        "NFkB_signaling": [
+          "6430531B16Rik",
+          "Wnk3",
+          "Cd8b1",
+          "Armcx2"
+        ]
+      },
+      "replicate": 54,
+      "result_tag": "random_gene_set_r054"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r055.json",
+      "config_sha256": "5cb20537ff77426e843210955f1afc44c00ad5166e31ee9b306e6dbda99e56b4",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Axl",
+          "Pde1b",
+          "Haus8",
+          "Apoa4",
+          "Piwil4",
+          "Gm17224"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Dll4",
+          "Kirrel3",
+          "Tlr4",
+          "Hopx",
+          "Mlana",
+          "Anxa3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "RP24-286L23.3",
+          "Fn3krp",
+          "Defb36",
+          "Id3",
+          "Egr4",
+          "Csf3r"
+        ],
+        "Inflammation_response": [
+          "Lipg",
+          "Hormad2",
+          "Cpvl",
+          "Scn1b",
+          "Slc15a3",
+          "Cldn3"
+        ],
+        "Interferon_response": [
+          "Cd24a",
+          "Fgfbp1",
+          "Apol7e",
+          "Cd300e",
+          "Cthrc1",
+          "Gzma"
+        ],
+        "NFkB_signaling": [
+          "Tnfrsf9",
+          "Cox4i2",
+          "Angpt2",
+          "Col6a2"
+        ]
+      },
+      "replicate": 55,
+      "result_tag": "random_gene_set_r055"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r056.json",
+      "config_sha256": "20afbce8df1d9a009f2a8837c154a86716b1cd0d87add40c1fe63d31c9e559bc",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Hepacam2",
+          "Rasip1",
+          "Rrm2",
+          "Gm12764",
+          "Rasgef1b",
+          "Capg"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Cdca3",
+          "Tmsb15b2",
+          "Mbp",
+          "Tbpl2",
+          "Fndc8",
+          "Gm42921"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "U2af1l4.1",
+          "Gm5914",
+          "Tgif2",
+          "Serpina7",
+          "Gm4950",
+          "Cdc42ep3"
+        ],
+        "Inflammation_response": [
+          "Pcdhb18",
+          "Scn3a",
+          "Lyz2",
+          "Ccl6",
+          "Alox12b",
+          "Sema3g"
+        ],
+        "Interferon_response": [
+          "Sla2",
+          "Gm26569",
+          "Ifi203",
+          "Iqsec3",
+          "Cd3d",
+          "Serpinh1"
+        ],
+        "NFkB_signaling": [
+          "8430408G22Rik",
+          "Dmrt2",
+          "Klra1",
+          "E230025N22Rik"
+        ]
+      },
+      "replicate": 56,
+      "result_tag": "random_gene_set_r056"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r057.json",
+      "config_sha256": "53f3e98020874837dc77a1238bf2eb838d4b3768cd5aa45bf7d68347dd78f593",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ttr",
+          "Myo1b",
+          "Cd83",
+          "Rgs20",
+          "Hoxd9",
+          "Gad2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Myo1a",
+          "Snhg11",
+          "Mettl7a2",
+          "Pkib",
+          "Npy1r",
+          "Dsp"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm38025",
+          "Reg3g",
+          "2310069B03Rik",
+          "Defb50",
+          "Stat4",
+          "Pde4b"
+        ],
+        "Inflammation_response": [
+          "Clec4d",
+          "Ets1",
+          "Tmigd1",
+          "Ms4a3",
+          "Trp53i11",
+          "Cd7"
+        ],
+        "Interferon_response": [
+          "Rftn1",
+          "Tead4",
+          "Cd72",
+          "Slc6a19os",
+          "Zfand4.1",
+          "Fam212a"
+        ],
+        "NFkB_signaling": [
+          "C230037L18Rik",
+          "Gm19684",
+          "Uroc1",
+          "Gm816"
+        ]
+      },
+      "replicate": 57,
+      "result_tag": "random_gene_set_r057"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r058.json",
+      "config_sha256": "4a11e43d12b5e4da8d571c4899e0ad8765495123e4623f2fc2f7d0b1d5f86013",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Spred3",
+          "Ccl6",
+          "Il13",
+          "Bcl2a1a",
+          "Spry2",
+          "E230025N22Rik"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Rgs5",
+          "Srgn",
+          "Mmp7",
+          "Nphs2",
+          "Nppa",
+          "Sele"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Pramef12os",
+          "Npr3",
+          "Gm17225",
+          "Plek",
+          "Gpr157",
+          "Txk"
+        ],
+        "Inflammation_response": [
+          "Ccdc3",
+          "Dnajb3",
+          "Fyb",
+          "Slitrk4",
+          "Gm6878",
+          "Acbd7"
+        ],
+        "Interferon_response": [
+          "Hcst",
+          "2010005H15Rik",
+          "Mgst2",
+          "Ramp1",
+          "D630008O14Rik",
+          "Hormad2"
+        ],
+        "NFkB_signaling": [
+          "Sp140",
+          "Ms4a4b",
+          "Gm17224",
+          "Car15"
+        ]
+      },
+      "replicate": 58,
+      "result_tag": "random_gene_set_r058"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r059.json",
+      "config_sha256": "0c35000258ba98246ba33614227456c935dd55c7f40c7cd4515421cf4404ecb7",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ltbp4",
+          "Atp6v0d2",
+          "Ddit3",
+          "Nbl1",
+          "Pbk",
+          "Thbd"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Zfp109",
+          "Il18r1",
+          "Tprg",
+          "Gm17019",
+          "Fam178b",
+          "Col3a1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ptprc",
+          "4930573C15Rik",
+          "Kcnab3os",
+          "Vgf",
+          "Rgs4",
+          "Kcnh1"
+        ],
+        "Inflammation_response": [
+          "Eln",
+          "Adgra1",
+          "Il1a",
+          "Ehd4",
+          "Il1r1",
+          "Mfsd2a"
+        ],
+        "Interferon_response": [
+          "Malat1",
+          "Ido1",
+          "3110099E03Rik",
+          "Slc6a14",
+          "Tescl",
+          "Sgcz"
+        ],
+        "NFkB_signaling": [
+          "Epn3",
+          "Pcdhb4",
+          "Cd40",
+          "Smpd3"
+        ]
+      },
+      "replicate": 59,
+      "result_tag": "random_gene_set_r059"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r060.json",
+      "config_sha256": "61521720f5b5afe396a543394ed31e235678cd37459028ca604bbc3e04ba5de8",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Malat1",
+          "Nr4a1",
+          "Ccl19",
+          "Gm43825",
+          "Acot10",
+          "Adora2b"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Trim34a",
+          "Timd4",
+          "Ly6e",
+          "Prkg1",
+          "Tal2",
+          "Pgf"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Serinc3",
+          "Ppm1j",
+          "Ly6d",
+          "Gpc6",
+          "Lysmd2",
+          "Gm7967"
+        ],
+        "Inflammation_response": [
+          "Fam189b",
+          "Agrp",
+          "Il17d",
+          "Slamf6",
+          "Alox12b",
+          "D730045A05Rik"
+        ],
+        "Interferon_response": [
+          "RP24-443B5.7",
+          "Tek",
+          "Ckb",
+          "Nptx2",
+          "Pyhin1",
+          "Shc4"
+        ],
+        "NFkB_signaling": [
+          "Mustn1",
+          "4930554G24Rik",
+          "Tshz2",
+          "Pde2a"
+        ]
+      },
+      "replicate": 60,
+      "result_tag": "random_gene_set_r060"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r061.json",
+      "config_sha256": "45cc85c50e1ef396df7f6ff17c8f670662f39b635d420a4a3cd77a791a9ecfd8",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Aoc1",
+          "Smim6",
+          "Npdc1",
+          "Gm6793",
+          "Col4a1",
+          "Crlf2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fcmr",
+          "Notch4",
+          "Hmgb2",
+          "Loxl1",
+          "Trim30b",
+          "U2af1l4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ttc9",
+          "Npr3",
+          "Tmem65",
+          "Tmem255a",
+          "Emp1",
+          "4930556J24Rik"
+        ],
+        "Inflammation_response": [
+          "Psmb10",
+          "Gpm6b",
+          "Sobp",
+          "Nrn1",
+          "Gm15013",
+          "Tlr2"
+        ],
+        "Interferon_response": [
+          "Lcn2",
+          "Gm38025",
+          "Clec3b",
+          "Myom1",
+          "Cdh26",
+          "Kdm6b"
+        ],
+        "NFkB_signaling": [
+          "Nostrin",
+          "Ptpru",
+          "Vwa5b1",
+          "Igfbp3"
+        ]
+      },
+      "replicate": 61,
+      "result_tag": "random_gene_set_r061"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r062.json",
+      "config_sha256": "a389718fc63057d982209e9a13e7b2f329a3582720050de27b96311210c1bb9d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Chil3",
+          "Dph1",
+          "Phf24",
+          "Gpx8",
+          "Ren1",
+          "Ubash3a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Clca3a1",
+          "Col6a1",
+          "Tmsb10",
+          "Cxcl9",
+          "Ushbp1",
+          "F7"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Hk2",
+          "Tceal3",
+          "Gpr83",
+          "Gm26510",
+          "Plin4",
+          "Cndp2"
+        ],
+        "Inflammation_response": [
+          "Gm13010",
+          "Tmem213",
+          "Pycr1",
+          "Ankrd1",
+          "Myl9",
+          "Bglap3"
+        ],
+        "Interferon_response": [
+          "Slc12a3",
+          "Dhrs13os",
+          "Lix1l",
+          "Fxyd7",
+          "Tmem30b",
+          "Gm9830"
+        ],
+        "NFkB_signaling": [
+          "E030018B13Rik",
+          "Cd40",
+          "Efnb2",
+          "Dppa1"
+        ]
+      },
+      "replicate": 62,
+      "result_tag": "random_gene_set_r062"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r063.json",
+      "config_sha256": "36ce2b2a0ba13e2c96c6abe2d1afe52bfa71009827690f809abe22f54560c23a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Fabp3-ps1",
+          "Ptges",
+          "Ripply3",
+          "Gm15013",
+          "Cdc42ep4",
+          "Ccl8"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "C3",
+          "Egflam",
+          "Parp9",
+          "Lox",
+          "Ctgf",
+          "Gm4955"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ifi44l",
+          "Fndc8",
+          "U90926",
+          "Nnmt",
+          "1700066B19Rik",
+          "Prelp"
+        ],
+        "Inflammation_response": [
+          "Fam43a",
+          "A530020G20Rik",
+          "Shisa4",
+          "Kcnj8",
+          "Kirrel",
+          "Cpe"
+        ],
+        "Interferon_response": [
+          "Ms4a1",
+          "Fam198b",
+          "4930503L19Rik",
+          "Kcnv2",
+          "9530053A07Rik",
+          "Slc44a3"
+        ],
+        "NFkB_signaling": [
+          "Tnfrsf13c",
+          "Slc31a2",
+          "C130026I21Rik",
+          "Epx"
+        ]
+      },
+      "replicate": 63,
+      "result_tag": "random_gene_set_r063"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r064.json",
+      "config_sha256": "1d318801a7c316b88f5a55d7bc85d5b772431d112cbf7ca29b73957b83b62d9c",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Slc27a3",
+          "Plet1",
+          "F10",
+          "Pcdhb8",
+          "Nphs2",
+          "Vgll3"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Rnase1",
+          "mt-Nd1",
+          "Ephb2",
+          "Cldn8",
+          "Pml",
+          "Wfdc17"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Sprr1a",
+          "Lmo1",
+          "Gm10306",
+          "Socs2",
+          "Tnfaip2",
+          "Vnn3"
+        ],
+        "Inflammation_response": [
+          "Ptrf",
+          "Armc3",
+          "Il13ra1",
+          "Tesc",
+          "Gm20636",
+          "Snai2"
+        ],
+        "Interferon_response": [
+          "Ikzf2",
+          "Sult2a3",
+          "Adgrg2",
+          "Zfp382",
+          "Tsc22d3",
+          "Thy1"
+        ],
+        "NFkB_signaling": [
+          "Serpina1b",
+          "H2-Q10",
+          "Gm26735",
+          "Oxgr1"
+        ]
+      },
+      "replicate": 64,
+      "result_tag": "random_gene_set_r064"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r065.json",
+      "config_sha256": "3bb234c1a94519527eee960c7322b1c998c880dc1b7bf31bd95ca11fdf3e2343",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm8953",
+          "Gpnmb",
+          "Jchain",
+          "Cyp7b1",
+          "Nacad",
+          "Prkcg"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Crlf1",
+          "Gm5160",
+          "Coch",
+          "Retn",
+          "Arc",
+          "Prss23"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cd48",
+          "Gm28901",
+          "Slc7a13",
+          "Actrt3",
+          "Msx1",
+          "Cd300e"
+        ],
+        "Inflammation_response": [
+          "Ptpru",
+          "Gm20390",
+          "Gprc5b",
+          "Tlr3",
+          "Aif1l",
+          "Gm7808"
+        ],
+        "Interferon_response": [
+          "Serpina1d",
+          "Hmgb2",
+          "Fetub",
+          "Xlr4b",
+          "Aknaos",
+          "Ada"
+        ],
+        "NFkB_signaling": [
+          "Alox8",
+          "1110032F04Rik",
+          "Pltp",
+          "Bambi"
+        ]
+      },
+      "replicate": 65,
+      "result_tag": "random_gene_set_r065"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r066.json",
+      "config_sha256": "eac3c5dcad8654e787a92c3eb3e7b220894859643b97b76dc539865b583e7170",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tppp3",
+          "Hbb-bt",
+          "Hist1h2ap",
+          "Gm16365",
+          "Gm38304",
+          "Acot10"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Gm13306",
+          "Uroc1",
+          "Plac8",
+          "Myl2",
+          "Cldn16",
+          "Fam26f"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ifit1",
+          "Ms4a6d",
+          "Lysmd2",
+          "C1qtnf4",
+          "Adamts1",
+          "Stmn2"
+        ],
+        "Inflammation_response": [
+          "Pfkfb3",
+          "Lgals3",
+          "Runx3",
+          "Gda",
+          "Bcl2a1c",
+          "Serping1"
+        ],
+        "Interferon_response": [
+          "Dapl1",
+          "Nol9",
+          "Myct1",
+          "Tmsb15b2",
+          "Prkcq",
+          "Grp"
+        ],
+        "NFkB_signaling": [
+          "Col4a1",
+          "Nkg7",
+          "Klk1b21",
+          "4930562F07Rik"
+        ]
+      },
+      "replicate": 66,
+      "result_tag": "random_gene_set_r066"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r067.json",
+      "config_sha256": "500c02e362d01789f61c92849538e4c42c476b326503da4d21f50222ab0eea19",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Oxtr",
+          "Skap1",
+          "Sh2d2a",
+          "Ptp4a3",
+          "Mmp25",
+          "Fam3c"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Btbd16",
+          "Nfkb1",
+          "Sobp",
+          "Ms4a3",
+          "Armcx2",
+          "Il1bos"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Ecm1",
+          "Plin2",
+          "Kif22",
+          "Khdc1b",
+          "Tifa",
+          "Gabra3"
+        ],
+        "Inflammation_response": [
+          "Tspan8",
+          "D430041D05Rik",
+          "Cd48",
+          "Id3",
+          "Gm43388",
+          "Optc"
+        ],
+        "Interferon_response": [
+          "Sp140",
+          "Il13ra1",
+          "Ppp1r15a",
+          "Akr1b7",
+          "Rhoh",
+          "Slitrk4"
+        ],
+        "NFkB_signaling": [
+          "Serpinb1a",
+          "Dusp1",
+          "Haus8",
+          "Sphk1"
+        ]
+      },
+      "replicate": 67,
+      "result_tag": "random_gene_set_r067"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r068.json",
+      "config_sha256": "4a52a2fdaeba75f48a4c4010037f580800114993240f96b774e6cd43ad29acd8",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gm8953",
+          "4930556J24Rik",
+          "Cacnb1",
+          "Cxcr5",
+          "Csrnp1",
+          "F7"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Lgi2",
+          "Pdgfrb",
+          "Slfn5",
+          "H2-Aa",
+          "Mzb1",
+          "Fstl3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Dclk1",
+          "Eda",
+          "Tmem252",
+          "Mgarp",
+          "Ctps",
+          "Aknaos"
+        ],
+        "Inflammation_response": [
+          "Gm12289",
+          "Hmgb2",
+          "Fstl1",
+          "Dapl1",
+          "Sparcl1",
+          "Mmp11"
+        ],
+        "Interferon_response": [
+          "Gm6377",
+          "Vcan",
+          "Dnajb3",
+          "Gm20390",
+          "Mlf1",
+          "C1qtnf7"
+        ],
+        "NFkB_signaling": [
+          "Tspan6",
+          "Mfsd6l",
+          "Fosl2",
+          "Klra4"
+        ]
+      },
+      "replicate": 68,
+      "result_tag": "random_gene_set_r068"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r069.json",
+      "config_sha256": "23323da9865f49ee61a311fda4fd6b59b93bd04d216513a0cc50b1617d3fabcb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Zc3hav1",
+          "Muc13",
+          "Tnfrsf10b",
+          "Npy1r",
+          "Msr1",
+          "Fcrla"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Slc14a2",
+          "Egf",
+          "C230037L18Rik",
+          "B3gnt5",
+          "Pgam2",
+          "Zfp36"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Slc27a3",
+          "Rgcc",
+          "1700087M22Rik",
+          "Antxr1",
+          "Calcrl",
+          "BC100530"
+        ],
+        "Inflammation_response": [
+          "Gm3376",
+          "Fgf21",
+          "Klrd1",
+          "Treml4",
+          "Kcna2",
+          "Gm43479"
+        ],
+        "Interferon_response": [
+          "Ctsd",
+          "RP23-191I16.3",
+          "Fam221b",
+          "Olr1",
+          "Lyz2",
+          "Asic2"
+        ],
+        "NFkB_signaling": [
+          "Mnda",
+          "Klra8",
+          "Pcna-ps2",
+          "Igfbp2"
+        ]
+      },
+      "replicate": 69,
+      "result_tag": "random_gene_set_r069"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r070.json",
+      "config_sha256": "7cc396d366e1b5db55a57072c1b0885a117a417724b6fd19eb7a7ef5faec882d",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Isg15",
+          "Pmp22",
+          "Tagln",
+          "H2-T23",
+          "Psca",
+          "Atp6v0d2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tomt",
+          "Nrp1",
+          "Vamp5",
+          "Pcdhga6",
+          "Gm19590",
+          "Gbp4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Moxd1",
+          "Birc2",
+          "Ikzf2",
+          "4932411K12Rik",
+          "2010110E17Rik",
+          "Itpkb"
+        ],
+        "Inflammation_response": [
+          "Mthfd1l",
+          "Trim12c",
+          "D630008O14Rik",
+          "Clec2i",
+          "Ccl28",
+          "Ctxn1"
+        ],
+        "Interferon_response": [
+          "Ribc2",
+          "Spp1",
+          "Gm26847",
+          "Ifit3b",
+          "Ccdc3",
+          "H2-K1"
+        ],
+        "NFkB_signaling": [
+          "Iqsec3",
+          "Gm5616",
+          "Gm14154",
+          "Ppef2"
+        ]
+      },
+      "replicate": 70,
+      "result_tag": "random_gene_set_r070"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r071.json",
+      "config_sha256": "8c9090af4abfd890b7c1359eb51046f9e45c51ac1e9a4bee7ab7e4b481a24ba5",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Zap70",
+          "Bcl2a1a",
+          "Hbb-bs",
+          "Irf1",
+          "Gm11027",
+          "Bpifc"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Itgb3",
+          "Gm20635",
+          "Mannr",
+          "Cdh3",
+          "Slc16a7",
+          "Ptk7"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Zfp12",
+          "Fli1",
+          "Jun",
+          "Lmod1",
+          "Tyrobp",
+          "Cdh5"
+        ],
+        "Inflammation_response": [
+          "Tmem140",
+          "Olr1",
+          "1810011O10Rik",
+          "Tnfrsf11b",
+          "Igsf23",
+          "Pyhin1"
+        ],
+        "Interferon_response": [
+          "Xlr4b",
+          "Icos",
+          "Tnp2",
+          "Fam49b",
+          "Cyp4v3",
+          "Tapbpl"
+        ],
+        "NFkB_signaling": [
+          "Avpr1a",
+          "Cd300lf",
+          "Stac",
+          "Cd3e"
+        ]
+      },
+      "replicate": 71,
+      "result_tag": "random_gene_set_r071"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r072.json",
+      "config_sha256": "f4c84579925d31f361f10575609d297fd4f106224fbac429a8a651ce7476a4b9",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ms4a3",
+          "Tuba1b",
+          "Adam19",
+          "Tcf15",
+          "Gm26617",
+          "Gm29155"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Phf11d",
+          "Ednra",
+          "Fst",
+          "Mfge8",
+          "Asb4",
+          "Aldh18a1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Msmp",
+          "Prpf38a",
+          "4930523C07Rik",
+          "Nfkbia",
+          "Scarf2",
+          "Ikzf3"
+        ],
+        "Inflammation_response": [
+          "Aknaos",
+          "Pydc4",
+          "Tapbp",
+          "Asns",
+          "Gpx8",
+          "Mustn1"
+        ],
+        "Interferon_response": [
+          "Fosb",
+          "Gm11724",
+          "Egfl7",
+          "Gm12185",
+          "Unc5a",
+          "Rasl10b"
+        ],
+        "NFkB_signaling": [
+          "Rgs10",
+          "Nusap1",
+          "Gm17435",
+          "Frat2"
+        ]
+      },
+      "replicate": 72,
+      "result_tag": "random_gene_set_r072"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r073.json",
+      "config_sha256": "c5ed2b5894f3e3f47782f9200a2da36d3cfbea09a7e3a16e1d2916fcc570172f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Flg",
+          "Ucma",
+          "Csf1r",
+          "Gadd45b",
+          "S1pr1",
+          "Mfap5"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tmem132e",
+          "Snx10",
+          "2200002D01Rik",
+          "Zc3h12a",
+          "2310031A07Rik",
+          "Nlrp1b"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Platr15",
+          "Liph",
+          "Foxf1",
+          "Tuba1b",
+          "BC028528",
+          "Aqp6"
+        ],
+        "Inflammation_response": [
+          "Myocd",
+          "Mecom",
+          "Cnr1",
+          "Gpbar1",
+          "Gm12057",
+          "Pde6d"
+        ],
+        "Interferon_response": [
+          "Psme2b",
+          "B3gnt3",
+          "H2-Q1",
+          "Cxcr4",
+          "Kcnt2",
+          "Gm5860"
+        ],
+        "NFkB_signaling": [
+          "Chil1",
+          "F2r",
+          "Tmigd1",
+          "Col14a1"
+        ]
+      },
+      "replicate": 73,
+      "result_tag": "random_gene_set_r073"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r074.json",
+      "config_sha256": "feb9abc89b982ee3cadc90c8bb0ddf08fbcfc1b488fc9fd1b0b8d7c91604a396",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Amer2",
+          "Pros1",
+          "Ly6a",
+          "Cdkn1a",
+          "Ctxn1",
+          "Cma1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Tmem52b",
+          "Sla2",
+          "Tspan15",
+          "Gm43303",
+          "Klra3",
+          "C5ar2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Lysmd2",
+          "Ctsg",
+          "Pcdh9",
+          "Gm16136",
+          "Nfkb1",
+          "Slc4a11"
+        ],
+        "Inflammation_response": [
+          "Slc26a7",
+          "B3gnt5",
+          "Ccdc146",
+          "Msn",
+          "Gdf10",
+          "Eno1b"
+        ],
+        "Interferon_response": [
+          "Gm26751",
+          "Cidec",
+          "Gm20406",
+          "Btg1",
+          "Eif4e3",
+          "Cenpa"
+        ],
+        "NFkB_signaling": [
+          "2310069B03Rik",
+          "Gm42726",
+          "Traf1",
+          "Gm5616"
+        ]
+      },
+      "replicate": 74,
+      "result_tag": "random_gene_set_r074"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r075.json",
+      "config_sha256": "015ecbedda78d0e6883f24f2e37ef85abfec9db690fa306f36a3235b7025a4f4",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tceal3",
+          "Pax5",
+          "Irx2",
+          "Cidec",
+          "4930556J24Rik",
+          "Gm14226"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Slc7a13",
+          "Fxyd6",
+          "Tpx2",
+          "Gm19590",
+          "Wfdc21",
+          "Adgrb2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Gm6133",
+          "Gm7676",
+          "Mfsd6l",
+          "Gm10094",
+          "Gm16596",
+          "Lef1"
+        ],
+        "Inflammation_response": [
+          "Slc34a2",
+          "Dnaic1",
+          "Spi1",
+          "Tnfsf10",
+          "mt-Nd1",
+          "Gdf10"
+        ],
+        "Interferon_response": [
+          "Stom",
+          "Skap1",
+          "Ckb",
+          "2810032G03Rik",
+          "Gm38304",
+          "Cenpa"
+        ],
+        "NFkB_signaling": [
+          "Mlf1",
+          "Gm16892",
+          "Spn",
+          "Coro2a"
+        ]
+      },
+      "replicate": 75,
+      "result_tag": "random_gene_set_r075"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r076.json",
+      "config_sha256": "02ee76be771217e0d31553b0f3b674059654e642954fa4f6964f75503d306ccb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Lair1",
+          "Sec1",
+          "Kcnd3",
+          "Plac9b",
+          "Gm36975",
+          "Cabp4"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Trcg1",
+          "Snai1",
+          "Cxcr6",
+          "Gm15337",
+          "D130040H23Rik",
+          "Tmem156"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Lum",
+          "Klk1b3",
+          "Slit3",
+          "Sv2c",
+          "9930111J21Rik2",
+          "Fabp3"
+        ],
+        "Inflammation_response": [
+          "Rab3b",
+          "Nrarp",
+          "Ramp3",
+          "Kcnj8",
+          "Msmp",
+          "Tpbgl"
+        ],
+        "Interferon_response": [
+          "Cpa3",
+          "Gm26732",
+          "Krt5",
+          "Ctnna3",
+          "Ptpn22",
+          "4930415O20Rik"
+        ],
+        "NFkB_signaling": [
+          "Adamts14",
+          "H2-Eb1",
+          "Phlda3",
+          "H2-Q6"
+        ]
+      },
+      "replicate": 76,
+      "result_tag": "random_gene_set_r076"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r077.json",
+      "config_sha256": "317f6829fd39ff431f81a6720fb36f6b603276a116785620e7f075de651161a0",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "1700011M02Rik",
+          "AF251705",
+          "Tmem35",
+          "Gm28095",
+          "Gm15063",
+          "Cacna2d1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "St14",
+          "Apod",
+          "Asprv1",
+          "Gm14964",
+          "Tmem132e",
+          "Flt3l"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Stfa2l1",
+          "Csf3",
+          "Gm44066",
+          "Atp10a",
+          "Mnda",
+          "Gm37759"
+        ],
+        "Inflammation_response": [
+          "Klrd1",
+          "Inpp4b",
+          "Qsox1",
+          "Gpx8",
+          "Gm2178",
+          "RP23-6I17.1"
+        ],
+        "Interferon_response": [
+          "4933424G06Rik",
+          "Ypel4",
+          "Meis2",
+          "Arhgdib",
+          "Mmp11",
+          "Cyp2d12"
+        ],
+        "NFkB_signaling": [
+          "Nrp1",
+          "Gda",
+          "Gimap1",
+          "Upk1a"
+        ]
+      },
+      "replicate": 77,
+      "result_tag": "random_gene_set_r077"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r078.json",
+      "config_sha256": "ff4bc659db5c53f8f975cb175e274627e58a2a6f786fd761315aefdb69971e10",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Pde2a",
+          "Gm14964",
+          "Clec9a",
+          "Mmrn1",
+          "Axl",
+          "Hmha1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "G530012D18Rik",
+          "Calcrl",
+          "6330409D20Rik",
+          "Cxcr3",
+          "2810032G03Rik",
+          "Ptprcap"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "RP23-53O7.2",
+          "Vgll3",
+          "Bvht",
+          "Gm10830",
+          "Cdh1",
+          "Tnfaip6"
+        ],
+        "Inflammation_response": [
+          "Gm29367",
+          "Cd3g",
+          "Kcnab3os",
+          "Plekhs1",
+          "Aplnr",
+          "Csf2rb2"
+        ],
+        "Interferon_response": [
+          "Pea15a",
+          "Gimap6",
+          "Cd70",
+          "Cfh",
+          "Slc17a2",
+          "Gpha2"
+        ],
+        "NFkB_signaling": [
+          "Ncf1",
+          "Kif5c",
+          "Hk1os",
+          "Gm3558"
+        ]
+      },
+      "replicate": 78,
+      "result_tag": "random_gene_set_r078"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r079.json",
+      "config_sha256": "99ab81c953c91d3ac917b58a6564a1e5335acf13c3b9a71c8e8ac8e8057fdf9c",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tnp2",
+          "Col5a1",
+          "Tead4",
+          "1700064M15Rik",
+          "Ly6i",
+          "AU020206"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ptger3",
+          "Mmp25",
+          "Pla2r1",
+          "Metrnl",
+          "Tmem45a",
+          "Gm17334"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Sept1",
+          "Kap",
+          "Plk2",
+          "Rgs4",
+          "Gm43388",
+          "Gm10863"
+        ],
+        "Inflammation_response": [
+          "BC100530",
+          "Serpini1",
+          "Rapgef4",
+          "Kcnh1",
+          "Lta",
+          "Glipr2"
+        ],
+        "Interferon_response": [
+          "Ccr5",
+          "Nfatc2ip",
+          "H2-Q2",
+          "Gng11",
+          "Bin2",
+          "Gm933"
+        ],
+        "NFkB_signaling": [
+          "Tnfaip6",
+          "Marcks",
+          "Helz2",
+          "Fank1"
+        ]
+      },
+      "replicate": 79,
+      "result_tag": "random_gene_set_r079"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r080.json",
+      "config_sha256": "5ae495588d191e4830b0c59bf9a2f2c74704718a869c8c7a1fabcb2943c45c8e",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Il16",
+          "Rhoj",
+          "Dqx1",
+          "Mb",
+          "Ifi47",
+          "AI607873"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Nrgn",
+          "Apoe",
+          "Tmsb10",
+          "Trpm6",
+          "Adora2b",
+          "March4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rrad",
+          "Heatr9",
+          "Sult2b1",
+          "Klra5",
+          "S100a4",
+          "Mxd1"
+        ],
+        "Inflammation_response": [
+          "Igf1",
+          "Mrps6",
+          "Erap1",
+          "Tnfrsf10b",
+          "RP23-74K24.8",
+          "Slc12a5"
+        ],
+        "Interferon_response": [
+          "Epha5",
+          "Ccr8",
+          "Scarf2",
+          "Gm42596",
+          "Ldb2",
+          "Epha3"
+        ],
+        "NFkB_signaling": [
+          "Cav1",
+          "Lmo2",
+          "Sepw1",
+          "Leprot"
+        ]
+      },
+      "replicate": 80,
+      "result_tag": "random_gene_set_r080"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r081.json",
+      "config_sha256": "403bffabdf91fb09f307c8e3381bddf4e74f49afc7ce7813f8a122587ec0bd7c",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Fcmr",
+          "Smad1",
+          "Gpr65",
+          "F830016B08Rik",
+          "Klre1",
+          "Dkk2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Sfrp1",
+          "Slc12a1",
+          "Slc34a2",
+          "Ddit4",
+          "Hba-a1",
+          "Akap12"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Slc14a2",
+          "Bst1",
+          "Creb5",
+          "Atp6v1g3",
+          "Adamts5",
+          "Ampd3"
+        ],
+        "Inflammation_response": [
+          "Oxtr",
+          "Rcn3",
+          "Ear2",
+          "Lmo2",
+          "Ccl8",
+          "Zfhx3"
+        ],
+        "Interferon_response": [
+          "Rgs10",
+          "Gm7247",
+          "Paqr6",
+          "Saa1",
+          "Ttc39a",
+          "Top2a"
+        ],
+        "NFkB_signaling": [
+          "Cnn2",
+          "Pln",
+          "Lama2",
+          "Unc45b"
+        ]
+      },
+      "replicate": 81,
+      "result_tag": "random_gene_set_r081"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r082.json",
+      "config_sha256": "1aa7ed75ffe8c8aca48ded5fe7cf391f69d263d19a3a24e7c5b1a2cf0dfe9e05",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Mboat1",
+          "Lgals9",
+          "Cxadr",
+          "D130040H23Rik",
+          "Slc9a3r2",
+          "Mef2c"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Zfand4.1",
+          "Hyls1",
+          "Casp4",
+          "Clu",
+          "Id3",
+          "H2-M5"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Shc4",
+          "Timp4",
+          "Cxcl5",
+          "Hbegf",
+          "Gm19705",
+          "Abca13"
+        ],
+        "Inflammation_response": [
+          "Pacsin1",
+          "Rnf32",
+          "2310047D07Rik",
+          "Cd82",
+          "Apoc3",
+          "Cyp2d12"
+        ],
+        "Interferon_response": [
+          "Gm10830",
+          "Icam2",
+          "Rab44",
+          "Vsig1",
+          "Runx1",
+          "Cd79a"
+        ],
+        "NFkB_signaling": [
+          "Mt1",
+          "Bace2",
+          "Nts",
+          "2810407A14Rik"
+        ]
+      },
+      "replicate": 82,
+      "result_tag": "random_gene_set_r082"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r083.json",
+      "config_sha256": "79de3f3e9205c2dd815b6e01a876961f07e70b1e37cb0c68adeaac82c25d4a6a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Tll1",
+          "Avpr2",
+          "Alox12b",
+          "Ass1",
+          "mt-Nd1",
+          "Serp2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fam167b",
+          "Rdh12",
+          "Cdc42ep3",
+          "Tnfrsf23",
+          "Gm44148",
+          "AC125149.3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "2010005H15Rik",
+          "U2af1l4",
+          "Gm16116",
+          "Spp1",
+          "Timp1",
+          "Gm15756"
+        ],
+        "Inflammation_response": [
+          "Gm43118",
+          "Fpr2",
+          "Podxl",
+          "Mndal",
+          "Fam89a",
+          "Cpne8"
+        ],
+        "Interferon_response": [
+          "Pcdhgb6",
+          "Prok2",
+          "Fjx1",
+          "Asic2",
+          "Itih4",
+          "Nostrin"
+        ],
+        "NFkB_signaling": [
+          "Agbl2",
+          "Mpp2",
+          "Fn1",
+          "Cxcl17"
+        ]
+      },
+      "replicate": 83,
+      "result_tag": "random_gene_set_r083"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r084.json",
+      "config_sha256": "7a67e241b7f39693e015a425f2ed4f2c9f0dce1b899c1f0d01eeed252ccebb7f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "H2-M3",
+          "Gm15200",
+          "Igll1",
+          "Apoa1",
+          "Tmem117",
+          "Slc29a1"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Lrrc31",
+          "H2-Q1",
+          "Mfge8",
+          "Gm11273",
+          "Gm29346",
+          "Lef1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Tmbim1",
+          "Cited4",
+          "9930111J21Rik1",
+          "Asprv1",
+          "Nptx1",
+          "Ucp3"
+        ],
+        "Inflammation_response": [
+          "Lyz1",
+          "1810011O10Rik",
+          "Pirb",
+          "Meis2",
+          "Sit1",
+          "Lix1l"
+        ],
+        "Interferon_response": [
+          "Msn",
+          "Slit3",
+          "Hist2h2aa2",
+          "Kctd1",
+          "C1s2",
+          "Gm15337"
+        ],
+        "NFkB_signaling": [
+          "Coro1a",
+          "Fabp3-ps1",
+          "Psme2",
+          "Gm11536"
+        ]
+      },
+      "replicate": 84,
+      "result_tag": "random_gene_set_r084"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r085.json",
+      "config_sha256": "aae02647f6b22bd525dfdda6ea9309c22735b34f4489652f89bfd39b0dd98a1c",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Col13a1",
+          "Ctsd",
+          "Gprc5a",
+          "Tmem45a",
+          "Epn3",
+          "Cd164l2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fxyd7",
+          "Aebp1",
+          "Hbb-bs",
+          "Adgre5",
+          "Dnase1l3",
+          "March4"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Cabp7",
+          "Egflam",
+          "St14",
+          "Pecam1",
+          "Gm15340",
+          "Calca"
+        ],
+        "Inflammation_response": [
+          "Plk2",
+          "D13Ertd608e",
+          "Ifi27l2a",
+          "Hmgb2",
+          "Hspa1l",
+          "Gm15013"
+        ],
+        "Interferon_response": [
+          "Hmha1",
+          "Dph1",
+          "Cd68",
+          "Rel",
+          "Kcnab3os",
+          "Akr1b8"
+        ],
+        "NFkB_signaling": [
+          "Nefm",
+          "Krt14",
+          "Olfml2a",
+          "Cck"
+        ]
+      },
+      "replicate": 85,
+      "result_tag": "random_gene_set_r085"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r086.json",
+      "config_sha256": "849cc8a51d2bdabeceabd15094d18b23a652a601c6e7d4b15a942f276c40a7cf",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ccl8",
+          "Nppa",
+          "Bst2",
+          "Dtx3l",
+          "Clec4d",
+          "Gm10521"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Unc119",
+          "Izumo1r",
+          "Nostrin",
+          "Osm",
+          "Mmp20",
+          "Npy"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Marcksl1",
+          "Hoxd8",
+          "Apon",
+          "Gjb5",
+          "Jazf1",
+          "Bcam"
+        ],
+        "Inflammation_response": [
+          "Icam2",
+          "Gm11724",
+          "Ifit2",
+          "Efemp1",
+          "Ltc4s",
+          "Hbb-bs"
+        ],
+        "Interferon_response": [
+          "Slc14a1",
+          "1700011I03Rik",
+          "Cd96",
+          "Tbc1d9",
+          "Pik3ip1",
+          "Gm13398"
+        ],
+        "NFkB_signaling": [
+          "Dntt",
+          "H2-Aa",
+          "F830016B08Rik",
+          "Mdfi"
+        ]
+      },
+      "replicate": 86,
+      "result_tag": "random_gene_set_r086"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r087.json",
+      "config_sha256": "151172d43546d14d8a12e8d224013bcecda82015b9d4bff29e81d21346a0edd9",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ifi27",
+          "Cst7",
+          "Kcnt2",
+          "Rab39b",
+          "Dcn",
+          "Tex21"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "1810063I02Rik",
+          "Tomt",
+          "E230025N22Rik",
+          "Fosb",
+          "Itgam",
+          "Gclc"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Zfp382",
+          "Hoxb5",
+          "Slamf6",
+          "Gsta4",
+          "Upp1",
+          "Gm5616"
+        ],
+        "Inflammation_response": [
+          "Armc3",
+          "Gm15611",
+          "Lmtk3",
+          "Icam1",
+          "Trim30b",
+          "Lamc2"
+        ],
+        "Interferon_response": [
+          "Nr2f1",
+          "Pcsk2",
+          "Pbk",
+          "Tpm2",
+          "Paqr6",
+          "Gm8973"
+        ],
+        "NFkB_signaling": [
+          "Fbxo2",
+          "Muc1",
+          "Cryba2",
+          "Slc43a3"
+        ]
+      },
+      "replicate": 87,
+      "result_tag": "random_gene_set_r087"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r088.json",
+      "config_sha256": "9954b2773951b8e6a1f61607582f3a8db08dd8a19ac0498a6c8dbbd3a9313abd",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Traip",
+          "Pcdh12",
+          "Plaur",
+          "Camp",
+          "Ehf",
+          "Gm9844"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Stfa1",
+          "Clec10a",
+          "Mmp7",
+          "Serinc2",
+          "D130040H23Rik",
+          "Crlf1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Tmsb15b2",
+          "Ngfrap1",
+          "Ntf5",
+          "BC147527",
+          "Reln",
+          "Timd4"
+        ],
+        "Inflammation_response": [
+          "Cd4",
+          "U2af1l4.1",
+          "Stmn2",
+          "Tuba8",
+          "Slc5a1",
+          "Siglece"
+        ],
+        "Interferon_response": [
+          "Hoxb5os",
+          "Cd164l2",
+          "Npr1",
+          "Lcp1",
+          "Defb36",
+          "Celsr3"
+        ],
+        "NFkB_signaling": [
+          "Rhob",
+          "Lepr",
+          "Apobec3",
+          "Clnk"
+        ]
+      },
+      "replicate": 88,
+      "result_tag": "random_gene_set_r088"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r089.json",
+      "config_sha256": "39b3377556e694b52aa495edc4040ace14cd16c179d0a2a5ee813dd84eaaaa31",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Adh6a",
+          "Numbl",
+          "Gm9758",
+          "Adgrg2",
+          "Ceacam15",
+          "Spon2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fcgr4",
+          "Apoo-ps",
+          "Cx3cl1",
+          "Clec4e",
+          "Vma21-ps",
+          "Ccl2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Pcdh9",
+          "Fbln2",
+          "Ccdc136",
+          "Gm816",
+          "Tarm1",
+          "Cxcl2"
+        ],
+        "Inflammation_response": [
+          "Ccr2",
+          "Plscr1",
+          "8030474K03Rik",
+          "Plac8",
+          "Svep1",
+          "Adra2a"
+        ],
+        "Interferon_response": [
+          "Myl9",
+          "Pdp1",
+          "Gm15756",
+          "Pkib",
+          "Cd1d1",
+          "Gm16505"
+        ],
+        "NFkB_signaling": [
+          "Htr3a",
+          "C1qa",
+          "Fam189b",
+          "Ppef2"
+        ]
+      },
+      "replicate": 89,
+      "result_tag": "random_gene_set_r089"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r090.json",
+      "config_sha256": "fe671968a020c0f471d37f1e0f720290a0ce1f39b7fbee64ad9dff30c14df251",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Ppm1j",
+          "Ctse",
+          "Dmrt2",
+          "Sptbn2",
+          "Vmn1r65",
+          "BC100530"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Smoc2",
+          "Itga11",
+          "Cd82",
+          "Cd5l",
+          "Tnfaip3",
+          "Psd2"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Pacsin3",
+          "Sec1",
+          "Ifi35",
+          "Fabp3-ps1",
+          "Efnb2",
+          "Gm2564"
+        ],
+        "Inflammation_response": [
+          "Pcdhb21",
+          "Tuba1b",
+          "Ctsc",
+          "Lysmd2",
+          "Ntf3",
+          "Emp1"
+        ],
+        "Interferon_response": [
+          "Tmem88",
+          "Gm21083",
+          "Gas7",
+          "Slco4a1",
+          "Gm17103",
+          "Klra3"
+        ],
+        "NFkB_signaling": [
+          "Nbl1",
+          "Gm10603",
+          "9930038B18Rik",
+          "Adig"
+        ]
+      },
+      "replicate": 90,
+      "result_tag": "random_gene_set_r090"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r091.json",
+      "config_sha256": "31dec47637660aa2c24feaf90e3c137952cbaaef273dc07e9d335ad79da007bb",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gpr33",
+          "RP23-191I16.3",
+          "Anxa11os",
+          "Pdcd1",
+          "Flt3l",
+          "Umod"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Rasgrp2",
+          "Tnfrsf22",
+          "Fcgr1",
+          "Rprml",
+          "Defb2",
+          "Rgs10"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Scube1",
+          "Col5a1",
+          "Acer2",
+          "Dapk2",
+          "Cd82",
+          "Gm37896"
+        ],
+        "Inflammation_response": [
+          "Cd209a",
+          "Gm21859",
+          "Trim34a",
+          "Milr1",
+          "1700008B11Rik",
+          "Cend1"
+        ],
+        "Interferon_response": [
+          "G630016G05Rik",
+          "Cul7",
+          "Plin4",
+          "Lrrc10b",
+          "Lyz1",
+          "Gm12728"
+        ],
+        "NFkB_signaling": [
+          "Sprr2b",
+          "Col4a1",
+          "Lilr4b",
+          "Hoxd9"
+        ]
+      },
+      "replicate": 91,
+      "result_tag": "random_gene_set_r091"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r092.json",
+      "config_sha256": "5bd8b0f427102967fcfc18a37101db8e35dbcda5bd70cf37632b40d0c8b6e42a",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Eif4ebp1",
+          "Ms4a6d",
+          "Lmo1",
+          "Gm43479",
+          "Ribc2",
+          "Tor3a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ramp2",
+          "Slfn8",
+          "Tpst2",
+          "Hlx",
+          "Phf24",
+          "Olfml3"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Jun",
+          "Csf1r",
+          "Ccl19",
+          "Gm9758",
+          "Cyp26b1",
+          "Fndc8"
+        ],
+        "Inflammation_response": [
+          "Ggn",
+          "Btg1",
+          "Lmtk3",
+          "Ctgf",
+          "Saa2",
+          "Gm26773"
+        ],
+        "Interferon_response": [
+          "Acbd7",
+          "Dnajb3",
+          "Lamp3",
+          "Sele",
+          "Mmp7",
+          "Gm26558"
+        ],
+        "NFkB_signaling": [
+          "Gdap1l1",
+          "Tmem207",
+          "Hes7",
+          "Cxcl1"
+        ]
+      },
+      "replicate": 92,
+      "result_tag": "random_gene_set_r092"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r093.json",
+      "config_sha256": "53f9c5820d83fe068c8c1ba9bf1a5963a15d1e9c9dc27fce34c5c67f716a238c",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Gadd45a",
+          "Tead4",
+          "2310031A07Rik",
+          "Antxr1",
+          "Cxcl17",
+          "Daxx"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Fgf21",
+          "Tesc",
+          "RP24-274B19.1",
+          "Map4k1",
+          "Rbm24",
+          "Eln"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Itgb1bp2",
+          "Gm8973",
+          "Cpa3",
+          "Sprr2f",
+          "Phf11b",
+          "Msl3l2"
+        ],
+        "Inflammation_response": [
+          "Trim12c",
+          "Crip2",
+          "Ms4a3",
+          "Arid5a",
+          "Eif4ebp3",
+          "Foxc2"
+        ],
+        "Interferon_response": [
+          "Kit",
+          "Gm43409",
+          "Cby3",
+          "Cyp26b1",
+          "Crygn",
+          "Rgs20"
+        ],
+        "NFkB_signaling": [
+          "Evi2a",
+          "Serpina1a",
+          "Slfn5",
+          "Fam221b"
+        ]
+      },
+      "replicate": 93,
+      "result_tag": "random_gene_set_r093"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r094.json",
+      "config_sha256": "ed80fbb39cdd9bbeb72294b7d38a9225027cc792ac50813d652f9cdae40555a5",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Msln",
+          "2310047D07Rik",
+          "Pcdh9",
+          "Vnn3",
+          "Sprr1a",
+          "Zfp423"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ptafr",
+          "Gm10269",
+          "Gm11377",
+          "Scara3",
+          "Slc5a1",
+          "Fn1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "AI607873",
+          "Runx3",
+          "Gm10814",
+          "Plvap",
+          "Myl9",
+          "Gm933"
+        ],
+        "Inflammation_response": [
+          "Ncf4",
+          "Calb1",
+          "Baalc",
+          "Cd79b",
+          "Cd93",
+          "Cxcr5"
+        ],
+        "Interferon_response": [
+          "Siglece",
+          "CR974586.5",
+          "RP23-6I17.1",
+          "Igfbp6",
+          "Stfa1",
+          "Ptpru"
+        ],
+        "NFkB_signaling": [
+          "Coro1a",
+          "Nusap1",
+          "Ptp4a3",
+          "Gm26819"
+        ]
+      },
+      "replicate": 94,
+      "result_tag": "random_gene_set_r094"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r095.json",
+      "config_sha256": "04b80228f040aa99460f2d512ec2da728bea6fdd0a5d37fde6e09ab452759cc5",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Hcar2",
+          "Endod1",
+          "Dnm3os",
+          "Nfkb2",
+          "Loxl1",
+          "Hmgn2"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Malat1",
+          "Ctps",
+          "Lmo1",
+          "Tpm1",
+          "Fut2",
+          "Rnf125"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Il2rg",
+          "Hist2h2aa2",
+          "Prkcdbp",
+          "Eln",
+          "Mdga2",
+          "Tubb2b"
+        ],
+        "Inflammation_response": [
+          "Eva1c",
+          "C530050E15Rik",
+          "Rhoh",
+          "Tapbp",
+          "C2cd4b",
+          "Ifi30"
+        ],
+        "Interferon_response": [
+          "Unc45b",
+          "Bst2",
+          "Prkcq",
+          "Saa1",
+          "Eda2r",
+          "Cd70"
+        ],
+        "NFkB_signaling": [
+          "9130213A22Rik",
+          "Col5a2",
+          "Gm29440",
+          "Efemp1"
+        ]
+      },
+      "replicate": 95,
+      "result_tag": "random_gene_set_r095"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r096.json",
+      "config_sha256": "3abdb3539638d379022fc45e1bc8d8898f13885e19d59e33210914a99c8931ea",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Klra3",
+          "Eif4ebp3",
+          "Mzb1",
+          "Zbtb46",
+          "Cabp7",
+          "Gdf15"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Akr1c21",
+          "Fn1",
+          "M1ap",
+          "Speer4e",
+          "Tmsb15b1",
+          "Mndal"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Bank1",
+          "Rel",
+          "Bhlhe41",
+          "Plac8",
+          "Rps18-ps3",
+          "BC100530"
+        ],
+        "Inflammation_response": [
+          "2310034O05Rik",
+          "Postn",
+          "Cdh1",
+          "Zfand4.1",
+          "Clec4b1",
+          "Emp3"
+        ],
+        "Interferon_response": [
+          "Itpkb",
+          "Mpp2",
+          "Socs2",
+          "Egf",
+          "Serp2",
+          "Nnmt"
+        ],
+        "NFkB_signaling": [
+          "Elf3",
+          "Tgtp1",
+          "Stat4",
+          "Gm6169"
+        ]
+      },
+      "replicate": 96,
+      "result_tag": "random_gene_set_r096"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r097.json",
+      "config_sha256": "06238764f74f10d8c54d46b51ea4182d4e8d7e8a9a34a2a379f373de35542c2e",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Adora2b",
+          "RP23-2D23.2",
+          "Itgb3",
+          "Sdc1",
+          "Id3",
+          "Evi2a"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Ifngr1",
+          "Unc5a",
+          "Gm7325",
+          "Gm10814",
+          "Sdcbp2",
+          "Ccl5"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rgcc",
+          "Slc25a22",
+          "Platr17",
+          "Palmd",
+          "Plvap",
+          "D630008O14Rik"
+        ],
+        "Inflammation_response": [
+          "Lmo2",
+          "Gm7676",
+          "Slc5a3",
+          "Olfr558",
+          "Stac",
+          "Plat"
+        ],
+        "Interferon_response": [
+          "Kirrel",
+          "1110017D15Rik",
+          "Capn5",
+          "Zbtb46",
+          "Klk1b3",
+          "Gm42956"
+        ],
+        "NFkB_signaling": [
+          "Defb36",
+          "Usp18",
+          "Eif2ak2",
+          "Gm7334"
+        ]
+      },
+      "replicate": 97,
+      "result_tag": "random_gene_set_r097"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r098.json",
+      "config_sha256": "5812732499398c92152947c79c90bdd8f0a6286e37ff45a499a03e12c833d03f",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "Mmp7",
+          "Alox8",
+          "Serpine1",
+          "Irgm1",
+          "Itih4",
+          "Gm12216"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Camp",
+          "Btg1",
+          "Bcl3",
+          "Gm11128",
+          "Tpm3-rs7",
+          "Acot10"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Avpr1a",
+          "Grem2",
+          "Tmsb15b2",
+          "Efnb2",
+          "Matn2",
+          "Elane"
+        ],
+        "Inflammation_response": [
+          "U90926",
+          "Pcsk2",
+          "Irg1",
+          "Ric3",
+          "Timd4",
+          "Gm28556"
+        ],
+        "Interferon_response": [
+          "Cfh",
+          "Tnfsf11",
+          "Filip1",
+          "Dpt",
+          "Gml",
+          "Pltp"
+        ],
+        "NFkB_signaling": [
+          "Cwh43",
+          "Dkk2",
+          "Serpina1f",
+          "Gm16136"
+        ]
+      },
+      "replicate": 98,
+      "result_tag": "random_gene_set_r098"
+    },
+    {
+      "config_path": "artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r099.json",
+      "config_sha256": "c67aff14e1927c202c2be02e696de335e9359cd6adb86c7771cbb33eff55660b",
+      "pathways": {
+        "HALLMARK_INFLAMMATORY_RESPONSE": [
+          "M1ap",
+          "Kcnj5",
+          "Clec4a2",
+          "Slco4a1",
+          "Atp10a",
+          "Vwf"
+        ],
+        "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+          "Lgals3",
+          "A930015D03Rik",
+          "Nptx1",
+          "Gng11",
+          "Nfatc4",
+          "RP24-330M21.1"
+        ],
+        "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+          "Rrm2",
+          "Gm38250",
+          "Mir143hg",
+          "Hmha1",
+          "Slamf9",
+          "Lrp8"
+        ],
+        "Inflammation_response": [
+          "Klra8",
+          "Car1",
+          "Map3k6",
+          "Slc16a7",
+          "Nfkbid",
+          "4930445N18Rik"
+        ],
+        "Interferon_response": [
+          "Endod1",
+          "Pitpnm1",
+          "Gdf10",
+          "Cidea",
+          "6330409D20Rik",
+          "Serinc2"
+        ],
+        "NFkB_signaling": [
+          "Clec14a",
+          "Prrt1",
+          "Tmsb15l",
+          "Apoc3"
+        ]
+      },
+      "replicate": 99,
+      "result_tag": "random_gene_set_r099"
+    }
+  ],
+  "gene_universe_size": 2991,
+  "matched_sizes": {
+    "HALLMARK_INFLAMMATORY_RESPONSE": 6,
+    "HALLMARK_INTERFERON_ALPHA_RESPONSE": 6,
+    "HALLMARK_TNFA_SIGNALING_VIA_NFKB": 6,
+    "Inflammation_response": 6,
+    "Interferon_response": 6,
+    "NFkB_signaling": 4
+  },
+  "replicates": 100,
+  "requested_sizes": {
+    "HALLMARK_INFLAMMATORY_RESPONSE": 6,
+    "HALLMARK_INTERFERON_ALPHA_RESPONSE": 6,
+    "HALLMARK_TNFA_SIGNALING_VIA_NFKB": 6,
+    "Inflammation_response": 6,
+    "Interferon_response": 6,
+    "NFkB_signaling": 6
+  },
+  "result_tag_prefix": "random_gene_set",
+  "rng": {
+    "generator": "random.Random",
+    "sampling": "without_replacement_within_each_control",
+    "seed": 2026
+  },
+  "run_contract": {
+    "environment": {
+      "LEWORLD_BIOLOGY_PRIORS_PATH": "<control.config_path>",
+      "LEWORLD_EXTERNAL_PATHWAY_GMT": "",
+      "LEWORLD_RESULT_TAG": "<control.result_tag>",
+      "LEWORLD_SEED": "each configured seed"
+    },
+    "note": "Each control must be retrained; gene-list overlap alone is not the null statistic."
+  },
+  "status": "prepared"
+}

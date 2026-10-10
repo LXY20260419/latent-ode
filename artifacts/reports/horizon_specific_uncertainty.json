@@ -1,0 +1,72 @@
+{
+  "composite": {
+    "bootstrap_resamples": 27,
+    "ci95": [
+      0.4480415046215057,
+      0.4561987386395534
+    ],
+    "ci_method": "exact_seed_bootstrap_enumeration_27",
+    "mean": 0.4515821685393651,
+    "n": 3,
+    "per_seed": {
+      "123": 0.45832592248916626,
+      "2026": 0.44791243225336075,
+      "42": 0.4485081508755684
+    },
+    "sd": 0.0058478528684299995,
+    "sd_ddof": 1
+  },
+  "horizons": {
+    "36": {
+      "bootstrap_resamples": 27,
+      "ci95": [
+        0.6802978962659836,
+        0.6879083693027496
+      ],
+      "ci_method": "exact_seed_bootstrap_enumeration_27",
+      "from_time": 27,
+      "mean": 0.6838462948799133,
+      "n": 3,
+      "per_seed": {
+        "123": 0.6894378662109375,
+        "2026": 0.6823786497116089,
+        "42": 0.6797223687171936
+      },
+      "sd": 0.005021275698741458,
+      "sd_ddof": 1
+    },
+    "48": {
+      "bootstrap_resamples": 27,
+      "ci95": [
+        0.21427988708019258,
+        0.22506463552514713
+      ],
+      "ci_method": "exact_seed_bootstrap_enumeration_27",
+      "from_time": 27,
+      "mean": 0.21931804219881693,
+      "n": 3,
+      "per_seed": {
+        "123": 0.22721397876739502,
+        "2026": 0.2134462147951126,
+        "42": 0.21729393303394318
+      },
+      "sd": 0.007103562108732058,
+      "sd_ddof": 1
+    }
+  },
+  "metric": "population_mean_across_gene_pearson_r",
+  "model": "ode",
+  "note": "Uncertainty is across stochastic training seeds, not biological replicates.",
+  "result_tag": "primary_internal_freeze",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "source_files": [
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed2026.json"
+  ],
+  "status": "completed"
+}

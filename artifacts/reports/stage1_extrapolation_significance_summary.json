@@ -1,0 +1,39 @@
+{
+  "endpoint": "population mean gene-expression correlation (27->36/48)",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "ode_mean_extrapolation": 0.4956037948528926,
+  "paired_significance_mean_endpoint": {
+    "Naive_LastTimeMean": {
+      "baseline_mean": 0.44046445935964584,
+      "ode_mean": 0.4956037948528926,
+      "diff_mean": 0.05513933549324671,
+      "p_value": 0.01674510939739637
+    },
+    "Ridge_Poly": {
+      "baseline_mean": -0.2523917034268379,
+      "ode_mean": 0.4956037948528926,
+      "diff_mean": 0.7479954982797304,
+      "p_value": 9.575069150345894e-05
+    },
+    "HGB_Regressor": {
+      "baseline_mean": 0.4187339668472608,
+      "ode_mean": 0.4956037948528926,
+      "diff_mean": 0.07686982800563176,
+      "p_value": 0.00627531904599966
+    },
+    "MLP_Sklearn": {
+      "baseline_mean": 0.2533733422557513,
+      "ode_mean": 0.4956037948528926,
+      "diff_mean": 0.24223045259714127,
+      "p_value": 0.0061842303944230435
+    }
+  },
+  "notes": [
+    "One-sided paired t-test: ODE > baseline on mean extrapolation endpoint.",
+    "Computed on seed-level endpoint values (42,123,2026)."
+  ]
+}

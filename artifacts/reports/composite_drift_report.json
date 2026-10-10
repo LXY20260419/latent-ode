@@ -1,0 +1,120 @@
+{
+  "drift": {
+    "gru": {
+      "absolute": -0.08818664458990097,
+      "locked_mean": -0.1444,
+      "relative": 0.6107108351101175,
+      "rerun_mean": -0.23258664458990097
+    },
+    "ode": {
+      "absolute": -0.03171783146063489,
+      "locked_mean": 0.4833,
+      "relative": -0.06562762561687335,
+      "rerun_mean": 0.4515821685393651
+    }
+  },
+  "endpoint_aligned_contrasts": {
+    "ode_vs_gru": {
+      "composite": {
+        "diff_mean": 0.6841688131292661,
+        "diff_sd": 0.012579053586865535,
+        "left_mean": 0.4515821685393651,
+        "note": "one-sided paired t-test (left > right), df=2, exploratory",
+        "p_value": 5.6330647040742326e-05,
+        "right_mean": -0.23258664458990097,
+        "t_stat": 94.20542945546583
+      }
+    },
+    "ode_vs_persistence": {
+      "composite": {
+        "diff_mean": 0.0048172712166805924,
+        "diff_sd": 0.0058478528684299995,
+        "left_mean": 0.4515821685393651,
+        "note": "one-sided paired t-test (left > right), df=2, exploratory",
+        "p_value": 0.14488287335751332,
+        "right_mean": 0.44676489732268454,
+        "t_stat": 1.42680718698896
+      },
+      "horizons": {
+        "36": {
+          "diff_mean": 0.001563218012599621,
+          "diff_sd": 0.005021275698741458,
+          "left_mean": 0.6838462948799133,
+          "note": "one-sided paired t-test (left > right), df=2, exploratory",
+          "p_value": 0.32186614189161633,
+          "right_mean": 0.6822830768673137,
+          "t_stat": 0.5392201471446828
+        },
+        "48": {
+          "diff_mean": 0.008071324420761508,
+          "diff_sd": 0.007103562108732058,
+          "left_mean": 0.21931804219881693,
+          "note": "one-sided paired t-test (left > right), df=2, exploratory",
+          "p_value": 0.09396298572886799,
+          "right_mean": 0.21124671777805543,
+          "t_stat": 1.9680188287430496
+        }
+      },
+      "persistence": {
+        "36": 0.6822830768673137,
+        "48": 0.21124671777805543,
+        "composite": 0.44676489732268454
+      }
+    }
+  },
+  "headline_assessment": {
+    "ode_above_persistence_composite": true,
+    "ode_vs_gru_significant_at_0.05": true,
+    "ode_vs_persistence_p": 0.14488287335751332,
+    "ode_vs_persistence_significant_at_0.05": false,
+    "summary": "Direction is reproduced (ODE positive, GRU negative, ODE far above GRU), but on this rerun the ODE advantage over the trivial persistence control is not significant at the composite endpoint. The manuscript narrative must not claim a significant or large persistence margin."
+  },
+  "interpretation_notes": [
+    "The rerun is an independent retraining on the same frozen protocol, not a bit-identical replay: cross-host and library-version nondeterminism shifts the composite.",
+    "Persisted artifacts carry no seed-level persistence array, so the ODE-vs-persistence contrast is computed against the deterministic population-persistence value.",
+    "Only three stochastic seeds are available; these tests are exploratory and are not independent biological replicates."
+  ],
+  "locked_claims": {
+    "gru_composite_mean": -0.1444,
+    "gru_composite_sd": 0.096,
+    "ode_composite_mean": 0.4833,
+    "ode_composite_sd": 0.0088
+  },
+  "rerun": {
+    "gru": {
+      "mean": -0.23258664458990097,
+      "per_horizon_mean": {
+        "36": -0.20925597846508026,
+        "48": -0.2559173107147217
+      },
+      "per_seed": {
+        "123": -0.21747969835996628,
+        "2026": -0.2507226914167404,
+        "42": -0.22955754399299622
+      },
+      "sd": 0.01682723193703617,
+      "sd_ddof": 1
+    },
+    "ode": {
+      "mean": 0.4515821685393651,
+      "per_horizon_mean": {
+        "36": 0.6838462948799133,
+        "48": 0.21931804219881693
+      },
+      "per_seed": {
+        "123": 0.45832592248916626,
+        "2026": 0.44791243225336075,
+        "42": 0.4485081508755684
+      },
+      "sd": 0.0058478528684299995,
+      "sd_ddof": 1
+    }
+  },
+  "result_tag": "primary_internal_freeze",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "status": "completed"
+}

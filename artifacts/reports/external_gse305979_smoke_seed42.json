@@ -1,0 +1,92 @@
+{
+  "record_type": "external_candidate_one_seed_smoke",
+  "created_at": "2026-10-03T04:16:43.206472+00:00",
+  "accession": "GSE305979",
+  "result_tag": "ext_gse305979_control_v1",
+  "seed": 42,
+  "smoke_only": true,
+  "qc_status": "PASS_FOR_SMOKE",
+  "replicate_note": "single donor; cells nested within CMO well and library. No donor-level inference; protocol/seed-level uncertainty only.",
+  "dataset": {
+    "n_cells": 14680,
+    "n_genes_after_selection": 2991,
+    "raw_nonzero_entries": 66700896
+  },
+  "timepoints": {
+    "all": [
+      0,
+      1,
+      2,
+      5,
+      7
+    ],
+    "train": [
+      0,
+      1,
+      2
+    ],
+    "holdout": [
+      5
+    ],
+    "secondary_holdout": [
+      7
+    ]
+  },
+  "leakage_control": "per-cell library normalization; HVG selection and scaling fit on training timepoints only ([0, 1, 2])",
+  "metrics": {
+    "ode": {
+      "holdout": {
+        "mean_correlation": 0.39894184470176697,
+        "std": 0.08497826009988785,
+        "pairs": null
+      },
+      "extrapolation": {
+        "mean_correlation": 0.6236766576766968,
+        "std": 0.0286063551902771,
+        "pairs": {
+          "5": {
+            "from_time": 2,
+            "corr": 0.6522830128669739,
+            "predict_steps": 3
+          },
+          "7": {
+            "from_time": 2,
+            "corr": 0.5950703024864197,
+            "predict_steps": 5
+          }
+        }
+      }
+    },
+    "gru": {
+      "holdout": {
+        "mean_correlation": 0.41300275921821594,
+        "std": 0.08308560401201248,
+        "pairs": null
+      },
+      "extrapolation": {
+        "mean_correlation": 0.5509511828422546,
+        "std": 0.04186898469924927,
+        "pairs": {
+          "5": {
+            "from_time": 2,
+            "corr": 0.5928201675415039,
+            "predict_steps": 3
+          },
+          "7": {
+            "from_time": 2,
+            "corr": 0.5090821981430054,
+            "predict_steps": 5
+          }
+        }
+      }
+    }
+  },
+  "artifacts": {
+    "ode_validation": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v1_seed42.json",
+    "gru_validation": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v1_seed42.json",
+    "ode_validation_sha256": "673792424ea14950dfa6dab5e922b946c388cefa186a3a1a8efbcd61bf3eaf9a",
+    "gru_validation_sha256": "b9cbbabd283c164346f1adb85d8ab551f2a8760fb0a167222e8b92c7cf8fa4d5"
+  },
+  "interpretation": "This is a one-seed pipeline smoke, not evidence of biological replication or a replacement for the frozen primary result. Production seed expansion is allowed only after QC and artifact integrity review.",
+  "status": "PASS_FOR_PRODUCTION_REVIEW"
+}

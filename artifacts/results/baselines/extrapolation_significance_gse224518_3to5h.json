@@ -1,0 +1,227 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "config": {
+    "data_dir": "data/leworld_input_gse224518",
+    "train_times": [
+      0,
+      1,
+      3
+    ],
+    "target_times": [
+      5
+    ],
+    "source_time": 3,
+    "max_time": 5.0,
+    "n_genes": 498,
+    "result_tag": "gse224518_3to5h",
+    "endpoint": "population mean gene-expression correlation (3->5)"
+  },
+  "ode_seed_results": {
+    "42": {
+      "pair_corr": {
+        "5": 0.13529571890830994
+      },
+      "mean_extrapolation_corr": 0.13529571890830994
+    },
+    "123": {
+      "pair_corr": {
+        "5": 0.13457682728767395
+      },
+      "mean_extrapolation_corr": 0.13457682728767395
+    },
+    "2026": {
+      "pair_corr": {
+        "5": 0.1339111179113388
+      },
+      "mean_extrapolation_corr": 0.1339111179113388
+    }
+  },
+  "gru_seed_results": {
+    "42": {
+      "pair_corr": {
+        "5": 0.2540295124053955
+      },
+      "mean_extrapolation_corr": 0.2540295124053955
+    },
+    "123": {
+      "pair_corr": {
+        "5": 0.08809328079223633
+      },
+      "mean_extrapolation_corr": 0.08809328079223633
+    },
+    "2026": {
+      "pair_corr": {
+        "5": 0.18977878987789154
+      },
+      "mean_extrapolation_corr": 0.18977878987789154
+    }
+  },
+  "baseline_seed_results": {
+    "42": {
+      "Naive_LastTimeMean": {
+        "pair_corr": {
+          "5": 0.1312660425901413
+        },
+        "mean_extrapolation_corr": 0.1312660425901413
+      },
+      "Ridge_Poly": {
+        "pair_corr": {
+          "5": 0.3317579925060272
+        },
+        "mean_extrapolation_corr": 0.3317579925060272
+      },
+      "HGB_Regressor": {
+        "pair_corr": {
+          "5": 0.05975710600614548
+        },
+        "mean_extrapolation_corr": 0.05975710600614548
+      },
+      "MLP_Sklearn": {
+        "pair_corr": {
+          "5": 0.13942214846611023
+        },
+        "mean_extrapolation_corr": 0.13942214846611023
+      }
+    },
+    "123": {
+      "Naive_LastTimeMean": {
+        "pair_corr": {
+          "5": 0.1312660425901413
+        },
+        "mean_extrapolation_corr": 0.1312660425901413
+      },
+      "Ridge_Poly": {
+        "pair_corr": {
+          "5": 0.3317579925060272
+        },
+        "mean_extrapolation_corr": 0.3317579925060272
+      },
+      "HGB_Regressor": {
+        "pair_corr": {
+          "5": 0.07549107819795609
+        },
+        "mean_extrapolation_corr": 0.07549107819795609
+      },
+      "MLP_Sklearn": {
+        "pair_corr": {
+          "5": 0.19116632640361786
+        },
+        "mean_extrapolation_corr": 0.19116632640361786
+      }
+    },
+    "2026": {
+      "Naive_LastTimeMean": {
+        "pair_corr": {
+          "5": 0.1312660425901413
+        },
+        "mean_extrapolation_corr": 0.1312660425901413
+      },
+      "Ridge_Poly": {
+        "pair_corr": {
+          "5": 0.3317579925060272
+        },
+        "mean_extrapolation_corr": 0.3317579925060272
+      },
+      "HGB_Regressor": {
+        "pair_corr": {
+          "5": 0.05873360112309456
+        },
+        "mean_extrapolation_corr": 0.05873360112309456
+      },
+      "MLP_Sklearn": {
+        "pair_corr": {
+          "5": 0.20788876712322235
+        },
+        "mean_extrapolation_corr": 0.20788876712322235
+      }
+    }
+  },
+  "paired_significance": {
+    "Naive_LastTimeMean": {
+      "mean_endpoint": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.1312660425901413,
+        "diff_mean": 0.003328512112299601,
+        "diff_std": 0.0006924707041666828,
+        "t_stat": 8.325481579829548,
+        "p_value": 0.007061140793933735
+      },
+      "pair_3_to_5": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.1312660425901413,
+        "diff_mean": 0.003328512112299601,
+        "diff_std": 0.0006924707041666828,
+        "t_stat": 8.325481579829548,
+        "p_value": 0.007061140793933735
+      }
+    },
+    "Ridge_Poly": {
+      "mean_endpoint": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.3317579925060272,
+        "diff_mean": -0.19716343780358633,
+        "diff_std": 0.0006924707041666828,
+        "t_stat": -493.15745722660483,
+        "p_value": 0.999997944127788
+      },
+      "pair_3_to_5": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.3317579925060272,
+        "diff_mean": -0.19716343780358633,
+        "diff_std": 0.0006924707041666828,
+        "t_stat": -493.15745722660483,
+        "p_value": 0.999997944127788
+      }
+    },
+    "HGB_Regressor": {
+      "mean_endpoint": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.06466059510906537,
+        "diff_mean": 0.06993395959337552,
+        "diff_std": 0.00939656059149428,
+        "t_stat": 12.890798714142367,
+        "p_value": 0.002982026799364495
+      },
+      "pair_3_to_5": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.06466059510906537,
+        "diff_mean": 0.06993395959337552,
+        "diff_std": 0.00939656059149428,
+        "t_stat": 12.890798714142367,
+        "p_value": 0.002982026799364495
+      }
+    },
+    "MLP_Sklearn": {
+      "mean_endpoint": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.17949241399765015,
+        "diff_mean": -0.04489785929520925,
+        "diff_std": 0.03636370516138431,
+        "t_stat": -2.1385437238931955,
+        "p_value": 0.9170557600587135
+      },
+      "pair_3_to_5": {
+        "left_mean": 0.1345945547024409,
+        "right_mean": 0.17949241399765015,
+        "diff_mean": -0.04489785929520925,
+        "diff_std": 0.03636370516138431,
+        "t_stat": -2.1385437238931955,
+        "p_value": 0.9170557600587135
+      }
+    }
+  },
+  "ode_vs_gru": {
+    "mean_endpoint": {
+      "left_mean": 0.1345945547024409,
+      "right_mean": 0.17730052769184113,
+      "diff_mean": -0.04270597298940023,
+      "diff_std": 0.08339133707121582,
+      "t_stat": -0.887009581596422,
+      "p_value": 0.7656724407201727
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "composite": {
+    "bootstrap_resamples": 27,
+    "ci95": [
+      0.45089638171096647,
+      0.4624880086630583
+    ],
+    "ci_method": "exact_seed_bootstrap_enumeration_27",
+    "mean": 0.4570978929599126,
+    "n": 3,
+    "per_seed": {
+      "123": 0.4485398456454277,
+      "2026": 0.4594161659479141,
+      "42": 0.463337667286396
+    },
+    "sd": 0.007666464215311429,
+    "sd_ddof": 1
+  },
+  "config": {
+    "pathway_delta_weight": 0.0,
+    "pathway_weight": 0.0,
+    "result_tag": "pure_mse"
+  },
+  "group": "pure_mse",
+  "horizons": {
+    "36": {
+      "bootstrap_resamples": 27,
+      "ci95": [
+        0.6842447211345036,
+        0.687178553144137
+      ],
+      "ci_method": "exact_seed_bootstrap_enumeration_27",
+      "from_time": 27,
+      "mean": 0.6857313513755798,
+      "n": 3,
+      "per_seed": {
+        "123": 0.6858440041542053,
+        "2026": 0.6838023662567139,
+        "42": 0.6875476837158203
+      },
+      "sd": 0.0018751983105183628,
+      "sd_ddof": 1
+    },
+    "48": {
+      "bootstrap_resamples": 27,
+      "ci95": [
+        0.21639111414551734,
+        0.23823981905976932
+      ],
+      "ci_method": "exact_seed_bootstrap_enumeration_27",
+      "from_time": 27,
+      "mean": 0.2284644345442454,
+      "n": 3,
+      "per_seed": {
+        "123": 0.21123568713665009,
+        "2026": 0.23502996563911438,
+        "42": 0.23912765085697174
+      },
+      "sd": 0.015060546436374857,
+      "sd_ddof": 1
+    }
+  },
+  "metric": "population_mean_across_gene_pearson_r",
+  "model": "ode",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "source_files": [
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed2026.json"
+  ],
+  "status": "completed"
+}

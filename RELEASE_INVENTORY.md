@@ -1,0 +1,1411 @@
+# Release inclusion and exclusion inventory
+
+Only the following explicitly selected research files were copied. Root-level
+submission, correspondence, identity, handover and infrastructure material was
+excluded as a class without opening it. Source history was not imported.
+
+## Included source files
+
+- `data/integrated_processed/leworld_input.pre_summary_contract_20260925_034650/data_summary.json`
+- `data/integrated_processed/leworld_input.pre_summary_contract_20260925_034650/gene_names.txt`
+- `data/integrated_processed/leworld_input.pre_summary_contract_20260925_034650/metadata.csv`
+- `artifacts/reports/composite_drift_report.json`
+- `artifacts/reports/corrected_baseline_significance.json`
+- `artifacts/reports/existing_external_boundary_audit_2026-10-01.json`
+- `artifacts/reports/existing_external_boundary_audit_2026-10-01.md`
+- `artifacts/reports/external_gse148794_intake.md`
+- `artifacts/reports/external_gse148794_protocol.json`
+- `artifacts/reports/external_gse148794_qc.json`
+- `artifacts/reports/external_gse148794_smoke_seed42.json`
+- `artifacts/reports/external_gse148794_stats.json`
+- `artifacts/reports/external_gse149622_intake.md`
+- `artifacts/reports/external_gse149622_protocol.json`
+- `artifacts/reports/external_gse149622_qc.json`
+- `artifacts/reports/external_gse149622_smoke_seed42.json`
+- `artifacts/reports/external_gse149622_stats.json`
+- `artifacts/reports/external_gse305979_intake.md`
+- `artifacts/reports/external_gse305979_protocol.json`
+- `artifacts/reports/external_gse305979_protocol_amendment_2026-10-03.json`
+- `artifacts/reports/external_gse305979_qc.json`
+- `artifacts/reports/external_gse305979_smoke_seed42.json`
+- `artifacts/reports/external_gse305979_stats.json`
+- `artifacts/reports/external_gse305979_vehicle_decision.json`
+- `artifacts/reports/external_persistence_v1.json`
+- `artifacts/reports/external_phase2_aggregate_v1.json`
+- `artifacts/reports/external_phase2_protocol_v1.json`
+- `artifacts/reports/external_phase2_report_v1.md`
+- `artifacts/reports/external_phase3_aggregate_v2.json`
+- `artifacts/reports/external_phase3_classical_baselines.json`
+- `artifacts/reports/external_phase3_forest.json`
+- `artifacts/reports/external_phase3_forest.png`
+- `artifacts/reports/external_phase3_preregistration.json`
+- `artifacts/reports/external_phase3_report_v2.md`
+- `artifacts/reports/external_phase3_sample_uncertainty.json`
+- `artifacts/reports/external_pure_mse_contrast.json`
+- `artifacts/reports/external_pure_mse_preregistration.json`
+- `artifacts/reports/failure_boundary_table.json`
+- `artifacts/reports/failure_boundary_table.md`
+- `artifacts/reports/gse151658_provenance_snapshot_2026-10-02.json`
+- `artifacts/reports/horizon_decay_aggregate.png`
+- `artifacts/reports/horizon_decay_table.json`
+- `artifacts/reports/horizon_decay_table.md`
+- `artifacts/reports/horizon_specific_uncertainty.json`
+- `artifacts/reports/mechanism_metrics_aggregate.json`
+- `artifacts/reports/mechanism_metrics_aggregate.md`
+- `artifacts/reports/method_summary_table.csv`
+- `artifacts/reports/persistence_vs_primary_comparison.json`
+- `artifacts/reports/population_endpoint_bootstrap.json`
+- `artifacts/reports/primary_internal_freeze_manifest.json`
+- `artifacts/reports/pure_mse_ablation_agg.json`
+- `artifacts/reports/pure_mse_vs_primary_comparison.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r000.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r001.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r002.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r003.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r004.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r005.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r006.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r007.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r008.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r009.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r010.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r011.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r012.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r013.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r014.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r015.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r016.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r017.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r018.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r019.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r020.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r021.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r022.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r023.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r024.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r025.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r026.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r027.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r028.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r029.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r030.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r031.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r032.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r033.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r034.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r035.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r036.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r037.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r038.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r039.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r040.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r041.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r042.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r043.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r044.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r045.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r046.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r047.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r048.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r049.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r050.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r051.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r052.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r053.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r054.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r055.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r056.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r057.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r058.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r059.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r060.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r061.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r062.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r063.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r064.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r065.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r066.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r067.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r068.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r069.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r070.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r071.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r072.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r073.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r074.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r075.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r076.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r077.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r078.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r079.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r080.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r081.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r082.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r083.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r084.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r085.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r086.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r087.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r088.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r089.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r090.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r091.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r092.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r093.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r094.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r095.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r096.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r097.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r098.json`
+- `artifacts/reports/random_gene_set_configs/biology_priors_random_gene_set_r099.json`
+- `artifacts/reports/random_gene_set_control_plan.json`
+- `artifacts/reports/random_gene_set_interpretation_preregistration.json`
+- `artifacts/reports/random_gene_set_negative_control.json`
+- `artifacts/reports/random_gene_set_post_hoc_reading.json`
+- `artifacts/reports/stage1_endpoint_aligned_check.json`
+- `artifacts/reports/stage1_extrapolation_significance_summary.json`
+- `artifacts/reports/stage1_statistical_closure_provisional.json`
+- `artifacts/reports/stage2_gse224518_3to5h_agg.json`
+- `artifacts/reports/stage2_gse224518_3to5h_balanced_agg.json`
+- `artifacts/reports/stage2_gse224518_3to5h_extrapolation_significance_summary.json`
+- `artifacts/reports/stage2_gse224518_agg.json`
+- `artifacts/reports/stage2_gse224518_endpoint_comparison.md`
+- `artifacts/reports/stage2_gse224518_smoke_seed42.json`
+- `artifacts/reports/stage2_gse226824_agg.json`
+- `artifacts/reports/stage2_primary_internal_freeze_extrapolation_significance_summary.json`
+- `artifacts/reports/stage3_ablation_contribution_ranking.json`
+- `artifacts/reports/stage3_ablation_full_reference_agg.json`
+- `artifacts/reports/stage3_ablation_nopriors_agg.json`
+- `artifacts/reports/stage3_ablation_pathway0_agg.json`
+- `artifacts/reports/stage3_ablation_pathwaydelta0_agg.json`
+- `artifacts/reports/stage3_ablation_provisional.md`
+- `artifacts/reports/stale_number_supersession_registry_2026-10-02.md`
+- `artifacts/results/baselines/baseline_comparison.json`
+- `artifacts/results/baselines/baseline_comparison.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518_3to5h.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518_3to5h.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518_3to5h_seed42.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518_3to5h_seed42.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed123.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed123.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed2026.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed2026.png`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed42.json`
+- `artifacts/results/baselines/baseline_comparison_gse224518_seed42.png`
+- `artifacts/results/baselines/baseline_comparison_gse226824.json`
+- `artifacts/results/baselines/baseline_comparison_gse226824.png`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed123.json`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed123.png`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed2026.json`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed2026.png`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed42.json`
+- `artifacts/results/baselines/baseline_comparison_gse226824_seed42.png`
+- `artifacts/results/baselines/baseline_comparison_seed123.json`
+- `artifacts/results/baselines/baseline_comparison_seed123.png`
+- `artifacts/results/baselines/baseline_comparison_seed2026.json`
+- `artifacts/results/baselines/baseline_comparison_seed2026.png`
+- `artifacts/results/baselines/baseline_comparison_seed42.json`
+- `artifacts/results/baselines/baseline_comparison_seed42.png`
+- `artifacts/results/baselines/extrapolation_significance.json`
+- `artifacts/results/baselines/extrapolation_significance_gse224518_3to5h.json`
+- `artifacts/results/baselines/extrapolation_significance_primary_internal_freeze.json`
+- `artifacts/results/baselines/persistence_population.json`
+- `artifacts/results/baselines/significance_test.png`
+- `artifacts/results/baselines/significance_test_seed123.png`
+- `artifacts/results/baselines/significance_test_seed2026.png`
+- `artifacts/results/baselines/significance_test_seed42.png`
+- `artifacts/results/baselines/statistical_results.json`
+- `artifacts/results/baselines/statistical_results_seed123.json`
+- `artifacts/results/baselines/statistical_results_seed2026.json`
+- `artifacts/results/baselines/statistical_results_seed42.json`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse148794_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse148794_v1.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse148794_v2.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse149622_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse149622_v1.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_ext_gse149622_v2.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Cxcl10_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_ext_gse148794_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_ext_gse148794_v1.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_ext_gse148794_v2.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_ext_gse305979_control_v1.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_ext_gse305979_control_v2.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Il1b_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/Il6_trajectory.png`
+- `artifacts/results/ode_benchmark/Il6_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Il6_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Il6_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse148794_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse148794_v1.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse148794_v2.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse149622_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse149622_v1.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_ext_gse149622_v2.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Nfkbia_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_ext_gse149622_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_ext_gse149622_v1.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_ext_gse149622_v2.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Tnf_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse148794_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse148794_v1.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse148794_v2.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse149622_puremse_v1.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse149622_v1.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_ext_gse149622_v2.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_pure_mse.png`
+- `artifacts/results/ode_benchmark/Tnfaip3_trajectory_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/benchmark_report.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_puremse_v1.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_puremse_v1_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_puremse_v1_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_puremse_v1_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v1.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v1_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2_seed13.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse148794_v2_seed7.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_puremse_v1.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_puremse_v1_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_puremse_v1_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_puremse_v1_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v1.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v1_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2_seed13.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse149622_v2_seed7.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v1.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v1_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v2.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v2_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v2_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_ext_gse305979_control_v2_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_primary_internal_freeze.md`
+- `artifacts/results/ode_benchmark/benchmark_report_primary_internal_freeze_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_primary_internal_freeze_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_primary_internal_freeze_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_pure_mse.md`
+- `artifacts/results/ode_benchmark/benchmark_report_pure_mse_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_pure_mse_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_pure_mse_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r000_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r000_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r000_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r001_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r001_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r001_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r002_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r002_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r002_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r003_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r003_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r003_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r004_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r004_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r004_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r005_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r005_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r005_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r006_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r006_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r006_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r007_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r007_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r007_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r008_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r008_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r008_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r009_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r009_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r009_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r010_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r010_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r010_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r011_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r011_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r011_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r012_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r012_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r012_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r013_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r013_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r013_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r014_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r014_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r014_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r015_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r015_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r015_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r016_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r016_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r016_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r017_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r017_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r017_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r018_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r018_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r018_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r019_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r019_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_random_gene_set_r019_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_seed123.md`
+- `artifacts/results/ode_benchmark/benchmark_report_seed2026.md`
+- `artifacts/results/ode_benchmark/benchmark_report_seed42.md`
+- `artifacts/results/ode_benchmark/benchmark_report_smoke_internal_gpu_v3.md`
+- `artifacts/results/ode_benchmark/benchmark_report_smoke_internal_gpu_v3_seed42.md`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_pure_mse.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_gru_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_pure_mse.json`
+- `artifacts/results/ode_benchmark/biological_conclusions_ode_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/diagnosis_results.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v1_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2_seed13.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse148794_v2_seed7.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v1_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2_seed13.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse149622_v2_seed7.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v1_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v2_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_ext_gse305979_control_v2_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_primary_internal_freeze_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_primary_internal_freeze_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_primary_internal_freeze_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_pure_mse.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_pure_mse_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_pure_mse_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_pure_mse_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r000_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r000_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r000_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r001_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r001_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r001_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r002_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r002_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r002_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r003_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r003_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r003_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r004_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r004_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r004_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r005_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r005_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r005_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r006_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r006_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r006_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r007_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r007_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r007_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r008_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r008_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r008_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r009_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r009_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r009_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r010_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r010_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r010_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r011_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r011_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r011_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r012_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r012_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r012_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r013_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r013_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r013_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r014_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r014_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r014_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r015_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r015_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r015_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r016_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r016_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r016_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r017_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r017_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r017_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r018_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r018_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r018_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r019_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r019_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_random_gene_set_r019_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_seed123.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_seed2026.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_seed42.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/diagnosis_results_smoke_internal_gpu_v3_seed42.json`
+- `artifacts/results/ode_benchmark/gap_decay_comparison.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse148794_puremse_v1.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse148794_v1.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse148794_v2.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse149622_puremse_v1.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse149622_v1.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse149622_v2.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse305979_control_v1.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_ext_gse305979_control_v2.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_primary_internal_freeze.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_pure_mse.png`
+- `artifacts/results/ode_benchmark/gap_decay_comparison_smoke_internal_gpu_v3.png`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_pure_mse.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_gru_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_pure_mse.json`
+- `artifacts/results/ode_benchmark/pathway_enrichment_ode_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/top_genes_gru.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse148794_puremse_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse148794_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse148794_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse149622_puremse_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse149622_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse149622_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse305979_control_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_ext_gse305979_control_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_gse224518_3to5h_balanced.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_primary_internal_freeze.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_pure_mse.csv`
+- `artifacts/results/ode_benchmark/top_genes_gru_smoke_internal_gpu_v3.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse148794_puremse_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse148794_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse148794_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse149622_puremse_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse149622_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse149622_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse305979_control_v1.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_ext_gse305979_control_v2.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_gse224518_3to5h_balanced.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_primary_internal_freeze.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_pure_mse.csv`
+- `artifacts/results/ode_benchmark/top_genes_ode_smoke_internal_gpu_v3.csv`
+- `artifacts/results/ode_benchmark/training_history_gru.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2_seed13.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse148794_v2_seed7.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2_seed13.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse149622_v2_seed7.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_ext_gse305979_control_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/training_history_gru_primary_internal_freeze_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_primary_internal_freeze_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_primary_internal_freeze_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_pure_mse.json`
+- `artifacts/results/ode_benchmark/training_history_gru_pure_mse_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_pure_mse_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_pure_mse_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r000_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r000_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r000_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r001_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r001_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r001_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r002_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r002_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r002_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r003_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r003_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r003_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r004_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r004_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r004_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r005_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r005_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r005_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r006_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r006_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r006_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r007_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r007_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r007_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r008_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r008_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r008_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r009_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r009_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r009_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r010_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r010_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r010_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r011_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r011_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r011_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r012_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r012_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r012_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r013_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r013_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r013_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r014_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r014_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r014_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r015_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r015_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r015_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r016_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r016_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r016_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r017_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r017_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r017_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r018_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r018_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r018_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r019_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r019_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_random_gene_set_r019_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_gru_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_gru_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_smoke_internal_gpu.json`
+- `artifacts/results/ode_benchmark/training_history_gru_smoke_internal_gpu_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_gru_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/training_history_gru_smoke_internal_gpu_v3_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_nopriors_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_nopriors_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_nopriors_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathway0_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathway0_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathway0_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathwaydelta0_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathwaydelta0_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ablation_pathwaydelta0_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2_seed13.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse148794_v2_seed7.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2_seed13.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse149622_v2_seed7.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v1_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v2_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_ext_gse305979_control_v2_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_gse226824_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_gse226824_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_gse226824_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/training_history_ode_primary_internal_freeze_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_primary_internal_freeze_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_primary_internal_freeze_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_pure_mse.json`
+- `artifacts/results/ode_benchmark/training_history_ode_pure_mse_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_pure_mse_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_pure_mse_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r000_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r000_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r000_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r001_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r001_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r001_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r002_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r002_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r002_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r003_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r003_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r003_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r004_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r004_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r004_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r005_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r005_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r005_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r006_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r006_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r006_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r007_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r007_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r007_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r008_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r008_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r008_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r009_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r009_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r009_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r010_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r010_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r010_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r011_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r011_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r011_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r012_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r012_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r012_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r013_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r013_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r013_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r014_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r014_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r014_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r015_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r015_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r015_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r016_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r016_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r016_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r017_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r017_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r017_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r018_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r018_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r018_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r019_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r019_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_random_gene_set_r019_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_seed123.json`
+- `artifacts/results/ode_benchmark/training_history_ode_seed2026.json`
+- `artifacts/results/ode_benchmark/training_history_ode_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_smoke_internal_gpu.json`
+- `artifacts/results/ode_benchmark/training_history_ode_smoke_internal_gpu_seed42.json`
+- `artifacts/results/ode_benchmark/training_history_ode_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/training_history_ode_smoke_internal_gpu_v3_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed13.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed7.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed13.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed7.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_balanced_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_balanced_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_balanced_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_3to5h_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse224518_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse226824_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse226824_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_gse226824_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_pure_mse.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r000_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r000_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r000_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r001_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r001_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r001_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r002_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r002_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r002_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r003_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r003_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r003_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r004_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r004_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r004_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r005_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r005_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r005_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r006_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r006_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r006_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r007_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r007_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r007_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r008_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r008_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r008_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r009_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r009_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r009_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r010_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r010_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r010_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r011_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r011_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r011_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r012_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r012_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r012_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r013_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r013_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r013_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r014_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r014_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r014_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r015_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r015_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r015_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r016_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r016_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r016_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r017_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r017_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r017_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r018_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r018_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r018_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r019_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r019_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_random_gene_set_r019_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/validation_results_gru_smoke_internal_gpu_v3_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_nopriors_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_nopriors_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_nopriors_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathway0_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathway0_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathway0_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathwaydelta0_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathwaydelta0_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ablation_pathwaydelta0_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed13.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed7.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed13.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed7.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v1.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v1_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_balanced.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_balanced_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_balanced_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_balanced_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_3to5h_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse224518_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse226824_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse226824_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_gse226824_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_pure_mse.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r000_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r000_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r000_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r001_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r001_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r001_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r002_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r002_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r002_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r003_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r003_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r003_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r004_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r004_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r004_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r005_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r005_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r005_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r006_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r006_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r006_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r007_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r007_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r007_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r008_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r008_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r008_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r009_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r009_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r009_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r010_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r010_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r010_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r011_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r011_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r011_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r012_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r012_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r012_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r013_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r013_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r013_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r014_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r014_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r014_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r015_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r015_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r015_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r016_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r016_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r016_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r017_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r017_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r017_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r018_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r018_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r018_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r019_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r019_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_random_gene_set_r019_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_seed123.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_seed2026.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_seed42.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_smoke_internal_gpu_v3.json`
+- `artifacts/results/ode_benchmark/validation_results_ode_smoke_internal_gpu_v3_seed42.json`
+- `artifacts/results/primary_internal_recovered/validation_results_gru_primary_internal_recovered_seed123.json`
+- `artifacts/results/primary_internal_recovered/validation_results_gru_primary_internal_recovered_seed2026.json`
+- `artifacts/results/primary_internal_recovered/validation_results_gru_primary_internal_recovered_seed42.json`
+- `artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed123.json`
+- `artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed2026.json`
+- `artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed42.json`
+- `baselines/baseline_comparison.py`
+- `baselines/extrapolation_significance.py`
+- `baselines/run_scvelo_baseline.py`
+- `baselines/statistical_significance.py`
+- `configs/biology_priors.json`
+- `configs/external_pathways.gmt`
+- `configs/external_tf_targets.csv`
+- `data/data_summary.json`
+- `data/integrated_processed/leworld_input/data_summary.json`
+- `data/integrated_processed/leworld_input/gene_names.txt`
+- `data/integrated_processed/leworld_input/metadata.csv`
+- `data/leworld_input/data_summary.json`
+- `data/leworld_input/gene_names.txt`
+- `data/leworld_input/metadata.csv`
+- `data/leworld_input_gse148794/gene_names.txt`
+- `data/leworld_input_gse148794/metadata.csv`
+- `data/leworld_input_gse149622/gene_names.txt`
+- `data/leworld_input_gse149622/metadata.csv`
+- `data/leworld_input_gse224518/data_summary.json`
+- `data/leworld_input_gse224518/gene_names.txt`
+- `data/leworld_input_gse224518/metadata.csv`
+- `data/leworld_input_gse226824/data_summary.json`
+- `data/leworld_input_gse226824/gene_names.txt`
+- `data/leworld_input_gse226824/metadata.csv`
+- `data/leworld_input_gse305979/gene_names.txt`
+- `data/leworld_input_gse305979/metadata.csv`
+- `ode_benchmark/train_ode_benchmark.py`
+- `preprocess/preprocess_contract.py`
+- `preprocess/preprocess_full_v7_1.4g_integrated_full.py`
+- `requirements-lock-py311.txt`
+- `requirements-ode.txt`
+- `requirements.txt`
+- `scripts/aggregate_ablation_results.py`
+- `scripts/aggregate_external_phase2.py`
+- `scripts/aggregate_external_phase3.py`
+- `scripts/aggregate_mechanism_metrics.py`
+- `scripts/audit_existing_external_boundaries.py`
+- `scripts/audit_freeze_integrity.py`
+- `scripts/baseline_persistence_comparison.py`
+- `scripts/build_external_stats_files.py`
+- `scripts/build_failure_boundary_table.py`
+- `scripts/build_horizon_decay_table.py`
+- `scripts/composite_drift_report.py`
+- `scripts/convert_gse224518_to_leworld_input.py`
+- `scripts/convert_gse226824_to_leworld_input.py`
+- `scripts/corrected_baseline_significance.py`
+- `scripts/external_persistence_baseline.py`
+- `scripts/external_phase3_classical_baselines.py`
+- `scripts/external_phase3_sample_uncertainty.py`
+- `scripts/external_pure_mse_contrast.py`
+- `scripts/link_data.sh`
+- `scripts/plot_horizon_decay_aggregate.py`
+- `scripts/population_endpoint_bootstrap.py`
+- `scripts/prepare_external_candidate_bundle.py`
+- `scripts/prepare_gse305979_bundle.py`
+- `scripts/pure_mse_contrast.py`
+- `scripts/replay_external_validation.py`
+- `scripts/reviewer_controls.py`
+- `scripts/run_experiment.py`
+- `scripts/summarize_external_smoke.py`
+- `tests/test_aggregate_external_phase3_seed_panels.py`
+- `tests/test_aggregate_mechanism_metrics.py`
+- `tests/test_audit_freeze_integrity.py`
+- `tests/test_baseline_persistence_comparison.py`
+- `tests/test_build_external_stats_files.py`
+- `tests/test_build_failure_boundary_table.py`
+- `tests/test_build_horizon_decay_table.py`
+- `tests/test_composite_drift_report.py`
+- `tests/test_corrected_baseline_significance.py`
+- `tests/test_external_pure_mse_contrast.py`
+- `tests/test_population_endpoint_bootstrap.py`
+- `tests/test_preprocess_contract.py`
+- `tests/test_pure_mse_contrast.py`
+- `tests/test_reviewer_controls.py`
+- `tests/test_run_experiment_check.py`
+- `tests/test_tagged_artifact_paths.py`
+
+## Excluded files inside inspected research directories
+
+- `artifacts/reports/cmpb_reference_doi_check_2026-10-04.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/cmpb_revision_round1_2026-10-07.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/cmpb_revision_round2_2026-10-07.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/dual_track_scorecard.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/explorenew_quality_upgrade_plan_2026-10-01.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_candidate_execution_status_2026-10-01.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_download.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_download_curl.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_download_gse305979.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_download_gse305979_curl.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_download_gse305979_driver.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_download_status_2026-10-01.tsv` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_download_status_gse305979.tsv` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_gse305979_demux_inspection.txt` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase1_completion_2026-10-01.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase1_finisher.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase1_smoke.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_completion_2026-10-02.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_driver_summary.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_finisher.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_gse305979_driver.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_gse305979_logs/artbio_external_phase2_ext_gse305979_control_v2_seed123.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_gse305979_logs/artbio_external_phase2_ext_gse305979_control_v2_seed2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_gse305979_logs/artbio_external_phase2_ext_gse305979_control_v2_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase2_gse305979_summary.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse148794_v2_seed123.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse148794_v2_seed2026.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse148794_v2_seed42.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse149622_v2_seed123.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse149622_v2_seed2026.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse149622_v2_seed42.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse305979_control_v2_seed123.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse305979_control_v2_seed2026.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase2_status/ext_gse305979_control_v2_seed42.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_completion_2026-10-02.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_confirmation_driver_summary.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_finisher.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_logs/classical_baselines_hgb_mlp_2026-10-02.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_logs/replay_driver.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_logs/replay_gse149622_seed13.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_logs/replay_gse149622_seed7.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_status/ext_gse148794_v2_seed13.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/ext_gse148794_v2_seed7.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/ext_gse149622_v2_seed13.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/ext_gse149622_v2_seed7.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/failed_attempt_2026-10-02/artbio_external_phase2_ext_gse149622_v2_seed13.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_status/failed_attempt_2026-10-02/artbio_external_phase2_ext_gse149622_v2_seed7.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_phase3_status/failed_attempt_2026-10-02/driver_summary_first_attempt.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/failed_attempt_2026-10-02/status_seed13_exit1.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/failed_attempt_2026-10-02/status_seed7_exit1.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_phase3_status/replay_resolution_2026-10-02.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_priors_resource_request.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_completion_2026-10-03.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_driver_summary_gse148794.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_driver_summary_gse149622.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse148794_puremse_v1_seed123.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse148794_puremse_v1_seed2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse148794_puremse_v1_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse149622_puremse_v1_seed123.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse149622_puremse_v1_seed2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/artbio_external_phase2_ext_gse149622_puremse_v1_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_logs/driver.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/external_pure_mse_status/completion.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse148794_puremse_v1_seed123.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse148794_puremse_v1_seed2026.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse148794_puremse_v1_seed42.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse149622_puremse_v1_seed123.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse149622_puremse_v1_seed2026.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/external_pure_mse_status/ext_gse149622_puremse_v1_seed42.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/followup_plan.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/geo_dataset_selection_and_fetch.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/gse305979_pipeline.lock` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/gse305979_pipeline.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/gse305979_pipeline_driver.log` — execution log, lock, cache or generated bytecode
+- `artifacts/reports/gse305979_pipeline_state.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/journal_decision_brief_2026-10-04.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/journal_mjl_status_check_2026-10-04.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/journal_submission_options_and_cas_filter_2026-09-30.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/lite_transfer_manifest.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/method_evidence_pack.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/method_summary_table.csv.broken_20260529_084911` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/next_iteration_commands.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/primary_recovery_record.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/project_structure_index.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/quickstart_commands.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/random_control_concurrency_decision.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/random_gene_set_artifact_retention_2026-10-01.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/random_gene_set_options_publication_impact.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/random_gene_set_scope_record.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage1_audit_and_resolution.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage2_external_dataset_intake.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage4_external_data_optimization_plans.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage4_freeze_checklist.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage4_freeze_manifest.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage4_manuscript_claims_locked.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage4_optimization_branch_plan.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/stage_progress_tracker.md` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/submission_readiness_gate_2026-09-30.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/submission_readiness_gate_2026-10-02.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/submission_readiness_gate_2026-10-03.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/reports/submission_readiness_gate_2026-10-04.json` — submission, progress, handover, resource or execution-state material
+- `artifacts/results/baselines/gse224518_3to5h_baseline.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/baselines/gse224518_3to5h_significance.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/baselines/gse224518_baselines.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse148794_v2_seed123.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse148794_v2_seed13.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse148794_v2_seed2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse148794_v2_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse148794_v2_seed7.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse149622_v2_seed123.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse149622_v2_seed13.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse149622_v2_seed2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse149622_v2_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/external_phase2_ext_gse149622_v2_seed7.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/gse224518_3to5h_3seed.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/gse224518_3to5h_balanced_3seed.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/gse224518_seeds123_2026.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/smoke_gse224518_3to5h_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/smoke_gse224518_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/smoke_internal_gpu_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/smoke_internal_gpu_v2_seed42.log` — execution log, lock, cache or generated bytecode
+- `artifacts/results/ode_benchmark/smoke_internal_gpu_v3_seed42.log` — execution log, lock, cache or generated bytecode
+- `data/external_geo/GSE148794/GSE148794_tc_ibd.count_table.tsv.gz` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE148794/GSE148794_tc_ibd.count_table.tsv.gz.status` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE148794/GSE148794_tc_ibd.metadata.tsv.gz` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE148794/GSE148794_tc_ibd.metadata.tsv.gz.status` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE149622/GSE149622_RNA_timecourse_unadjusted_barcodes.tsv.gz` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE149622/GSE149622_RNA_timecourse_unadjusted_barcodes.tsv.gz.status` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE149622/GSE149622_RNA_timecourse_unadjusted_genes.tsv.gz` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE149622/GSE149622_RNA_timecourse_unadjusted_genes.tsv.gz.status` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE149622/GSE149622_RNA_timecourse_unadjusted_matrix.mtx.gz` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE305979/GSE305979_day0_raw_counts.h5ad` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/GSE305979/GSE305979_day1-7_demuxed_counts.h5ad` — raw data, expression matrix or non-selected metadata format
+- `data/external_geo/README.md` — raw data, expression matrix or non-selected metadata format
+- `data/integrated_processed/leworld_input.pre_summary_contract_20260925_034650/expression_matrix.npy` — raw data, expression matrix or non-selected metadata format
+- `data/integrated_processed/leworld_input.pre_summary_contract_20260925_034650/preprocess_provenance.json` — raw data, expression matrix or non-selected metadata format
+- `data/integrated_processed/leworld_input/expression_matrix.npy` — raw data, expression matrix or non-selected metadata format
+- `data/integrated_processed/leworld_input/preprocess_provenance.json` — raw data, expression matrix or non-selected metadata format
+- `data/leworld_input/README.md` — raw data, expression matrix or non-selected metadata format
+- `data/leworld_input/expression_matrix.npy` — symbolic link; no link targets imported
+- `data/leworld_input_gse148794/expression_matrix.npy` — raw data, expression matrix or non-selected metadata format
+- `data/leworld_input_gse149622/expression_matrix.npy` — raw data, expression matrix or non-selected metadata format
+- `data/leworld_input_gse305979/expression_matrix.npy` — raw data, expression matrix or non-selected metadata format
+- `data/raw/GSE151658_integrated.0h.1h_4h_16h_27h_36h_48h.rds.gz` — raw data, expression matrix or non-selected metadata format
+- `data/raw/README.md` — raw data, expression matrix or non-selected metadata format
+- `ode_benchmark/__pycache__/train_ode_benchmark.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `ode_benchmark/__pycache__/train_ode_benchmark.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `preprocess/__pycache__/preprocess_contract.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `preprocess/__pycache__/preprocess_contract.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `preprocess/__pycache__/preprocess_full_v7_1.4g_integrated_full.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_ablation_results.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_external_phase2.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_external_phase3.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_external_phase3.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_mechanism_metrics.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/aggregate_mechanism_metrics.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_cmpb_manuscript.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_existing_external_boundaries.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_external_geo_candidates.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_freeze_integrity.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_freeze_integrity.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/audit_manuscript_consistency.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/baseline_persistence_comparison.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/baseline_persistence_comparison.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_cmpb_figures.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_external_stats_files.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_external_stats_files.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_failure_boundary_table.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_failure_boundary_table.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_horizon_decay_table.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/build_horizon_decay_table.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/composite_drift_report.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/composite_drift_report.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/convert_gse224518_to_leworld_input.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/convert_gse226824_to_leworld_input.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/corrected_baseline_significance.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/corrected_baseline_significance.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/external_persistence_baseline.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/external_phase3_classical_baselines.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/external_phase3_sample_uncertainty.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/external_pure_mse_contrast.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/external_pure_mse_contrast.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/plot_horizon_decay_aggregate.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/population_endpoint_bootstrap.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/population_endpoint_bootstrap.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/prepare_external_candidate_bundle.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/prepare_gse305979_bundle.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/pure_mse_contrast.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/pure_mse_contrast.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/recover_from_backup.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/recover_from_backup.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/recover_primary_provenance.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/reviewer_controls.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/reviewer_controls.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/run_experiment.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/run_experiment.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/run_external_phase2.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/submission_readiness_gate.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/submission_readiness_gate.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/__pycache__/summarize_external_smoke.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `scripts/audit_cmpb_manuscript.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/audit_external_geo_candidates.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/audit_manuscript_consistency.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/build_cmpb_figures.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/build_cmpb_pdfs.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/build_lite_from_full_tar.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/convert_cmpb_package_to_docx.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/download_external_candidates.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/download_gse305979.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/finish_external_phase1.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/finish_external_phase2.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/finish_external_phase3.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/finish_random_controls_and_gate.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/measure_control_thread_scaling.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/recover_from_backup.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/recover_primary_provenance.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/replay_external_phase3_149622.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_external_phase1_smoke.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_external_phase2.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_external_pure_mse.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_gse305979_pipeline.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_pure_mse_sweep_and_gate.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/run_random_pathway_controls.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/submission_readiness_gate.py` — submission, backup recovery, orchestration or infrastructure utility
+- `scripts/watch_random_controls.sh` — submission, backup recovery, orchestration or infrastructure utility
+- `tests/__pycache__/test_aggregate_external_phase3_seed_panels.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_aggregate_external_phase3_seed_panels.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_aggregate_mechanism_metrics.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_aggregate_mechanism_metrics.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_audit_freeze_integrity.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_audit_freeze_integrity.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_baseline_persistence_comparison.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_baseline_persistence_comparison.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_external_stats_files.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_external_stats_files.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_failure_boundary_table.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_failure_boundary_table.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_horizon_decay_table.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_build_horizon_decay_table.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_composite_drift_report.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_composite_drift_report.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_corrected_baseline_significance.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_corrected_baseline_significance.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_external_pure_mse_contrast.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_external_pure_mse_contrast.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_population_endpoint_bootstrap.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_population_endpoint_bootstrap.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_preprocess_contract.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_preprocess_contract.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_pure_mse_contrast.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_pure_mse_contrast.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_random_control_end_to_end.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_random_control_end_to_end.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_recover_from_backup.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_recover_from_backup.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_reviewer_controls.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_reviewer_controls.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_run_experiment_check.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_run_experiment_check.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_submission_readiness_gate.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_submission_readiness_gate.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_tagged_artifact_paths.cpython-311.pyc` — execution log, lock, cache or generated bytecode
+- `tests/__pycache__/test_tagged_artifact_paths.cpython-314.pyc` — execution log, lock, cache or generated bytecode
+- `tests/test_random_control_end_to_end.py` — test depends on excluded submission or backup-recovery utility
+- `tests/test_recover_from_backup.py` — test depends on excluded submission or backup-recovery utility
+- `tests/test_submission_readiness_gate.py` — test depends on excluded submission or backup-recovery utility
+
+## Entire source classes excluded
+
+- All correspondence and submission-process directories and identity documents.
+- All handover, infrastructure, backup and execution-state documents.
+- Source version history, environments, caches, model checkpoints and temporary files.
+- All raw GEO files and expression matrices; only selected data manifests are included.
+- Credentials and personal contact information are not permitted.
+
+New public documentation replaces the obsolete transfer-only exclusion and restoration
+guides. See EXCLUDED_FILES.md and DOWNLOAD_AND_RESTORE.md.
+
+## New or rewritten public release files
+
+- `.gitignore`, `README.md`, `EXCLUDED_FILES.md`, `DOWNLOAD_AND_RESTORE.md`
+- `LICENSE`, `PRIVACY_SCAN_REPORT.md`, `VERIFICATION_REPORT.md`
+- `REDACTION_MANIFEST.json` and this inventory
+- `scripts/reproduce_external.py`, `scripts/summarize_release_results.py`,
+  `scripts/scan_release_privacy.py` and `tests/test_release_helpers.py`
+
+The pre-contract metadata snapshot is retained for provenance only. The
+current frozen manifest remains the sole primary reconstruction contract.

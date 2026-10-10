@@ -1,0 +1,190 @@
+{
+  "status": "completed",
+  "metric": "population_mean_across_gene_pearson_r",
+  "primary_result_tag": "primary_internal_recovered",
+  "ablation_arm": {
+    "42": 0.47591155767440796,
+    "123": 0.5109895616769791,
+    "2026": 0.49991026520729065
+  },
+  "ablation_arm_mean": 0.4956037948528926,
+  "primary_arm": {
+    "42": 0.47388334572315216,
+    "123": 0.4808981120586395,
+    "2026": 0.49502530694007874
+  },
+  "primary_arm_mean": 0.4832689215739568,
+  "baselines": {
+    "Naive_LastTimeMean": {
+      "per_seed": {
+        "42": 0.44046445935964584,
+        "123": 0.44046445935964584,
+        "2026": 0.44046445935964584
+      },
+      "mean": 0.44046445935964584,
+      "vs_legacy_ablation_arm": {
+        "n": 3,
+        "differences": [
+          0.035447098314762115,
+          0.07052510231733322,
+          0.059445805847644806
+        ],
+        "mean_difference": 0.05513933549324671,
+        "sd_difference": 0.017931142082591417,
+        "ci95_difference": [
+          0.010595906433345889,
+          0.09968276455314753
+        ],
+        "t_statistic": 5.326159936159901,
+        "p_one_sided_greater": 0.016745109397396374
+      },
+      "vs_primary_arm": {
+        "n": 3,
+        "differences": [
+          0.03341888636350632,
+          0.04043365269899368,
+          0.05456084758043289
+        ],
+        "mean_difference": 0.042804462214310966,
+        "sd_difference": 0.010768527491860068,
+        "ci95_difference": [
+          0.01605395529155622,
+          0.06955496913706571
+        ],
+        "t_statistic": 6.8848320628694,
+        "p_one_sided_greater": 0.010225838295100431
+      }
+    },
+    "Ridge_Poly": {
+      "per_seed": {
+        "42": -0.2523917034268379,
+        "123": -0.2523917034268379,
+        "2026": -0.2523917034268379
+      },
+      "mean": -0.2523917034268379,
+      "vs_legacy_ablation_arm": {
+        "n": 3,
+        "differences": [
+          0.7283032611012459,
+          0.763381265103817,
+          0.7523019686341286
+        ],
+        "mean_difference": 0.7479954982797304,
+        "sd_difference": 0.017931142082591417,
+        "ci95_difference": [
+          0.7034520692198296,
+          0.7925389273396313
+        ],
+        "t_statistic": 72.25229719813005,
+        "p_one_sided_greater": 9.575069150347115e-05
+      },
+      "vs_primary_arm": {
+        "n": 3,
+        "differences": [
+          0.7262750491499901,
+          0.7332898154854774,
+          0.7474170103669167
+        ],
+        "mean_difference": 0.7356606250007948,
+        "sd_difference": 0.010768527491860068,
+        "ci95_difference": [
+          0.70891011807804,
+          0.7624111319235495
+        ],
+        "t_statistic": 118.32644533734262,
+        "p_one_sided_greater": 3.570753278653305e-05
+      }
+    },
+    "HGB_Regressor": {
+      "per_seed": {
+        "42": 0.4157211184501648,
+        "123": 0.42152654379606247,
+        "2026": 0.4189542382955551
+      },
+      "mean": 0.4187339668472608,
+      "vs_legacy_ablation_arm": {
+        "n": 3,
+        "differences": [
+          0.060190439224243164,
+          0.0894630178809166,
+          0.08095602691173553
+        ],
+        "mean_difference": 0.07686982800563176,
+        "sd_difference": 0.01505801220041895,
+        "ci95_difference": [
+          0.03946364968508456,
+          0.11427600632617896
+        ],
+        "t_statistic": 8.84196704735907,
+        "p_one_sided_greater": 0.00627531904599965
+      },
+      "vs_primary_arm": {
+        "n": 3,
+        "differences": [
+          0.058162227272987366,
+          0.05937156826257706,
+          0.07607106864452362
+        ],
+        "mean_difference": 0.06453495472669601,
+        "sd_difference": 0.010008849566813225,
+        "ci95_difference": [
+          0.03967159250486633,
+          0.08939831694852571
+        ],
+        "t_statistic": 11.167898938297697,
+        "p_one_sided_greater": 0.003961338033246609
+      }
+    },
+    "MLP_Sklearn": {
+      "per_seed": {
+        "42": 0.19710002094507217,
+        "123": 0.32190101593732834,
+        "2026": 0.24111898988485336
+      },
+      "mean": 0.2533733422557513,
+      "vs_legacy_ablation_arm": {
+        "n": 3,
+        "differences": [
+          0.2788115367293358,
+          0.18908854573965073,
+          0.2587912753224373
+        ],
+        "mean_difference": 0.24223045259714127,
+        "sd_difference": 0.047098295245558384,
+        "ci95_difference": [
+          0.12523179386978808,
+          0.3592291113244944
+        ],
+        "t_statistic": 8.908081467730392,
+        "p_one_sided_greater": 0.0061842303944230625
+      },
+      "vs_primary_arm": {
+        "n": 3,
+        "differences": [
+          0.27678332477808,
+          0.1589970961213112,
+          0.2539063170552254
+        ],
+        "mean_difference": 0.2298955793182055,
+        "sd_difference": 0.062456269183350344,
+        "ci95_difference": [
+          0.07474559595961189,
+          0.3850455626767991
+        ],
+        "t_statistic": 6.375514084033101,
+        "p_one_sided_greater": 0.011864880041983217
+      }
+    }
+  },
+  "caveats": [
+    "Legacy baseline arrays were scored on the first 2000 genes; the primary endpoint uses the frozen 2991-gene panel. Direction is unaffected but the exact p-values are not panel-matched.",
+    "Three seeds are stochastic training repeats, not biological replicates; df=2 makes these tests exploratory.",
+    "The disagreement between the two columns is the correction: the legacy file paired baselines with the pathway_delta_weight=0 ablation."
+  ],
+  "sources": {
+    "legacy_significance": {
+      "path": "artifacts/results/baselines/extrapolation_significance.json",
+      "sha256": "e3cf6727e1efd80aed4ec82fff69830738bd2aef3297639b70f299a2cb1d4b91"
+    }
+  }
+}

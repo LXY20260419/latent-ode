@@ -1,0 +1,312 @@
+seed,method_group,method,metric,value,notes
+42,leworld,LEWorldModel_ODE,time_holdout_mean_corr,0.2908177375793457,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.4411706030368805,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.2680214047431946,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6143198013305664,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,tf_direction_consistency_overall,0.29444444444444445,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed42.json
+42,leworld,LEWorldModel_ODE,marker_rank_spearman_overall,0.175,from validation_results_ode_seed42.json
+123,leworld,LEWorldModel_ODE,time_holdout_mean_corr,0.2974165976047516,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.5189344435930252,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.4125884473323822,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6252804398536682,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,tf_direction_consistency_overall,0.29444444444444445,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed123.json
+123,leworld,LEWorldModel_ODE,marker_rank_spearman_overall,0.4999999999999999,from validation_results_ode_seed123.json
+2026,leworld,LEWorldModel_ODE,time_holdout_mean_corr,0.3006938397884369,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.5539026856422424,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.4416837692260742,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6661216020584106,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,tf_direction_consistency_overall,0.29444444444444445,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed2026.json
+2026,leworld,LEWorldModel_ODE,marker_rank_spearman_overall,0.175,from validation_results_ode_seed2026.json
+42,leworld,LEWorldModel_GRU,time_holdout_mean_corr,0.2937301993370056,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.5556464344263077,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.46960029006004333,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.641692578792572,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,tf_direction_consistency_overall,0.29444444444444445,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed42.json
+42,leworld,LEWorldModel_GRU,marker_rank_spearman_overall,0.44999999999999996,from validation_results_gru_seed42.json
+123,leworld,LEWorldModel_GRU,time_holdout_mean_corr,0.2957008481025696,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.559791311621666,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.4575078785419464,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.6620747447013855,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,tf_direction_consistency_overall,0.29444444444444445,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed123.json
+123,leworld,LEWorldModel_GRU,marker_rank_spearman_overall,0.375,from validation_results_gru_seed123.json
+2026,leworld,LEWorldModel_GRU,time_holdout_mean_corr,0.28612565994262695,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.541779175400734,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.44548049569129944,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.6380778551101685,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,tf_direction_consistency_overall,0.29444444444444445,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed2026.json
+2026,leworld,LEWorldModel_GRU,marker_rank_spearman_overall,0.4749999999999999,from validation_results_gru_seed2026.json
+agg3,leworld,LEWorldModel_ODE,time_holdout_mean_corr,0.2963093916575114,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_holdout_std_over_seeds,0.004107211338471802,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.504669244090716,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.04711512531212631,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,-0.374097873767217,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.07594207178052527,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,-0.6352406144142151,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.02228991472421619,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,tf_direction_consistency_mean,0.29444444444444445,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,tf_direction_consistency_std,0.0,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,pathway_activation_order_mean,0.0,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,pathway_activation_order_std,0.0,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,marker_rank_spearman_mean,0.28333333333333327,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_ODE,marker_rank_spearman_std,0.15320646925708525,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_holdout_mean_corr,0.2918522357940674,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_holdout_std_over_seeds,0.004128447438285584,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.5524056404829025,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_std_over_seeds,0.007702221404593237,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_mean,-0.45752955476442975,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_std,0.009846876746515052,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_mean,-0.6472817262013754,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_std,0.010563825193595507,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,tf_direction_consistency_mean,0.29444444444444445,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,tf_direction_consistency_std,0.0,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,pathway_activation_order_mean,0.0,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,pathway_activation_order_std,0.0,std over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,marker_rank_spearman_mean,0.4333333333333333,mean over seeds [42,123,2026]
+agg3,leworld,LEWorldModel_GRU,marker_rank_spearman_std,0.042491829279939844,std over seeds [42,123,2026]
+42,baseline,Naive_LastTimeMean,cell_corr_mean,0.06684111058712006,n_genes=2000 from baseline_comparison_seed42.json
+123,baseline,Naive_LastTimeMean,cell_corr_mean,0.06684111058712006,n_genes=2000 from baseline_comparison_seed123.json
+2026,baseline,Naive_LastTimeMean,cell_corr_mean,0.06684111058712006,n_genes=2000 from baseline_comparison_seed2026.json
+agg3,baseline,Naive_LastTimeMean,cell_corr_mean,0.06684111058712006,mean over seeds [42,123,2026]
+agg3,baseline,Naive_LastTimeMean,cell_corr_std_over_seeds,0.0,std over seeds [42,123,2026]
+42,baseline,Ridge_Poly,cell_corr_mean,-0.03745878115296364,n_genes=2000 from baseline_comparison_seed42.json
+123,baseline,Ridge_Poly,cell_corr_mean,-0.03745878115296364,n_genes=2000 from baseline_comparison_seed123.json
+2026,baseline,Ridge_Poly,cell_corr_mean,-0.03745878115296364,n_genes=2000 from baseline_comparison_seed2026.json
+agg3,baseline,Ridge_Poly,cell_corr_mean,-0.03745878115296364,mean over seeds [42,123,2026]
+agg3,baseline,Ridge_Poly,cell_corr_std_over_seeds,0.0,std over seeds [42,123,2026]
+42,baseline,HGB_Regressor,cell_corr_mean,0.05794834345579147,n_genes=2000 from baseline_comparison_seed42.json
+123,baseline,HGB_Regressor,cell_corr_mean,0.057931311428546906,n_genes=2000 from baseline_comparison_seed123.json
+2026,baseline,HGB_Regressor,cell_corr_mean,0.05774114280939102,n_genes=2000 from baseline_comparison_seed2026.json
+agg3,baseline,HGB_Regressor,cell_corr_mean,0.057873599231243134,mean over seeds [42,123,2026]
+agg3,baseline,HGB_Regressor,cell_corr_std_over_seeds,9.391858266751892e-05,std over seeds [42,123,2026]
+42,baseline,MLP_Sklearn,cell_corr_mean,0.016609858721494675,n_genes=2000 from baseline_comparison_seed42.json
+123,baseline,MLP_Sklearn,cell_corr_mean,0.016609858721494675,n_genes=2000 from baseline_comparison_seed123.json
+2026,baseline,MLP_Sklearn,cell_corr_mean,0.016609858721494675,n_genes=2000 from baseline_comparison_seed2026.json
+agg3,baseline,MLP_Sklearn,cell_corr_mean,0.016609858721494675,mean over seeds [42,123,2026]
+agg3,baseline,MLP_Sklearn,cell_corr_std_over_seeds,0.0,std over seeds [42,123,2026]
+42,leworld_external_priors,LEWorldModel_ODE,time_holdout_mean_corr,0.29521167278289795,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.43292832374572754,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.26099830865859985,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6048583388328552,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,tf_direction_consistency_overall,0.3333333333333333,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_ODE,marker_rank_spearman_overall,0.39999999999999997,from validation_results_ode_seed42.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,time_holdout_mean_corr,0.29909440875053406,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.5084612369537354,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.40510281920433044,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6118196249008179,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,tf_direction_consistency_overall,0.3333333333333333,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_ODE,marker_rank_spearman_overall,0.35,from validation_results_ode_seed123.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,time_holdout_mean_corr,0.2998547852039337,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.553937166929245,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,-0.44443875551223755,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,-0.6634355783462524,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,tf_direction_consistency_overall,0.3333333333333333,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,pathway_activation_order_overall,0.0,from validation_results_ode_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_ODE,marker_rank_spearman_overall,0.175,from validation_results_ode_seed2026.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,time_holdout_mean_corr,0.28947246074676514,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.5833280980587006,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.4932774603366852,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.6733787357807159,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,tf_direction_consistency_overall,0.3333333333333333,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed42.json (external priors enabled)
+42,leworld_external_priors,LEWorldModel_GRU,marker_rank_spearman_overall,0.5,from validation_results_gru_seed42.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,time_holdout_mean_corr,0.29348933696746826,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.5861476957798004,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.5023233443498611,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.6699720472097397,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,tf_direction_consistency_overall,0.3333333333333333,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed123.json (external priors enabled)
+123,leworld_external_priors,LEWorldModel_GRU,marker_rank_spearman_overall,0.425,from validation_results_gru_seed123.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,time_holdout_mean_corr,0.2902095913887024,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.5563997179269791,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_corr,-0.4553609788417816,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_corr,-0.6574384570121765,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,tf_direction_consistency_overall,0.3333333333333333,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,pathway_activation_order_overall,0.0,from validation_results_gru_seed2026.json (external priors enabled)
+2026,leworld_external_priors,LEWorldModel_GRU,marker_rank_spearman_overall,0.5,from validation_results_gru_seed2026.json (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_holdout_mean_corr,0.2980536222457886,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_holdout_std_over_seeds,0.00241187874013856,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.49844224254290265,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.05018492656539157,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,-0.37017996112505597,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.07900607370294052,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,-0.6267045140266418,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.02653349922199535,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,tf_direction_consistency_mean,0.3333333333333333,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,tf_direction_consistency_std,0.0,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,pathway_activation_order_mean,0.0,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,pathway_activation_order_std,0.0,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,marker_rank_spearman_mean,0.3083333333333333,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_ODE,marker_rank_spearman_std,0.09646482447371013,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_holdout_mean_corr,0.2910571297009786,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_holdout_std_over_seeds,0.0014298904115566747,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.57529183725516,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_std_over_seeds,0.012729116327392483,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_mean,-0.48365392784277594,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_std,0.020151744877723547,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_mean,-0.6669307698008774,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_std,0.00569404464614278,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,tf_direction_consistency_mean,0.3333333333333333,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,tf_direction_consistency_std,0.0,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,pathway_activation_order_mean,0.0,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,pathway_activation_order_std,0.0,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,marker_rank_spearman_mean,0.475,mean over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors,LEWorldModel_GRU,marker_rank_spearman_std,0.035355339059327376,std over seeds [42,123,2026] (external priors enabled)
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_holdout_mean_corr,0.2980542480945587,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_holdout_std_over_seeds,0.0024121216687273176,std over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_extrapolation_mean_corr,-0.5245119432608286,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.05200906147036906,std over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,-0.44816726446151733,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,-0.60085662206014,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,tf_direction_consistency_mean,0.3333333333333333,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,pathway_activation_order_mean,0.27777777777777773,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_ODE,marker_rank_spearman_mean,0.3499999999999999,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_holdout_mean_corr,0.2910574773947398,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_holdout_std_over_seeds,0.0014303914509308621,std over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.29345739384492237,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_extrapolation_std_over_seeds,0.1095876804233124,std over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_mean,-0.23801900943120322,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_mean,-0.34889577825864154,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,tf_direction_consistency_mean,0.47222222222222215,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,pathway_activation_order_mean,0.5,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_external_priors_multistepfix,LEWorldModel_GRU,marker_rank_spearman_mean,0.3083333333333333,mean over seeds [42,123,2026] after multi-step extrapolation fix
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_holdout_mean_corr,0.30175259709358215,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_holdout_std_over_seeds,0.0009608327604843583,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_mean_corr,0.4832689215739568,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.00879218013205477,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,0.707355777422587,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.016258391977335863,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,0.25918206572532654,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.0033104029739492723,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,tf_direction_consistency_mean,0.5694444444444443,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,tf_direction_consistency_std,0.051967463705193745,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,pathway_activation_order_mean,0.4444444444444444,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,pathway_activation_order_std,0.15713484026367722,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,marker_rank_spearman_mean,-0.21666666666666665,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_ODE,marker_rank_spearman_std,0.10274023338281629,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_holdout_mean_corr,0.3167503575483958,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_holdout_std_over_seeds,0.003450902071196734,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_mean_corr,-0.14440994647641978,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_std_over_seeds,0.09595349561162806,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_mean,-0.12040325626730919,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_36_std,0.13356386091224514,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_mean,-0.16841663668553034,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,time_extrapolation_pair_27_to_48_std,0.059338574962352075,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,tf_direction_consistency_mean,0.27777777777777773,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,tf_direction_consistency_std,0.07856742013183861,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,pathway_activation_order_mean,0.27777777777777773,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,pathway_activation_order_std,0.20786985482077452,std over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,marker_rank_spearman_mean,0.14166666666666666,mean over seeds [42,123,2026] with gap-aligned training + step cap
+agg3,leworld_gap_aligned_trainfix,LEWorldModel_GRU,marker_rank_spearman_std,0.15046218117035795,std over seeds [42,123,2026] with gap-aligned training + step cap
+42,leworld_ablation_pathway0,LEWorldModel_ODE,time_holdout_mean_corr,0.31172072887420654,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.4449966326355934,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.6711740493774414,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.21881921589374542,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,tf_direction_consistency_overall,0.5833333333333333,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,pathway_activation_order_overall,0.6666666666666666,from validation_results_ode_ablation_pathway0_seed42.json
+42,leworld_ablation_pathway0,LEWorldModel_ODE,marker_rank_spearman_overall,-0.07500000000000001,from validation_results_ode_ablation_pathway0_seed42.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,time_holdout_mean_corr,0.30946123600006104,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.425224669277668,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.670217752456665,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.18023158609867096,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,tf_direction_consistency_overall,0.7083333333333333,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_pathway0_seed123.json
+123,leworld_ablation_pathway0,LEWorldModel_ODE,marker_rank_spearman_overall,-0.27499999999999997,from validation_results_ode_ablation_pathway0_seed123.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,time_holdout_mean_corr,0.3108977973461151,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.4959392100572586,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.6929537653923035,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.29892465472221375,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,tf_direction_consistency_overall,0.6666666666666666,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_pathway0_seed2026.json
+2026,leworld_ablation_pathway0,LEWorldModel_ODE,marker_rank_spearman_overall,-0.1,from validation_results_ode_ablation_pathway0_seed2026.json
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_holdout_mean_corr,0.3106932540734609,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_holdout_std_over_seeds,0.0011435495069605226,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.45538683732350665,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.03648429572445721,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,0.67811518907547,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.01285947651667985,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,0.23265848557154337,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.060544654377817475,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,tf_direction_consistency_mean,0.6527777777777777,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,tf_direction_consistency_std,0.06364688465216445,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,pathway_activation_order_mean,0.4444444444444444,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,pathway_activation_order_std,0.19245008972987526,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,marker_rank_spearman_mean,-0.15,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+agg3,leworld_ablation_pathway0,LEWorldModel_ODE,marker_rank_spearman_std,0.10897247358851682,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_WEIGHT=0
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_holdout_mean_corr,0.29972562193870544,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.47591155767440796,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.6968475580215454,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.2549755573272705,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,tf_direction_consistency_overall,0.41666666666666663,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,pathway_activation_order_overall,0.16666666666666666,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+42,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,marker_rank_spearman_overall,-0.3,from validation_results_ode_ablation_pathwaydelta0_seed42.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_holdout_mean_corr,0.303445965051651,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.5109895616769791,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.7470280528068542,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.2749510705471039,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,tf_direction_consistency_overall,0.8333333333333333,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+123,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,marker_rank_spearman_overall,0.04999999999999999,from validation_results_ode_ablation_pathwaydelta0_seed123.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_holdout_mean_corr,0.3156360685825348,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.49991026520729065,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.7349259853363037,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.2648945450782776,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,tf_direction_consistency_overall,0.6666666666666666,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+2026,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,marker_rank_spearman_overall,-6.938893903907228e-18,from validation_results_ode_ablation_pathwaydelta0_seed2026.json
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_holdout_mean_corr,0.30626921852429706,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_holdout_std_over_seeds,0.00832247849078874,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_mean_corr,0.4956037948528926,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.017931142082591417,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_mean,0.7262671987215678,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.026186856501960086,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_mean,0.26494039098421734,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.009987835525490648,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,tf_direction_consistency_mean,0.6388888888888888,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,tf_direction_consistency_std,0.20971762320196524,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,pathway_activation_order_mean,0.27777777777777773,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,pathway_activation_order_std,0.09622504486493763,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,marker_rank_spearman_mean,-0.08333333333333333,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+agg3,leworld_ablation_pathwaydelta0,LEWorldModel_ODE,marker_rank_spearman_std,0.18929694486000911,mean/std over seeds [42|123|2026] for LEWORLD_PATHWAY_DELTA_WEIGHT=0
+42,leworld_ablation_nopriors,LEWorldModel_ODE,time_holdout_mean_corr,0.30396518111228943,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_mean_corr,0.47592777013778687,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.6966714262962341,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.2551841139793396,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,tf_direction_consistency_overall,0.5277777777777778,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_nopriors_seed42.json
+42,leworld_ablation_nopriors,LEWorldModel_ODE,marker_rank_spearman_overall,-0.35,from validation_results_ode_ablation_nopriors_seed42.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,time_holdout_mean_corr,0.30259940028190613,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_mean_corr,0.4995134472846985,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.6981706023216248,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.3008562922477722,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,tf_direction_consistency_overall,0.5944444444444444,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,pathway_activation_order_overall,0.6666666666666666,from validation_results_ode_ablation_nopriors_seed123.json
+123,leworld_ablation_nopriors,LEWorldModel_ODE,marker_rank_spearman_overall,-0.175,from validation_results_ode_ablation_nopriors_seed123.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,time_holdout_mean_corr,0.30626368522644043,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_mean_corr,0.49444568157196045,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.7352411150932312,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.2536502480506897,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,tf_direction_consistency_overall,0.5833333333333334,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,pathway_activation_order_overall,0.3333333333333333,from validation_results_ode_ablation_nopriors_seed2026.json
+2026,leworld_ablation_nopriors,LEWorldModel_ODE,marker_rank_spearman_overall,-0.3,from validation_results_ode_ablation_nopriors_seed2026.json
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_holdout_mean_corr,0.30427608887354535,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_holdout_std_over_seeds,0.001512006121171925,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_mean_corr,0.48996229966481525,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_std_over_seeds,0.010137276972099062,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_corr,0.7100277145703634,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_36_std,0.017839068672134403,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_corr,0.26989688475926715,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,time_extrapolation_pair_27_to_48_std,0.0219005611830876,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,tf_direction_consistency_overall,0.5685185185185185,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,tf_direction_consistency_std,0.02916299212596967,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,pathway_activation_order_overall,0.4444444444444444,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,pathway_activation_order_std,0.15713484026367722,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,marker_rank_spearman_overall,-0.27499999999999997,mean/std over seeds [42|123|2026] for no external priors
+agg3,leworld_ablation_nopriors,LEWorldModel_ODE,marker_rank_spearman_std,0.07359800721939871,mean/std over seeds [42|123|2026] for no external priors

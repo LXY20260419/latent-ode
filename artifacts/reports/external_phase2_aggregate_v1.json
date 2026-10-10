@@ -1,0 +1,279 @@
+{
+  "record_type": "external_phase2_aggregate",
+  "created_at": "2026-10-02T00:04:16.374932+00:00",
+  "protocol": "artifacts/reports/external_phase2_protocol_v1.json",
+  "protocol_sha256": "5ca4d0c947338853adcee6ee51643e9e89a37525880ae7738e86814875f765c8",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "successful_runs": {
+    "GSE148794": {
+      "ode": [
+        42,
+        123,
+        2026
+      ],
+      "gru": [
+        42,
+        123,
+        2026
+      ]
+    },
+    "GSE149622": {
+      "ode": [
+        42,
+        123,
+        2026
+      ],
+      "gru": [
+        42,
+        123,
+        2026
+      ]
+    }
+  },
+  "datasets": {
+    "GSE148794": {
+      "result_tag": "ext_gse148794_v2",
+      "train_timepoints": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "holdout_timepoints": [
+        12
+      ],
+      "replicate_note": "GEO sample/library groups are not independent animal replicates; the source study pooled biological material before profiling. Protocol/seed-level inference only.",
+      "actual_epochs": {
+        "ode": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        },
+        "gru": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        }
+      },
+      "horizons": {
+        "12": {
+          "ode": {
+            "per_seed": {
+              "42": 0.5534238219261169,
+              "123": 0.5616165399551392,
+              "2026": 0.5559939742088318
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5570114453633627,
+              "sd": 0.004190058810863299,
+              "min": 0.5534238219261169,
+              "max": 0.5616165399551392,
+              "ci95_low": 0.5539806882540386,
+              "ci95_high": 0.5603983173767726
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.5600435733795166,
+              "123": 0.5808950662612915,
+              "2026": 0.47688835859298706
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5392756660779318,
+              "sd": 0.055025705722557085,
+              "min": 0.47688835859298706,
+              "max": 0.5808950662612915,
+              "ci95_low": 0.4949053217967351,
+              "ci95_high": 0.5763772428035736
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.558697603904252,
+            "deterministic": true,
+            "n_source": 2167,
+            "n_target": 2335
+          },
+          "source_time": 9
+        },
+        "15": {
+          "ode": {
+            "per_seed": {
+              "42": 0.658785343170166,
+              "123": 0.6715764999389648,
+              "2026": 0.6641449928283691
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.6648356119791666,
+              "sd": 0.006423483399183284,
+              "min": 0.658785343170166,
+              "max": 0.6715764999389648,
+              "ci95_low": 0.6599466005961101,
+              "ci95_high": 0.6699663400650024
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.684630811214447,
+              "123": 0.6833658218383789,
+              "2026": 0.615685224533081
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.661227285861969,
+              "sd": 0.039445653272490416,
+              "min": 0.615685224533081,
+              "max": 0.684630811214447,
+              "ci95_low": 0.630349353949229,
+              "ci95_high": 0.6843567301829656
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.6661081430649781,
+            "deterministic": true,
+            "n_source": 2167,
+            "n_target": 2178
+          },
+          "source_time": 9
+        }
+      },
+      "seed_artifacts": {
+        "ode": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed42.json",
+            "sha256": "9cee382cd03282b33c5a69e8a1b24cf7aaf3f7f3991fa1bb32180d4d08e5249f"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed123.json",
+            "sha256": "1855fca120036568273571986c1818c5a9da33c10387f997e335b4a578647122"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed2026.json",
+            "sha256": "6f19938d1dad7980e33fdbd949e0eacaa7a9cfa03e1fa2688d68e07507349df5"
+          }
+        },
+        "gru": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed42.json",
+            "sha256": "0ada6f5477bc9c500207e2b0836994daea8961d6059c76721147eb5c8d783616"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed123.json",
+            "sha256": "2bb1eef87bcb722706b097dbee7319eb38fb51d3ea59ee7bb3b0653c61eca3be"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed2026.json",
+            "sha256": "a7434ed4bd4bd2b4e6433409854b5d222a8f61d7bd82577d3499c45c9b80e344"
+          }
+        }
+      }
+    },
+    "GSE149622": {
+      "result_tag": "ext_gse149622_v2",
+      "train_timepoints": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "holdout_timepoints": [
+        4
+      ],
+      "replicate_note": "one pooled RNA sample per timepoint; no biological-replicate inference",
+      "actual_epochs": {
+        "ode": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        },
+        "gru": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        }
+      },
+      "horizons": {
+        "4": {
+          "ode": {
+            "per_seed": {
+              "42": 0.40461465716362,
+              "123": 0.40270689129829407,
+              "2026": 0.40309086441993713
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.4034708042939504,
+              "sd": 0.0010090383442291021,
+              "min": 0.40270689129829407,
+              "max": 0.40461465716362,
+              "ci95_low": 0.40279008547465006,
+              "ci95_high": 0.40428450206915534
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.4050067961215973,
+              "123": 0.4027712941169739,
+              "2026": 0.4030231237411499
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.40360040465990704,
+              "sd": 0.001224462023722918,
+              "min": 0.4027712941169739,
+              "max": 0.4050067961215973,
+              "ci95_low": 0.402825857202212,
+              "ci95_high": 0.404577000439167
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.40167497112135003,
+            "deterministic": true,
+            "n_source": 6525,
+            "n_target": 4953
+          },
+          "source_time": 3
+        }
+      },
+      "seed_artifacts": {
+        "ode": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed42.json",
+            "sha256": "e0940a69d89d1c55bf73560bcd870c1d41ce3df7086d1a9c58d9de3d57aaba30"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed123.json",
+            "sha256": "a7168d99c2e82fe8fc358a44313280eb161b22b5a4574e7370596c98d41a0bf2"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed2026.json",
+            "sha256": "b3af2c48633938810eca55aaacdeae674570108aff578f5f1861307d51d33b69"
+          }
+        },
+        "gru": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed42.json",
+            "sha256": "3b6d5f6833d5d1dc61b44b74d8e48b8224e89225428972e90d5f57d260f7cfec"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed123.json",
+            "sha256": "07564b7b63cc53d3e33ef37177a69285d47fc603f4e50cf9bbad764580ebf8af"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed2026.json",
+            "sha256": "baf0d68824d1007c3209673a976cdacbd6035300e6faa6c338780a3aa49bb33a"
+          }
+        }
+      }
+    }
+  }
+}

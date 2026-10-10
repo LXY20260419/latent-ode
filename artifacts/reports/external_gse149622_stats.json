@@ -1,0 +1,198 @@
+{
+  "record_type": "external_accession_stats",
+  "accession": "GSE149622",
+  "created_at": "2026-10-03T05:44:22.105139+00:00",
+  "result_tag": "ext_gse149622_v2",
+  "seeds": [
+    42,
+    123,
+    2026,
+    7,
+    13
+  ],
+  "train_timepoints": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "holdout_timepoints": [
+    4
+  ],
+  "replicate_note": "one pooled RNA sample per timepoint; no biological-replicate inference",
+  "metric": "population_mean_across_gene_pearson_r",
+  "horizons": {
+    "4": {
+      "source_time": 3,
+      "role": "primary",
+      "ode": {
+        "mean": 0.4007581353187561,
+        "sd": 0.003879183411331511,
+        "n": 5,
+        "ci95": [
+          0.39748231172561643,
+          0.40362358689308164
+        ],
+        "per_seed": {
+          "42": 0.40461465716362,
+          "123": 0.40270689129829407,
+          "2026": 0.40309086441993713,
+          "7": 0.3979070484638214,
+          "13": 0.3954712152481079
+        }
+      },
+      "gru": {
+        "mean": 0.4008138179779053,
+        "sd": 0.0039935290864754735,
+        "n": 5,
+        "ci95": [
+          0.3974595367908478,
+          0.40376622676849366
+        ],
+        "per_seed": {
+          "42": 0.4050067961215973,
+          "123": 0.4027712941169739,
+          "2026": 0.4030231237411499,
+          "7": 0.39776453375816345,
+          "13": 0.39550334215164185
+        }
+      },
+      "persistence": {
+        "corr": 0.40167497112135003,
+        "deterministic": true
+      },
+      "ode_minus_gru": -5.5682659149181024e-05,
+      "ode_minus_persistence": -0.0009168358025939405,
+      "data_uncertainty": {
+        "cell_level": {
+          "corr": 0.40167497112135003,
+          "n_source_cells": 6525,
+          "n_target_cells": 4953,
+          "n_source_groups": 1,
+          "n_target_groups": 1,
+          "replicates": 2000,
+          "bootstrap_mean": 0.3737288081375625,
+          "bootstrap_sd": 0.018238669730597706,
+          "ci95_percentile": [
+            0.337823823683673,
+            0.40827891479609274
+          ]
+        },
+        "sample_cluster": {
+          "status": "not_defined_single_pooled_sample",
+          "reason": "GSE149622 has exactly one pooled RNA sample per timepoint; resampling sample groups would either be a no-op or fabricate biological replication that does not exist."
+        },
+        "note": "data-sampling uncertainty at fixed checkpoints; not training variance and not seed uncertainty"
+      }
+    }
+  },
+  "classical_baselines": {
+    "Naive_LastTimeMean": {
+      "deterministic": true,
+      "horizons": {
+        "4": 0.4016739897571611
+      }
+    },
+    "Ridge_Poly": {
+      "deterministic": true,
+      "per_seed": {
+        "deterministic": {
+          "4": 0.19227644799352328
+        }
+      }
+    },
+    "HGB_Regressor": {
+      "deterministic": false,
+      "per_seed": {
+        "42": {
+          "4": 0.39499283303588933
+        }
+      }
+    },
+    "MLP_Sklearn": {
+      "deterministic": false,
+      "per_seed": {
+        "42": {
+          "4": 0.29700166931304733
+        }
+      }
+    }
+  },
+  "pure_mse_contrast": {
+    "preregistration": "artifacts/reports/external_pure_mse_preregistration.json",
+    "endpoints": {
+      "4": {
+        "pure_mse_mean": 0.4031468629837036,
+        "full_mean": 0.4034708042939504,
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.00021892786026000977,
+            -0.0008647441864013672,
+            -0.000326007604598999
+          ],
+          "diff_mean": -0.00032394131024678546,
+          "diff_sd": 0.0005418389782565268,
+          "ci95_difference": [
+            -0.0016699439498807107,
+            0.0010220613293871398
+          ],
+          "t_statistic": -1.0355157722747428,
+          "p_one_sided_left_greater": 0.7953897442858173,
+          "p_two_sided": 1.0,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      }
+    },
+    "note": "preregistered paired contrast; every endpoint kept regardless of sign"
+  },
+  "mechanism_proxies": {
+    "arms": {
+      "ode": {
+        "tf_direction_consistency": {
+          "mean": 0.5,
+          "sd": 0.3535533905932738,
+          "n": 5
+        },
+        "pathway_activation_order": {
+          "mean": null,
+          "sd": null,
+          "n": 0
+        },
+        "marker_rank_spearman": {
+          "mean": 0.2,
+          "sd": 0.6224949798994366,
+          "n": 5
+        }
+      },
+      "gru": {
+        "tf_direction_consistency": {
+          "mean": 0.5,
+          "sd": 0.3535533905932738,
+          "n": 5
+        },
+        "pathway_activation_order": {
+          "mean": null,
+          "sd": null,
+          "n": 0
+        },
+        "marker_rank_spearman": {
+          "mean": 0.2,
+          "sd": 0.6224949798994366,
+          "n": 5
+        }
+      }
+    },
+    "coupling_note": "Prior-consistency proxies only: pathway sets enter the training loss (pathway_score 0.2, pathway_delta 0.1) and the TF/marker sets share the same priors object; not independent mechanism validation."
+  },
+  "provenance": {
+    "protocol": "artifacts/reports/external_gse149622_protocol.json",
+    "qc": "artifacts/reports/external_gse149622_qc.json",
+    "phase3_aggregate": "artifacts/reports/external_phase3_aggregate_v2.json",
+    "persistence": "artifacts/reports/external_persistence_v1.json",
+    "sample_uncertainty": "artifacts/reports/external_phase3_sample_uncertainty.json",
+    "classical_baselines": "artifacts/reports/external_phase3_classical_baselines.json",
+    "mechanism_metrics": "artifacts/reports/mechanism_metrics_aggregate.json",
+    "pure_mse_contrast": "artifacts/reports/external_pure_mse_contrast.json"
+  }
+}

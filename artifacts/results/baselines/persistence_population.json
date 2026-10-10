@@ -1,0 +1,36 @@
+{
+  "mean_extrapolation_corr": 0.44676489732268454,
+  "method": "population_persistence",
+  "metric": "population_mean_across_gene_pearson_r",
+  "pairs": {
+    "36": {
+      "corr": 0.6822830768673137,
+      "from_time": 27,
+      "n_source": 4000,
+      "n_target": 6093
+    },
+    "48": {
+      "corr": 0.21124671777805543,
+      "from_time": 27,
+      "n_source": 4000,
+      "n_target": 8420
+    }
+  },
+  "source_files": {
+    "expression_matrix": "data/leworld_input/expression_matrix.npy",
+    "metadata": "data/leworld_input/metadata.csv",
+    "metadata_sha256": "80223b5d11d743425550e06ce2413c6dc79a735b073b6ef0a82fcc5ed4ffe3c6"
+  },
+  "status": "completed",
+  "target_times": [
+    36,
+    48
+  ],
+  "train_times": [
+    0,
+    1,
+    4,
+    16,
+    27
+  ]
+}

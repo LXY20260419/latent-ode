@@ -1,0 +1,96 @@
+{
+  "record_type": "external_pure_mse_preregistration",
+  "protocol_id": "external-pure-mse-v1",
+  "created_at": "2026-10-03T00:25:00+08:00",
+  "status": "locked_before_external_pure_mse_runs",
+  "authority_note": "Plan section 12 item 7 (run one pure-MSE on the first external batch once the quality gate has passed). The gate is READY (submission_readiness_gate_2026-10-02.json), the host is idle, and this record is committed before any run is started.",
+  "purpose": "Test whether the internal pure-MSE null replicates on the two external candidates: does removing the pathway-score and pathway-delta losses (both weights 0.0) change the population extrapolation endpoint, for better or worse, on GSE148794 and GSE149622?",
+  "base_protocol": "artifacts/reports/external_phase3_preregistration.json (training entry point, hyperparameters, checkpoint selection, endpoint metric, failure policy unchanged)",
+  "arms": [
+    {
+      "accession": "GSE148794",
+      "full_arm_tag": "ext_gse148794_v2",
+      "pure_mse_tag": "ext_gse148794_puremse_v1",
+      "data_dir": "data/leworld_input_gse148794",
+      "train_timepoints": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "holdout_timepoints": [
+        12,
+        15
+      ],
+      "source_time_for_extrapolation": 9,
+      "endpoints": [
+        "9 -> 12",
+        "9 -> 15"
+      ]
+    },
+    {
+      "accession": "GSE149622",
+      "full_arm_tag": "ext_gse149622_v2",
+      "pure_mse_tag": "ext_gse149622_puremse_v1",
+      "data_dir": "data/leworld_input_gse149622",
+      "train_timepoints": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "holdout_timepoints": [
+        4
+      ],
+      "source_time_for_extrapolation": 3,
+      "endpoints": [
+        "3 -> 4"
+      ]
+    }
+  ],
+  "seed_rule": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "rationale": "The same three seeds as the internal pure-MSE contrast and the phase-2 full arm, so the comparison is paired per seed on identical data, protocol and endpoint; no new seeds are introduced for this arm."
+  },
+  "config_contrast": {
+    "full_arm": {
+      "pathway_weight": 0.2,
+      "pathway_delta_weight": 0.1
+    },
+    "pure_mse_arm": {
+      "pathway_weight": 0.0,
+      "pathway_delta_weight": 0.0
+    }
+  },
+  "execution": {
+    "driver": "scripts/run_external_phase2.py",
+    "entry_point": "ode_benchmark/train_ode_benchmark.py (unmodified)",
+    "device": "cpu",
+    "threads_per_stream": 4,
+    "max_concurrent_streams": 4,
+    "epoch_cap": 100,
+    "log_policy": "logs written under artifacts/reports/external_pure_mse_logs/ (workspace), never /tmp",
+    "launch_policy": "setsid nohup detached"
+  },
+  "analysis_plan": {
+    "contrast": "Per accession and endpoint, paired per-seed difference pure_mse minus full (both arms from tagged artifacts with matching provenance), mean/SD, two-sided and one-sided t intervals with df=2 (exploratory), written to artifacts/reports/external_pure_mse_contrast.json",
+    "reporting": "Every endpoint is reported regardless of sign, including any endpoint where pure-MSE is nominally better or worse; the 5-seed full-arm mean is shown as context but the paired test uses the 3 shared seeds",
+    "gru_control": "The GRU arm of the same runs is recorded as a secondary control, exactly as the internal pure-MSE record did"
+  },
+  "decision_rules": {
+    "if intervals span zero on both accessions": "The pathway null replicates across systems; the 'optional regularizer' framing extends to the external sets and is recorded in the plan status.",
+    "if an interval excludes zero": "Report that dataset's direction honestly and mark the pathway-term contribution as dataset-dependent; no endpoint is dropped and no seed is swapped.",
+    "if a run fails": "Record the failure as a boundary with exit code and log, do not retry with different seeds, and exclude only the failed run with the failure documented."
+  },
+  "explicitly_not_changed": [
+    "frozen internal primary result and all its artifacts",
+    "phase-2/3 full-arm artifacts (ext_gse148794_v2 / ext_gse149622_v2)",
+    "private publication materials excluded from this release",
+    "submission-readiness gate and its outputs",
+    "main / cmpb branches"
+  ]
+}

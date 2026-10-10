@@ -1,0 +1,79 @@
+{
+  "record_type": "external_phase3_preregistration",
+  "protocol_id": "external-time-extrapolation-v1-phase3",
+  "created_at": "2026-10-02T08:35:00+08:00",
+  "status": "locked_before_confirmation_runs",
+  "authority_note": "Execution delegated to the executing agent by the author; seeds and analysis rules are locked here before any confirmation result is inspected.",
+  "purpose": "Bring the two qualified external candidates to five seeds each (add seeds 7 and 13), add sample-aware uncertainty on the population endpoint, and produce a cross-dataset forest/heterogeneity summary. This is a confirmation layer on top of the locked phase-2 protocol; it does not modify the frozen internal primary result, the manuscript, or the submission gate.",
+  "seeds_added": [
+    7,
+    13
+  ],
+  "seed_choice_rule": "Deterministic and result-independent: 7 and 13 are the smallest positive integers not already used by any arm of this project (42/123/2026 are used by the internal freeze, both externals, pure-MSE, and the random controls). They were chosen and this record was committed before any seed-7/13 run was started.",
+  "base_protocol": "artifacts/reports/external_phase2_protocol_v1.json",
+  "base_protocol_sha256": "5ca4d0c947338853adcee6ee51643e9e89a37525880ae7738e86814875f765c8",
+  "datasets": [
+    {
+      "accession": "GSE148794",
+      "result_tag": "ext_gse148794_v2",
+      "data_dir": "data/leworld_input_gse148794",
+      "train_timepoints": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "primary_endpoint": "9 -> 12 days",
+      "secondary_endpoint": "9 -> 15 days",
+      "existing_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "replicate_note": "GEO sample/library groups are not independent animal replicates; the source study pooled biological material before profiling. Protocol/seed-level inference only."
+    },
+    {
+      "accession": "GSE149622",
+      "result_tag": "ext_gse149622_v2",
+      "data_dir": "data/leworld_input_gse149622",
+      "train_timepoints": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "primary_endpoint": "3 -> 4 days",
+      "secondary_endpoint": null,
+      "existing_seeds": [
+        42,
+        123,
+        2026
+      ],
+      "replicate_note": "one pooled RNA sample per timepoint; no biological-replicate inference"
+    }
+  ],
+  "unchanged_from_phase2_protocol": [
+    "training entry point (ode_benchmark/train_ode_benchmark.py, unmodified; its sha256 is recorded in every artifact)",
+    "hyperparameters, epoch cap 100, early-stopping patience 15, min epochs 20, internal validation fraction 0.1",
+    "CPU device, 4 threads per stream",
+    "population_mean_across_gene_pearson_r metric and per-endpoint reporting",
+    "failure-boundary policy: every endpoint is retained and reported, including negative or null results"
+  ],
+  "explicitly_not_changed": [
+    "frozen internal primary result (primary_internal_freeze) and all its artifacts",
+    "private publication materials excluded from this release",
+    "submission-readiness gate and its outputs",
+    "the committed 3-seed phase-2 aggregate; it remains as the historical record"
+  ],
+  "analysis_plan": {
+    "confirmation_aggregate": "Five-seed per-endpoint mean/SD plus exact 3125-resample seed bootstrap, written to artifacts/reports/external_phase3_aggregate_v2.json and external_phase3_report_v2.md",
+    "sample_aware_uncertainty": "Cell-level and sample-cluster bootstrap of the population-mean endpoint (resampling cells, and for GSE148794 resampling its 10 sample libraries per timepoint). GSE149622 has a single pooled sample per timepoint, so only the cell-level bootstrap is defined there and it is flagged accordingly. This quantifies data-sampling noise, not training variance; the model arms are reported as fixed seed estimates.",
+    "cross_dataset_meta": "Forest plot of the ODE - GRU difference across all completed endpoints (internal freeze 27->36 and 27->48; GSE148794 9->12 and 9->15; GSE149622 3->4; GSE224518 3->5 and 3->8; GSE226824 24->72) with a DerSimonian-Laird I-squared heterogeneity summary computed descriptively. Endpoints are not exchangeable (different datasets, protocols and horizons), so the pooled numbers are reported as descriptive only and are not promoted to a claim.",
+    "pure_mse_external": "Deferred: the degraded claim ('dataset/horizon-dependent architecture effect') does not depend on pathway-specific benefit, and the internal pure-MSE null already covers the mechanism question. Recorded here so the skip is a plan, not an omission."
+  },
+  "decision_rules": {
+    "if the ODE - GRU direction stays negative on the new seeds": "Keep the dataset/horizon-dependent framing from the phase-2 boundary audit; no claim change.",
+    "if per-dataset direction flips across seeds": "Report both directions and the widened interval; treat the endpoint as unstable rather than selecting seeds.",
+    "if a new seed fails (exit != 0 or epochs < 100)": "Record the failure as a boundary, do not retry with different seeds, and exclude only that run from aggregates with the failure documented."
+  }
+}

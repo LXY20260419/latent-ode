@@ -1,0 +1,140 @@
+{
+  "run_metadata": {
+    "status": "completed_run_metadata",
+    "dataset": {
+      "dataset_id": "GSE305979",
+      "source_accession": "GSE305979",
+      "data_dir": "data/leworld_input_gse305979",
+      "n_cells": 14680,
+      "n_genes": 2991,
+      "timepoints": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "gene_manifest_sha256": "c12d4722c76111da1ec186f926407977ee30fdba0ba622fd41340f2520677f2a",
+      "metadata_sha256": "6daf8418c1d45069dd04641bc8a89cd1242ae53e028b4a429ebe9f75e2b7a586",
+      "expression_matrix_sha256": "18111b9c6c0a5bbcf8e78677249a16ec3f1591bb6904ff361ec769bf4a6ce1a1"
+    },
+    "protocol": {
+      "protocol_id": "external-time-extrapolation-v1",
+      "train_timepoints": [
+        0,
+        1,
+        2
+      ],
+      "holdout_timepoints": [
+        5,
+        7
+      ],
+      "source_time_for_extrapolation": 2,
+      "primary_metric": "population_mean_across_gene_pearson_r",
+      "seed": 42,
+      "result_tag": "ext_gse305979_control_v2",
+      "checkpoint_selection": {
+        "strategy": "stratified_internal_validation",
+        "validation_fraction": 0.1,
+        "selection_timepoints": [
+          0,
+          1,
+          2
+        ],
+        "n_internal_train": 8289,
+        "n_internal_validation": 922,
+        "holdout_used_for_selection": false
+      }
+    },
+    "config": {
+      "latent_dim": 32,
+      "hidden_dim": 64,
+      "dropout": 0.3,
+      "batch_size": 32,
+      "epochs": 100,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.001,
+      "pathway_weight": 0.2,
+      "pathway_delta_weight": 0.1,
+      "train_max_predict_steps": 8,
+      "ode_delta": 1.0,
+      "ode_method": "dopri5",
+      "ode_rtol": 0.001,
+      "ode_atol": 0.0001
+    },
+    "source_hashes": {
+      "training_script_sha256": "8c54ac80420f9a239308028e27267fafc8863087e7579168858e167eb9a69967",
+      "biology_priors_sha256": "d7aa27f609ce2889935582ab3afeaff4f6fd876395222ea2af19cf07109b0202",
+      "external_pathways_sha256": "fbbda3ddf186cddb51e7817c9046f1f9df59e412bfa171b1ed6a3276fba8c74f",
+      "external_tf_targets_sha256": "9943c9c4dbad3fd7c26f77d1fb2ed233da77fddeceffad2e53c3f7fb7b9a9d74"
+    },
+    "software": {
+      "python": "3.11.16",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "torch": "2.14.0+cu130"
+    },
+    "checkpoint": {
+      "path": "artifacts/models/ode_benchmark/best_ode_ext_gse305979_control_v2_seed42.pt",
+      "sha256": "a0d4d5b742b7c0ba8cd7952102b37380a0726db6996e2c317f7bd3409118d052"
+    }
+  },
+  "biology_prior_source": {
+    "base_json": "configs/biology_priors.json",
+    "external_gmt": "configs/external_pathways.gmt",
+    "external_tf_csv": "configs/external_tf_targets.csv"
+  },
+  "time_holdout": {
+    "mean_correlation": 0.46836206316947937,
+    "std": 0.08664386719465256
+  },
+  "time_extrapolation": {
+    "mean_correlation": 0.6139639914035797,
+    "std": 0.031101316213607788,
+    "pairs": {
+      "5": {
+        "from_time": 2,
+        "corr": 0.6450653076171875,
+        "predict_steps": 3
+      },
+      "7": {
+        "from_time": 2,
+        "corr": 0.5828626751899719,
+        "predict_steps": 5
+      }
+    }
+  },
+  "pathway_activation_order": {
+    "overall": 0.0,
+    "per_pathway": {
+      "Interferon_response": 0.0,
+      "HALLMARK_INTERFERON_ALPHA_RESPONSE": 0.0
+    }
+  },
+  "marker_rank_spearman": {
+    "overall": null,
+    "per_set": {}
+  },
+  "literature": {
+    "genes": [
+      "IL1B"
+    ],
+    "timecourse": {
+      "IL1B": [
+        -0.025422299280762672,
+        0.0002463569981046021,
+        0.02925216220319271,
+        0.1778743416070938,
+        0.04881240427494049
+      ]
+    },
+    "pubmed_links": {
+      "IL1B": "https://pubmed.ncbi.nlm.nih.gov/?term=IL1B+dendritic+cell+LPS+time+series"
+    }
+  },
+  "biological_conclusions": {
+    "top_genes_csv": "top_genes_ode_ext_gse305979_control_v2.csv",
+    "pathway_enrichment_json": "pathway_enrichment_ode_ext_gse305979_control_v2.json",
+    "conclusions_json": "biological_conclusions_ode_ext_gse305979_control_v2.json"
+  }
+}

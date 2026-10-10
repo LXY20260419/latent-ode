@@ -1,0 +1,61 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "endpoint": "time_extrapolation.mean_correlation from validation_results_{ode,gru}_seed*.json",
+  "ode": {
+    "values": [
+      0.47388334572315216,
+      0.4808981120586395,
+      0.49502530694007874
+    ],
+    "mean": 0.4832689215739568,
+    "std": 0.010768527491860067,
+    "ci95": [
+      0.4565162572785526,
+      0.510021585869361
+    ]
+  },
+  "gru": {
+    "values": [
+      -0.2565141022205353,
+      -0.1545776017010212,
+      -0.022138135507702827
+    ],
+    "mean": -0.14440994647641978,
+    "std": 0.1175183362404287,
+    "ci95": [
+      -0.4363652393770616,
+      0.14754534642422204
+    ]
+  },
+  "paired_diff_ode_minus_gru": {
+    "values": [
+      0.7303974479436874,
+      0.6354757137596607,
+      0.5171634424477816
+    ],
+    "mean": 0.6276788680503765,
+    "std": 0.10683060599480747,
+    "ci95": [
+      0.3622755117591805,
+      0.8930822243415726
+    ]
+  },
+  "tests": {
+    "ode_greater_than_zero_ttest": {
+      "t": 77.73080641878249,
+      "p": 8.273244448458139e-05
+    },
+    "ode_greater_than_gru_paired_ttest": {
+      "t": 10.176593871922956,
+      "p": 0.004759154791831992
+    }
+  },
+  "notes": [
+    "Endpoint-aligned Stage1 check using seed-wise extrapolation metrics.",
+    "This check does not yet include endpoint-aligned classical baseline extrapolation arrays."
+  ]
+}

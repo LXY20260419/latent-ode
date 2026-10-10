@@ -1,0 +1,17 @@
+{
+  "source": "data/external_geo/GSE226824/GSE226824_HSPC-all_filtered.h5ad.gz",
+  "n_cells": 9983,
+  "n_genes": 2000,
+  "timepoints": [
+    0,
+    3,
+    24,
+    72
+  ],
+  "cells_per_timepoint": {
+    "0": 2430,
+    "3": 1656,
+    "24": 3457,
+    "72": 2440
+  }
+}

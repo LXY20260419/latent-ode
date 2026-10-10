@@ -1,0 +1,88 @@
+{
+  "manifest_id": "primary_internal_freeze",
+  "created_at": "2026-09-21",
+  "status": "reproducible_final",
+  "last_audited_at": "2026-09-26",
+  "purpose": "Prevent mixing the reviewed Next Research manuscript numbers with later external runs.",
+  "dataset": {
+    "dataset_id": "internal_lps_primary",
+    "source_accession": "GSE151658",
+    "n_cells": 38439,
+    "n_genes": 2991,
+    "timepoints": [
+      0,
+      1,
+      4,
+      16,
+      27,
+      36,
+      48
+    ],
+    "train_timepoints": [
+      0,
+      1,
+      4,
+      16,
+      27
+    ],
+    "holdout_timepoints": [
+      36,
+      48
+    ],
+    "source_time_for_extrapolation": 27
+  },
+  "protocol": {
+    "protocol_id": "paper-v1-freeze-internal-population-extrapolation",
+    "primary_metric": "population_mean_across_gene_pearson_r",
+    "composite_rule": "arithmetic_mean_of_27_to_36_and_27_to_48_within_seed; report horizons separately in revision",
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "n_genes_for_primary_result": 2991
+  },
+  "locked_claims": {
+    "ode_composite_mean": 0.4833,
+    "ode_composite_sd": 0.0088,
+    "gru_composite_mean": -0.1444,
+    "gru_composite_sd": 0.096
+  },
+  "authoritative_sources": [
+    "artifacts/reports/composite_drift_report.json",
+    "artifacts/reports/horizon_specific_uncertainty.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed42.json"
+  ],
+  "known_conflicts": [
+    {
+      "path": "artifacts/results/ode_benchmark/validation_results_ode_seed*.json",
+      "issue": "Current contents describe GSE224518 3h->5h external runs and must not be used as internal primary evidence."
+    },
+    {
+      "path": "artifacts/reports/method_summary_table.csv",
+      "issue": "Contains an earlier negative internal run and is not a valid sole source for paper-v1-freeze claims."
+    },
+    {
+      "path": "artifacts/results/baselines/extrapolation_significance.json",
+      "issue": "ODE mean 0.4956 belongs to an ablation/reference configuration, not the 0.4833 primary claim."
+    }
+  ],
+  "promotion_rule": "Promoted to reproducible_final on 2026-09-26 after each seed had a uniquely tagged result, matching dataset/protocol/config metadata, and an integrity hash. The locked claims are retained as historical references only and are superseded by the tagged rerun.",
+  "promotion_record": {
+    "promoted_at": "2026-09-26",
+    "promoted_by": "tagged 3-seed rerun with full run_metadata",
+    "audit_command": "python scripts/audit_freeze_integrity.py --result-tag primary_internal_freeze",
+    "audit_status": "PASS (tagged provenance and result schema; no model rerun)",
+    "evidence": "artifacts/results/ode_benchmark/validation_results_{ode,gru}_primary_internal_freeze_seed{42,123,2026}.json",
+    "independently_rerun_composite": {
+      "ode_mean": 0.4515821685393651,
+      "ode_sd": 0.0058478528684299995,
+      "gru_mean": -0.23258664458990097,
+      "gru_sd": 0.01677773592521134,
+      "drift_vs_locked_ode": -0.0317,
+      "note": "Direction and GRU separation reproduce; the absolute ODE composite is 0.032 lower than the locked value. See artifacts/reports/composite_drift_report.json."
+    },
+    "reproducibility_caveat": "The rerun is an independent retraining under the identical frozen protocol on a different host and library stack; it is not a bit-identical replay. Reported manuscript numbers must be reconciled with the rerun values before submission."
+  }
+}

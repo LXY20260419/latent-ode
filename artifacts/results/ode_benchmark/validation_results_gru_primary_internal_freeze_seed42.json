@@ -1,0 +1,217 @@
+{
+  "run_metadata": {
+    "status": "completed_run_metadata",
+    "dataset": {
+      "dataset_id": "internal_lps_primary",
+      "source_accession": "GSE151658",
+      "data_dir": "data/leworld_input",
+      "n_cells": 38439,
+      "n_genes": 2991,
+      "timepoints": [
+        0,
+        1,
+        4,
+        16,
+        27,
+        36,
+        48
+      ],
+      "gene_manifest_sha256": "741e496abe9e14fea59c6070b3b7da86b62fa59c2b982fa66e2ab547bcfbe5b2",
+      "metadata_sha256": "80223b5d11d743425550e06ce2413c6dc79a735b073b6ef0a82fcc5ed4ffe3c6",
+      "expression_matrix_sha256": "dd1d11866b3101cba48109d0818e3e669a731f71cb5da184d56c3c565164951a"
+    },
+    "protocol": {
+      "protocol_id": "paper-v1-freeze-internal-population-extrapolation",
+      "train_timepoints": [
+        0,
+        1,
+        4,
+        16,
+        27
+      ],
+      "holdout_timepoints": [
+        36,
+        48
+      ],
+      "source_time_for_extrapolation": 27,
+      "primary_metric": "population_mean_across_gene_pearson_r",
+      "seed": 42,
+      "result_tag": "primary_internal_freeze",
+      "checkpoint_selection": {
+        "strategy": "stratified_internal_validation",
+        "validation_fraction": 0.1,
+        "selection_timepoints": [
+          0,
+          1,
+          4,
+          16,
+          27
+        ],
+        "n_internal_train": 21533,
+        "n_internal_validation": 2393,
+        "holdout_used_for_selection": false
+      }
+    },
+    "config": {
+      "latent_dim": 32,
+      "hidden_dim": 64,
+      "dropout": 0.3,
+      "batch_size": 32,
+      "epochs": 100,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.001,
+      "pathway_weight": 0.2,
+      "pathway_delta_weight": 0.1,
+      "train_max_predict_steps": 8,
+      "ode_delta": 1.0,
+      "ode_method": "dopri5",
+      "ode_rtol": 0.001,
+      "ode_atol": 0.0001
+    },
+    "source_hashes": {
+      "training_script_sha256": "8c54ac80420f9a239308028e27267fafc8863087e7579168858e167eb9a69967",
+      "biology_priors_sha256": "d7aa27f609ce2889935582ab3afeaff4f6fd876395222ea2af19cf07109b0202",
+      "external_pathways_sha256": "fbbda3ddf186cddb51e7817c9046f1f9df59e412bfa171b1ed6a3276fba8c74f",
+      "external_tf_targets_sha256": "9943c9c4dbad3fd7c26f77d1fb2ed233da77fddeceffad2e53c3f7fb7b9a9d74"
+    },
+    "software": {
+      "python": "3.11.16",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "torch": "2.14.0+cu130"
+    },
+    "checkpoint": {
+      "path": "artifacts/models/ode_benchmark/best_gru_primary_internal_freeze_seed42.pt",
+      "sha256": "cdd9f62545dbcad39f00ee6c6cc04c0bd6b297160db114874d9b0a9f22dadc6f"
+    }
+  },
+  "biology_prior_source": {
+    "base_json": "configs/biology_priors.json",
+    "external_gmt": "configs/external_pathways.gmt",
+    "external_tf_csv": "configs/external_tf_targets.csv"
+  },
+  "time_holdout": {
+    "mean_correlation": 0.3543497323989868,
+    "std": 0.12512485682964325
+  },
+  "time_extrapolation": {
+    "mean_correlation": -0.22955754399299622,
+    "std": 0.02646765112876892,
+    "pairs": {
+      "36": {
+        "from_time": 27,
+        "corr": -0.2030898928642273,
+        "predict_steps": 9
+      },
+      "48": {
+        "from_time": 27,
+        "corr": -0.25602519512176514,
+        "predict_steps": 21
+      }
+    }
+  },
+  "tf_direction_consistency": {
+    "overall": 0.16666666666666666,
+    "per_tf": {
+      "NFKB1": 0.3333333333333333,
+      "STAT1": 0.0
+    }
+  },
+  "pathway_activation_order": {
+    "overall": 0.5,
+    "per_pathway": {
+      "NFkB_signaling": 1.0,
+      "Interferon_response": 1.0,
+      "Inflammation_response": 0.0,
+      "HALLMARK_TNFA_SIGNALING_VIA_NFKB": 0.0,
+      "HALLMARK_INTERFERON_ALPHA_RESPONSE": 1.0,
+      "HALLMARK_INFLAMMATORY_RESPONSE": 0.0
+    }
+  },
+  "marker_rank_spearman": {
+    "overall": -0.075,
+    "per_set": {
+      "early": -0.19999999999999998,
+      "late": 0.049999999999999996
+    }
+  },
+  "literature": {
+    "genes": [
+      "Nfkbia",
+      "Tnfaip3",
+      "Il6",
+      "Il1b",
+      "Tnf",
+      "Cxcl10"
+    ],
+    "timecourse": {
+      "Nfkbia": [
+        -0.2824777066707611,
+        0.3344176113605499,
+        0.4727732241153717,
+        -0.27597546577453613,
+        -0.1240326538681984,
+        -0.13305576145648956,
+        -0.04136568680405617
+      ],
+      "Tnfaip3": [
+        -0.17062602937221527,
+        0.2748808264732361,
+        0.38706254959106445,
+        -0.13674059510231018,
+        -0.1398652344942093,
+        -0.11949819326400757,
+        -0.09139763563871384
+      ],
+      "Il6": [
+        -0.08597660064697266,
+        -0.027962664142251015,
+        0.3411876857280731,
+        -0.06988214701414108,
+        -0.07820508629083633,
+        -0.07676117867231369,
+        -0.08216817677021027
+      ],
+      "Il1b": [
+        -0.19732439517974854,
+        -0.055874187499284744,
+        0.1784263551235199,
+        -0.1365067958831787,
+        -0.023132437840104103,
+        -0.042728886008262634,
+        0.14941707253456116
+      ],
+      "Tnf": [
+        -0.08347517251968384,
+        0.007198146544396877,
+        -0.012659844942390919,
+        -0.0681275799870491,
+        -0.020102184265851974,
+        -0.03223828598856926,
+        0.07075772434473038
+      ],
+      "Cxcl10": [
+        -0.4089556336402893,
+        -0.13252630829811096,
+        2.0121099948883057,
+        -0.18077482283115387,
+        -0.39116883277893066,
+        -0.39808985590934753,
+        -0.3883279860019684
+      ]
+    },
+    "pubmed_links": {
+      "Nfkbia": "https://pubmed.ncbi.nlm.nih.gov/?term=Nfkbia+dendritic+cell+LPS+time+series",
+      "Tnfaip3": "https://pubmed.ncbi.nlm.nih.gov/?term=Tnfaip3+dendritic+cell+LPS+time+series",
+      "Il6": "https://pubmed.ncbi.nlm.nih.gov/?term=Il6+dendritic+cell+LPS+time+series",
+      "Il1b": "https://pubmed.ncbi.nlm.nih.gov/?term=Il1b+dendritic+cell+LPS+time+series",
+      "Tnf": "https://pubmed.ncbi.nlm.nih.gov/?term=Tnf+dendritic+cell+LPS+time+series",
+      "Cxcl10": "https://pubmed.ncbi.nlm.nih.gov/?term=Cxcl10+dendritic+cell+LPS+time+series"
+    }
+  },
+  "biological_conclusions": {
+    "top_genes_csv": "top_genes_gru_primary_internal_freeze.csv",
+    "pathway_enrichment_json": "pathway_enrichment_gru_primary_internal_freeze.json",
+    "conclusions_json": "biological_conclusions_gru_primary_internal_freeze.json"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "record_type": "external_candidate_bundle_qc",
+  "created_at": "2026-10-03T04:08:33.824767+00:00",
+  "accession": "GSE305979",
+  "result_tag": "ext_gse305979_control_v1",
+  "source_dir": "data/external_geo/GSE305979",
+  "input_sha256": {
+    "GSE305979_day0_raw_counts.h5ad": "2c21b792f4a12bcfb0f4c5ff1fb8185b720565a3114ff4bc98e89ed769103176",
+    "GSE305979_day1-7_demuxed_counts.h5ad": "f60525c952fcab98418285dfd799f1df2650a636037deb630b80af4d6501f763"
+  },
+  "vehicle_pattern": "^DMSO$",
+  "vehicle_column": "compound_name",
+  "source_timepoint_audit": {
+    "derived_from_column": "PLATE_NAME",
+    "recorded_column": "TIMEPOINT_HOURS",
+    "mismatch_rows": 33479,
+    "mismatch_breakdown": {
+      "derived_day_7_recorded_24h": 33479
+    },
+    "resolution": "days derived from plate/sample labels; the recorded column is kept in the audit but is not trusted for the split",
+    "vehicle_column": "compound_name",
+    "vehicle_pattern": "^DMSO$",
+    "vehicle_cells": 11805,
+    "vehicle_cells_total_demuxed": 143396,
+    "compound_classes": 22
+  },
+  "input_shape_gene_by_cell_or_cell_by_gene": {
+    "n_cells": 14680,
+    "n_genes_after_selection": 2991,
+    "raw_nonzero_entries": 66700896
+  },
+  "timepoints": [
+    0,
+    1,
+    2,
+    5,
+    7
+  ],
+  "cells_per_timepoint": {
+    "0": 2875,
+    "1": 3870,
+    "2": 2466,
+    "5": 3220,
+    "7": 2249
+  },
+  "cells_per_sample": {
+    "Day 0_Lib 1": 1361,
+    "Day 0_Lib 2": 1514,
+    "Day 1_Lib 1": 909,
+    "Day 1_Lib 2": 527,
+    "Day 1_Lib 3": 1441,
+    "Day 1_Lib 4": 993,
+    "Day 2_Lib 1": 641,
+    "Day 2_Lib 2": 388,
+    "Day 2_Lib 3": 829,
+    "Day 2_Lib 4": 608,
+    "Day 5_Lib 1": 872,
+    "Day 5_Lib 2": 1021,
+    "Day 5_Lib 3": 423,
+    "Day 5_Lib 4": 904,
+    "Day 7_Lib 1": 508,
+    "Day 7_Lib 2": 586,
+    "Day 7_Lib 3": 620,
+    "Day 7_Lib 4": 535
+  },
+  "train_timepoints": [
+    0,
+    1,
+    2
+  ],
+  "holdout_timepoints": [
+    5
+  ],
+  "secondary_holdout_timepoints": [
+    7
+  ],
+  "fit_record": {
+    "fit_timepoints": [
+      0,
+      1,
+      2
+    ],
+    "fit_cells": 9211,
+    "selected_gene_count": 2991,
+    "selected_gene_indices_sha256": "f733678b7daa0169b819585b8a4bd7282f55ddec4f3c91cceac20403b7a83386",
+    "normalization": "per-cell library size 1e4 followed by log1p",
+    "scaling": "mean/std fitted on training timepoints only; clip [-10, 10]"
+  },
+  "gene_names_sha256": "c12d4722c76111da1ec186f926407977ee30fdba0ba622fd41340f2520677f2a",
+  "metadata_sha256": "6daf8418c1d45069dd04641bc8a89cd1242ae53e028b4a429ebe9f75e2b7a586",
+  "expression_matrix_sha256": "18111b9c6c0a5bbcf8e78677249a16ec3f1591bb6904ff361ec769bf4a6ce1a1",
+  "status": "PASS_FOR_SMOKE",
+  "replicate_note": "single donor; cells nested within CMO well and library. No donor-level inference; protocol/seed-level uncertainty only.",
+  "leakage_control": "per-cell library normalization; HVG selection and scaling fit on training timepoints only ([0, 1, 2])"
+}

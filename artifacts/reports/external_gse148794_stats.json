@@ -1,0 +1,309 @@
+{
+  "record_type": "external_accession_stats",
+  "accession": "GSE148794",
+  "created_at": "2026-10-03T05:44:22.103834+00:00",
+  "result_tag": "ext_gse148794_v2",
+  "seeds": [
+    42,
+    123,
+    2026,
+    7,
+    13
+  ],
+  "train_timepoints": [
+    0,
+    3,
+    6,
+    9
+  ],
+  "holdout_timepoints": [
+    12
+  ],
+  "replicate_note": "GEO sample/library groups are not independent animal replicates; the source study pooled biological material before profiling. Protocol/seed-level inference only.",
+  "metric": "population_mean_across_gene_pearson_r",
+  "horizons": {
+    "12": {
+      "source_time": 9,
+      "role": "primary",
+      "ode": {
+        "mean": 0.5592999577522277,
+        "sd": 0.010536110132939303,
+        "n": 5,
+        "ci95": [
+          0.5522234320640564,
+          0.5681941986083985
+        ],
+        "per_seed": {
+          "42": 0.5534238219261169,
+          "123": 0.5616165399551392,
+          "2026": 0.5559939742088318,
+          "7": 0.5763276815414429,
+          "13": 0.5491377711296082
+        }
+      },
+      "gru": {
+        "mean": 0.5309077262878418,
+        "sd": 0.04076394950050602,
+        "n": 5,
+        "ci95": [
+          0.5006201505661011,
+          0.5630682349205017
+        ],
+        "per_seed": {
+          "42": 0.5600435733795166,
+          "123": 0.5808950662612915,
+          "2026": 0.47688835859298706,
+          "7": 0.5126124024391174,
+          "13": 0.5240992307662964
+        }
+      },
+      "persistence": {
+        "corr": 0.558697603904252,
+        "deterministic": true
+      },
+      "ode_minus_gru": 0.028392231464385964,
+      "ode_minus_persistence": 0.0006023538479756896,
+      "data_uncertainty": {
+        "cell_level": {
+          "corr": 0.558697603904252,
+          "n_source_cells": 2167,
+          "n_target_cells": 2335,
+          "n_source_groups": 10,
+          "n_target_groups": 10,
+          "replicates": 2000,
+          "bootstrap_mean": 0.5424781272778576,
+          "bootstrap_sd": 0.02908925473180749,
+          "ci95_percentile": [
+            0.4846796536749223,
+            0.5983537103797485
+          ]
+        },
+        "sample_cluster": {
+          "corr": 0.558697603904252,
+          "n_source_cells": 2167,
+          "n_target_cells": 2335,
+          "n_source_groups": 10,
+          "n_target_groups": 10,
+          "replicates": 2000,
+          "bootstrap_mean": 0.515168156891217,
+          "bootstrap_sd": 0.05712219553521382,
+          "ci95_percentile": [
+            0.3925436281673061,
+            0.611499210277796
+          ],
+          "replicate_level": "GEO sample/library groups (pooled animals; not independent animal replicates)"
+        },
+        "note": "data-sampling uncertainty at fixed checkpoints; not training variance and not seed uncertainty"
+      }
+    },
+    "15": {
+      "source_time": 9,
+      "role": "secondary",
+      "ode": {
+        "mean": 0.6666816711425781,
+        "sd": 0.009332213290694039,
+        "n": 5,
+        "ci95": [
+          0.6597391128540039,
+          0.6743193149566651
+        ],
+        "per_seed": {
+          "42": 0.658785343170166,
+          "123": 0.6715764999389648,
+          "2026": 0.6641449928283691,
+          "7": 0.6804115772247314,
+          "13": 0.6584899425506592
+        }
+      },
+      "gru": {
+        "mean": 0.6421702623367309,
+        "sd": 0.05275631481022463,
+        "n": 5,
+        "ci95": [
+          0.597082257270813,
+          0.6802085280418396
+        ],
+        "per_seed": {
+          "42": 0.684630811214447,
+          "123": 0.6833658218383789,
+          "2026": 0.615685224533081,
+          "7": 0.6650493741035461,
+          "13": 0.5621200799942017
+        }
+      },
+      "persistence": {
+        "corr": 0.6661081430649781,
+        "deterministic": true
+      },
+      "ode_minus_gru": 0.024511408805847235,
+      "ode_minus_persistence": 0.0005735280776000273,
+      "data_uncertainty": {
+        "cell_level": {
+          "corr": 0.6661081430649781,
+          "n_source_cells": 2167,
+          "n_target_cells": 2178,
+          "n_source_groups": 10,
+          "n_target_groups": 10,
+          "replicates": 2000,
+          "bootstrap_mean": 0.6501254759063042,
+          "bootstrap_sd": 0.02417435637784549,
+          "ci95_percentile": [
+            0.5998247951807216,
+            0.6956098848917379
+          ]
+        },
+        "sample_cluster": {
+          "corr": 0.6661081430649781,
+          "n_source_cells": 2167,
+          "n_target_cells": 2178,
+          "n_source_groups": 10,
+          "n_target_groups": 10,
+          "replicates": 2000,
+          "bootstrap_mean": 0.6220478998024569,
+          "bootstrap_sd": 0.06599797378112841,
+          "ci95_percentile": [
+            0.47376553069362104,
+            0.7272882230545442
+          ],
+          "replicate_level": "GEO sample/library groups (pooled animals; not independent animal replicates)"
+        },
+        "note": "data-sampling uncertainty at fixed checkpoints; not training variance and not seed uncertainty"
+      }
+    }
+  },
+  "classical_baselines": {
+    "Naive_LastTimeMean": {
+      "deterministic": true,
+      "horizons": {
+        "12": 0.5586976496185612,
+        "15": 0.6661081371602189
+      }
+    },
+    "Ridge_Poly": {
+      "deterministic": true,
+      "per_seed": {
+        "deterministic": {
+          "12": -0.27683840896417217,
+          "15": -0.5156502623750789
+        }
+      }
+    },
+    "HGB_Regressor": {
+      "deterministic": false,
+      "per_seed": {
+        "42": {
+          "12": 0.5550682547607847,
+          "15": 0.6610215880629083
+        }
+      }
+    },
+    "MLP_Sklearn": {
+      "deterministic": false,
+      "per_seed": {
+        "42": {
+          "12": 0.17241839242937718,
+          "15": 0.1069542534441843
+        }
+      }
+    }
+  },
+  "pure_mse_contrast": {
+    "preregistration": "artifacts/reports/external_pure_mse_preregistration.json",
+    "endpoints": {
+      "12": {
+        "pure_mse_mean": 0.5586936076482137,
+        "full_mean": 0.5570114453633627,
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.01038128137588501,
+            -0.007116079330444336,
+            0.0017812848091125488
+          ],
+          "diff_mean": 0.0016821622848510742,
+          "diff_sd": 0.008749101489750905,
+          "ci95_difference": [
+            -0.020051810670587505,
+            0.023416135240289654
+          ],
+          "t_statistic": 0.3330159728231891,
+          "p_one_sided_left_greater": 0.38539560412107376,
+          "p_two_sided": 0.7707912082421475,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "15": {
+        "pure_mse_mean": 0.6662290891011556,
+        "full_mean": 0.6648356119791666,
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.014355242252349854,
+            -0.010617852210998535,
+            0.0004430413246154785
+          ],
+          "diff_mean": 0.0013934771219889324,
+          "diff_sd": 0.01251364686742147,
+          "ci95_difference": [
+            -0.029692144974068177,
+            0.032479099218046044
+          ],
+          "t_statistic": 0.19287528248485886,
+          "p_one_sided_left_greater": 0.43243377540280087,
+          "p_two_sided": 0.8648675508056017,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      }
+    },
+    "note": "preregistered paired contrast; every endpoint kept regardless of sign"
+  },
+  "mechanism_proxies": {
+    "arms": {
+      "ode": {
+        "tf_direction_consistency": {
+          "mean": 0.26666666666666666,
+          "sd": 0.14907119849998599,
+          "n": 5
+        },
+        "pathway_activation_order": {
+          "mean": 0.3333333333333333,
+          "sd": 0.4714045207910317,
+          "n": 5
+        },
+        "marker_rank_spearman": {
+          "mean": -0.049999999999999975,
+          "sd": 0.570087712549569,
+          "n": 5
+        }
+      },
+      "gru": {
+        "tf_direction_consistency": {
+          "mean": 0.5333333333333333,
+          "sd": 0.38005847503304596,
+          "n": 5
+        },
+        "pathway_activation_order": {
+          "mean": 0.8,
+          "sd": 0.2173067468400883,
+          "n": 5
+        },
+        "marker_rank_spearman": {
+          "mean": 0.25,
+          "sd": 0.5,
+          "n": 5
+        }
+      }
+    },
+    "coupling_note": "Prior-consistency proxies only: pathway sets enter the training loss (pathway_score 0.2, pathway_delta 0.1) and the TF/marker sets share the same priors object; not independent mechanism validation."
+  },
+  "provenance": {
+    "protocol": "artifacts/reports/external_gse148794_protocol.json",
+    "qc": "artifacts/reports/external_gse148794_qc.json",
+    "phase3_aggregate": "artifacts/reports/external_phase3_aggregate_v2.json",
+    "persistence": "artifacts/reports/external_persistence_v1.json",
+    "sample_uncertainty": "artifacts/reports/external_phase3_sample_uncertainty.json",
+    "classical_baselines": "artifacts/reports/external_phase3_classical_baselines.json",
+    "mechanism_metrics": "artifacts/reports/mechanism_metrics_aggregate.json",
+    "pure_mse_contrast": "artifacts/reports/external_pure_mse_contrast.json"
+  }
+}

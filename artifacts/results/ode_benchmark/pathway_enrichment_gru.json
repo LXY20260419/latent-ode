@@ -1,0 +1,56 @@
+[
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "NFkB_signaling",
+    "overlap": 3,
+    "pathway_size": 4,
+    "selected_size": 50,
+    "p_value": 0.0035589053997991896
+  },
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "Interferon_response",
+    "overlap": 0,
+    "pathway_size": 4,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "Inflammation_response",
+    "overlap": 0,
+    "pathway_size": 6,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "HALLMARK_TNFA_SIGNALING_VIA_NFKB",
+    "overlap": 2,
+    "pathway_size": 6,
+    "selected_size": 50,
+    "p_value": 0.11405713355439896
+  },
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "HALLMARK_INTERFERON_ALPHA_RESPONSE",
+    "overlap": 0,
+    "pathway_size": 4,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 5,
+    "from_time": 3,
+    "pathway": "HALLMARK_INFLAMMATORY_RESPONSE",
+    "overlap": 0,
+    "pathway_size": 6,
+    "selected_size": 50,
+    "p_value": 1.0
+  }
+]

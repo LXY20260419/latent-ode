@@ -1,0 +1,1079 @@
+{
+  "record_type": "mechanism_metrics_aggregate",
+  "created_at": "2026-10-03T20:02:43.365672+00:00",
+  "metric_note": "Prior-consistency proxies only: the pathway sets enter the training loss (pathway_score 0.2, pathway_delta 0.1) and the TF/marker sets were merged into the same priors object, so these values are not an independent mechanism validation.",
+  "aggregation_rules": [
+    "internal layer uses the frozen rerun artifacts backing the 0.4516 composite",
+    "external layers use five seeds for the two mouse candidates and three seeds for GSE305979",
+    "not-evaluable metrics are recorded with the affected seeds, never imputed",
+    "all seeds retained, including values cutting against ODE"
+  ],
+  "layers": {
+    "internal_primary_freeze": {
+      "label": "Internal GSE151658 (frozen rerun, composite 0.4516)",
+      "result_tag": "primary_internal_freeze",
+      "seeds": [
+        42,
+        123,
+        2026
+      ],
+      "arms": {
+        "ode": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.5833333333333333,
+              "123": 0.5833333333333333,
+              "2026": 0.5833333333333333
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5833333333333333,
+              "sd": 0.0,
+              "sd_ddof": 1,
+              "min": 0.5833333333333333,
+              "max": 0.5833333333333333
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.0,
+                "sd_ddof": 1,
+                "min": 0.6666666666666666,
+                "max": 0.6666666666666666
+              },
+              "STAT1": {
+                "n": 3,
+                "mean": 0.5,
+                "sd": 0.0,
+                "sd_ddof": 1,
+                "min": 0.5,
+                "max": 0.5
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 0.3333333333333333,
+              "123": 0.6666666666666666,
+              "2026": 0.3333333333333333
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.4444444444444444,
+              "sd": 0.19245008972987523,
+              "sd_ddof": 1,
+              "min": 0.3333333333333333,
+              "max": 0.6666666666666666
+            },
+            "per_group_mean_across_seeds": {
+              "NFkB_signaling": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Interferon_response": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Inflammation_response": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INFLAMMATORY_RESPONSE": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": -0.4999999999999999,
+              "123": -0.4999999999999999,
+              "2026": -0.4249999999999999
+            },
+            "summary": {
+              "n": 3,
+              "mean": -0.47499999999999987,
+              "sd": 0.04330127018922194,
+              "sd_ddof": 1,
+              "min": -0.4999999999999999,
+              "max": -0.4249999999999999
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 3,
+                "mean": -0.08333333333333333,
+                "sd": 0.12583057392117916,
+                "sd_ddof": 1,
+                "min": -0.19999999999999998,
+                "max": 0.05000000000000002
+              },
+              "late": {
+                "n": 3,
+                "mean": -0.8666666666666666,
+                "sd": 0.05773502691896256,
+                "sd_ddof": 1,
+                "min": -0.8999999999999998,
+                "max": -0.7999999999999998
+              }
+            }
+          }
+        },
+        "gru": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.16666666666666666,
+              "123": 0.3333333333333333,
+              "2026": 0.3333333333333333
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.27777777777777773,
+              "sd": 0.09622504486493762,
+              "sd_ddof": 1,
+              "min": 0.16666666666666666,
+              "max": 0.3333333333333333
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 3,
+                "mean": 0.5555555555555555,
+                "sd": 0.19245008972987523,
+                "sd_ddof": 1,
+                "min": 0.3333333333333333,
+                "max": 0.6666666666666666
+              },
+              "STAT1": {
+                "n": 3,
+                "mean": 0.0,
+                "sd": 0.0,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 0.0
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 0.5,
+              "123": 0.3333333333333333,
+              "2026": 0.6666666666666666
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5,
+              "sd": 0.16666666666666666,
+              "sd_ddof": 1,
+              "min": 0.3333333333333333,
+              "max": 0.6666666666666666
+            },
+            "per_group_mean_across_seeds": {
+              "NFkB_signaling": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Interferon_response": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Inflammation_response": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 3,
+                "mean": 0.6666666666666666,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INFLAMMATORY_RESPONSE": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": -0.075,
+              "123": -0.125,
+              "2026": 0.32499999999999996
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.04166666666666665,
+              "sd": 0.24664414311581234,
+              "sd_ddof": 1,
+              "min": -0.125,
+              "max": 0.32499999999999996
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 3,
+                "mean": -0.06666666666666667,
+                "sd": 0.12583057392117913,
+                "sd_ddof": 1,
+                "min": -0.19999999999999998,
+                "max": 0.04999999999999999
+              },
+              "late": {
+                "n": 3,
+                "mean": 0.15,
+                "sd": 0.507444578254611,
+                "sd_ddof": 1,
+                "min": -0.3,
+                "max": 0.7
+              }
+            }
+          }
+        }
+      },
+      "ode_minus_gru": {
+        "tf_direction_consistency": {
+          "ode_minus_gru_mean": 0.3055555555555555,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "pathway_activation_order": {
+          "ode_minus_gru_mean": -0.05555555555555558,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "marker_rank_spearman": {
+          "ode_minus_gru_mean": -0.5166666666666665,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        }
+      },
+      "source_files": [
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed42.json",
+          "sha256": "c538d600e018e7fd1fcb87dfe798d68e72c1061a1813409cc7b9dd0d6cdda730"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed123.json",
+          "sha256": "37857c94fb2c5fe8d23f67d6f84af6dd20c335e58a5e36e6681c6229928937f3"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed2026.json",
+          "sha256": "3a50859de6fe31b2ad6c5f067dbc31869e6e05d700123f3dc26ea4bbeb660a89"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed42.json",
+          "sha256": "6eaa534c468b806e8cc2f9bba2689c93e3809bd078e6f88c524c653697361f31"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed123.json",
+          "sha256": "da0de2b5aac26e0560826aeca0d02739107613df7782fb8f8fd0a31917d36d71"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed2026.json",
+          "sha256": "e44218a6f39d883ef92253b291e73b8e07cff81240eda70fc886f7e53ca3f102"
+        }
+      ]
+    },
+    "gse148794": {
+      "label": "External GSE148794 (DSS colitis, 9->12 / 9->15)",
+      "result_tag": "ext_gse148794_v2",
+      "seeds": [
+        42,
+        123,
+        2026,
+        7,
+        13
+      ],
+      "arms": {
+        "ode": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.0,
+              "123": 0.3333333333333333,
+              "2026": 0.3333333333333333,
+              "7": 0.3333333333333333,
+              "13": 0.3333333333333333
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.26666666666666666,
+              "sd": 0.14907119849998599,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 0.3333333333333333
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 5,
+                "mean": 0.26666666666666666,
+                "sd": 0.14907119849998599,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 0.3333333333333333
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 0.0,
+              "123": 1.0,
+              "2026": 0.0,
+              "7": 0.0,
+              "13": 0.6666666666666666
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.3333333333333333,
+              "sd": 0.4714045207910317,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "NFkB_signaling": {
+                "n": 5,
+                "mean": 0.4,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Interferon_response": {
+                "n": 5,
+                "mean": 0.2,
+                "sd": 0.4472135954999579,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Inflammation_response": {
+                "n": 5,
+                "mean": 0.4,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+                "n": 5,
+                "mean": 0.4,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 5,
+                "mean": 0.2,
+                "sd": 0.4472135954999579,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INFLAMMATORY_RESPONSE": {
+                "n": 5,
+                "mean": 0.4,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": -0.24999999999999994,
+              "123": 0.75,
+              "2026": 0.25,
+              "7": -0.75,
+              "13": -0.24999999999999994
+            },
+            "summary": {
+              "n": 5,
+              "mean": -0.049999999999999975,
+              "sd": 0.570087712549569,
+              "sd_ddof": 1,
+              "min": -0.75,
+              "max": 0.75
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 5,
+                "mean": 0.3,
+                "sd": 0.4472135954999579,
+                "sd_ddof": 1,
+                "min": -0.5,
+                "max": 0.5
+              },
+              "late": {
+                "n": 5,
+                "mean": -0.39999999999999997,
+                "sd": 0.8944271909999157,
+                "sd_ddof": 1,
+                "min": -0.9999999999999999,
+                "max": 0.9999999999999999
+              }
+            }
+          }
+        },
+        "gru": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.3333333333333333,
+              "123": 1.0,
+              "2026": 0.0,
+              "7": 0.6666666666666666,
+              "13": 0.6666666666666666
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.5333333333333333,
+              "sd": 0.38005847503304596,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 5,
+                "mean": 0.5333333333333333,
+                "sd": 0.38005847503304596,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 1.0,
+              "123": 0.5,
+              "2026": 1.0,
+              "7": 0.8333333333333334,
+              "13": 0.6666666666666666
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.8,
+              "sd": 0.2173067468400883,
+              "sd_ddof": 1,
+              "min": 0.5,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "NFkB_signaling": {
+                "n": 5,
+                "mean": 0.8,
+                "sd": 0.4472135954999579,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "Interferon_response": {
+                "n": 5,
+                "mean": 1.0,
+                "sd": 0.0,
+                "sd_ddof": 1,
+                "min": 1.0,
+                "max": 1.0
+              },
+              "Inflammation_response": {
+                "n": 5,
+                "mean": 0.6,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_TNFA_SIGNALING_VIA_NFKB": {
+                "n": 5,
+                "mean": 0.8,
+                "sd": 0.4472135954999579,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 5,
+                "mean": 1.0,
+                "sd": 0.0,
+                "sd_ddof": 1,
+                "min": 1.0,
+                "max": 1.0
+              },
+              "HALLMARK_INFLAMMATORY_RESPONSE": {
+                "n": 5,
+                "mean": 0.6,
+                "sd": 0.5477225575051661,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": 1.0,
+              "123": 0.49999999999999994,
+              "2026": -0.24999999999999994,
+              "7": -5.551115123125783e-17,
+              "13": -5.551115123125783e-17
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.25,
+              "sd": 0.5,
+              "sd_ddof": 1,
+              "min": -0.24999999999999994,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 5,
+                "mean": -0.1,
+                "sd": 0.8944271909999159,
+                "sd_ddof": 1,
+                "min": -1.0,
+                "max": 1.0
+              },
+              "late": {
+                "n": 5,
+                "mean": 0.5999999999999999,
+                "sd": 0.8944271909999157,
+                "sd_ddof": 1,
+                "min": -0.9999999999999999,
+                "max": 0.9999999999999999
+              }
+            }
+          }
+        }
+      },
+      "ode_minus_gru": {
+        "tf_direction_consistency": {
+          "ode_minus_gru_mean": -0.26666666666666666,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "pathway_activation_order": {
+          "ode_minus_gru_mean": -0.46666666666666673,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "marker_rank_spearman": {
+          "ode_minus_gru_mean": -0.3,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        }
+      },
+      "source_files": [
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed42.json",
+          "sha256": "9cee382cd03282b33c5a69e8a1b24cf7aaf3f7f3991fa1bb32180d4d08e5249f"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed123.json",
+          "sha256": "1855fca120036568273571986c1818c5a9da33c10387f997e335b4a578647122"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed2026.json",
+          "sha256": "6f19938d1dad7980e33fdbd949e0eacaa7a9cfa03e1fa2688d68e07507349df5"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed7.json",
+          "sha256": "c74ee37c2fc20e73569469a3a221cbafb75b6a661f9dc93688ba780f18778bba"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed13.json",
+          "sha256": "55c11f4a67de0619f75fda436d60bf83dbde161c22e6c2f4397e036070affe5b"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed42.json",
+          "sha256": "0ada6f5477bc9c500207e2b0836994daea8961d6059c76721147eb5c8d783616"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed123.json",
+          "sha256": "2bb1eef87bcb722706b097dbee7319eb38fb51d3ea59ee7bb3b0653c61eca3be"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed2026.json",
+          "sha256": "a7434ed4bd4bd2b4e6433409854b5d222a8f61d7bd82577d3499c45c9b80e344"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed7.json",
+          "sha256": "c50c184f6827231daf12958c3cf585ee75cf107d55947650777072894ce557d8"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed13.json",
+          "sha256": "ce7062adf0cbdafa699df70cfadc592e29e0cb526ec4176166457f339b91d432"
+        }
+      ]
+    },
+    "gse149622": {
+      "label": "External GSE149622 (IL-23 skin, 3->4)",
+      "result_tag": "ext_gse149622_v2",
+      "seeds": [
+        42,
+        123,
+        2026,
+        7,
+        13
+      ],
+      "arms": {
+        "ode": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.5,
+              "123": 0.5,
+              "2026": 0.0,
+              "7": 1.0,
+              "13": 0.5
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.5,
+              "sd": 0.3535533905932738,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 5,
+                "mean": 0.5,
+                "sd": 0.3535533905932738,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              7,
+              13,
+              42,
+              123,
+              2026
+            ]
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": -0.75,
+              "123": 0.24999999999999994,
+              "2026": 0.75,
+              "7": 0.75,
+              "13": 5.551115123125783e-17
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.2,
+              "sd": 0.6224949798994366,
+              "sd_ddof": 1,
+              "min": -0.75,
+              "max": 0.75
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 5,
+                "mean": 0.2,
+                "sd": 0.6708203932499369,
+                "sd_ddof": 1,
+                "min": -0.5,
+                "max": 1.0
+              },
+              "late": {
+                "n": 5,
+                "mean": 0.19999999999999998,
+                "sd": 1.0954451150103321,
+                "sd_ddof": 1,
+                "min": -0.9999999999999999,
+                "max": 0.9999999999999999
+              }
+            }
+          }
+        },
+        "gru": {
+          "tf_direction_consistency": {
+            "per_seed": {
+              "42": 0.5,
+              "123": 0.5,
+              "2026": 0.0,
+              "7": 1.0,
+              "13": 0.5
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.5,
+              "sd": 0.3535533905932738,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "NFKB1": {
+                "n": 5,
+                "mean": 0.5,
+                "sd": 0.3535533905932738,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "pathway_activation_order": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              7,
+              13,
+              42,
+              123,
+              2026
+            ]
+          },
+          "marker_rank_spearman": {
+            "per_seed": {
+              "42": -0.75,
+              "123": 0.24999999999999994,
+              "2026": 0.75,
+              "7": 0.75,
+              "13": 5.551115123125783e-17
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.2,
+              "sd": 0.6224949798994366,
+              "sd_ddof": 1,
+              "min": -0.75,
+              "max": 0.75
+            },
+            "per_group_mean_across_seeds": {
+              "early": {
+                "n": 5,
+                "mean": 0.2,
+                "sd": 0.6708203932499369,
+                "sd_ddof": 1,
+                "min": -0.5,
+                "max": 1.0
+              },
+              "late": {
+                "n": 5,
+                "mean": 0.19999999999999998,
+                "sd": 1.0954451150103321,
+                "sd_ddof": 1,
+                "min": -0.9999999999999999,
+                "max": 0.9999999999999999
+              }
+            }
+          }
+        }
+      },
+      "ode_minus_gru": {
+        "tf_direction_consistency": {
+          "ode_minus_gru_mean": 0.0,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "pathway_activation_order": {
+          "ode_minus_gru_mean": null,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "marker_rank_spearman": {
+          "ode_minus_gru_mean": 0.0,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        }
+      },
+      "source_files": [
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed42.json",
+          "sha256": "e0940a69d89d1c55bf73560bcd870c1d41ce3df7086d1a9c58d9de3d57aaba30"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed123.json",
+          "sha256": "a7168d99c2e82fe8fc358a44313280eb161b22b5a4574e7370596c98d41a0bf2"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed2026.json",
+          "sha256": "b3af2c48633938810eca55aaacdeae674570108aff578f5f1861307d51d33b69"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed7.json",
+          "sha256": "ab45aecb1d48ed22e2e5eed49ff07e61d69a1ea43e1e4ece9364cd1ac2751df1"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed13.json",
+          "sha256": "95de81464c4422289958ccb448b5adb025c5588a0d4d5f998b54ca7a05276d2a"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed42.json",
+          "sha256": "3b6d5f6833d5d1dc61b44b74d8e48b8224e89225428972e90d5f57d260f7cfec"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed123.json",
+          "sha256": "07564b7b63cc53d3e33ef37177a69285d47fc603f4e50cf9bbad764580ebf8af"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed2026.json",
+          "sha256": "baf0d68824d1007c3209673a976cdacbd6035300e6faa6c338780a3aa49bb33a"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed7.json",
+          "sha256": "dd7b9699979fd165b357e8723594fb5fe7decbbd7b36ee8b5ae7d996ef36e107"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed13.json",
+          "sha256": "2e01cd32f646f13e97a6bf3585a723144671d57629b9ca1c4767c8c7e75be6b6"
+        }
+      ]
+    },
+    "gse305979": {
+      "label": "External GSE305979 (human CD34+ HSPC, 2->5 / 2->7)",
+      "result_tag": "ext_gse305979_control_v2",
+      "seeds": [
+        42,
+        123,
+        2026
+      ],
+      "arms": {
+        "ode": {
+          "tf_direction_consistency": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              42,
+              123,
+              2026
+            ]
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 0.0,
+              "123": 0.0,
+              "2026": 1.0
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.3333333333333333,
+              "sd": 0.5773502691896257,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "Interferon_response": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              42,
+              123,
+              2026
+            ]
+          }
+        },
+        "gru": {
+          "tf_direction_consistency": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              42,
+              123,
+              2026
+            ]
+          },
+          "pathway_activation_order": {
+            "per_seed": {
+              "42": 1.0,
+              "123": 0.0,
+              "2026": 0.0
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.3333333333333333,
+              "sd": 0.5773502691896257,
+              "sd_ddof": 1,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "per_group_mean_across_seeds": {
+              "Interferon_response": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              },
+              "HALLMARK_INTERFERON_ALPHA_RESPONSE": {
+                "n": 3,
+                "mean": 0.3333333333333333,
+                "sd": 0.5773502691896257,
+                "sd_ddof": 1,
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          },
+          "marker_rank_spearman": {
+            "per_seed": {},
+            "summary": {
+              "n": 0,
+              "mean": null,
+              "sd": null,
+              "min": null,
+              "max": null
+            },
+            "per_group_mean_across_seeds": {},
+            "not_evaluable_seeds": [
+              42,
+              123,
+              2026
+            ]
+          }
+        }
+      },
+      "ode_minus_gru": {
+        "tf_direction_consistency": {
+          "ode_minus_gru_mean": null,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "pathway_activation_order": {
+          "ode_minus_gru_mean": 0.0,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        },
+        "marker_rank_spearman": {
+          "ode_minus_gru_mean": null,
+          "note": "mean-level difference; not a significance test and not exchangeable across layers"
+        }
+      },
+      "source_files": [
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed42.json",
+          "sha256": "8da62a1dbd93730eb6af945481bb7ec9eb04e4ce633809b9c6ed2d764527c040"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed123.json",
+          "sha256": "6180e3f8554132e9d524993eb56e53ef631e8a74ce14902d34c98225479c1d0d"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed2026.json",
+          "sha256": "83da08cf70d731bb4096b98118627b07ef3d309e6cbc31d5331c7d816ba87e01"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed42.json",
+          "sha256": "47964ca74f7d11c77e8997e0922137722a80c5264e0017a7ea0ff371f2501a3d"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed123.json",
+          "sha256": "0d56da6b0f75cbdac85e99d895e164643eeabe2951284f3f0c5b7c5d5afc0bce"
+        },
+        {
+          "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed2026.json",
+          "sha256": "8ec6ca9aca07c0fa73377db5ae84ec062f03f32dcd14870c89e09ac026d0f065"
+        }
+      ]
+    }
+  }
+}

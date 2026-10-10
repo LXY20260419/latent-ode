@@ -1,0 +1,66 @@
+{
+  "record_type": "source_dataset_provenance_snapshot",
+  "created_at": "2026-10-02T08:45:00+08:00",
+  "scope": "Read-only provenance snapshot for the internal primary dataset. No training, no artifact edits.",
+  "dataset": {
+    "accession": "GSE151658",
+    "geo_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151658",
+    "series_title": "The orchestrated cellular and molecular responses of the kidney to endotoxin define a precise sepsis timeline",
+    "organism": "Mus musculus",
+    "platform": {
+      "gpl": "GPL24247",
+      "description": "Chromium Single Cell 3' Reagent Kits V2 (10x Genomics)"
+    },
+    "status": "Public on Jun 03 2020",
+    "submission_date": "2020-06-02",
+    "last_update_date": "2024-09-30",
+    "bio_project": "PRJNA636783",
+    "pubmed_ids": ["33448928", "38954486"],
+    "overall_design": "Wild type mouse kidneys harvested at 0, 1, 4, 16, 27, 36 and 48 hours after endotoxin (LPS) administration and profiled with scRNA-seq.",
+    "samples": [
+      {"accession": "GSM4587730", "title": "Control (LPS0hr)_scRNAseq", "timepoint_hours": 0},
+      {"accession": "GSM4587731", "title": "LPS_1h (LPS1hr)_scRNAseq", "timepoint_hours": 1},
+      {"accession": "GSM4587732", "title": "LPS_4h (LPS4hr)_scRNAseq", "timepoint_hours": 4},
+      {"accession": "GSM4587733", "title": "LPS_16h (LPS16hr)_scRNAseq", "timepoint_hours": 16},
+      {"accession": "GSM4587734", "title": "LPS_27h (LPS27hr)_scRNAseq", "timepoint_hours": 27},
+      {"accession": "GSM4587735", "title": "LPS_36h (LPS36hr)_scRNAseq", "timepoint_hours": 36},
+      {"accession": "GSM4587736", "title": "LPS_48h (LPS48hr)_scRNAseq", "timepoint_hours": 48}
+    ],
+    "supplementary_files": [
+      "GSE151658_RAW.tar",
+      "GSE151658_immune.all.RDS.gz",
+      "GSE151658_integrated.0h.1h_4h_16h_27h_36h_48h.rds.gz"
+    ]
+  },
+  "download": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE151658&format=file&file=GSE151658_integrated.0h.1h_4h_16h_27h_36h_48h.rds.gz",
+    "local_path": "data/raw/GSE151658_integrated.0h.1h_4h_16h_27h_36h_48h.rds.gz",
+    "size_bytes": 1489823725,
+    "sha256": "4f2847d9946dc06a31df956780dc26d3d76848ee8b7582888b5620871ef14c25",
+    "hash_verified_at": "2026-10-02T08:40:00+08:00"
+  },
+  "derived_bundle": {
+    "data_dir": "data/leworld_input",
+    "n_cells": 38439,
+    "n_genes": 2991,
+    "timepoints_hours": [0, 1, 4, 16, 27, 36, 48],
+    "train_timepoints_hours": [0, 1, 4, 16, 27],
+    "holdout_timepoints_hours": [36, 48],
+    "source_time_for_extrapolation": 27,
+    "metadata_orig_ident_values": [
+      "a.LPS0hr",
+      "b.LPS1hr",
+      "c.LPS4hr",
+      "d.LPS16hr",
+      "e.LPS27hr",
+      "f.LPS36hr",
+      "g.LPS48hr"
+    ],
+    "preprocess_script": "preprocess/preprocess_full_v7_1.4g_integrated_full.py"
+  },
+  "notes": [
+    "Each timepoint corresponds to a single GEO sample (one 10x library per timepoint); cell-level correlations are not biological-replicate inference. This is already reflected in the frozen protocol's inference scope.",
+    "The series had no sample titles beyond the seven listed; timepoint mapping was verified against both the GEO titles and the preprocess output's orig.ident labels.",
+    "This snapshot is read-only provenance; it does not alter the frozen primary result or the submission gate."
+  ]
+}

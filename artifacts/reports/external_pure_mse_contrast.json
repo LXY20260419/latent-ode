@@ -1,0 +1,453 @@
+{
+  "record_type": "external_pure_mse_contrast",
+  "created_at": "2026-10-02T23:44:52.396156+00:00",
+  "metric": "population_mean_across_gene_pearson_r",
+  "model": "ode",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "preregistration": "artifacts/reports/external_pure_mse_preregistration.json",
+  "datasets": {
+    "GSE148794": {
+      "endpoints": {
+        "12": {
+          "full": {
+            "n": 3,
+            "mean": 0.5570114453633627,
+            "sd": 0.004190058810863299,
+            "ci95": [
+              0.546602762256454,
+              0.5674201284702713
+            ]
+          },
+          "pure_mse": {
+            "n": 3,
+            "mean": 0.5586936076482137,
+            "sd": 0.004719811118374284,
+            "ci95": [
+              0.5469689468562807,
+              0.5704182684401468
+            ]
+          },
+          "paired_pure_minus_full": {
+            "n": 3,
+            "per_seed_difference": [
+              0.01038128137588501,
+              -0.007116079330444336,
+              0.0017812848091125488
+            ],
+            "diff_mean": 0.0016821622848510742,
+            "diff_sd": 0.008749101489750905,
+            "ci95_difference": [
+              -0.020051810670587505,
+              0.023416135240289654
+            ],
+            "t_statistic": 0.3330159728231891,
+            "p_one_sided_left_greater": 0.38539560412107376,
+            "p_two_sided": 0.7707912082421475,
+            "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+          }
+        },
+        "15": {
+          "full": {
+            "n": 3,
+            "mean": 0.6648356119791666,
+            "sd": 0.006423483399183284,
+            "ci95": [
+              0.6488787946258532,
+              0.6807924293324801
+            ]
+          },
+          "pure_mse": {
+            "n": 3,
+            "mean": 0.6662290891011556,
+            "sd": 0.0062545741266419735,
+            "ci95": [
+              0.650691865641642,
+              0.6817663125606692
+            ]
+          },
+          "paired_pure_minus_full": {
+            "n": 3,
+            "per_seed_difference": [
+              0.014355242252349854,
+              -0.010617852210998535,
+              0.0004430413246154785
+            ],
+            "diff_mean": 0.0013934771219889324,
+            "diff_sd": 0.01251364686742147,
+            "ci95_difference": [
+              -0.029692144974068177,
+              0.032479099218046044
+            ],
+            "t_statistic": 0.19287528248485886,
+            "p_one_sided_left_greater": 0.43243377540280087,
+            "p_two_sided": 0.8648675508056017,
+            "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+          }
+        }
+      },
+      "composite_context": {
+        "full_5seed_means": {
+          "12": 0.5592999577522277,
+          "15": 0.6666816711425781
+        },
+        "note": "context only; the paired tests use the three shared seeds, not the five-seed means",
+        "full_3seed": {
+          "n": 3,
+          "mean": 0.6109235286712646,
+          "sd": 0.005297851681366346,
+          "ci95": [
+            0.5977629355178277,
+            0.6240841218247016
+          ]
+        },
+        "pure_mse_3seed": {
+          "n": 3,
+          "mean": 0.6124613483746847,
+          "sd": 0.005484778801990656,
+          "ci95": [
+            0.5988364025115385,
+            0.6260862942378309
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.012368261814117432,
+            -0.008866965770721436,
+            0.0011121630668640137
+          ],
+          "diff_mean": 0.0015378197034200032,
+          "diff_sd": 0.010624011028051435,
+          "ci95_difference": [
+            -0.024853686742406487,
+            0.02792932614924649
+          ],
+          "t_statistic": 0.2507133936675214,
+          "p_one_sided_left_greater": 0.412720357910106,
+          "p_two_sided": 0.825440715820212,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "holdout_reconstruction": {
+        "full": {
+          "n": 3,
+          "mean": 0.3932930926481883,
+          "sd": 0.0005435913803834722,
+          "ci95": [
+            0.3919427368003445,
+            0.39464344849603206
+          ]
+        },
+        "pure_mse": {
+          "n": 3,
+          "mean": 0.39573050538698834,
+          "sd": 0.0012811202691394956,
+          "ci95": [
+            0.3925480262130115,
+            0.3989129845609652
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.0016918778419494629,
+            0.001961052417755127,
+            0.0036593079566955566
+          ],
+          "diff_mean": 0.002437412738800049,
+          "diff_sd": 0.0010667167762353665,
+          "ci95_difference": [
+            -0.00021245863290261877,
+            0.005087284110502716
+          ],
+          "t_statistic": 3.9576791109599916,
+          "p_one_sided_left_greater": 0.029157566785809275,
+          "p_two_sided": 0.05831513357161855,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "gru_control": {
+        "full": {
+          "n": 3,
+          "mean": 0.6002514759699503,
+          "sd": 0.046990608820563794,
+          "ci95": [
+            0.4835203324962901,
+            0.7169826194436105
+          ]
+        },
+        "pure_mse": {
+          "n": 3,
+          "mean": 0.6085749864578247,
+          "sd": 0.026700081371355877,
+          "ci95": [
+            0.5422483074139427,
+            0.6749016655017067
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            -0.002335101366043091,
+            -0.004470616579055786,
+            0.031776249408721924
+          ],
+          "diff_mean": 0.00832351048787435,
+          "diff_sd": 0.020338715015293645,
+          "ci95_difference": [
+            -0.04220065849205938,
+            0.058847679467808084
+          ],
+          "t_statistic": 0.7088325418538071,
+          "p_one_sided_left_greater": 0.2759569351566986,
+          "p_two_sided": 0.5519138703133972,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "config_contrast": {
+        "full": {
+          "result_tag": "ext_gse148794_v2",
+          "pathway_weight": 0.2,
+          "pathway_delta_weight": 0.1
+        },
+        "pure_mse": {
+          "result_tag": "ext_gse148794_puremse_v1",
+          "pathway_weight": 0.0,
+          "pathway_delta_weight": 0.0
+        }
+      }
+    },
+    "GSE149622": {
+      "endpoints": {
+        "4": {
+          "full": {
+            "n": 3,
+            "mean": 0.4034708042939504,
+            "sd": 0.0010090383442291023,
+            "ci95": [
+              0.4009642140903545,
+              0.4059773944975463
+            ]
+          },
+          "pure_mse": {
+            "n": 3,
+            "mean": 0.4031468629837036,
+            "sd": 0.0015318687051509006,
+            "ci95": [
+              0.399341490163645,
+              0.4069522358037622
+            ]
+          },
+          "paired_pure_minus_full": {
+            "n": 3,
+            "per_seed_difference": [
+              0.00021892786026000977,
+              -0.0008647441864013672,
+              -0.000326007604598999
+            ],
+            "diff_mean": -0.00032394131024678546,
+            "diff_sd": 0.0005418389782565268,
+            "ci95_difference": [
+              -0.0016699439498807107,
+              0.0010220613293871398
+            ],
+            "t_statistic": -1.0355157722747428,
+            "p_one_sided_left_greater": 0.7953897442858173,
+            "p_two_sided": 1.0,
+            "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+          }
+        }
+      },
+      "composite_context": {
+        "full_5seed_means": {
+          "4": 0.4007581353187561
+        },
+        "note": "context only; the paired tests use the three shared seeds, not the five-seed means",
+        "full_3seed": {
+          "n": 3,
+          "mean": 0.4034708042939504,
+          "sd": 0.0010090383442291023,
+          "ci95": [
+            0.4009642140903545,
+            0.4059773944975463
+          ]
+        },
+        "pure_mse_3seed": {
+          "n": 3,
+          "mean": 0.4031468629837036,
+          "sd": 0.0015318687051509006,
+          "ci95": [
+            0.399341490163645,
+            0.4069522358037622
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.00021892786026000977,
+            -0.0008647441864013672,
+            -0.000326007604598999
+          ],
+          "diff_mean": -0.00032394131024678546,
+          "diff_sd": 0.0005418389782565268,
+          "ci95_difference": [
+            -0.0016699439498807107,
+            0.0010220613293871398
+          ],
+          "t_statistic": -1.0355157722747428,
+          "p_one_sided_left_greater": 0.7953897442858173,
+          "p_two_sided": 1.0,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "holdout_reconstruction": {
+        "full": {
+          "n": 3,
+          "mean": 0.21958063542842865,
+          "sd": 0.0018098354334078661,
+          "ci95": [
+            0.21508475497606908,
+            0.22407651588078822
+          ]
+        },
+        "pure_mse": {
+          "n": 3,
+          "mean": 0.2286460946003596,
+          "sd": 8.235294184207803e-05,
+          "ci95": [
+            0.2284415185518484,
+            0.22885067064887077
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            0.010192841291427612,
+            0.00689774751663208,
+            0.010105788707733154
+          ],
+          "diff_mean": 0.009065459171930948,
+          "diff_sd": 0.0018777978867468383,
+          "ci95_difference": [
+            0.004400750626242623,
+            0.013730167717619274
+          ],
+          "t_statistic": 8.361834886782242,
+          "p_one_sided_left_greater": 0.007001157964958427,
+          "p_two_sided": 0.014002315929916853,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "gru_control": {
+        "full": {
+          "n": 3,
+          "mean": 0.40360040465990704,
+          "sd": 0.0012244620237229179,
+          "ci95": [
+            0.40055867237005643,
+            0.40664213694975765
+          ]
+        },
+        "pure_mse": {
+          "n": 3,
+          "mean": 0.40323283274968463,
+          "sd": 0.0012808028270009783,
+          "ci95": [
+            0.4000511421456954,
+            0.40641452335367384
+          ]
+        },
+        "paired_pure_minus_full": {
+          "n": 3,
+          "per_seed_difference": [
+            -0.0003007650375366211,
+            -0.0003878474235534668,
+            -0.00041410326957702637
+          ],
+          "diff_mean": -0.0003675719102223714,
+          "diff_sd": 5.932715264649701e-05,
+          "ci95_difference": [
+            -0.0005149487274478455,
+            -0.00022019509299689728
+          ],
+          "t_statistic": -10.73122837588068,
+          "p_one_sided_left_greater": 0.9957139346315732,
+          "p_two_sided": 1.0,
+          "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+        }
+      },
+      "config_contrast": {
+        "full": {
+          "result_tag": "ext_gse149622_v2",
+          "pathway_weight": 0.2,
+          "pathway_delta_weight": 0.1
+        },
+        "pure_mse": {
+          "result_tag": "ext_gse149622_puremse_v1",
+          "pathway_weight": 0.0,
+          "pathway_delta_weight": 0.0
+        }
+      }
+    }
+  },
+  "source_files": [
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_puremse_v1_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_puremse_v1_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_puremse_v1_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_puremse_v1_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed42.json"
+  ],
+  "interpretation_notes": [
+    "Both arms are tagged runs of the identical frozen protocol on the same 2,991-gene panel and the same train/holdout timepoints; the only difference is the pathway loss weights (0.2/0.1 vs 0.0/0.0).",
+    "Three stochastic seeds give df = 2; these tests are exploratory and the intervals are wide.",
+    "Every endpoint is reported regardless of sign; a nominally better pure-MSE arm is surfaced, not hidden.",
+    "This contrast bounds the pathway terms' contribution to the external population endpoints only."
+  ],
+  "headline": {
+    "GSE148794": {
+      "primary_endpoint": "12",
+      "pure_mse_minus_full": 0.0016821622848510742,
+      "ci95": [
+        -0.020051810670587505,
+        0.023416135240289654
+      ],
+      "p_two_sided": 0.7707912082421475,
+      "ci95_includes_zero": true,
+      "verdict": "indistinguishable"
+    },
+    "GSE149622": {
+      "primary_endpoint": "4",
+      "pure_mse_minus_full": -0.00032394131024678546,
+      "ci95": [
+        -0.0016699439498807107,
+        0.0010220613293871398
+      ],
+      "p_two_sided": 1.0,
+      "ci95_includes_zero": true,
+      "verdict": "indistinguishable"
+    }
+  }
+}

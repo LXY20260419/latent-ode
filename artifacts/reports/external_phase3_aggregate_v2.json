@@ -1,0 +1,502 @@
+{
+  "record_type": "external_phase3_aggregate",
+  "created_at": "2026-10-03T05:44:21.350035+00:00",
+  "protocol": "artifacts/reports/external_phase2_protocol_v1.json",
+  "protocol_sha256": "5ca4d0c947338853adcee6ee51643e9e89a37525880ae7738e86814875f765c8",
+  "protocol_per_dataset": {
+    "GSE148794": {
+      "file": "external_phase2_protocol_v1.json",
+      "sha256": "5ca4d0c947338853adcee6ee51643e9e89a37525880ae7738e86814875f765c8"
+    },
+    "GSE149622": {
+      "file": "external_phase2_protocol_v1.json",
+      "sha256": "5ca4d0c947338853adcee6ee51643e9e89a37525880ae7738e86814875f765c8"
+    },
+    "GSE305979": {
+      "file": "external_gse305979_protocol.json",
+      "sha256": "36261e72e2b58bdda6da056c9e8acac3a9378eb16ff0584f171ff53815845e5e"
+    }
+  },
+  "preregistration": "artifacts/reports/external_phase3_preregistration.json",
+  "seeds": [
+    42,
+    123,
+    2026,
+    7,
+    13
+  ],
+  "seed_panels": {
+    "GSE148794": [
+      42,
+      123,
+      2026,
+      7,
+      13
+    ],
+    "GSE149622": [
+      42,
+      123,
+      2026,
+      7,
+      13
+    ],
+    "GSE305979": [
+      42,
+      123,
+      2026
+    ]
+  },
+  "seed_panel_note": "per-dataset panels: the two mouse candidates use the five seeds locked in external_phase3_preregistration.json; GSE305979 uses the three seeds locked in its own protocol, because its 7/13 extension is a separate decision",
+  "datasets": {
+    "GSE148794": {
+      "result_tag": "ext_gse148794_v2",
+      "train_timepoints": [
+        0,
+        3,
+        6,
+        9
+      ],
+      "holdout_timepoints": [
+        12
+      ],
+      "replicate_note": "GEO sample/library groups are not independent animal replicates; the source study pooled biological material before profiling. Protocol/seed-level inference only.",
+      "protocol": "external_phase2_protocol_v1.json",
+      "actual_epochs": {
+        "ode": {
+          "42": 100,
+          "123": 100,
+          "2026": 100,
+          "7": 100,
+          "13": 100
+        },
+        "gru": {
+          "42": 100,
+          "123": 100,
+          "2026": 100,
+          "7": 100,
+          "13": 100
+        }
+      },
+      "horizons": {
+        "12": {
+          "ode": {
+            "per_seed": {
+              "42": 0.5534238219261169,
+              "123": 0.5616165399551392,
+              "2026": 0.5559939742088318,
+              "7": 0.5763276815414429,
+              "13": 0.5491377711296082
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.5592999577522277,
+              "sd": 0.010536110132939303,
+              "min": 0.5491377711296082,
+              "max": 0.5763276815414429,
+              "ci95_low": 0.5522234320640564,
+              "ci95_high": 0.5681941986083985,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.5600435733795166,
+              "123": 0.5808950662612915,
+              "2026": 0.47688835859298706,
+              "7": 0.5126124024391174,
+              "13": 0.5240992307662964
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.5309077262878418,
+              "sd": 0.04076394950050602,
+              "min": 0.47688835859298706,
+              "max": 0.5808950662612915,
+              "ci95_low": 0.5006201505661011,
+              "ci95_high": 0.5630682349205017,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.558697603904252,
+            "deterministic": true,
+            "n_source": 2167,
+            "n_target": 2335
+          },
+          "source_time": 9,
+          "role": "primary"
+        },
+        "15": {
+          "ode": {
+            "per_seed": {
+              "42": 0.658785343170166,
+              "123": 0.6715764999389648,
+              "2026": 0.6641449928283691,
+              "7": 0.6804115772247314,
+              "13": 0.6584899425506592
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.6666816711425781,
+              "sd": 0.009332213290694039,
+              "min": 0.6584899425506592,
+              "max": 0.6804115772247314,
+              "ci95_low": 0.6597391128540039,
+              "ci95_high": 0.6743193149566651,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.684630811214447,
+              "123": 0.6833658218383789,
+              "2026": 0.615685224533081,
+              "7": 0.6650493741035461,
+              "13": 0.5621200799942017
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.6421702623367309,
+              "sd": 0.05275631481022463,
+              "min": 0.5621200799942017,
+              "max": 0.684630811214447,
+              "ci95_low": 0.597082257270813,
+              "ci95_high": 0.6802085280418396,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.6661081430649781,
+            "deterministic": true,
+            "n_source": 2167,
+            "n_target": 2178
+          },
+          "source_time": 9,
+          "role": "secondary"
+        }
+      },
+      "seed_artifacts": {
+        "ode": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed42.json",
+            "sha256": "9cee382cd03282b33c5a69e8a1b24cf7aaf3f7f3991fa1bb32180d4d08e5249f"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed123.json",
+            "sha256": "1855fca120036568273571986c1818c5a9da33c10387f997e335b4a578647122"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed2026.json",
+            "sha256": "6f19938d1dad7980e33fdbd949e0eacaa7a9cfa03e1fa2688d68e07507349df5"
+          },
+          "7": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed7.json",
+            "sha256": "c74ee37c2fc20e73569469a3a221cbafb75b6a661f9dc93688ba780f18778bba"
+          },
+          "13": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse148794_v2_seed13.json",
+            "sha256": "55c11f4a67de0619f75fda436d60bf83dbde161c22e6c2f4397e036070affe5b"
+          }
+        },
+        "gru": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed42.json",
+            "sha256": "0ada6f5477bc9c500207e2b0836994daea8961d6059c76721147eb5c8d783616"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed123.json",
+            "sha256": "2bb1eef87bcb722706b097dbee7319eb38fb51d3ea59ee7bb3b0653c61eca3be"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed2026.json",
+            "sha256": "a7434ed4bd4bd2b4e6433409854b5d222a8f61d7bd82577d3499c45c9b80e344"
+          },
+          "7": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed7.json",
+            "sha256": "c50c184f6827231daf12958c3cf585ee75cf107d55947650777072894ce557d8"
+          },
+          "13": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse148794_v2_seed13.json",
+            "sha256": "ce7062adf0cbdafa699df70cfadc592e29e0cb526ec4176166457f339b91d432"
+          }
+        }
+      }
+    },
+    "GSE149622": {
+      "result_tag": "ext_gse149622_v2",
+      "train_timepoints": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "holdout_timepoints": [
+        4
+      ],
+      "replicate_note": "one pooled RNA sample per timepoint; no biological-replicate inference",
+      "protocol": "external_phase2_protocol_v1.json",
+      "actual_epochs": {
+        "ode": {
+          "42": 100,
+          "123": 100,
+          "2026": 100,
+          "7": 100,
+          "13": 100
+        },
+        "gru": {
+          "42": 100,
+          "123": 100,
+          "2026": 100,
+          "7": 97,
+          "13": 100
+        }
+      },
+      "horizons": {
+        "4": {
+          "ode": {
+            "per_seed": {
+              "42": 0.40461465716362,
+              "123": 0.40270689129829407,
+              "2026": 0.40309086441993713,
+              "7": 0.3979070484638214,
+              "13": 0.3954712152481079
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.4007581353187561,
+              "sd": 0.003879183411331511,
+              "min": 0.3954712152481079,
+              "max": 0.40461465716362,
+              "ci95_low": 0.39748231172561643,
+              "ci95_high": 0.40362358689308164,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.4050067961215973,
+              "123": 0.4027712941169739,
+              "2026": 0.4030231237411499,
+              "7": 0.39776453375816345,
+              "13": 0.39550334215164185
+            },
+            "summary": {
+              "n": 5,
+              "mean": 0.4008138179779053,
+              "sd": 0.0039935290864754735,
+              "min": 0.39550334215164185,
+              "max": 0.4050067961215973,
+              "ci95_low": 0.3974595367908478,
+              "ci95_high": 0.40376622676849366,
+              "ci_method": "exact_seed_bootstrap_enumeration_3125"
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.40167497112135003,
+            "deterministic": true,
+            "n_source": 6525,
+            "n_target": 4953
+          },
+          "source_time": 3,
+          "role": "primary"
+        }
+      },
+      "seed_artifacts": {
+        "ode": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed42.json",
+            "sha256": "e0940a69d89d1c55bf73560bcd870c1d41ce3df7086d1a9c58d9de3d57aaba30"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed123.json",
+            "sha256": "a7168d99c2e82fe8fc358a44313280eb161b22b5a4574e7370596c98d41a0bf2"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed2026.json",
+            "sha256": "b3af2c48633938810eca55aaacdeae674570108aff578f5f1861307d51d33b69"
+          },
+          "7": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed7.json",
+            "sha256": "ab45aecb1d48ed22e2e5eed49ff07e61d69a1ea43e1e4ece9364cd1ac2751df1"
+          },
+          "13": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse149622_v2_seed13.json",
+            "sha256": "95de81464c4422289958ccb448b5adb025c5588a0d4d5f998b54ca7a05276d2a"
+          }
+        },
+        "gru": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed42.json",
+            "sha256": "3b6d5f6833d5d1dc61b44b74d8e48b8224e89225428972e90d5f57d260f7cfec"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed123.json",
+            "sha256": "07564b7b63cc53d3e33ef37177a69285d47fc603f4e50cf9bbad764580ebf8af"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed2026.json",
+            "sha256": "baf0d68824d1007c3209673a976cdacbd6035300e6faa6c338780a3aa49bb33a"
+          },
+          "7": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed7.json",
+            "sha256": "dd7b9699979fd165b357e8723594fb5fe7decbbd7b36ee8b5ae7d996ef36e107"
+          },
+          "13": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse149622_v2_seed13.json",
+            "sha256": "2e01cd32f646f13e97a6bf3585a723144671d57629b9ca1c4767c8c7e75be6b6"
+          }
+        }
+      }
+    },
+    "GSE305979": {
+      "result_tag": "ext_gse305979_control_v2",
+      "train_timepoints": [
+        0,
+        1,
+        2
+      ],
+      "holdout_timepoints": [
+        5
+      ],
+      "replicate_note": "single donor; cells nested within CMO well and library; no donor-level inference. Protocol/seed-level uncertainty only.",
+      "protocol": "external_gse305979_protocol.json",
+      "actual_epochs": {
+        "ode": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        },
+        "gru": {
+          "42": 100,
+          "123": 100,
+          "2026": 100
+        }
+      },
+      "horizons": {
+        "5": {
+          "ode": {
+            "per_seed": {
+              "42": 0.6450653076171875,
+              "123": 0.6477258801460266,
+              "2026": 0.6498939394950867
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.6475617090861002,
+              "sd": 0.0024184986160331007,
+              "min": 0.6450653076171875,
+              "max": 0.6498939394950867,
+              "ci95_low": 0.645641764998436,
+              "ci95_high": 0.6494241933027903,
+              "ci_method": "exact_seed_bootstrap_enumeration_27"
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.6423699259757996,
+              "123": 0.657275378704071,
+              "2026": 0.6314517855644226
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.643699030081431,
+              "sd": 0.012963000383909172,
+              "min": 0.6314517855644226,
+              "max": 0.657275378704071,
+              "ci95_low": 0.6338173826535543,
+              "ci95_high": 0.6540458639462788,
+              "ci_method": "exact_seed_bootstrap_enumeration_27"
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.6468163658304771,
+            "deterministic": true,
+            "n_source": 2466,
+            "n_target": 3220
+          },
+          "source_time": 2,
+          "role": "primary"
+        },
+        "7": {
+          "ode": {
+            "per_seed": {
+              "42": 0.5828626751899719,
+              "123": 0.5853625535964966,
+              "2026": 0.5918509364128113
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5866920550664266,
+              "sd": 0.00463927694489227,
+              "min": 0.5828626751899719,
+              "max": 0.5918509364128113,
+              "ci95_low": 0.5834043155113856,
+              "ci95_high": 0.5904451201359431,
+              "ci_method": "exact_seed_bootstrap_enumeration_27"
+            }
+          },
+          "gru": {
+            "per_seed": {
+              "42": 0.6038785576820374,
+              "123": 0.5450621843338013,
+              "2026": 0.5659782290458679
+            },
+            "summary": {
+              "n": 3,
+              "mean": 0.5716396570205688,
+              "sd": 0.0298140951312348,
+              "min": 0.5450621843338013,
+              "max": 0.6038785576820374,
+              "ci95_low": 0.5495939940214157,
+              "ci95_high": 0.5956668198108673,
+              "ci_method": "exact_seed_bootstrap_enumeration_27"
+            }
+          },
+          "persistence": {
+            "status": "completed",
+            "corr": 0.5844960631826884,
+            "deterministic": true,
+            "n_source": 2466,
+            "n_target": 2249
+          },
+          "source_time": 2,
+          "role": "secondary"
+        }
+      },
+      "seed_artifacts": {
+        "ode": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed42.json",
+            "sha256": "8da62a1dbd93730eb6af945481bb7ec9eb04e4ce633809b9c6ed2d764527c040"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed123.json",
+            "sha256": "6180e3f8554132e9d524993eb56e53ef631e8a74ce14902d34c98225479c1d0d"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_ode_ext_gse305979_control_v2_seed2026.json",
+            "sha256": "83da08cf70d731bb4096b98118627b07ef3d309e6cbc31d5331c7d816ba87e01"
+          }
+        },
+        "gru": {
+          "42": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed42.json",
+            "sha256": "47964ca74f7d11c77e8997e0922137722a80c5264e0017a7ea0ff371f2501a3d"
+          },
+          "123": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed123.json",
+            "sha256": "0d56da6b0f75cbdac85e99d895e164643eeabe2951284f3f0c5b7c5d5afc0bce"
+          },
+          "2026": {
+            "path": "artifacts/results/ode_benchmark/validation_results_gru_ext_gse305979_control_v2_seed2026.json",
+            "sha256": "8ec6ca9aca07c0fa73377db5ae84ec062f03f32dcd14870c89e09ac026d0f065"
+          }
+        }
+      }
+    }
+  }
+}

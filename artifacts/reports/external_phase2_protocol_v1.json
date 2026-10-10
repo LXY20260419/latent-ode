@@ -1,0 +1,82 @@
+{
+  "record_type": "external_phase2_production_protocol",
+  "protocol_id": "external-time-extrapolation-v1",
+  "created_at": "2026-10-02T03:05:00+08:00",
+  "status": "locked_before_production_runs",
+  "purpose": "Three-seed production verification of the two Phase-1 external candidates, using the same training entry point and hyperparameters as the frozen internal protocol. This is an external stress test; it does not modify or supersede the frozen internal result, the manuscript, or the submission gate.",
+  "authority_note": "Scope decision delegated to the executing agent by the author; endpoint selection is locked here before any 100-epoch run is inspected.",
+  "datasets": [
+    {
+      "accession": "GSE148794",
+      "dataset_id": "GSE148794",
+      "result_tag": "ext_gse148794_v2",
+      "data_dir": "data/leworld_input_gse148794",
+      "organism": "Mus musculus",
+      "condition": "DSS-induced colitis time course (Time Course IBD subset only)",
+      "timepoints_all": [0, 3, 6, 9, 12, 15],
+      "train_timepoints": [0, 3, 6, 9],
+      "holdout_timepoints": [12],
+      "secondary_holdout_timepoints": [15],
+      "source_time_for_extrapolation": 9,
+      "primary_endpoint": "9 -> 12 days",
+      "secondary_endpoint": "9 -> 15 days",
+      "replicate_note": "GEO sample/library groups are not independent animal replicates; the source study pooled biological material before profiling. Protocol/seed-level inference only.",
+      "qc_report": "artifacts/reports/external_gse148794_qc.json",
+      "smoke_report": "artifacts/reports/external_gse148794_smoke_seed42.json"
+    },
+    {
+      "accession": "GSE149622",
+      "dataset_id": "GSE149622",
+      "result_tag": "ext_gse149622_v2",
+      "data_dir": "data/leworld_input_gse149622",
+      "organism": "Mus musculus",
+      "condition": "IL-23-induced skin inflammation RNA time course (ATAC samples excluded)",
+      "timepoints_all": [0, 1, 2, 3, 4],
+      "train_timepoints": [0, 1, 2, 3],
+      "holdout_timepoints": [4],
+      "secondary_holdout_timepoints": [],
+      "source_time_for_extrapolation": 3,
+      "primary_endpoint": "3 -> 4 days",
+      "secondary_endpoint": null,
+      "replicate_note": "one pooled RNA sample per timepoint; no biological-replicate inference",
+      "qc_report": "artifacts/reports/external_gse149622_qc.json",
+      "smoke_report": "artifacts/reports/external_gse149622_smoke_seed42.json"
+    }
+  ],
+  "training_contract": {
+    "entry_point": "ode_benchmark/train_ode_benchmark.py",
+    "entry_point_policy": "unmodified; never edit the training script because it records its own sha256 in every artifact",
+    "seeds": [42, 123, 2026],
+    "epochs": 100,
+    "early_stopping_patience": 15,
+    "min_epochs": 20,
+    "internal_val_fraction": 0.1,
+    "train_max_predict_steps": 8,
+    "input_genes": 2991,
+    "device": "cpu",
+    "device_rationale": "GPU measured 2.53x slower on this workload (local benchmark; execution trace excluded); frozen internal runs are CPU",
+    "threads_per_stream": 4,
+    "max_concurrent_streams": 4,
+    "concurrency_rationale": "measured optimum on this 16-thread host (artifacts/reports/random_control_concurrency_decision.json)",
+    "leakage_control": "library normalization per cell; HVG selection and scaling fit on training timepoints only"
+  },
+  "baselines_required": [
+    "population persistence (copy the last training timepoint population mean forward)",
+    "matched GRU (trained inside the same entry point run)"
+  ],
+  "baseline_protocol": {
+    "persistence": "computed with the same 2991-gene panel and the same source timepoint as each model arm; see artifacts/reports/external_persistence_v1.json",
+    "matched_gru": "same encoder/decoder budget, same loss weights, same epoch cap and checkpoint rule; trained in the same process as ODE"
+  },
+  "metrics": {
+    "primary": "population_mean_across_gene_pearson_r (mean of predicted population mean vs holdout population mean)",
+    "per_endpoint": "report each horizon separately; never select the best horizon",
+    "uncertainty": "seed-level mean and SD; exact 27-resample seed bootstrap interval where three seeds exist",
+    "failure_boundary_policy": "all endpoints are retained and reported, including negative or null results"
+  },
+  "reporting_rule": "External results are reported separately from the frozen internal primary result and never overwrite it. Any claim beyond the frozen internal protocol requires the external endpoint to replicate in direction with a non-overlapping interval.",
+  "planned_outputs": [
+    "artifacts/reports/external_phase2_aggregate_v1.json",
+    "artifacts/reports/external_phase2_report_v1.md"
+  ]
+}

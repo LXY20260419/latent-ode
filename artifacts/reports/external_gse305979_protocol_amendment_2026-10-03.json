@@ -1,0 +1,42 @@
+{
+  "record_type": "external_protocol_amendment",
+  "amendment_id": "gse305979_source_timepoint_label_audit_v1",
+  "accession": "GSE305979",
+  "created_at": "2026-10-03T04:05:00+00:00",
+  "status": "locked_before_conversion_and_training",
+  "base_protocol": "artifacts/reports/external_gse305979_protocol.json",
+  "base_protocol_integrity_note": "The base preregistration remains immutable after lock; its creation-time sha256_status marker is retained. Actual selected-file hashes are recorded in external_gse305979_qc.json.",
+  "scope": "source-timepoint mapping only; endpoint, split, metric, vehicle rule, seed panel and training contract are unchanged",
+  "trigger": {
+    "field": "TIMEPOINT_HOURS",
+    "original_rule": "divide recorded TIMEPOINT_HOURS by 24 and require integral days",
+    "observed_defect": "all 33479 Day 7 cells were recorded as 24.0 hours, the same value as Day 1"
+  },
+  "amended_rule": {
+    "primary_source_column": "PLATE_NAME",
+    "fallback_columns": ["sample_name", "POOL_NAME"],
+    "derivation": "extract the Day N label and use N as the sampling day",
+    "recorded_timepoint_column": "TIMEPOINT_HOURS",
+    "recorded_column_role": "audit-only; not trusted for the train/holdout split",
+    "mismatch_rows": 33479,
+    "resolution": "derive days from source plate/sample labels and retain the row-level mismatch audit in external_gse305979_qc.json"
+  },
+  "pre_result_lock_evidence": {
+    "demux_inspection": "artifacts/reports/external_gse305979_demux_inspection.txt",
+    "vehicle_decision": "artifacts/reports/external_gse305979_vehicle_decision.json",
+    "pipeline_log": "artifacts/reports/gse305979_pipeline_driver.log",
+    "vehicle_decision_at": "2026-10-03T04:05:00+00:00",
+    "bundle_qc_passed_at": "2026-10-03T04:08:34+00:00",
+    "first_training_run_at": "2026-10-03T04:08:34+00:00"
+  },
+  "unchanged_contract": {
+    "vehicle_pattern": "^DMSO$",
+    "train_timepoints": [0, 1, 2],
+    "holdout_timepoints": [5],
+    "secondary_holdout_timepoints": [7],
+    "source_time_for_extrapolation": 2,
+    "seeds": [42, 123, 2026],
+    "primary_metric": "population_mean_across_gene_pearson_r"
+  },
+  "reason": "The amendment prevents Day 7 holdout cells from entering the Day 1 training timepoint while preserving the preregistered endpoint and analysis contract."
+}

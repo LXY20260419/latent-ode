@@ -1,0 +1,114 @@
+{
+  "status": "completed",
+  "metric": "population_mean_across_gene_pearson_r",
+  "model": "ode",
+  "result_tag": "primary_internal_recovered",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "horizons": {
+    "36": {
+      "from_time": 27,
+      "baseline_corr": 0.6822830768673137,
+      "primary_per_seed": {
+        "42": 0.6929741501808167,
+        "123": 0.6990106105804443,
+        "2026": 0.7300825715065002
+      },
+      "primary_mean": 0.707355777422587,
+      "paired_vs_baseline": {
+        "n": 3,
+        "per_seed_difference": [
+          0.010691073313502941,
+          0.016727533713130627,
+          0.047799494639186535
+        ],
+        "mean_difference": 0.02507270055527337,
+        "sd_difference": 0.01991205892263558,
+        "ci95_difference": [
+          -0.02439159903990337,
+          0.0745370001504501
+        ],
+        "t_statistic": 2.1809493138515585,
+        "p_one_sided_greater": 0.08047929131733705
+      }
+    },
+    "48": {
+      "from_time": 27,
+      "baseline_corr": 0.21124671777805543,
+      "primary_per_seed": {
+        "42": 0.25479254126548767,
+        "123": 0.2627856135368347,
+        "2026": 0.2599680423736572
+      },
+      "primary_mean": 0.25918206572532654,
+      "paired_vs_baseline": {
+        "n": 3,
+        "per_seed_difference": [
+          0.043545823487432245,
+          0.05153889575877929,
+          0.0487213245956018
+        ],
+        "mean_difference": 0.04793534794727111,
+        "sd_difference": 0.004054086895040006,
+        "ci95_difference": [
+          0.03786443717203341,
+          0.058006258722508815
+        ],
+        "t_statistic": 20.47969376895824,
+        "p_one_sided_greater": 0.0011878819066705737
+      }
+    }
+  },
+  "composite": {
+    "baseline_corr": 0.44676489732268454,
+    "primary_per_seed": {
+      "42": 0.47388334572315216,
+      "123": 0.4808981120586395,
+      "2026": 0.49502530694007874
+    },
+    "primary_mean": 0.4832689215739568,
+    "paired_vs_baseline": {
+      "n": 3,
+      "per_seed_difference": [
+        0.02711844840046762,
+        0.034133214735954986,
+        0.048260409617394195
+      ],
+      "mean_difference": 0.03650402425127227,
+      "sd_difference": 0.010768527491860068,
+      "ci95_difference": [
+        0.009753517328517522,
+        0.06325453117402702
+      ],
+      "t_statistic": 5.8714457228923065,
+      "p_one_sided_greater": 0.013901699290743086
+    }
+  },
+  "source_files": {
+    "persistence": {
+      "path": "artifacts/results/baselines/persistence_population.json",
+      "sha256": "186e2703f65eaee1f21e69f92f8ab3209810f0e93b707b45bfd9401c517a9f28"
+    },
+    "ode_42": {
+      "path": "artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed42.json",
+      "sha256": "555928d493e85cfef17b3b6ef69a7f9917e4f750a3b40ef79f5ec8a42237fd08"
+    },
+    "ode_123": {
+      "path": "artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed123.json",
+      "sha256": "aa42a013eeef0a5b62bf1c60a71bf13512eff05d2436732e2dfd12af2b04d18a"
+    },
+    "ode_2026": {
+      "path": "artifacts/results/primary_internal_recovered/validation_results_ode_primary_internal_recovered_seed2026.json",
+      "sha256": "94b61346604dd5697e2fd35ee50e867d1fd5f8d30d87f603bef84662c6a12a29"
+    }
+  },
+  "notes": [
+    "Baseline copies the 27 h population mean forward unchanged.",
+    "Both arms use population_mean_across_gene_pearson_r on the same 2,991-gene frozen panel.",
+    "Seed spread is stochastic training variability, not biological replication; the baseline has no seed spread.",
+    "This file supersedes the legacy extrapolation_significance.json pairing for the persistence comparison."
+  ]
+}

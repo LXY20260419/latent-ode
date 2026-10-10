@@ -1,0 +1,112 @@
+{
+  "train": [
+    1.1644786596298218
+  ],
+  "val": [
+    0.9004406929016113
+  ],
+  "train_terms": [
+    {
+      "recon": 0.6738701313734055,
+      "prediction": 0.21054505929350853,
+      "pathway_score": 0.2534612566232681,
+      "pathway_delta": 0.08708593994379044,
+      "total": 1.1644786596298218,
+      "avg_predict_steps": 1.0,
+      "latent_reg": 0.22066264227032661
+    }
+  ],
+  "val_terms": [
+    {
+      "recon": 0.4478432238101959,
+      "prediction": 0.19386214017868042,
+      "pathway_score": 0.1508173793554306,
+      "pathway_delta": 0.08056852221488953,
+      "total": 0.9004406929016113,
+      "avg_predict_steps": 1.0,
+      "latent_reg": 0.22051499783992767
+    }
+  ],
+  "run_metadata": {
+    "status": "completed_run_metadata",
+    "dataset": {
+      "dataset_id": "internal_lps_primary",
+      "source_accession": "GSE151658",
+      "data_dir": "data/leworld_input",
+      "n_cells": 200,
+      "n_genes": 2991,
+      "timepoints": [
+        0,
+        1,
+        4,
+        16,
+        27,
+        36,
+        48
+      ],
+      "gene_manifest_sha256": "741e496abe9e14fea59c6070b3b7da86b62fa59c2b982fa66e2ab547bcfbe5b2",
+      "metadata_sha256": "80223b5d11d743425550e06ce2413c6dc79a735b073b6ef0a82fcc5ed4ffe3c6",
+      "expression_matrix_sha256": "dd1d11866b3101cba48109d0818e3e669a731f71cb5da184d56c3c565164951a"
+    },
+    "protocol": {
+      "protocol_id": "paper-v1-freeze-internal-population-extrapolation",
+      "train_timepoints": [
+        0,
+        1,
+        4,
+        16,
+        27
+      ],
+      "holdout_timepoints": [
+        36,
+        48
+      ],
+      "source_time_for_extrapolation": 27,
+      "primary_metric": "population_mean_across_gene_pearson_r",
+      "seed": 42,
+      "result_tag": "smoke_internal_gpu",
+      "checkpoint_selection": {
+        "strategy": "stratified_internal_validation",
+        "validation_fraction": 0.1,
+        "selection_timepoints": [
+          0,
+          1,
+          4,
+          16,
+          27
+        ],
+        "n_internal_train": 108,
+        "n_internal_validation": 11,
+        "holdout_used_for_selection": false
+      }
+    },
+    "config": {
+      "latent_dim": 32,
+      "hidden_dim": 64,
+      "dropout": 0.3,
+      "batch_size": 32,
+      "epochs": 1,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.001,
+      "pathway_weight": 0.2,
+      "pathway_delta_weight": 0.1,
+      "train_max_predict_steps": 1,
+      "ode_delta": 1.0,
+      "ode_method": "dopri5",
+      "ode_rtol": 0.001,
+      "ode_atol": 0.0001
+    },
+    "source_hashes": {
+      "training_script_sha256": "2d3bb49dbd3a5d64d6d7598224b1fb29a3c5dbf9a87667779c0ef230e79e5e39",
+      "biology_priors_sha256": "d7aa27f609ce2889935582ab3afeaff4f6fd876395222ea2af19cf07109b0202",
+      "external_pathways_sha256": "fbbda3ddf186cddb51e7817c9046f1f9df59e412bfa171b1ed6a3276fba8c74f",
+      "external_tf_targets_sha256": "9943c9c4dbad3fd7c26f77d1fb2ed233da77fddeceffad2e53c3f7fb7b9a9d74"
+    },
+    "software": {
+      "python": "3.11.16",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "torch": "2.14.0+cu130"
+    }
+  }
+}

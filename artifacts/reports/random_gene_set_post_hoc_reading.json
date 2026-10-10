@@ -1,0 +1,36 @@
+{
+  "record_id": "random_gene_set_post_hoc_reading",
+  "created_at": "2026-09-30",
+  "status": "post_hoc_dated_record",
+  "purpose": "Dated post-hoc companion to random_gene_set_interpretation_preregistration.json. The preregistration file is frozen by its own terms ('not to be edited after aggregation'), so the reading of the completed 20-control null is recorded here instead.",
+  "aggregate_artifact": "artifacts/reports/random_gene_set_negative_control.json",
+  "results": {
+    "observed_primary_composite": 0.4515821685393651,
+    "null_composite_mean": 0.45434100305040676,
+    "null_composite_sd": 0.004392571958535664,
+    "null_composite_min": 0.4475,
+    "null_composite_max": 0.4632,
+    "controls_at_or_above_observed": 13,
+    "empirical_p_ge": 0.6666666666666666,
+    "horizon_36": {
+      "observed": 0.6838462948799133,
+      "null_mean": 0.6866439918677012,
+      "empirical_p_ge": 0.8095238095238095
+    },
+    "horizon_48": {
+      "observed": 0.21931804219881693,
+      "null_mean": 0.22203801423311234,
+      "empirical_p_ge": 0.7142857142857143
+    }
+  },
+  "matched_preregistered_outcome": "observed is at or below the null mean (empirical_p_ge >= 0.5)",
+  "reading_applied": "No pathway-content specificity. The primary arm is indistinguishable from, or below, randomly sampled matched-size priors on the same endpoint.",
+  "permitted_claim_used": "Pathway content confers no measurable extrapolation advantage on this endpoint under this protocol.",
+  "forbidden_claims_respected": [
+    "No claim that the biology priors help.",
+    "No claim that the negative result is underpowered to the point of being uninformative about the sign.",
+    "No partial-grid number is quoted as the result; the aggregation ran once, on the complete grid.",
+    "The reduced N = 20 resolution limit is stated wherever the result is reported."
+  ],
+  "scope_decision_unchanged": "The reduced-grid declaration and full_grid_status=available_on_request are unchanged; the outcome does not alter the author's scope decision."
+}

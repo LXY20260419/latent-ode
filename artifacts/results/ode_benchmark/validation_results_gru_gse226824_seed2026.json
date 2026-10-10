@@ -1,0 +1,72 @@
+{
+  "biology_prior_source": {
+    "base_json": "configs/biology_priors.json",
+    "external_gmt": "configs/external_pathways.gmt",
+    "external_tf_csv": "configs/external_tf_targets.csv"
+  },
+  "time_holdout": {
+    "mean_correlation": 0.4275633692741394,
+    "std": 0.1390768140554428
+  },
+  "time_extrapolation": {
+    "mean_correlation": 0.4140767455101013,
+    "std": 0.0,
+    "pairs": {
+      "72": {
+        "from_time": 24,
+        "corr": 0.4140767455101013,
+        "predict_steps": 48
+      }
+    }
+  },
+  "tf_direction_consistency": {
+    "overall": 1.0,
+    "per_tf": {
+      "STAT1": 1.0
+    }
+  },
+  "marker_rank_spearman": {
+    "overall": -0.19999999999999996,
+    "per_set": {
+      "early": -0.9999999999999999,
+      "late": 0.6
+    }
+  },
+  "literature": {
+    "genes": [
+      "Nfkbia",
+      "Il6",
+      "Cxcl10"
+    ],
+    "timecourse": {
+      "Nfkbia": [
+        -0.053585100919008255,
+        -0.18773864209651947,
+        0.09719718992710114,
+        0.0430721640586853
+      ],
+      "Il6": [
+        -0.013233988545835018,
+        -0.01629871129989624,
+        0.006164837628602982,
+        -0.018466893583536148
+      ],
+      "Cxcl10": [
+        -0.2333812564611435,
+        1.0984805822372437,
+        -0.1984795480966568,
+        -0.23189489543437958
+      ]
+    },
+    "pubmed_links": {
+      "Nfkbia": "https://pubmed.ncbi.nlm.nih.gov/?term=Nfkbia+dendritic+cell+LPS+time+series",
+      "Il6": "https://pubmed.ncbi.nlm.nih.gov/?term=Il6+dendritic+cell+LPS+time+series",
+      "Cxcl10": "https://pubmed.ncbi.nlm.nih.gov/?term=Cxcl10+dendritic+cell+LPS+time+series"
+    }
+  },
+  "biological_conclusions": {
+    "top_genes_csv": "top_genes_gru.csv",
+    "pathway_enrichment_json": "pathway_enrichment_gru.json",
+    "conclusions_json": "biological_conclusions_gru.json"
+  }
+}

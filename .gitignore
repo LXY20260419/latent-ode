@@ -1,0 +1,43 @@
+# Local environments, caches and generated execution artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tools/
+*.log
+*.log.*
+*.lock
+logs/
+*_logs/
+*_status/
+*.status
+tmp/
+backups/
+
+# Never distribute private publication or identity materials
+manuscript/
+26.7.31-转投/
+*HANDOFF*
+*handoff*
+*交接*
+*作者信息*
+auth.json
+.env
+.env.*
+*.pem
+*.key
+
+# Restore data and retrain weights locally
+artifacts/models/
+data/raw/
+data/external_geo/
+data/**/expression_matrix.npy
+data/**/*.h5ad
+data/**/*.rds
+data/**/*.rds.gz
+data/**/*.mtx
+data/**/*.mtx.gz
+data/**/*.tar
+data/**/*.tar.gz
+data/**/*.npz

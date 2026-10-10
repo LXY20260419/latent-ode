@@ -1,0 +1,128 @@
+{
+  "audit_type": "metadata_only_external_geo_candidate_audit",
+  "audited_at": "2026-10-01T15:30:04.502549+00:00",
+  "accession": "GSE149622",
+  "gds_id": 200149622,
+  "source": {
+    "esummary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200149622&retmode=json",
+    "geo_series_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149622",
+    "ftp_series_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149622/",
+    "ftp_supplementary_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149622/suppl/"
+  },
+  "series": {
+    "accession": "GSE149622",
+    "title": "Skin-resident innate lymphoid cells converge on a pathogenic effector state",
+    "summary": "Tissue-resident innate lymphoid cells (ILCs) help sustain barrier function and respond to local signals. ILCs are traditionally classified as ILC1, ILC2 or ILC3 on the basis of their expression of specific transcription factors and cytokines1. In the skin, disease-specific production of ILC3-associated cytokines interleukin (IL)-17 and IL-22 in response to IL-23 signalling contributes to dermal inflammation in psoriasis. However, it is not known whether this response is initiated by pre-committed ILCs or by cell-state transitions. Here we show that the induction of psoriasis in mice by IL-23 or imiquimod reconfigures a spectrum of skin ILCs, which converge on a pathogenic ILC3-like state. Tissue-resident ILCs were necessary and sufficient, in the absence of circulatory ILCs, to drive pathology. Single-cell RNA-sequencing (scRNA-seq) profiles of skin ILCs along a time course of psoriatic inflammation formed a dense transcriptional continuum—even at steady state—reflecting fluid ILC states, including a naive or quiescent-like state and an ILC2 effector state. Upon disease induction, the continuum shifted rapidly to span a mixed, ILC3-like subset also expressing cytokines characteristic of ILC2s, which we inferred as arising through multiple trajectories. We confirmed the transition potential of quiescent-like and ILC2 states using in vitro experiments, single-cell assay for transposase-accessible chromatin using sequencing (scATAC-seq) and in vivo fate mapping. Our results highlight the range and flexibility of skin ILC responses, suggesting that immune activities primed in healthy tissues dynamically adapt to provocations and, left unchecked, drive pathological remodelling.",
+    "taxon": "Mus musculus",
+    "entrytype": "GSE",
+    "gdstype": "Expression profiling by high throughput sequencing; Genome binding/occupancy profiling by high throughput sequencing",
+    "pdat": "2020/12/14",
+    "suppfile": "BED, FA, MTX, TBI, TSV",
+    "n_samples": 7,
+    "pubmedids": [
+      "33536623",
+      "37398022"
+    ],
+    "bioproject": "PRJNA629379"
+  },
+  "supplementary_listing": [
+    "GSE149622_RAW.tar",
+    "GSE149622_RNA_timecourse_sctransform_barcodes.tsv.gz",
+    "GSE149622_RNA_timecourse_sctransform_count_data_matrix.mtx.gz",
+    "GSE149622_RNA_timecourse_sctransform_genes.tsv.gz",
+    "GSE149622_RNA_timecourse_sctransform_norm_data_matrix.mtx.gz",
+    "GSE149622_RNA_timecourse_sctransform_scale_data_matrix.mtx.gz",
+    "GSE149622_RNA_timecourse_sctransform_variable_genes.tsv.gz",
+    "GSE149622_RNA_timecourse_unadjusted_barcodes.tsv.gz",
+    "GSE149622_RNA_timecourse_unadjusted_genes.tsv.gz",
+    "GSE149622_RNA_timecourse_unadjusted_matrix.mtx.gz",
+    "GSE149622_fluorescent_proteins.fa.gz",
+    "filelist.txt",
+    "index.html"
+  ],
+  "selected_files": [
+    "GSE149622_RNA_timecourse_unadjusted_matrix.mtx.gz",
+    "GSE149622_RNA_timecourse_unadjusted_barcodes.tsv.gz",
+    "GSE149622_RNA_timecourse_unadjusted_genes.tsv.gz"
+  ],
+  "selected_file_metadata": [
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149622/suppl/GSE149622_RNA_timecourse_unadjusted_matrix.mtx.gz",
+      "content_length": 151061036,
+      "last_modified": "Mon, 27 Apr 2020 22:11:59 GMT",
+      "content_type": "application/x-gzip"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149622/suppl/GSE149622_RNA_timecourse_unadjusted_barcodes.tsv.gz",
+      "content_length": 125642,
+      "last_modified": "Wed, 29 Apr 2020 22:46:23 GMT",
+      "content_type": "application/x-gzip"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE149nnn/GSE149622/suppl/GSE149622_RNA_timecourse_unadjusted_genes.tsv.gz",
+      "content_length": 68125,
+      "last_modified": "Wed, 29 Apr 2020 22:46:23 GMT",
+      "content_type": "application/x-gzip"
+    }
+  ],
+  "missing_selected_files": [],
+  "selected_samples": [
+    {
+      "accession": "GSM4506037",
+      "title": "Time_course_day0",
+      "timepoint_numeric": 0
+    },
+    {
+      "accession": "GSM4506038",
+      "title": "Time_course_day1",
+      "timepoint_numeric": 1
+    },
+    {
+      "accession": "GSM4506039",
+      "title": "Time_course_day2",
+      "timepoint_numeric": 2
+    },
+    {
+      "accession": "GSM4506040",
+      "title": "Time_course_day3",
+      "timepoint_numeric": 3
+    },
+    {
+      "accession": "GSM4506041",
+      "title": "Time_course_day4",
+      "timepoint_numeric": 4
+    }
+  ],
+  "timepoint_sample_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  "planned_protocol": {
+    "primary_train_timepoints": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary_holdout_timepoints": [
+      4
+    ],
+    "secondary_holdout_timepoints": [],
+    "primary_endpoint": "day3->day4 population_mean_across_gene_pearson_r",
+    "secondary_endpoint": null,
+    "condition_filter": "RNA time-course samples only; exclude ATAC samples",
+    "replicate_unit": "sample",
+    "result_tag": "ext_gse149622_v1"
+  },
+  "assessment": "GO_FOR_PHASE1_WITH_REPLICATE_LIMITATION_AUDIT: five RNA time points and MTX files are available; sample-level replication must be verified from barcode/sample metadata before any inferential claim.",
+  "caveats": [
+    "The series is a skin ILC/IL-23 inflammatory trajectory, not LPS macrophage data.",
+    "ATAC samples must never enter the RNA expression matrix.",
+    "The GEO series may provide one pooled RNA sample per time point; if so, only seed/protocol uncertainty can be estimated."
+  ],
+  "large_files_not_downloaded": true,
+  "sha256_status": "pending_until_phase1_download"
+}

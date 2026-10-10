@@ -1,0 +1,242 @@
+{
+  "status": "completed",
+  "metric": "population_mean_across_gene_pearson_r",
+  "model": "ode",
+  "panel_matched": true,
+  "n_genes": 2991,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "config_contrast": {
+    "primary": {
+      "result_tag": "primary_internal_freeze",
+      "pathway_weight": 0.2,
+      "pathway_delta_weight": 0.1
+    },
+    "pure_mse": {
+      "result_tag": "pure_mse",
+      "pathway_weight": 0.0,
+      "pathway_delta_weight": 0.0
+    }
+  },
+  "composite": {
+    "primary": {
+      "n": 3,
+      "mean": 0.4515821685393651,
+      "sd": 0.0058478528684299995,
+      "ci95": [
+        0.4370552966955845,
+        0.4661090403831457
+      ]
+    },
+    "pure_mse": {
+      "n": 3,
+      "mean": 0.4570978929599126,
+      "sd": 0.007666464215311429,
+      "ci95": [
+        0.4380533400861569,
+        0.4761424458336683
+      ]
+    },
+    "paired_pure_minus_primary": {
+      "n": 3,
+      "per_seed_difference": [
+        0.014829516410827637,
+        -0.009786076843738556,
+        0.011503733694553375
+      ],
+      "diff_mean": 0.005515724420547485,
+      "diff_sd": 0.01335567479080509,
+      "ci95_difference": [
+        -0.02766161099441236,
+        0.03869305983550733
+      ],
+      "t_statistic": 0.7153150317432038,
+      "p_one_sided_left_greater": 0.27432389221581244,
+      "p_two_sided": 0.5486477844316249,
+      "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+    }
+  },
+  "holdout_reconstruction": {
+    "primary": {
+      "n": 3,
+      "mean": 0.35211312770843506,
+      "sd": 0.0010212648812568082,
+      "ci95": [
+        0.3495761651031234,
+        0.3546500903137467
+      ]
+    },
+    "pure_mse": {
+      "n": 3,
+      "mean": 0.35752707719802856,
+      "sd": 0.0012317471030136207,
+      "ci95": [
+        0.3544672477679781,
+        0.360586906628079
+      ]
+    },
+    "paired_pure_minus_primary": {
+      "n": 3,
+      "per_seed_difference": [
+        0.006570935249328613,
+        0.00285947322845459,
+        0.0068114399909973145
+      ],
+      "diff_mean": 0.005413949489593506,
+      "diff_sd": 0.002215507246486225,
+      "ci95_difference": [
+        -8.967561226603735e-05,
+        0.010917574591453049
+      ],
+      "t_statistic": 4.232545662154685,
+      "p_one_sided_left_greater": 0.025771580343505518,
+      "p_two_sided": 0.051543160687011036,
+      "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+    }
+  },
+  "horizons": {
+    "36": {
+      "primary": {
+        "n": 3,
+        "mean": 0.6838462948799133,
+        "sd": 0.005021275698741458,
+        "ci95": [
+          0.671372754555105,
+          0.6963198352047216
+        ]
+      },
+      "pure_mse": {
+        "n": 3,
+        "mean": 0.6857313513755798,
+        "sd": 0.0018751983105183628,
+        "ci95": [
+          0.6810731005352355,
+          0.6903896022159242
+        ]
+      },
+      "paired_pure_minus_primary": {
+        "n": 3,
+        "per_seed_difference": [
+          0.007825314998626709,
+          -0.0035938620567321777,
+          0.0014237165451049805
+        ],
+        "diff_mean": 0.001885056495666504,
+        "diff_sd": 0.005723550215373042,
+        "ci95_difference": [
+          -0.012333030439973103,
+          0.01610314343130611
+        ],
+        "t_statistic": 0.5704525168421751,
+        "p_one_sided_left_greater": 0.31295798613122927,
+        "p_two_sided": 0.6259159722624585,
+        "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+      }
+    },
+    "48": {
+      "primary": {
+        "n": 3,
+        "mean": 0.21931804219881693,
+        "sd": 0.007103562108732058,
+        "ci95": [
+          0.2016718156760913,
+          0.23696426872154255
+        ]
+      },
+      "pure_mse": {
+        "n": 3,
+        "mean": 0.2284644345442454,
+        "sd": 0.015060546436374857,
+        "ci95": [
+          0.19105196318067258,
+          0.2658769059078182
+        ]
+      },
+      "paired_pure_minus_primary": {
+        "n": 3,
+        "per_seed_difference": [
+          0.021833717823028564,
+          -0.015978291630744934,
+          0.02158375084400177
+        ],
+        "diff_mean": 0.009146392345428467,
+        "diff_sd": 0.021758973540808153,
+        "ci95_difference": [
+          -0.044905894398303454,
+          0.06319867908916038
+        ],
+        "t_statistic": 0.728068179251657,
+        "p_one_sided_left_greater": 0.2711374951501009,
+        "p_two_sided": 0.5422749903002018,
+        "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+      }
+    }
+  },
+  "gru_control": {
+    "primary": {
+      "n": 3,
+      "mean": -0.23258664458990097,
+      "sd": 0.01682723193703617,
+      "ci95": [
+        -0.2743878060306341,
+        -0.19078548314916782
+      ]
+    },
+    "pure_mse": {
+      "n": 3,
+      "mean": -0.18903392056624094,
+      "sd": 0.02650205760189661,
+      "ci95": [
+        -0.2548686812965677,
+        -0.12319915983591415
+      ]
+    },
+    "paired_pure_minus_primary": {
+      "n": 3,
+      "per_seed_difference": [
+        0.06852702051401138,
+        0.025131285190582275,
+        0.036999866366386414
+      ],
+      "diff_mean": 0.043552724023660026,
+      "diff_sd": 0.02242771541358248,
+      "ci95_difference": [
+        -0.01216080962571963,
+        0.09926625767303968
+      ],
+      "t_statistic": 3.363495988152238,
+      "p_one_sided_left_greater": 0.039084582478734975,
+      "p_two_sided": 0.07816916495746995,
+      "note": "one-sided tests are exploratory: three stochastic seeds, df = 2"
+    }
+  },
+  "source_files": [
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_primary_internal_freeze_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_primary_internal_freeze_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_ode_pure_mse_seed2026.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed42.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed123.json",
+    "artifacts/results/ode_benchmark/validation_results_gru_pure_mse_seed2026.json"
+  ],
+  "headline_assessment": {
+    "pure_mse_minus_primary_composite": 0.005515724420547485,
+    "p_two_sided": 0.5486477844316249,
+    "ci95_includes_zero": true,
+    "pathway_priors_improve_primary_endpoint": false,
+    "summary": "The pure-MSE ablation is statistically indistinguishable from the primary arm at the composite endpoint and sits nominally above it, so the pathway-prior terms show no measurable benefit on the frozen population endpoint. The manuscript must not attribute extrapolation level or stability to the pathway losses."
+  },
+  "interpretation_notes": [
+    "Both arms are tagged runs of the identical frozen protocol on the frozen 2,991-gene panel, so this contrast is panel-matched and protocol-matched; unlike the classical-baseline tests it carries no 2,000-vs-2,991 caveat.",
+    "Three stochastic training seeds give df = 2, so these tests are exploratory and their confidence intervals are wide.",
+    "The pathway-prior terms are a training-time soft constraint, not an architectural component; a null here bounds their contribution to the frozen population endpoint and does not speak to other endpoints, datasets, or mechanistic readouts."
+  ]
+}

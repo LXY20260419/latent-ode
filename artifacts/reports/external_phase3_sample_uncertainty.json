@@ -1,0 +1,187 @@
+{
+  "record_type": "external_phase3_sample_uncertainty",
+  "method": "cell_level_and_sample_cluster_bootstrap_of_population_mean_endpoint",
+  "metric": "population_mean_across_gene_pearson_r",
+  "replicates": 2000,
+  "note": "The endpoint compares population means, so for a fixed checkpoint the resampling uncertainty is on the data side. The no-training reference used here is persistence (source-time population mean carried forward); the model arms share the same target-side sampling term, which this report states instead of pretending the interval covers training variance.",
+  "datasets": {
+    "GSE148794": {
+      "data_dir": "data/leworld_input_gse148794",
+      "expression_matrix_sha256": "eb01e5dae9196721a65990fcc2addcaac1cb136f2538b98429fa640a0c058e2d",
+      "metadata_sha256": "ec1b39aee1578f7d542d760ceba637ac3d05f0be09aad1ff1b593151be28e6d5",
+      "replicate_mode": "sample_library_groups",
+      "horizons": {
+        "12": {
+          "from_time": 9,
+          "target_time": 12,
+          "cell_level": {
+            "corr": 0.558697603904252,
+            "n_source_cells": 2167,
+            "n_target_cells": 2335,
+            "n_source_groups": 10,
+            "n_target_groups": 10,
+            "replicates": 2000,
+            "bootstrap_mean": 0.5424781272778576,
+            "bootstrap_sd": 0.02908925473180749,
+            "ci95_percentile": [
+              0.4846796536749223,
+              0.5983537103797485
+            ]
+          },
+          "sample_cluster": {
+            "corr": 0.558697603904252,
+            "n_source_cells": 2167,
+            "n_target_cells": 2335,
+            "n_source_groups": 10,
+            "n_target_groups": 10,
+            "replicates": 2000,
+            "bootstrap_mean": 0.515168156891217,
+            "bootstrap_sd": 0.05712219553521382,
+            "ci95_percentile": [
+              0.3925436281673061,
+              0.611499210277796
+            ],
+            "replicate_level": "GEO sample/library groups (pooled animals; not independent animal replicates)"
+          }
+        },
+        "15": {
+          "from_time": 9,
+          "target_time": 15,
+          "cell_level": {
+            "corr": 0.6661081430649781,
+            "n_source_cells": 2167,
+            "n_target_cells": 2178,
+            "n_source_groups": 10,
+            "n_target_groups": 10,
+            "replicates": 2000,
+            "bootstrap_mean": 0.6501254759063042,
+            "bootstrap_sd": 0.02417435637784549,
+            "ci95_percentile": [
+              0.5998247951807216,
+              0.6956098848917379
+            ]
+          },
+          "sample_cluster": {
+            "corr": 0.6661081430649781,
+            "n_source_cells": 2167,
+            "n_target_cells": 2178,
+            "n_source_groups": 10,
+            "n_target_groups": 10,
+            "replicates": 2000,
+            "bootstrap_mean": 0.6220478998024569,
+            "bootstrap_sd": 0.06599797378112841,
+            "ci95_percentile": [
+              0.47376553069362104,
+              0.7272882230545442
+            ],
+            "replicate_level": "GEO sample/library groups (pooled animals; not independent animal replicates)"
+          }
+        }
+      }
+    },
+    "GSE149622": {
+      "data_dir": "data/leworld_input_gse149622",
+      "expression_matrix_sha256": "87eb28f27d43b5aab10b7cf57151fa5fb1c59e0d90efff0ae89cc28bcebaa242",
+      "metadata_sha256": "9b6f8e79aada6c86b713f15c1f0d1ff78c0ffc57403fff87caf269f62a161e02",
+      "replicate_mode": "single_pooled_sample",
+      "horizons": {
+        "4": {
+          "from_time": 3,
+          "target_time": 4,
+          "cell_level": {
+            "corr": 0.40167497112135003,
+            "n_source_cells": 6525,
+            "n_target_cells": 4953,
+            "n_source_groups": 1,
+            "n_target_groups": 1,
+            "replicates": 2000,
+            "bootstrap_mean": 0.3737288081375625,
+            "bootstrap_sd": 0.018238669730597706,
+            "ci95_percentile": [
+              0.337823823683673,
+              0.40827891479609274
+            ]
+          },
+          "sample_cluster": {
+            "status": "not_defined_single_pooled_sample",
+            "reason": "GSE149622 has exactly one pooled RNA sample per timepoint; resampling sample groups would either be a no-op or fabricate biological replication that does not exist."
+          }
+        }
+      }
+    },
+    "GSE305979": {
+      "data_dir": "data/leworld_input_gse305979",
+      "expression_matrix_sha256": "18111b9c6c0a5bbcf8e78677249a16ec3f1591bb6904ff361ec769bf4a6ce1a1",
+      "metadata_sha256": "6daf8418c1d45069dd04641bc8a89cd1242ae53e028b4a429ebe9f75e2b7a586",
+      "replicate_mode": "cmo_well_and_library",
+      "horizons": {
+        "5": {
+          "from_time": 2,
+          "target_time": 5,
+          "cell_level": {
+            "corr": 0.6468163658304771,
+            "n_source_cells": 2466,
+            "n_target_cells": 3220,
+            "n_source_groups": 4,
+            "n_target_groups": 4,
+            "replicates": 2000,
+            "bootstrap_mean": 0.6426223398296942,
+            "bootstrap_sd": 0.011277116357330504,
+            "ci95_percentile": [
+              0.6200448370985985,
+              0.6635473396512256
+            ]
+          },
+          "sample_cluster": {
+            "corr": 0.6468163658304771,
+            "n_source_cells": 2466,
+            "n_target_cells": 3220,
+            "n_source_groups": 4,
+            "n_target_groups": 4,
+            "replicates": 2000,
+            "bootstrap_mean": 0.6345845158772402,
+            "bootstrap_sd": 0.02697712228863693,
+            "ci95_percentile": [
+              0.578863323773988,
+              0.6817562867138878
+            ],
+            "replicate_level": "CMO well and library groups within a single donor; wells are technical/library multiplexing units, not biological replicates"
+          }
+        },
+        "7": {
+          "from_time": 2,
+          "target_time": 7,
+          "cell_level": {
+            "corr": 0.5844960631826884,
+            "n_source_cells": 2466,
+            "n_target_cells": 2249,
+            "n_source_groups": 4,
+            "n_target_groups": 4,
+            "replicates": 2000,
+            "bootstrap_mean": 0.5812369308346145,
+            "bootstrap_sd": 0.01252850791312128,
+            "ci95_percentile": [
+              0.5568538137650381,
+              0.605474473460248
+            ]
+          },
+          "sample_cluster": {
+            "corr": 0.5844960631826884,
+            "n_source_cells": 2466,
+            "n_target_cells": 2249,
+            "n_source_groups": 4,
+            "n_target_groups": 4,
+            "replicates": 2000,
+            "bootstrap_mean": 0.5750263436436364,
+            "bootstrap_sd": 0.020448509314714192,
+            "ci95_percentile": [
+              0.5320566193177602,
+              0.6126735297509326
+            ],
+            "replicate_level": "CMO well and library groups within a single donor; wells are technical/library multiplexing units, not biological replicates"
+          }
+        }
+      }
+    }
+  }
+}

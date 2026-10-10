@@ -1,0 +1,370 @@
+{
+  "record_type": "failure_boundary_table",
+  "created_at": "2026-10-04T06:37:28.665793+00:00",
+  "policy": "All endpoints retained regardless of sign. win/loss require the 95% interval to exclude zero; tie covers intervals spanning zero and exact zero. Rows with only a one-sided p-value use win_p_only/loss_p_only (p<0.05) or not_significant; rows with no interval and no p-value stay at positive_point_estimate / negative_point_estimate and must not be upgraded to significance. Mechanism controls are null while indistinguishable from their reference; the random-prior row compares the observed value against the null distribution quantiles.",
+  "rows": [
+    {
+      "layer": "internal_frozen",
+      "endpoint": "27->36/48 composite",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.4515821685393651,
+      "right_arm_mean": -0.23258664458990097,
+      "diff_mean": 0.6841688131292661,
+      "ci95": null,
+      "p_value": 5.6330647040742326e-05,
+      "verdict": "win_p_only",
+      "note": "one-sided paired t-test, df=2, exploratory",
+      "source": "artifacts/reports/composite_drift_report.json"
+    },
+    {
+      "layer": "internal_frozen",
+      "endpoint": "27->36/48 composite",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.4515821685393651,
+      "right_arm_mean": 0.44676489732268454,
+      "diff_mean": 0.0048172712166805924,
+      "ci95": null,
+      "p_value": 0.14488287335751332,
+      "verdict": "not_significant",
+      "note": "not significant at the composite endpoint (p=0.145)",
+      "source": "artifacts/reports/composite_drift_report.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE148794 9->12",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.5592999577522277,
+      "right_arm_mean": 0.5309077262878418,
+      "diff_mean": 0.028392231464385985,
+      "ci95": [
+        -0.009128210780167505,
+        0.06591267370893947
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "5 seeds; normal-approximation interval from the seed-level paired differences",
+      "source": "artifacts/reports/external_phase3_forest.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE148794 9->12",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.5592999577522277,
+      "right_arm_mean": 0.558697603904252,
+      "diff_mean": 0.0006023538479756896,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "positive_point_estimate",
+      "note": "deterministic persistence, point estimate only",
+      "source": "artifacts/reports/external_phase3_aggregate_v2.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE148794 9->15",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.6666816711425781,
+      "right_arm_mean": 0.6421702623367309,
+      "diff_mean": 0.02451140880584717,
+      "ci95": [
+        -0.01859617761412331,
+        0.06761899522581764
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "5 seeds; normal-approximation interval from the seed-level paired differences",
+      "source": "artifacts/reports/external_phase3_forest.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE148794 9->15",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.6666816711425781,
+      "right_arm_mean": 0.6661081430649781,
+      "diff_mean": 0.0005735280776000273,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "positive_point_estimate",
+      "note": "deterministic persistence, point estimate only",
+      "source": "artifacts/reports/external_phase3_aggregate_v2.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE149622 3->4",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.4007581353187561,
+      "right_arm_mean": 0.4008138179779053,
+      "diff_mean": -5.5682659149169925e-05,
+      "ci95": [
+        -0.00023550626184629163,
+        0.0001241409435479518
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "5 seeds; normal-approximation interval from the seed-level paired differences",
+      "source": "artifacts/reports/external_phase3_forest.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE149622 3->4",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.4007581353187561,
+      "right_arm_mean": 0.40167497112135003,
+      "diff_mean": -0.0009168358025939405,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "negative_point_estimate",
+      "note": "deterministic persistence, point estimate only",
+      "source": "artifacts/reports/external_phase3_aggregate_v2.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE305979 2->5",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.6475617090861002,
+      "right_arm_mean": 0.643699030081431,
+      "diff_mean": 0.0038626790046691895,
+      "ci95": [
+        -0.012016349011941353,
+        0.019741707021279732
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "3 seeds; normal-approximation interval from the seed-level paired differences",
+      "source": "artifacts/reports/external_phase3_forest.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE305979 2->5",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.6475617090861002,
+      "right_arm_mean": 0.6468163658304771,
+      "diff_mean": 0.0007453432556231432,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "positive_point_estimate",
+      "note": "deterministic persistence, point estimate only",
+      "source": "artifacts/reports/external_phase3_aggregate_v2.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE305979 2->7",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.5866920550664266,
+      "right_arm_mean": 0.5716396570205688,
+      "diff_mean": 0.015052398045857748,
+      "ci95": [
+        -0.02122490237852507,
+        0.05132969847024057
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "3 seeds; normal-approximation interval from the seed-level paired differences",
+      "source": "artifacts/reports/external_phase3_forest.json"
+    },
+    {
+      "layer": "external_phase3",
+      "endpoint": "GSE305979 2->7",
+      "comparator": "population persistence",
+      "left_label": "ODE",
+      "right_label": "persistence",
+      "left_arm_mean": 0.5866920550664266,
+      "right_arm_mean": 0.5844960631826884,
+      "diff_mean": 0.002195991883738202,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "positive_point_estimate",
+      "note": "deterministic persistence, point estimate only",
+      "source": "artifacts/reports/external_phase3_aggregate_v2.json"
+    },
+    {
+      "layer": "historic_external",
+      "endpoint": "GSE224518 3->5",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.1345945547024409,
+      "right_arm_mean": 0.17730052769184113,
+      "diff_mean": -0.04270597298940024,
+      "ci95": null,
+      "p_value": null,
+      "verdict": "negative_point_estimate",
+      "note": "3 seeds; retained as boundary evidence",
+      "source": "artifacts/reports/stage2_gse224518_3to5h_agg.json"
+    },
+    {
+      "layer": "historic_external",
+      "endpoint": "GSE224518 3->5 (balanced)",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.1386029173930486,
+      "right_arm_mean": 0.13710084309180579,
+      "diff_mean": 0.0015020743012428284,
+      "ci95": [
+        -0.017298109948271266,
+        0.020302258550756923
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "3 seeds; retained as boundary evidence",
+      "source": "artifacts/reports/stage2_gse224518_3to5h_balanced_agg.json"
+    },
+    {
+      "layer": "historic_external",
+      "endpoint": "GSE224518 3->8",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": -0.16992608706156412,
+      "right_arm_mean": -0.015243764966726303,
+      "diff_mean": -0.15468232209483782,
+      "ci95": [
+        -0.30991476838518806,
+        0.000550124195512397
+      ],
+      "p_value": null,
+      "verdict": "tie",
+      "note": "3 seeds; retained as boundary evidence",
+      "source": "artifacts/reports/stage2_gse224518_agg.json"
+    },
+    {
+      "layer": "historic_external",
+      "endpoint": "GSE226824 24->72",
+      "comparator": "matched GRU",
+      "left_label": "ODE",
+      "right_label": "GRU",
+      "left_arm_mean": 0.23354498917857805,
+      "right_arm_mean": 0.1701563155899445,
+      "diff_mean": 0.06338867358863354,
+      "ci95": [
+        0.010584803785454809,
+        0.11619254339181226
+      ],
+      "p_value": null,
+      "verdict": "win",
+      "note": "3 seeds; retained as boundary evidence",
+      "source": "artifacts/reports/stage2_gse226824_agg.json"
+    },
+    {
+      "layer": "mechanism_control",
+      "endpoint": "internal 27->36/48 composite",
+      "comparator": "full model (pure MSE minus full)",
+      "left_label": "ODE pure-MSE",
+      "right_label": "ODE full",
+      "left_arm_mean": 0.4570978929599126,
+      "right_arm_mean": 0.4515821685393651,
+      "diff_mean": 0.005515724420547485,
+      "ci95": [
+        -0.02766161099441236,
+        0.03869305983550733
+      ],
+      "p_value": 0.5486477844316249,
+      "verdict": "tie",
+      "note": "null: removing pathway terms does not hurt the endpoint",
+      "source": "artifacts/reports/pure_mse_vs_primary_comparison.json"
+    },
+    {
+      "layer": "mechanism_control",
+      "endpoint": "internal 27->36/48 composite",
+      "comparator": "matched-size random pathway priors",
+      "left_label": "ODE primary",
+      "right_label": "random-prior null mean",
+      "left_arm_mean": 0.4515821685393651,
+      "right_arm_mean": 0.45434100305040676,
+      "diff_mean": -0.0027588345110416412,
+      "ci95": [
+        0.4476102760061621,
+        0.46233383112897475
+      ],
+      "p_value": 0.6666666666666666,
+      "verdict": "null",
+      "note": "null: prior content is not distinguishable from random sets; the interval column holds the null-distribution quantiles [q025, q975], not a difference CI",
+      "source": "artifacts/reports/random_gene_set_negative_control.json"
+    },
+    {
+      "layer": "mechanism_control_external",
+      "endpoint": "GSE148794 12",
+      "comparator": "full model (pure MSE minus full)",
+      "left_label": "ODE pure-MSE",
+      "right_label": "ODE full",
+      "left_arm_mean": 0.5586936076482137,
+      "right_arm_mean": 0.5570114453633627,
+      "diff_mean": 0.0016821622848510742,
+      "ci95": [
+        -0.020051810670587505,
+        0.023416135240289654
+      ],
+      "p_value": 0.7707912082421475,
+      "verdict": "tie",
+      "note": "null replicates on the external endpoint: removing the pathway losses does not move the population endpoint",
+      "source": "artifacts/reports/external_pure_mse_contrast.json"
+    },
+    {
+      "layer": "mechanism_control_external",
+      "endpoint": "GSE148794 15",
+      "comparator": "full model (pure MSE minus full)",
+      "left_label": "ODE pure-MSE",
+      "right_label": "ODE full",
+      "left_arm_mean": 0.6662290891011556,
+      "right_arm_mean": 0.6648356119791666,
+      "diff_mean": 0.0013934771219889324,
+      "ci95": [
+        -0.029692144974068177,
+        0.032479099218046044
+      ],
+      "p_value": 0.8648675508056017,
+      "verdict": "tie",
+      "note": "null replicates on the external endpoint: removing the pathway losses does not move the population endpoint",
+      "source": "artifacts/reports/external_pure_mse_contrast.json"
+    },
+    {
+      "layer": "mechanism_control_external",
+      "endpoint": "GSE149622 4",
+      "comparator": "full model (pure MSE minus full)",
+      "left_label": "ODE pure-MSE",
+      "right_label": "ODE full",
+      "left_arm_mean": 0.4031468629837036,
+      "right_arm_mean": 0.4034708042939504,
+      "diff_mean": -0.00032394131024678546,
+      "ci95": [
+        -0.0016699439498807107,
+        0.0010220613293871398
+      ],
+      "p_value": 1.0,
+      "verdict": "tie",
+      "note": "null replicates on the external endpoint: removing the pathway losses does not move the population endpoint",
+      "source": "artifacts/reports/external_pure_mse_contrast.json"
+    }
+  ],
+  "counts": {
+    "negative_point_estimate": 2,
+    "not_significant": 1,
+    "null": 1,
+    "positive_point_estimate": 4,
+    "tie": 11,
+    "win": 1,
+    "win_p_only": 1
+  }
+}

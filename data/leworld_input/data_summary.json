@@ -1,0 +1,28 @@
+{
+  "actual_input_dim": 2991,
+  "n_cells": 38439,
+  "n_genes": 2991,
+  "protected_genes": [
+    "Nfkbia",
+    "Tnfaip3",
+    "Il6",
+    "Il1b",
+    "Tnf",
+    "Cxcl10",
+    "Itgax",
+    "Cd209a",
+    "H2-Ab1",
+    "H2-Eb1",
+    "Flt3",
+    "Zbtb46"
+  ],
+  "timepoints": [
+    0,
+    1,
+    4,
+    16,
+    27,
+    36,
+    48
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "record_type": "external_accession_protocol_preregistration",
+  "protocol_id": "external-time-extrapolation-v1",
+  "created_at": "2026-10-03T00:45:00+00:00",
+  "status": "locked_before_within_dataset_results",
+  "purpose": "Third external stress test: a cross-species (human, in vitro) CD34+ HSPC megakaryocyte differentiation time course, restricted to the untreated/DMSO vehicle trajectory. Locked before any training run so endpoint selection cannot follow results.",
+  "accession": "GSE305979",
+  "source": {
+    "geo_series_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305979",
+    "ftp_supplementary_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE305nnn/GSE305979/suppl/",
+    "pubmed_ids": ["41129612"],
+    "publication_doi": "10.1126/science.adi8577"
+  },
+  "organism": "Homo sapiens",
+  "system": "in vitro CD34+ HSPC megakaryocyte differentiation (single donor)",
+  "selected_files": [
+    {
+      "name": "GSE305979_day0_raw_counts.h5ad",
+      "bytes": 42727199,
+      "role": "untreated unhashed day-0 baseline"
+    },
+    {
+      "name": "GSE305979_day1-7_demuxed_counts.h5ad",
+      "bytes": 1373371436,
+      "role": "demultiplexed singlet counts with CMO well/treatment assignments"
+    }
+  ],
+  "excluded_files": [
+    {
+      "name": "GSE305979_day0-7_normalized_counts_with_celltype_annotations.h5ad",
+      "reason": "protocol re-normalizes from counts with fit-on-train statistics; the 2.98 GB object adds size only"
+    },
+    {
+      "name": "GSE305979_day1-7_raw_counts.h5ad",
+      "reason": "pre-demultiplexing object cannot separate vehicle wells"
+    }
+  ],
+  "condition_filter": "vehicle/untreated trajectory only (day 0 untreated plus DMSO vehicle wells); compound-treated wells excluded from the primary analysis and reserved as an independent perturbation stress test",
+  "time_unit": "days",
+  "time_unit_note": "H5AD TIMEPOINT_HOURS divided by 24; division must be integral or conversion stops",
+  "timepoints_all": [0, 1, 2, 5, 7],
+  "train_timepoints": [0, 1, 2],
+  "holdout_timepoints": [5],
+  "secondary_holdout_timepoints": [7],
+  "source_time_for_extrapolation": 2,
+  "primary_endpoint": "2d->5d population_mean_across_gene_pearson_r",
+  "secondary_endpoint": "2d->7d population_mean_across_gene_pearson_r",
+  "replicate_note": "single donor; cells nested within CMO well and library; no donor-level inference. Protocol/seed-level uncertainty only.",
+  "result_tags": {
+    "smoke": "ext_gse305979_control_v1",
+    "production": "ext_gse305979_control_v2"
+  },
+  "training_contract": {
+    "entry_point": "ode_benchmark/train_ode_benchmark.py",
+    "entry_point_policy": "unmodified; the training script records its own sha256",
+    "seeds_after_smoke": [42, 123, 2026],
+    "epochs": 100,
+    "early_stopping_patience": 15,
+    "min_epochs": 20,
+    "internal_val_fraction": 0.1,
+    "train_max_predict_steps": 8,
+    "input_genes": 2991,
+    "device": "cpu",
+    "device_rationale": "GPU measured 2.53x slower on this workload (local benchmark; execution trace excluded); frozen internal and external runs are CPU",
+    "threads_per_stream": 4,
+    "max_concurrent_streams": 4
+  },
+  "baselines_required": [
+    "ODE vs matched GRU",
+    "population persistence",
+    "classical baseline family (HGB/MLP) before any claim upgrade"
+  ],
+  "pure_mse_policy": "only if the primary endpoint survives the three-seed review",
+  "random_gene_set_policy": "not default; keep the internal random-null as the methodological control unless a cross-dataset pathway-specific claim is attempted",
+  "stopping_rules": [
+    "demuxed file fails HDF5 integrity or size check",
+    "TIMEPOINT_HOURS values are not whole days",
+    "vehicle wells cannot be identified unambiguously from the demuxed obs",
+    "gene panels fail to intersect below an interpretable overlap",
+    "train/holdout timepoint coverage missing after the vehicle filter"
+  ],
+  "isolation": "writes only ext_gse305979_* tagged outputs under data/leworld_input_gse305979 and artifacts/results; never touches the frozen internal result, the manuscript, reviewer controls, or the submission gate",
+  "sha256_status": "pending_until_download_completes"
+}

@@ -1,0 +1,69 @@
+{
+  "pairs": {
+    "5": {
+      "from_time": 3,
+      "top_up_genes": [
+        "Rsad2",
+        "Ccl5",
+        "Ifit3b",
+        "AW112010",
+        "Ifit1bl1",
+        "Mx1",
+        "Cd40",
+        "Csf1",
+        "Tnfsf15",
+        "Lipg",
+        "Trim21",
+        "Tnfsf10",
+        "Oasl1",
+        "Ifit2",
+        "Ifi205",
+        "Il6",
+        "Cd69",
+        "Ccl8",
+        "Cxcl9",
+        "Fgl2",
+        "Arhgef3",
+        "Peli1",
+        "Mmp13",
+        "Mx2",
+        "Sod2"
+      ],
+      "top_down_genes": [
+        "Tnfsf9",
+        "Phlda1",
+        "Btg2",
+        "Egr2",
+        "Gdf15",
+        "Nfkbid",
+        "Cxcl2",
+        "Cdc42ep4",
+        "Errfi1",
+        "Nfkbia",
+        "Zfp36",
+        "Zc3h12c",
+        "Egr1",
+        "Dusp8",
+        "Ccnd1",
+        "Maff",
+        "Srxn1",
+        "Zc3h12a",
+        "Dusp1",
+        "Prag1",
+        "Dmwd",
+        "Ier2",
+        "Ehd1",
+        "Csrnp1",
+        "Plau"
+      ]
+    }
+  },
+  "pubmed_links": {
+    "NFkB_signaling": "https://pubmed.ncbi.nlm.nih.gov/?term=NF-kB+signaling+LPS+dendritic+cells+dendritic+cell+LPS",
+    "Interferon_response": "https://pubmed.ncbi.nlm.nih.gov/?term=interferon+response+dendritic+cells+LPS+dendritic+cell+LPS",
+    "Inflammation_response": "https://pubmed.ncbi.nlm.nih.gov/?term=inflammatory+response+dendritic+cells+LPS+dendritic+cell+LPS",
+    "HALLMARK_TNFA_SIGNALING_VIA_NFKB": "https://pubmed.ncbi.nlm.nih.gov/?term=HALLMARK_TNFA_SIGNALING_VIA_NFKB+dendritic+cell+LPS",
+    "HALLMARK_INTERFERON_ALPHA_RESPONSE": "https://pubmed.ncbi.nlm.nih.gov/?term=HALLMARK_INTERFERON_ALPHA_RESPONSE+dendritic+cell+LPS",
+    "HALLMARK_INFLAMMATORY_RESPONSE": "https://pubmed.ncbi.nlm.nih.gov/?term=HALLMARK_INFLAMMATORY_RESPONSE+dendritic+cell+LPS"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "baselines": {
+    "Naive_LastTimeMean": {
+      "mean_corr": 0.06684111058712006,
+      "std_corr": 0.06932121515274048,
+      "train_time": 0.0
+    },
+    "Ridge_Poly": {
+      "mean_corr": -0.03745878115296364,
+      "std_corr": 0.03665051609277725,
+      "train_time": 5.981070280075073
+    },
+    "HGB_Regressor": {
+      "mean_corr": 0.057931311428546906,
+      "std_corr": 0.06961091607809067,
+      "train_time": 424.7691082954407
+    },
+    "MLP_Sklearn": {
+      "mean_corr": 0.016609858721494675,
+      "std_corr": 0.02277405373752117,
+      "train_time": 1875.1229305267334
+    }
+  },
+  "leworldmodel_mean_corr": -0.5539026856422424,
+  "config": {
+    "train_times": [
+      0,
+      1,
+      4,
+      16,
+      27
+    ],
+    "test_times": [
+      36,
+      48
+    ],
+    "n_genes": 2000,
+    "feature_engineering": "time, time^2, log1p(time), sin(2\u03c0t/48)"
+  }
+}

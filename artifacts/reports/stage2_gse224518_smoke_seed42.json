@@ -1,0 +1,23 @@
+{
+  "dataset": "GSE224518",
+  "protocol": {
+    "train": [
+      0,
+      1,
+      3
+    ],
+    "holdout_extrap": [
+      8
+    ],
+    "endpoint": "3h->8h (LPS M0)"
+  },
+  "seed": 42,
+  "ode": {
+    "holdout": 0.49306318163871765,
+    "extrap": -0.1629067063331604
+  },
+  "gru": {
+    "holdout": 0.5061107277870178,
+    "extrap": 0.14228829741477966
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "record_type": "external_phase3_classical_baselines",
+  "created_at": "2026-10-02T11:05:56.339021+00:00",
+  "metric": "population_mean_across_gene_pearson_r",
+  "notes": [
+    "Same endpoint, gene panel (2,991 genes), train timepoints and horizons as the model arms.",
+    "Naive_LastTimeMean duplicates the persistence baseline definition; kept for a complete baseline table.",
+    "Ridge_Poly is deterministic; HGB/MLP are seed-random and run for the requested model seeds."
+  ],
+  "datasets": {
+    "GSE148794": {
+      "data_dir": "data/leworld_input_gse148794",
+      "expression_matrix_sha256": "eb01e5dae9196721a65990fcc2addcaac1cb136f2538b98429fa640a0c058e2d",
+      "n_train_cells": 10121,
+      "n_test_cells": 4513,
+      "n_genes": 2991,
+      "baselines": {
+        "Naive_LastTimeMean": {
+          "deterministic": true,
+          "horizons": {
+            "12": 0.5586976496185612,
+            "15": 0.6661081371602189
+          }
+        },
+        "Ridge_Poly": {
+          "deterministic": true,
+          "per_seed": {
+            "deterministic": {
+              "12": -0.27683840896417217,
+              "15": -0.5156502623750789
+            }
+          }
+        },
+        "HGB_Regressor": {
+          "deterministic": false,
+          "per_seed": {
+            "42": {
+              "12": 0.5550682547607847,
+              "15": 0.6610215880629083
+            }
+          }
+        },
+        "MLP_Sklearn": {
+          "deterministic": false,
+          "per_seed": {
+            "42": {
+              "12": 0.17241839242937718,
+              "15": 0.1069542534441843
+            }
+          }
+        }
+      },
+      "model_arms": {
+        "ode": {
+          "42": {
+            "12": 0.5534238219261169,
+            "15": 0.658785343170166
+          },
+          "123": {
+            "12": 0.5616165399551392,
+            "15": 0.6715764999389648
+          },
+          "2026": {
+            "12": 0.5559939742088318,
+            "15": 0.6641449928283691
+          },
+          "7": {
+            "12": 0.5763276815414429,
+            "15": 0.6804115772247314
+          },
+          "13": {
+            "12": 0.5491377711296082,
+            "15": 0.6584899425506592
+          }
+        },
+        "gru": {
+          "42": {
+            "12": 0.5600435733795166,
+            "15": 0.684630811214447
+          },
+          "123": {
+            "12": 0.5808950662612915,
+            "15": 0.6833658218383789
+          },
+          "2026": {
+            "12": 0.47688835859298706,
+            "15": 0.615685224533081
+          },
+          "7": {
+            "12": 0.5126124024391174,
+            "15": 0.6650493741035461
+          },
+          "13": {
+            "12": 0.5240992307662964,
+            "15": 0.5621200799942017
+          }
+        }
+      }
+    },
+    "GSE149622": {
+      "data_dir": "data/leworld_input_gse149622",
+      "expression_matrix_sha256": "87eb28f27d43b5aab10b7cf57151fa5fb1c59e0d90efff0ae89cc28bcebaa242",
+      "n_train_cells": 21924,
+      "n_test_cells": 4953,
+      "n_genes": 2991,
+      "baselines": {
+        "Naive_LastTimeMean": {
+          "deterministic": true,
+          "horizons": {
+            "4": 0.4016739897571611
+          }
+        },
+        "Ridge_Poly": {
+          "deterministic": true,
+          "per_seed": {
+            "deterministic": {
+              "4": 0.19227644799352328
+            }
+          }
+        },
+        "HGB_Regressor": {
+          "deterministic": false,
+          "per_seed": {
+            "42": {
+              "4": 0.39499283303588933
+            }
+          }
+        },
+        "MLP_Sklearn": {
+          "deterministic": false,
+          "per_seed": {
+            "42": {
+              "4": 0.29700166931304733
+            }
+          }
+        }
+      },
+      "model_arms": {
+        "ode": {
+          "42": {
+            "4": 0.40461465716362
+          },
+          "123": {
+            "4": 0.40270689129829407
+          },
+          "2026": {
+            "4": 0.40309086441993713
+          },
+          "7": {
+            "4": 0.3979070484638214
+          },
+          "13": {
+            "4": 0.3954712152481079
+          }
+        },
+        "gru": {
+          "42": {
+            "4": 0.4050067961215973
+          },
+          "123": {
+            "4": 0.4027712941169739
+          },
+          "2026": {
+            "4": 0.4030231237411499
+          },
+          "7": {
+            "4": 0.39776453375816345
+          },
+          "13": {
+            "4": 0.39550334215164185
+          }
+        }
+      }
+    }
+  }
+}

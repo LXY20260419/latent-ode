@@ -1,0 +1,97 @@
+{
+  "literature_terms": {
+    "default_context": "dendritic cell LPS time series",
+    "pathway_terms": {
+      "Inflammation_response": "inflammatory response dendritic cells LPS",
+      "Interferon_response": "interferon response dendritic cells LPS",
+      "NFkB_signaling": "NF-kB signaling LPS dendritic cells"
+    }
+  },
+  "marker_sets": {
+    "early": [
+      "Nfkbia",
+      "Tnfaip3",
+      "Il1b",
+      "Il6",
+      "Tnf"
+    ],
+    "late": [
+      "Ifit1",
+      "Ifit2",
+      "Ifit3",
+      "Isg15",
+      "Cxcl10"
+    ]
+  },
+  "pathways": {
+    "HALLMARK_INFLAMMATORY_RESPONSE": [
+      "Mgl2",
+      "Capg",
+      "Trim30b",
+      "Adcy5",
+      "Ccl11",
+      "Gm12764"
+    ],
+    "HALLMARK_INTERFERON_ALPHA_RESPONSE": [
+      "Osmr",
+      "Cox4i2",
+      "Pde4b",
+      "Gm11273",
+      "Cd247",
+      "Gm16049"
+    ],
+    "HALLMARK_TNFA_SIGNALING_VIA_NFKB": [
+      "Chst2",
+      "Tppp3",
+      "Tacstd2",
+      "Etv2",
+      "Thbs3",
+      "Gm16314"
+    ],
+    "Inflammation_response": [
+      "Notch2",
+      "Gbp9",
+      "Il19",
+      "Gm16341",
+      "Slc2a3",
+      "Milr1"
+    ],
+    "Interferon_response": [
+      "Ms4a6b",
+      "Gm11707",
+      "Gm26510",
+      "Gm26735",
+      "Gm15056",
+      "Zc3hav1"
+    ],
+    "NFkB_signaling": [
+      "Ermap",
+      "Cd300c",
+      "Ptprc",
+      "Tapbp"
+    ]
+  },
+  "tf_targets": {
+    "IRF7": [
+      "Ifit1",
+      "Ifit3",
+      "Isg15",
+      "Rsad2"
+    ],
+    "NFKB1": [
+      "Nfkbia",
+      "Tnfaip3",
+      "Il1b",
+      "Il6",
+      "Tnf",
+      "Cxcl10"
+    ],
+    "STAT1": [
+      "Ifit1",
+      "Ifit2",
+      "Isg15",
+      "Irf7",
+      "Cxcl10"
+    ]
+  }
+}

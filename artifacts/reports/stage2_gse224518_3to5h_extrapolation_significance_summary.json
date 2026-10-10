@@ -1,0 +1,48 @@
+{
+  "endpoint": "population mean gene-expression correlation (3->5)",
+  "dataset": "leworld_input_gse224518",
+  "result_tag": "gse224518_3to5h",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "ode_mean_extrapolation": 0.1345945547024409,
+  "paired_significance_mean_endpoint": {
+    "Naive_LastTimeMean": {
+      "baseline_mean": 0.1312660425901413,
+      "ode_mean": 0.1345945547024409,
+      "diff_mean": 0.003328512112299601,
+      "p_value": 0.007061140793933735
+    },
+    "Ridge_Poly": {
+      "baseline_mean": 0.3317579925060272,
+      "ode_mean": 0.1345945547024409,
+      "diff_mean": -0.19716343780358633,
+      "p_value": 0.999997944127788
+    },
+    "HGB_Regressor": {
+      "baseline_mean": 0.06466059510906537,
+      "ode_mean": 0.1345945547024409,
+      "diff_mean": 0.06993395959337552,
+      "p_value": 0.002982026799364495
+    },
+    "MLP_Sklearn": {
+      "baseline_mean": 0.17949241399765015,
+      "ode_mean": 0.1345945547024409,
+      "diff_mean": -0.04489785929520925,
+      "p_value": 0.9170557600587135
+    }
+  },
+  "notes": [
+    "One-sided paired t-test: ODE > baseline on mean extrapolation endpoint.",
+    "Computed on seed-level endpoint values.",
+    "Baselines use population mean correlation (same metric as ODE extrapolation)."
+  ],
+  "ode_vs_gru": {
+    "ode_mean": 0.1345945547024409,
+    "gru_mean": 0.17730052769184113,
+    "diff_mean": -0.04270597298940023,
+    "p_value": 0.7656724407201727
+  }
+}

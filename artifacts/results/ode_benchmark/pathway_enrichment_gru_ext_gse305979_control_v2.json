@@ -1,0 +1,38 @@
+[
+  {
+    "target_time": 5,
+    "from_time": 2,
+    "pathway": "Interferon_response",
+    "overlap": 0,
+    "pathway_size": 2,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 5,
+    "from_time": 2,
+    "pathway": "HALLMARK_INTERFERON_ALPHA_RESPONSE",
+    "overlap": 0,
+    "pathway_size": 2,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 7,
+    "from_time": 2,
+    "pathway": "Interferon_response",
+    "overlap": 0,
+    "pathway_size": 2,
+    "selected_size": 50,
+    "p_value": 1.0
+  },
+  {
+    "target_time": 7,
+    "from_time": 2,
+    "pathway": "HALLMARK_INTERFERON_ALPHA_RESPONSE",
+    "overlap": 0,
+    "pathway_size": 2,
+    "selected_size": 50,
+    "p_value": 1.0
+  }
+]

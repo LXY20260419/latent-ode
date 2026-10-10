@@ -1,0 +1,221 @@
+{
+  "record_type": "external_phase3_forest",
+  "created_at": "2026-10-03T05:44:21.405109+00:00",
+  "metric": "ODE - GRU per-seed difference of population_mean_across_gene_pearson_r",
+  "endpoints": [
+    {
+      "label": "internal 27->36",
+      "tag": "primary_internal_freeze",
+      "source_time": 27,
+      "target_time": 36,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        0.8828122615814209,
+        0.850183829665184,
+        0.9463107287883759
+      ],
+      "mean_diff": 0.8931022733449936,
+      "sd_diff": 0.04888259854315156,
+      "se_diff": 0.02822238142757696,
+      "ci95": [
+        0.8377864057469427,
+        0.9484181409430444
+      ]
+    },
+    {
+      "label": "internal 27->48",
+      "tag": "primary_internal_freeze",
+      "source_time": 27,
+      "target_time": 48,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        0.4733191281557083,
+        0.501427412033081,
+        0.4509595185518265
+      ],
+      "mean_diff": 0.47523535291353863,
+      "sd_diff": 0.025288455984909516,
+      "se_diff": 0.014600296870277514,
+      "ci95": [
+        0.4466187710477947,
+        0.5038519347792826
+      ]
+    },
+    {
+      "label": "GSE148794 9->12",
+      "tag": "ext_gse148794_v2",
+      "source_time": 9,
+      "target_time": 12,
+      "n_seeds": 5,
+      "per_seed_diff": [
+        -0.006619751453399658,
+        -0.019278526306152344,
+        0.07910561561584473,
+        0.06371527910232544,
+        0.025038540363311768
+      ],
+      "mean_diff": 0.028392231464385985,
+      "sd_diff": 0.04280523439014102,
+      "se_diff": 0.019143082777833414,
+      "ci95": [
+        -0.009128210780167505,
+        0.06591267370893947
+      ]
+    },
+    {
+      "label": "GSE148794 9->15",
+      "tag": "ext_gse148794_v2",
+      "source_time": 9,
+      "target_time": 15,
+      "n_seeds": 5,
+      "per_seed_diff": [
+        -0.025845468044281006,
+        -0.011789321899414062,
+        0.048459768295288086,
+        0.015362203121185303,
+        0.09636986255645752
+      ],
+      "mean_diff": 0.02451140880584717,
+      "sd_diff": 0.04917933345969428,
+      "se_diff": 0.021993666540801263,
+      "ci95": [
+        -0.01859617761412331,
+        0.06761899522581764
+      ]
+    },
+    {
+      "label": "GSE149622 3->4",
+      "tag": "ext_gse149622_v2",
+      "source_time": 3,
+      "target_time": 4,
+      "n_seeds": 5,
+      "per_seed_diff": [
+        -0.0003921389579772949,
+        -6.440281867980957e-05,
+        6.774067878723145e-05,
+        0.00014251470565795898,
+        -3.212690353393555e-05
+      ],
+      "mean_diff": -5.5682659149169925e-05,
+      "sd_diff": 0.00020515193856616263,
+      "se_diff": 9.174673606996007e-05,
+      "ci95": [
+        -0.00023550626184629163,
+        0.0001241409435479518
+      ]
+    },
+    {
+      "label": "GSE305979 2->5",
+      "tag": "ext_gse305979_control_v2",
+      "source_time": 2,
+      "target_time": 5,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        0.0026953816413879395,
+        -0.009549498558044434,
+        0.018442153930664062
+      ],
+      "mean_diff": 0.0038626790046691895,
+      "sd_diff": 0.014032287397744448,
+      "se_diff": 0.008101544906433951,
+      "ci95": [
+        -0.012016349011941353,
+        0.019741707021279732
+      ]
+    },
+    {
+      "label": "GSE305979 2->7",
+      "tag": "ext_gse305979_control_v2",
+      "source_time": 2,
+      "target_time": 7,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        -0.02101588249206543,
+        0.04030036926269531,
+        0.02587270736694336
+      ],
+      "mean_diff": 0.015052398045857748,
+      "sd_diff": 0.03205822831452604,
+      "se_diff": 0.018508826747134093,
+      "ci95": [
+        -0.02122490237852507,
+        0.05132969847024057
+      ]
+    },
+    {
+      "label": "GSE224518 3->5 (balanced)",
+      "source": "artifacts/reports/stage2_gse224518_3to5h_balanced_agg.json",
+      "source_time": 3,
+      "target_time": 5,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        0.011614494025707245,
+        -0.01767219603061676,
+        0.010563924908638
+      ],
+      "mean_diff": 0.0015020743012428284,
+      "sd_diff": 0.016613711383578866,
+      "se_diff": 0.009591930739548008,
+      "ci95": [
+        -0.017298109948271266,
+        0.020302258550756923
+      ],
+      "note": "historic pre-aggregated endpoint; different protocol/panel"
+    },
+    {
+      "label": "GSE224518 3->8",
+      "source": "artifacts/reports/stage2_gse224518_agg.json",
+      "source_time": 3,
+      "target_time": 8,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        -0.30519500374794006,
+        -0.03667697310447693,
+        -0.12217498943209648
+      ],
+      "mean_diff": -0.15468232209483782,
+      "sd_diff": 0.13717881834596604,
+      "se_diff": 0.07920022769915827,
+      "ci95": [
+        -0.30991476838518806,
+        0.000550124195512397
+      ],
+      "note": "historic pre-aggregated endpoint; different protocol/panel"
+    },
+    {
+      "label": "GSE226824 24->72",
+      "source": "artifacts/reports/stage2_gse226824_agg.json",
+      "source_time": 24,
+      "target_time": 72,
+      "n_seeds": 3,
+      "per_seed_diff": [
+        0.029704364016652107,
+        0.043810538947582245,
+        0.11665111780166626
+      ],
+      "mean_diff": 0.06338867358863354,
+      "sd_diff": 0.04666274762008039,
+      "se_diff": 0.026940749899580983,
+      "ci95": [
+        0.010584803785454809,
+        0.11619254339181226
+      ],
+      "note": "historic pre-aggregated endpoint; different protocol/panel"
+    }
+  ],
+  "heterogeneity": {
+    "status": "computed_descriptive_only",
+    "n_endpoints": 10,
+    "fixed_effect_mean": -2.4860982511538764e-05,
+    "q": 2074.9010101082636,
+    "df": 9,
+    "tau2": 0.025014006883090516,
+    "i_squared_percent": 99.56624436750694,
+    "random_effect_mean": 0.13915604029714265,
+    "random_effect_ci95": [
+      0.039515301152903345,
+      0.23879677944138195
+    ],
+    "note": "Endpoints differ by dataset, protocol and horizon and are not exchangeable; this summary is descriptive and is not promoted to a pooled claim."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "biology_prior_source": {
+    "base_json": "configs/biology_priors.json",
+    "external_gmt": "configs/external_pathways.gmt",
+    "external_tf_csv": "configs/external_tf_targets.csv"
+  },
+  "time_holdout": {
+    "mean_correlation": 0.42577648162841797,
+    "std": 0.10007867217063904
+  },
+  "time_extrapolation": {
+    "mean_correlation": 0.14269223809242249,
+    "std": 0.0,
+    "pairs": {
+      "5": {
+        "from_time": 3,
+        "corr": 0.14269223809242249,
+        "predict_steps": 2
+      }
+    }
+  },
+  "tf_direction_consistency": {
+    "overall": 0.6666666666666666,
+    "per_tf": {
+      "NFKB1": 0.6666666666666666
+    }
+  },
+  "marker_rank_spearman": {
+    "overall": 0.19999999999999998,
+    "per_set": {
+      "early": 0.39999999999999997,
+      "late": 0.0
+    }
+  },
+  "literature": {
+    "genes": [
+      "Nfkbia",
+      "Tnfaip3",
+      "Il6",
+      "Il1b",
+      "Tnf",
+      "Cxcl10"
+    ],
+    "timecourse": {
+      "Nfkbia": [
+        -0.35407111048698425,
+        2.033332586288452,
+        -0.08768507838249207,
+        -0.09682151675224304,
+        0.3300378620624542
+      ],
+      "Tnfaip3": [
+        -0.7227187752723694,
+        1.1143383979797363,
+        0.10487711429595947,
+        0.043796055018901825,
+        -0.08569443970918655
+      ],
+      "Il6": [
+        -0.892845094203949,
+        -0.8558534383773804,
+        0.2328413426876068,
+        0.3137166500091553,
+        -0.041334450244903564
+      ],
+      "Il1b": [
+        -0.9471254348754883,
+        -0.03129352629184723,
+        0.15202966332435608,
+        0.1300954818725586,
+        0.2998867332935333
+      ],
+      "Tnf": [
+        -1.2653284072875977,
+        0.8757379055023193,
+        0.24505938589572906,
+        0.1743745654821396,
+        -0.18200069665908813
+      ],
+      "Cxcl10": [
+        -1.5422781705856323,
+        -0.5015078186988831,
+        0.32806864380836487,
+        0.3363357484340668,
+        0.10945723205804825
+      ]
+    },
+    "pubmed_links": {
+      "Nfkbia": "https://pubmed.ncbi.nlm.nih.gov/?term=Nfkbia+dendritic+cell+LPS+time+series",
+      "Tnfaip3": "https://pubmed.ncbi.nlm.nih.gov/?term=Tnfaip3+dendritic+cell+LPS+time+series",
+      "Il6": "https://pubmed.ncbi.nlm.nih.gov/?term=Il6+dendritic+cell+LPS+time+series",
+      "Il1b": "https://pubmed.ncbi.nlm.nih.gov/?term=Il1b+dendritic+cell+LPS+time+series",
+      "Tnf": "https://pubmed.ncbi.nlm.nih.gov/?term=Tnf+dendritic+cell+LPS+time+series",
+      "Cxcl10": "https://pubmed.ncbi.nlm.nih.gov/?term=Cxcl10+dendritic+cell+LPS+time+series"
+    }
+  },
+  "biological_conclusions": {
+    "top_genes_csv": "top_genes_gru_gse224518_3to5h_balanced.csv",
+    "pathway_enrichment_json": "pathway_enrichment_gru_gse224518_3to5h_balanced.json",
+    "conclusions_json": "biological_conclusions_gru_gse224518_3to5h_balanced.json"
+  }
+}

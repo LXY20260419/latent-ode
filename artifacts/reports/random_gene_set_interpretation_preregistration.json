@@ -1,0 +1,58 @@
+{
+  "record_id": "random_gene_set_interpretation_preregistration",
+  "created_at": "2026-09-28",
+  "status": "registered_before_data",
+  "purpose": "Fix the reading of the matched-size random gene-set null before the 20-control grid completes, so the interpretation cannot be chosen to suit whatever the numbers turn out to be. This record is written while the grid is still training (seed 2026 in progress) and is not to be edited after aggregation; a post-hoc addition must be a separate dated record.",
+  "why_preregister": [
+    "The null distribution is the last open test of whether pathway CONTENT matters at all, now that the pure-MSE arm shows the pathway TERMS themselves buy nothing measurable (p = 0.55).",
+    "An N = 20 empirical null has a coarse resolution floor, so several outcomes are genuinely uninformative rather than weakly supportive; which ones are uninformative is a property of N, not of the observed value, and can therefore be stated now.",
+    "The prior session briefly wrote that the random control 'does not support' the pathway-specific claim before any control had been aggregated; that phrasing was retracted. Registering the rules in advance is the structural fix."
+  ],
+  "statistic_contract": {
+    "observed": "primary arm ODE composite (population mean across-gene Pearson r over 27->36 and 27->48), 3 seeds, tagged primary_internal_freeze",
+    "null": "per-control composite of each retrained matched-size random-prior control, aggregated over its 3 seeds; one value per control",
+    "comparison": "empirical_p_ge = (1 + #{null >= observed}) / (N + 1), following the aggregator in scripts/reviewer_controls.py",
+    "n_controls": 20,
+    "min_attainable_p": 0.0476,
+    "p_above_all_but_one": 0.0952,
+    "q025_quantile_support": "with N = 20 the 2.5% and 97.5% null quantiles are each backed by a single order statistic, so they describe the spread and must not be read as tight confidence bounds"
+  },
+  "pre_registered_readings": [
+    {
+      "outcome": "observed is at or below the null mean (empirical_p_ge >= 0.5)",
+      "reading": "No pathway-content specificity. The primary arm is indistinguishable from, or below, randomly sampled matched-size priors on the same endpoint.",
+      "permitted_claim": "Pathway content confers no measurable extrapolation advantage on this endpoint under this protocol.",
+      "forbidden": "Any claim that the biology priors help, and any claim that the negative result is underpowered to the point of being uninformative about the sign."
+    },
+    {
+      "outcome": "observed above the null mean but p_ge > 0.05 (i.e. at least one control matches or exceeds it)",
+      "reading": "Suggestive but not resolvable at N = 20.",
+      "permitted_claim": "The primary arm sits above the null mean, but with 20 controls the empirical p cannot separate it from the null at the 0.05 level; the full grid would be required to resolve it.",
+      "forbidden": "Reporting this as a significant pathway-content effect, and reporting the point estimate without the resolution caveat."
+    },
+    {
+      "outcome": "p_ge <= 0.05 (no control reaches the observed value)",
+      "reading": "The primary arm exceeds every retrained matched-size random-prior control. This is the nominal threshold of the N = 20 design and is the strongest result the reduced grid can produce.",
+      "permitted_claim": "The primary arm exceeds all 20 retrained matched-size random-prior controls (empirical p = 0.048).",
+      "required_caveat": "This is the minimum attainable p at N = 20, backed by exactly one order statistic; it is a nominal threshold, not evidence at the 0.01 level, and the full 100-control grid remains available on request.",
+      "forbidden": "Presenting p = 0.048 as a strong or high-confidence effect, and omitting that the value is the design floor."
+    },
+    {
+      "outcome": "observed positive but the null spread is wide and overlaps the pure-MSE and primary arms alike",
+      "reading": "Triple-null configuration: neither the pathway terms nor the pathway content move the endpoint.",
+      "permitted_claim": "A publishable negative result about soft pathway priors on this endpoint, provided the manuscript keeps the ODE-versus-GRU contrast as the standing positive claim.",
+      "forbidden": "Framing the sweep as a failed experiment, or dropping it from the manuscript because it is null."
+    }
+  ],
+  "invariants": [
+    "The manuscript already states the null is a reduced N-replicate control with the full grid available on request; whatever the outcome, that description stays.",
+    "The aggregation is run once, by the finisher, on the complete 20-control grid; no partial-grid number is to be quoted as the result.",
+    "The three seeds are stochastic repeats, not biological replicates, and any test over them is exploratory.",
+    "If the outcome is uninformative because of N, the limitation is stated with the resolution arithmetic above rather than as a vague power caveat."
+  ],
+  "state_at_registration": {
+    "grid_progress": "4 controls x seed 42 complete, the same 4 x seed 123 complete, seed 2026 in progress (epoch 10-13 of 100 at registration time)",
+    "gate_status": "NOT_READY, single failing check: random gene-set negative control",
+    "aggregate_artifact": "does not exist yet; expected at artifacts/reports/random_gene_set_negative_control.json"
+  }
+}

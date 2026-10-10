@@ -1,0 +1,37 @@
+{
+  "n_seeds": 3,
+  "ode_extrapolation": {
+    "mean": 0.4832689215739568,
+    "std": 0.00879218013205477,
+    "ci95": [
+      0.4614261725374351,
+      0.5051116706104785
+    ]
+  },
+  "gru_extrapolation": {
+    "mean": -0.14440994647641978,
+    "std": 0.09595349561162805,
+    "ci95": [
+      -0.3827908818465368,
+      0.09397098889369726
+    ]
+  },
+  "baseline_reference_means": {
+    "naive": 0.06684111058712006,
+    "hgb": 0.057873599231243134,
+    "mlp": 0.016609858721494675,
+    "ridge": -0.03745878115296364
+  },
+  "effect_size_vs_baseline_mean": {
+    "ode_minus_naive": 0.41642781098683673,
+    "ode_minus_hgb": 0.42539532234271366,
+    "ode_minus_mlp": 0.4666590628524621,
+    "ode_minus_ridge": 0.5207277027269204,
+    "gru_minus_naive": -0.21125105706353983,
+    "gru_minus_hgb": -0.2022835457076629
+  },
+  "notes": [
+    "CI computed from seed-level mean/std summary (t-based, n=3).",
+    "Baseline reference currently from reconstruction-oriented baseline table, not extrapolation-specific paired tests."
+  ]
+}
